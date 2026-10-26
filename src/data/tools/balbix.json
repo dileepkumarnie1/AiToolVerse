@@ -1,0 +1,26 @@
+{
+  "slug": "balbix",
+  "name": "Balbix",
+  "url": "https://www.balbix.com/",
+  "tagline": "AI-powered cyber risk quantification platform for enterprise security.",
+  "about": "Balbix uses AI to continuously assess cybersecurity posture and quantify risk across the enterprise.",
+  "pros": [
+    "Risk quantification",
+    "Continuous assessment",
+    "Prioritization"
+  ],
+  "cons": [
+    "Enterprise only",
+    "Complex setup",
+    "Data requirements"
+  ],
+  "capabilities": [
+    "cybersecurity"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

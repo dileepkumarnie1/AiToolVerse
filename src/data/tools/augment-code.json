@@ -1,0 +1,28 @@
+{
+  "slug": "augment-code",
+  "name": "Augment Code",
+  "url": "https://www.augmentcode.com/",
+  "tagline": "AI coding assistant focused on codebase understanding and navigation.",
+  "about": "Augment helps developers understand and navigate large codebases with AI-powered search and explanation.",
+  "pros": [
+    "Codebase understanding",
+    "Good for large projects",
+    "Navigation help"
+  ],
+  "cons": [
+    "Newer platform",
+    "Enterprise focus",
+    "Subscription"
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

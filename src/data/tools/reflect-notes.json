@@ -1,0 +1,29 @@
+{
+  "slug": "reflect-notes",
+  "name": "Reflect Notes",
+  "url": "https://reflect.app/",
+  "tagline": "A beautifully minimalist note-taking app designed to mirror the way you think. Now with a native AI integration.",
+  "about": "A beautifully minimalist note-taking app designed to mirror the way you think. Now with a native AI integration.",
+  "pros": [
+    "Free tier available.",
+    "Open source and extensible.",
+    "Good for drafting and Q&A."
+  ],
+  "cons": [
+    "Advanced features require payment.",
+    "Subscription required for full access.",
+    "Requires setup and maintenance."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "automation",
+    "graphic-design",
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "typeform-ai",
+  "name": "Typeform AI",
+  "url": "https://www.typeform.com/",
+  "tagline": "Conversational forms with AI-powered creation and branching.",
+  "about": "Typeform provides conversational forms with AI-powered creation features.",
+  "pros": [
+    "Great UX",
+    "Conversational",
+    "AI creation"
+  ],
+  "cons": [
+    "Response limits",
+    "Subscription required",
+    "Can be slow"
+  ],
+  "capabilities": [
+    "forms-surveys",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

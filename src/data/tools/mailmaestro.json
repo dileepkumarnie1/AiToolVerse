@@ -1,0 +1,30 @@
+{
+  "slug": "mailmaestro",
+  "name": "MailMaestro",
+  "url": "https://mailmaestro.com/",
+  "tagline": "AI email assistant that learns from your writing history to mimic your personal style and tone.",
+  "about": "MailMaestro analyzes your email history to learn and mimic your personal writing style. It's particularly strong for users who want AI assistance that sounds authentically like them, with native Outlook integration.",
+  "pros": [
+    "Learns your personal writing style",
+    "Maintains authentic tone",
+    "Good Outlook integration",
+    "Privacy-focused approach"
+  ],
+  "cons": [
+    "Requires email history to train",
+    "Limited to Outlook/Gmail initially",
+    "Learning period required for best results"
+  ],
+  "capabilities": [
+    "email",
+    "chat-assistant",
+    "writing",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

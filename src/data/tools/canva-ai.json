@@ -1,0 +1,30 @@
+{
+  "slug": "canva-ai",
+  "name": "Canva AI",
+  "url": "https://www.canva.com/ai/",
+  "tagline": "AI-powered design platform for creating social media graphics and videos",
+  "about": "Canva AI offers Magic Design (auto-generates graphics based on prompts) and Magic Write (AI-powered caption generation) for visual-first content creation. It provides image/video creation, social templates, and brand kits, making it perfect for teams and solo creators designing posts for Instagram, LinkedIn, and more.",
+  "pros": [
+    "Extensive template library",
+    "AI-powered design suggestions",
+    "Collaborative features for teams",
+    "Easy to use for non-designers"
+  ],
+  "cons": [
+    "Some premium features require subscription",
+    "Can be overwhelming with too many options",
+    "Limited video editing compared to dedicated tools"
+  ],
+  "capabilities": [
+    "image-generation",
+    "social-media",
+    "video-generation",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 96,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

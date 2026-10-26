@@ -1,0 +1,26 @@
+{
+  "slug": "phrase-localization",
+  "name": "Phrase Localization",
+  "url": "https://phrase.com/",
+  "tagline": "Cloud-based translation and localization platform.",
+  "about": "Phrase (formerly Memsource) provides cloud-based translation management with AI assistance, CAT tools, and collaboration features.",
+  "pros": [
+    "Good collaboration features",
+    "Cloud-based",
+    "Affordable tiers"
+  ],
+  "cons": [
+    "Can be complex",
+    "Learning curve for translators",
+    "Some features require higher tiers"
+  ],
+  "capabilities": [
+    "translation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "gong",
+  "name": "Gong",
+  "url": "https://www.gong.io/",
+  "tagline": "Revenue intelligence platform with conversation analytics",
+  "about": "Gong transforms meeting intelligence by recording, transcribing, summarizing, and analyzing sales calls with deal risk scoring. Best for post-call coaching, pipeline inspection, and boosting sales rep performance using actionable insights from customer conversations.",
+  "pros": [
+    "Deep conversation analytics",
+    "Actionable coaching insights",
+    "Pipeline visibility and risk detection",
+    "Integrates with major CRMs"
+  ],
+  "cons": [
+    "Premium pricing",
+    "Requires consistent usage for ROI",
+    "Privacy considerations for recording calls"
+  ],
+  "capabilities": [
+    "sales-crm",
+    "meeting-notes",
+    "chat-assistant",
+    "notes-knowledge"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

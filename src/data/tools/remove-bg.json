@@ -1,0 +1,28 @@
+{
+  "slug": "remove-bg",
+  "name": "Remove.bg",
+  "url": "https://www.remove.bg/",
+  "tagline": "Industry-leading automatic background removal tool with high accuracy",
+  "about": "Remove.bg is the most popular AI background removal tool, offering instant, high-quality background removal from images with support for batch processing and API integration.",
+  "pros": [
+    "Extremely accurate background detection",
+    "Fast processing (seconds per image)",
+    "Free tier available for basic use",
+    "API for automation"
+  ],
+  "cons": [
+    "Limited free credits per month",
+    "High-resolution exports require payment",
+    "Complex backgrounds may need manual touch-ups"
+  ],
+  "capabilities": [
+    "photo-editing",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

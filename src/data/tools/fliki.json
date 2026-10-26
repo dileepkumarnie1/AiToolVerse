@@ -1,0 +1,30 @@
+{
+  "slug": "fliki",
+  "name": "Fliki",
+  "url": "https://fliki.ai/",
+  "tagline": "Text-to-video tool with AI voices, ideal for faceless content and social media",
+  "about": "Fliki converts text into engaging videos with AI-generated voices and visuals, perfect for creating faceless YouTube content, social media videos, and explainers.",
+  "pros": [
+    "Easy text-to-video conversion",
+    "Large library of voices and media",
+    "Great for faceless content creation",
+    "Fast video generation"
+  ],
+  "cons": [
+    "Limited customization on free tier",
+    "Watermark on free videos",
+    "Stock footage can feel generic"
+  ],
+  "capabilities": [
+    "video-generation",
+    "social-media",
+    "writing",
+    "video-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

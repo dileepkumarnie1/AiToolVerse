@@ -1,0 +1,27 @@
+{
+  "slug": "nansen-ai",
+  "name": "Nansen AI",
+  "url": "https://www.nansen.ai/",
+  "tagline": "AI-enhanced blockchain analytics with wallet labeling and tracking.",
+  "about": "Nansen provides AI-enhanced blockchain analytics with smart money tracking and wallet labeling.",
+  "pros": [
+    "Smart money tracking",
+    "Wallet labels",
+    "Deep analytics"
+  ],
+  "cons": [
+    "Expensive",
+    "Complex for beginners",
+    "Ethereum focus historically"
+  ],
+  "capabilities": [
+    "finance",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "launch-hn-extend-turn-your-messiest-documents-into-data",
+  "name": "Launch HN: Extend (YC W23) – Turn your messiest documents into data",
+  "url": "https://www.extend.ai/",
+  "tagline": "The document processing platform built for the next generation.",
+  "about": "The document processing platform built for the next generation.",
+  "pros": [
+    "Easy to get started."
+  ],
+  "cons": [
+    "May require an account or credits."
+  ],
+  "capabilities": [
+    "data-analysis",
+    "notes-knowledge",
+    "graphic-design",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

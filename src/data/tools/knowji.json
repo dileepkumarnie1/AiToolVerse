@@ -1,0 +1,26 @@
+{
+  "slug": "knowji",
+  "name": "Knowji",
+  "url": "https://www.knowji.com/",
+  "tagline": "AI-powered vocabulary learning app with visual and audio learning techniques.",
+  "about": "Knowji uses spaced repetition and AI to optimize vocabulary learning with visual and audio mnemonics.",
+  "pros": [
+    "Visual learning",
+    "Spaced repetition",
+    "Mobile-friendly"
+  ],
+  "cons": [
+    "Vocabulary only",
+    "App purchase",
+    "Limited languages"
+  ],
+  "capabilities": [
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

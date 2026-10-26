@@ -1,0 +1,27 @@
+{
+  "slug": "fotor-ai",
+  "name": "Fotor AI",
+  "url": "https://www.fotor.com/ai/",
+  "tagline": "Photo editing and enhancement with AI features.",
+  "about": "Fotor AI offers one-click photo enhancement, background removal, and creative effects.",
+  "pros": [
+    "Easy photo editing.",
+    "Batch processing.",
+    "Free and paid plans."
+  ],
+  "cons": [
+    "Ads on free plan.",
+    "Limited creative control.",
+    "Some features require Pro."
+  ],
+  "capabilities": [
+    "image-generation",
+    "photo-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

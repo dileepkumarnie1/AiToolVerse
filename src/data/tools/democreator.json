@@ -1,0 +1,30 @@
+{
+  "slug": "democreator",
+  "name": "DemoCreator",
+  "url": "https://democreator.wondershare.com/",
+  "tagline": "AI avatars, multiple record modes, voice changers, and auto-captions for professional demos",
+  "about": "DemoCreator by Wondershare offers professional-grade screen recording with AI avatars, voice changers, and automatic captions for creating engaging product demos and tutorials.",
+  "pros": [
+    "AI avatar feature for faceless videos",
+    "Multiple recording modes (screen, webcam, game)",
+    "Professional editing tools included",
+    "Auto-caption generation in multiple languages"
+  ],
+  "cons": [
+    "Paid software with no free tier",
+    "Learning curve for advanced features",
+    "Resource-intensive for older computers"
+  ],
+  "capabilities": [
+    "screen-recording",
+    "education-tutor",
+    "video-generation",
+    "avatar-video"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

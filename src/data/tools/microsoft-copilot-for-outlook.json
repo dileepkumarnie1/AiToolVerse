@@ -1,0 +1,30 @@
+{
+  "slug": "microsoft-copilot-for-outlook",
+  "name": "Microsoft Copilot for Outlook",
+  "url": "https://www.microsoft.com/microsoft-365/microsoft-copilot",
+  "tagline": "AI-powered email assistance built into Outlook with meeting scheduling and Office integration.",
+  "about": "Microsoft Copilot brings AI assistance directly into Outlook with features for email drafting, meeting scheduling, and deep Office integration. It's particularly powerful for Microsoft 365 enterprise users.",
+  "pros": [
+    "Native Outlook integration",
+    "Deep Office/Teams integration",
+    "Enterprise security and compliance",
+    "Meeting scheduling assistance"
+  ],
+  "cons": [
+    "Requires Microsoft 365 subscription",
+    "Best for enterprise users",
+    "Can be expensive for small teams"
+  ],
+  "capabilities": [
+    "email",
+    "chat-assistant",
+    "code-assistant",
+    "meeting-notes"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

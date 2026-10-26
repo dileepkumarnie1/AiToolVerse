@@ -1,0 +1,28 @@
+{
+  "slug": "phrase",
+  "name": "Phrase",
+  "url": "https://phrase.com/",
+  "tagline": "Centralized translation management with workflow automation, pre-translation, and QA using AI.",
+  "about": "Phrase is a centralized translation management system (TMS) with easy workflow automation. It supports both AI pre-translation and human review with built-in QA tools for maintaining quality.",
+  "pros": [
+    "Highly customizable workflows",
+    "Efficient automation",
+    "Good QA features",
+    "Team collaboration tools"
+  ],
+  "cons": [
+    "Complex feature set",
+    "Can be overwhelming for beginners",
+    "Pricing for advanced features"
+  ],
+  "capabilities": [
+    "translation",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

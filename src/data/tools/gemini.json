@@ -1,0 +1,26 @@
+{
+  "slug": "gemini",
+  "name": "Gemini (Google)",
+  "url": "https://gemini.google.com/",
+  "tagline": "Google's powerful, multimodal AI model integrated across its ecosystem.",
+  "about": "Gemini is a family of multimodal large language models developed by Google AI. It is designed to understand and process text, images, audio, and video, making it a powerful engine for search, creativity, and productivity.",
+  "pros": [
+    "Natively multimodal from the ground up.",
+    "Deep integration with Google's products (Search, Workspace).",
+    "Access to real-time information from the internet."
+  ],
+  "cons": [
+    "Newer to the market than some competitors.",
+    "Feature availability can vary by region.",
+    "Some advanced features require a subscription."
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

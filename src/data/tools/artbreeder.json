@@ -1,0 +1,26 @@
+{
+  "slug": "artbreeder",
+  "name": "Artbreeder",
+  "url": "https://www.artbreeder.com/",
+  "tagline": "Collaborative AI art platform for creating and mixing images using genetic algorithms.",
+  "about": "Artbreeder lets users create images by mixing existing ones and adjusting parameters, creating unique variations through collaboration.",
+  "pros": [
+    "Unique mixing concept",
+    "Collaborative creation",
+    "Character creation"
+  ],
+  "cons": [
+    "Limited prompts",
+    "Specific style",
+    "Free tier limits"
+  ],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

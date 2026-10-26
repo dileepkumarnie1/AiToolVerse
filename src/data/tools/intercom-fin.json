@@ -1,0 +1,27 @@
+{
+  "slug": "intercom-fin",
+  "name": "Intercom Fin",
+  "url": "https://www.intercom.com/ai-agent",
+  "tagline": "AI support agent that resolves customer questions autonomously.",
+  "about": "Fin is Intercom’s AI agent that can instantly answer most customer queries using your help center and policies, handing off to humans when needed.",
+  "pros": [
+    "Deeply integrated with Intercom inbox and help center.",
+    "Handles secure handoffs and policy adherence.",
+    "Reduces first‑response and resolution times."
+  ],
+  "cons": [
+    "Best value when you’re already on Intercom.",
+    "Requires curated help content for accuracy.",
+    "Enterprise pricing for advanced features."
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "adcreative-ai",
+  "name": "AdCreative.ai",
+  "url": "https://www.adcreative.ai/",
+  "tagline": "AI platform for generating high-converting ad creatives and copy.",
+  "about": "AdCreative.ai uses AI to generate ad creatives and copy designed for high conversion rates across advertising platforms.",
+  "pros": [
+    "Conversion-focused",
+    "Quick generation",
+    "Multiple formats"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "Generic designs possible",
+    "Needs testing"
+  ],
+  "capabilities": [
+    "marketing-seo"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "ai21-wordtune",
+  "name": "AI21 Wordtune",
+  "url": "https://www.wordtune.com/",
+  "tagline": "AI writing companion that rewrites sentences to be clearer, more engaging, or match your tone.",
+  "about": "Wordtune helps improve your writing by suggesting alternative ways to phrase sentences for better clarity, tone, and impact.",
+  "pros": [
+    "Multiple rewrite options",
+    "Tone adjustment",
+    "Browser extension"
+  ],
+  "cons": [
+    "Limited free tier",
+    "Sentence-level only",
+    "May over-edit"
+  ],
+  "capabilities": [
+    "writing",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

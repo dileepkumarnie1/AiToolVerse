@@ -1,0 +1,26 @@
+{
+  "slug": "luminance",
+  "name": "Luminance",
+  "url": "https://www.luminance.com/",
+  "tagline": "AI for due diligence, contract analysis, and compliance review.",
+  "about": "Luminance applies machine learning to surface anomalies, classify clauses, and streamline large‑scale legal reviews.",
+  "pros": [
+    "Handles large document sets.",
+    "Good anomaly/cluster surfacing.",
+    "Visual dashboards for review."
+  ],
+  "cons": [
+    "Enterprise pricing.",
+    "Onboarding and data migration required.",
+    "Specialist training recommended."
+  ],
+  "capabilities": [
+    "legal"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

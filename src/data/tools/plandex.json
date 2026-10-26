@@ -1,0 +1,21 @@
+{
+  "slug": "plandex",
+  "name": "plandex",
+  "url": "https://plandex.ai/",
+  "tagline": "Open source AI coding agent. Designed for large projects and real world tasks.",
+  "about": "Open source AI coding agent. Designed for large projects and real world tasks.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "graphic-design",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

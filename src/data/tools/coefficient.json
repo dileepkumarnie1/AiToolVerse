@@ -1,0 +1,27 @@
+{
+  "slug": "coefficient",
+  "name": "Coefficient",
+  "url": "https://coefficient.io/",
+  "tagline": "AI-powered tool that connects live data to Google Sheets with GPT analysis.",
+  "about": "Coefficient brings live data from business tools into Google Sheets and adds GPT-powered analysis capabilities.",
+  "pros": [
+    "Live data sync",
+    "Google Sheets native",
+    "AI analysis"
+  ],
+  "cons": [
+    "Google Sheets only",
+    "Connection limits",
+    "Pricing per connection"
+  ],
+  "capabilities": [
+    "data-analysis",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

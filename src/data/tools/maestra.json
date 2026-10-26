@@ -1,0 +1,27 @@
+{
+  "slug": "maestra",
+  "name": "Maestra",
+  "url": "https://maestra.ai/",
+  "tagline": "AI-powered transcription, captioning, voiceover, and dubbing in 80+ languages.",
+  "about": "Maestra combines transcription, translation, voiceover, and dubbing in one platform for global content localization.",
+  "pros": [
+    "All-in-one solution",
+    "Many languages",
+    "Voice dubbing"
+  ],
+  "cons": [
+    "Complex pricing",
+    "Quality varies",
+    "Processing time"
+  ],
+  "capabilities": [
+    "transcription",
+    "voice-tts"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

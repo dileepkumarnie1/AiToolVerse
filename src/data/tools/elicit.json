@@ -1,0 +1,27 @@
+{
+  "slug": "elicit",
+  "name": "Elicit",
+  "url": "https://elicit.org/",
+  "tagline": "An AI research assistant that helps find papers and extract key information.",
+  "about": "Elicit uses language models to help automate research workflows. You can ask a research question, and it will find relevant papers, summarize their findings, and extract key information into a structured table.",
+  "pros": [
+    "Massively accelerates literature reviews.",
+    "Can find papers without perfect keyword matches.",
+    "Summarizes key takeaways from abstracts."
+  ],
+  "cons": [
+    "Focuses primarily on academic papers.",
+    "Summaries may miss nuance from the full text.",
+    "Still requires critical evaluation of the source papers."
+  ],
+  "capabilities": [
+    "research-search",
+    "science"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

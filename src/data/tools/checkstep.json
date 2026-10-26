@@ -1,0 +1,28 @@
+{
+  "slug": "checkstep",
+  "name": "Checkstep",
+  "url": "https://checkstep.com/",
+  "tagline": "AI content moderation platform with customizable policies and workflows.",
+  "about": "Checkstep provides customizable AI moderation with policy configuration and human-in-the-loop workflows.",
+  "pros": [
+    "Customizable policies",
+    "Human review",
+    "Workflow integration"
+  ],
+  "cons": [
+    "Enterprise focus",
+    "Setup complexity",
+    "Policy design needed"
+  ],
+  "capabilities": [
+    "industry-ops",
+    "writing",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

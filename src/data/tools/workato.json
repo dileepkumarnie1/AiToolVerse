@@ -1,0 +1,28 @@
+{
+  "slug": "workato",
+  "name": "Workato",
+  "url": "https://www.workato.com/",
+  "tagline": "An enterprise-grade iPaaS platform for automating complex business workflows.",
+  "about": "Workato is an integration platform as a service (iPaaS) designed for enterprise-level automation. It allows businesses to automate complex workflows across the entire organization, from HR and finance to marketing and IT, with a focus on security, governance, and scalability.",
+  "pros": [
+    "Extremely powerful and scalable for enterprise needs.",
+    "Combines integration, automation, and AI in a single platform.",
+    "Strong governance and security features."
+  ],
+  "cons": [
+    "Primarily aimed at large businesses and can be very expensive.",
+    "Has a significant learning curve for non-technical users.",
+    "Overkill for simple, personal, or small business automations."
+  ],
+  "capabilities": [
+    "automation",
+    "code-assistant",
+    "app-builder"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

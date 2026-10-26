@@ -1,0 +1,27 @@
+{
+  "slug": "deepseek-coder",
+  "name": "DeepSeek Coder",
+  "url": "https://www.deepseek.com/",
+  "tagline": "Open-source code-focused LLM with strong programming capabilities.",
+  "about": "DeepSeek Coder is an open-source language model specialized for code generation and programming tasks.",
+  "pros": [
+    "Open source",
+    "Strong at coding",
+    "Multiple sizes"
+  ],
+  "cons": [
+    "Code-focused",
+    "Self-hosting needed",
+    "Less general knowledge"
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "code-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

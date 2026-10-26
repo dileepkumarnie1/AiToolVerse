@@ -1,0 +1,20 @@
+{
+  "slug": "meeting-minutes",
+  "name": "meeting-minutes",
+  "url": "https://meetily.zackriya.com/",
+  "tagline": "A free and open source, self hosted Ai based live meeting note taker and minutes summary generator that can completely run in your Local device (Mac OS and windows OS Support added. Working on adding linux support…",
+  "about": "A free and open source, self hosted Ai based live meeting note taker and minutes summary generator that can completely run in your Local device (Mac OS and windows OS Support added. Working on adding linux support soon) https://meetily.zackriya.com/ is meetly ai",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "meeting-notes",
+    "automation",
+    "summarization"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

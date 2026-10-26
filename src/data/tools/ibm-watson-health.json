@@ -1,0 +1,28 @@
+{
+  "slug": "ibm-watson-health",
+  "name": "IBM Watson Health",
+  "url": "https://www.ibm.com/watson-health",
+  "tagline": "AI-powered clinical decision support and analytics platform",
+  "about": "IBM Watson Health (now Merative) uses natural language processing to analyze medical records and structured/unstructured data for clinical decision support, analytics, oncology treatment planning, and population health management. Widely adopted for enterprise-scale decision support in large hospitals.",
+  "pros": [
+    "Advanced NLP for medical records",
+    "Proven in oncology and chronic illness",
+    "Enterprise-scale reliability",
+    "Extensive medical knowledge base"
+  ],
+  "cons": [
+    "Enterprise pricing model",
+    "Complex implementation",
+    "Requires significant training"
+  ],
+  "capabilities": [
+    "health-fitness",
+    "customer-support"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

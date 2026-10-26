@@ -1,0 +1,27 @@
+{
+  "slug": "trint",
+  "name": "Trint",
+  "url": "https://trint.com/",
+  "tagline": "AI transcription platform with collaborative editing for journalists and content creators.",
+  "about": "Trint combines AI transcription with a collaborative editor designed for journalists, podcasters, and content teams.",
+  "pros": [
+    "Collaboration features",
+    "Searchable content",
+    "Multiple export formats"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "Accuracy varies",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "transcription",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

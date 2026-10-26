@@ -1,0 +1,27 @@
+{
+  "slug": "nosto",
+  "name": "Nosto",
+  "url": "https://www.nosto.com/",
+  "tagline": "AI-powered product recommendations and personalization",
+  "about": "Nosto utilizes real-time shopper behavior and purchase history to suggest products both onsite and via email, boosting conversion rates and reducing cart abandonment for e-commerce stores through intelligent personalization.",
+  "pros": [
+    "Real-time personalization engine",
+    "Increases conversion rates",
+    "Easy integration with major platforms",
+    "A/B testing capabilities"
+  ],
+  "cons": [
+    "Pricing based on revenue",
+    "May require optimization period",
+    "Best for medium to large stores"
+  ],
+  "capabilities": [
+    "ecommerce"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

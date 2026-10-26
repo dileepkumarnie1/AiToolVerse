@@ -1,0 +1,26 @@
+{
+  "slug": "kling",
+  "name": "Kling (Kuaishou)",
+  "url": "https://kling.kuaishou.com/",
+  "tagline": "A powerful text-to-video model capable of producing long, high-definition clips.",
+  "about": "Kling is a text-to-video model developed by Kuaishou, a Chinese tech company. It is capable of generating up to two minutes of high-definition (1080p) video at 30 frames per second. The model has shown a remarkable ability to create physically realistic motion and large-scale, dynamic scenes, positioning it as a strong competitor to other leading video generation models.",
+  "pros": [
+    "Can generate high-resolution, two-minute-long videos.",
+    "Excellent at simulating complex and realistic motion.",
+    "Utilizes a 3D VAE for more expressive and consistent character generation."
+  ],
+  "cons": [
+    "Can have long rendering times, especially for free users.",
+    "As with other models, can sometimes misinterpret prompts or render details like hands or text inaccurately.",
+    "Waitlist for access can be long."
+  ],
+  "capabilities": [
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

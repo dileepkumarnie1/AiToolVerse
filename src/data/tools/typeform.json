@@ -1,0 +1,28 @@
+{
+  "slug": "typeform",
+  "name": "Typeform",
+  "url": "https://www.typeform.com/",
+  "tagline": "Beautiful, conversational forms with AI-powered features and logic jumps",
+  "about": "Typeform creates beautiful, conversational forms and surveys with AI-powered insights, conditional logic, and integrations for collecting and analyzing data.",
+  "pros": [
+    "Beautiful, user-friendly design",
+    "Conversational form experience",
+    "Advanced logic and branching",
+    "Great analytics and integrations"
+  ],
+  "cons": [
+    "Free plan limited to 10 responses/month",
+    "Can be expensive for high-volume needs",
+    "Some features require premium tiers"
+  ],
+  "capabilities": [
+    "forms-surveys",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

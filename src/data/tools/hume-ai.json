@@ -1,0 +1,18 @@
+{
+  "slug": "hume-ai",
+  "name": "Hume AI",
+  "url": "https://www.hume.ai/",
+  "tagline": "Voice and emotion AI tools for building expressive, human-centered experiences.",
+  "about": "Hume provides APIs and tools for voice interfaces that incorporate emotional understanding.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "voice-tts"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

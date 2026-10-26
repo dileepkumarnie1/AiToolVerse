@@ -1,0 +1,27 @@
+{
+  "slug": "vectra-ai",
+  "name": "Vectra AI",
+  "url": "https://www.vectra.ai/",
+  "tagline": "Network threat detection using behavioral AI",
+  "about": "Vectra AI monitors network behaviors using AI to spot lateral movement and advanced persistent threats before they escalate. It provides deep behavioral analytics tailored for enterprise networks with automated threat prioritization.",
+  "pros": [
+    "Advanced behavioral threat detection",
+    "Reduces alert fatigue with prioritization",
+    "Detects lateral movement and APTs",
+    "Cloud and on-premises coverage"
+  ],
+  "cons": [
+    "Best suited for larger network environments",
+    "Requires skilled security team",
+    "Premium pricing model"
+  ],
+  "capabilities": [
+    "cybersecurity"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

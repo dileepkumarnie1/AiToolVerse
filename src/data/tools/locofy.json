@@ -1,0 +1,20 @@
+{
+  "slug": "locofy",
+  "name": "Locofy",
+  "url": "https://www.locofy.ai/",
+  "tagline": "Convert designs into production-ready frontend code with AI-assisted workflows.",
+  "about": "Locofy turns Figma designs into code and supports faster UI implementation for teams.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "graphic-design",
+    "code-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "two-hat",
+  "name": "Two Hat",
+  "url": "https://www.twohat.com/",
+  "tagline": "AI content moderation for gaming and social platforms with real-time filtering.",
+  "about": "Two Hat (now part of Microsoft) provides real-time chat and content moderation for gaming platforms.",
+  "pros": [
+    "Gaming expertise",
+    "Real-time",
+    "Chat focus"
+  ],
+  "cons": [
+    "Now Microsoft/Xbox",
+    "Gaming focus",
+    "Enterprise only"
+  ],
+  "capabilities": [
+    "industry-ops",
+    "chat-assistant",
+    "writing",
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

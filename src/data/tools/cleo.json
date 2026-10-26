@@ -1,0 +1,27 @@
+{
+  "slug": "cleo",
+  "name": "Cleo",
+  "url": "https://web.meetcleo.com/",
+  "tagline": "AI money assistant that helps you budget, save, and manage finances through chat.",
+  "about": "Cleo uses AI and natural language to help users understand their spending, set budgets, and save money through conversational interface.",
+  "pros": [
+    "Conversational interface",
+    "Spending insights",
+    "Fun personality"
+  ],
+  "cons": [
+    "Premium features paid",
+    "Limited integrations",
+    "US/UK focused"
+  ],
+  "capabilities": [
+    "finance",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

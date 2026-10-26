@@ -1,0 +1,28 @@
+{
+  "slug": "krea-ai",
+  "name": "Krea AI",
+  "url": "https://www.krea.ai/",
+  "tagline": "Real-time interactive image generation and enhancement suite.",
+  "about": "Krea AI offers real-time, interactive image generation where visuals evolve instantly with prompts, sketches, and color cues, plus powerful enhancement and upscaling tools for moving from ideation to production quality.",
+  "pros": [
+    "Interactive real-time creative workflow.",
+    "High-quality enhancement and upscaling.",
+    "Supports varied use cases: concepting, patterns, assets."
+  ],
+  "cons": [
+    "Advanced features limited on free tier.",
+    "Real-time rendering can be resource intensive.",
+    "Learning curve beyond simple prompt tools."
+  ],
+  "capabilities": [
+    "image-generation",
+    "photo-editing",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

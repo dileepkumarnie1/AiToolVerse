@@ -1,0 +1,29 @@
+{
+  "slug": "sim",
+  "name": "sim",
+  "url": "https://www.sim.ai/",
+  "tagline": "Open-source platform used by 30,000+ developers. Build and deploy agentic workflows with drag-and-drop interface. SOC2 &amp; HIPAA compliant. Connect 100+ apps.",
+  "about": "Open-source platform used by 30,000+ developers. Build and deploy agentic workflows with drag-and-drop interface. SOC2 &amp; HIPAA compliant. Connect 100+ apps.",
+  "pros": [
+    "Open source and extensible.",
+    "Generates visuals quickly.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Quality varies by prompt.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "code-assistant",
+    "developer-api",
+    "research-search"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "spinbot",
+  "name": "Spinbot",
+  "url": "https://spinbot.com/",
+  "tagline": "Free AI paraphrasing tool for rewriting text content.",
+  "about": "Spinbot provides free AI-powered text paraphrasing and rewriting.",
+  "pros": [
+    "Free to use",
+    "Simple interface",
+    "Quick results"
+  ],
+  "cons": [
+    "Quality varies",
+    "Spinning-style output",
+    "Basic features"
+  ],
+  "capabilities": [
+    "writing"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

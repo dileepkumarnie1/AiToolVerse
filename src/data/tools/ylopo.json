@@ -1,0 +1,29 @@
+{
+  "slug": "ylopo",
+  "name": "Ylopo",
+  "url": "https://www.ylopo.com/",
+  "tagline": "AI digital marketing and lead generation for real estate",
+  "about": "Ylopo is an AI-rich digital marketing and property management suite known for targeted ad campaigns, lead tracking, and behavioral analytics for client retention. It helps real estate agents generate and convert leads through intelligent marketing automation.",
+  "pros": [
+    "Powerful digital advertising tools",
+    "Behavioral analytics for lead scoring",
+    "Automated lead nurturing",
+    "Good ROI tracking"
+  ],
+  "cons": [
+    "Premium pricing",
+    "Requires advertising budget",
+    "Complex setup process"
+  ],
+  "capabilities": [
+    "real-estate",
+    "marketing-seo",
+    "sales-crm"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

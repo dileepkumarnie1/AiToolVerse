@@ -1,0 +1,29 @@
+{
+  "slug": "venngage-designai",
+  "name": "Venngage DesignAI",
+  "url": "https://venngage.com/features/ai-presentation-maker",
+  "tagline": "Infographic-rich presentation tool specializing in data visualization and storytelling.",
+  "about": "Venngage's DesignAI specializes in creating infographic-rich presentations. It automates both writing and layout with a focus on data visualizations and storytelling, making it ideal for marketers, educators, and data professionals.",
+  "pros": [
+    "Excellent for data visualization",
+    "Strong infographic capabilities",
+    "Good for marketing and education",
+    "Automated writing and layout"
+  ],
+  "cons": [
+    "Infographic focus may not suit all needs",
+    "Less suitable for text-heavy presentations",
+    "Learning curve for advanced features"
+  ],
+  "capabilities": [
+    "presentations",
+    "graphic-design",
+    "marketing-seo"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

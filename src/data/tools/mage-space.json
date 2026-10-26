@@ -1,0 +1,26 @@
+{
+  "slug": "mage-space",
+  "name": "Mage Space",
+  "url": "https://www.mage.space/",
+  "tagline": "Free unlimited AI image generation with multiple models and styles.",
+  "about": "Mage Space offers unlimited free AI image generation with various Stable Diffusion-based models.",
+  "pros": [
+    "Unlimited free",
+    "Simple interface",
+    "No account needed"
+  ],
+  "cons": [
+    "NSFW content possible",
+    "Basic features",
+    "Queue times"
+  ],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

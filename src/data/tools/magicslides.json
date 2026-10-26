@@ -1,0 +1,29 @@
+{
+  "slug": "magicslides",
+  "name": "MagicSlides",
+  "url": "https://www.magicslides.app/",
+  "tagline": "Seamless Google Slides add-on for quick content generation with stock images and multilingual support.",
+  "about": "MagicSlides is a popular add-on for Google Slides that enables quick AI-powered slide generation. It integrates stock images automatically and supports multiple languages, making it perfect for international presentations.",
+  "pros": [
+    "Easy integration with Google Slides",
+    "Stock image integration",
+    "Multiple language support",
+    "Simple and fast to use"
+  ],
+  "cons": [
+    "Google Slides only",
+    "Limited advanced features",
+    "Requires Google account"
+  ],
+  "capabilities": [
+    "presentations",
+    "writing",
+    "translation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

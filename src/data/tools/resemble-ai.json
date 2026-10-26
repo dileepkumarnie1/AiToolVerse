@@ -1,0 +1,28 @@
+{
+  "slug": "resemble-ai",
+  "name": "Resemble AI",
+  "url": "https://www.resemble.ai/",
+  "tagline": "Real-time voice conversion and custom voice cloning API",
+  "about": "Resemble AI specializes in real-time voice conversion and voice cloning APIs, making it a favorite among developers and creative professionals who need bespoke voices for their applications. It offers neural voice synthesis with emotional control and accent adaptation.",
+  "pros": [
+    "Real-time voice synthesis capabilities",
+    "Excellent API for developers",
+    "Emotional tone control",
+    "Custom voice creation for brands"
+  ],
+  "cons": [
+    "Enterprise-focused pricing",
+    "Requires technical knowledge for API integration",
+    "No free tier for commercial projects"
+  ],
+  "capabilities": [
+    "voice-tts",
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

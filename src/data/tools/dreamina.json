@@ -1,0 +1,28 @@
+{
+  "slug": "dreamina",
+  "name": "Dreamina",
+  "url": "https://dreamina.ai/",
+  "tagline": "TikTok's AI image generator with video creation capabilities.",
+  "about": "Dreamina is TikTok's AI creative platform for generating images and videos for social content.",
+  "pros": [
+    "TikTok integration",
+    "Video generation",
+    "Free to use"
+  ],
+  "cons": [
+    "Social focus",
+    "Terms of service",
+    "Platform lock-in"
+  ],
+  "capabilities": [
+    "image-generation",
+    "video-generation",
+    "social-media"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "cognii",
+  "name": "Cognii",
+  "url": "https://www.cognii.com/",
+  "tagline": "AI learning platform with virtual learning assistant for essay assessment and tutoring.",
+  "about": "Cognii provides AI-powered virtual tutoring and essay assessment for educational institutions and publishers.",
+  "pros": [
+    "Essay feedback",
+    "Adaptive learning",
+    "Institution-focused"
+  ],
+  "cons": [
+    "B2B only",
+    "Enterprise pricing",
+    "Limited direct access"
+  ],
+  "capabilities": [
+    "education-tutor",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

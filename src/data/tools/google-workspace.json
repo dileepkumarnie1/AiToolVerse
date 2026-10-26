@@ -1,0 +1,18 @@
+{
+  "slug": "google-workspace",
+  "name": "Google Workspace",
+  "url": "https://workspace.google.com/",
+  "tagline": "Google's productivity suite (Docs, Sheets, Gmail, Meet) with AI features integrated across workflows.",
+  "about": "Google Workspace brings productivity tools together, with AI assistance available across writing, meetings, and organization.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

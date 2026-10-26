@@ -1,0 +1,25 @@
+{
+  "slug": "fast-llm-security-guardrails",
+  "name": "fast-llm-security-guardrails",
+  "url": "https://zenguard.ai/",
+  "tagline": "Secure your AI agents with runtime protection and security testing. Detect prompt injections, data leaks, and vulnerabilities. OWASP LLM Top 10 compliant. Built by ex-Google, Meta, and Amazon security engineers.",
+  "about": "Secure your AI agents with runtime protection and security testing. Detect prompt injections, data leaks, and vulnerabilities. OWASP LLM Top 10 compliant. Built by ex-Google, Meta, and Amazon security engineers.",
+  "pros": [
+    "Easy to get started."
+  ],
+  "cons": [
+    "May require an account or credits."
+  ],
+  "capabilities": [
+    "responsible-ai",
+    "chat-assistant",
+    "graphic-design",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "google-bard",
+  "name": "Google Bard",
+  "url": "https://bard.google.com/",
+  "tagline": "Conversational AI from Google for creative and factual tasks.",
+  "about": "Bard is Google's conversational AI, designed for creative writing, Q&A, and productivity.",
+  "pros": [
+    "Free to use.",
+    "Google integration.",
+    "Good for brainstorming."
+  ],
+  "cons": [
+    "Still experimental.",
+    "Not always up-to-date.",
+    "Limited in some regions."
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

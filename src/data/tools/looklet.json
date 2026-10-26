@@ -1,0 +1,27 @@
+{
+  "slug": "looklet",
+  "name": "Looklet",
+  "url": "https://looklet.com/",
+  "tagline": "AI-powered virtual photography for fashion e-commerce, creating on-model images without photoshoots.",
+  "about": "Looklet enables fashion brands to create realistic on-model product images using AI without traditional photoshoots.",
+  "pros": [
+    "Reduces photoshoot costs",
+    "Consistent quality",
+    "Fast turnaround"
+  ],
+  "cons": [
+    "B2B only",
+    "Requires integration",
+    "May look artificial"
+  ],
+  "capabilities": [
+    "fashion",
+    "ecommerce"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

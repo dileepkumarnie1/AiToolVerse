@@ -1,0 +1,27 @@
+{
+  "slug": "splash",
+  "name": "Splash",
+  "url": "https://www.splash.ai/",
+  "tagline": "AI music and singing voice generation.",
+  "about": "Splash creates music and singing voices using AI, accessible through mobile app and web platform.",
+  "pros": [
+    "Creates both music and vocals",
+    "Mobile app available",
+    "Community features"
+  ],
+  "cons": [
+    "Limited professional features",
+    "Output quality varies",
+    "Mostly for casual use"
+  ],
+  "capabilities": [
+    "music-generation",
+    "voice-tts"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "firebase-genkit",
+  "name": "Firebase Genkit",
+  "url": "https://firebase.google.com/docs/genkit",
+  "tagline": "Framework and tooling for building, shipping, and monitoring AI-powered features and agents.",
+  "about": "Genkit helps you build AI features with production-minded tooling like tracing, evaluation, and integrations.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "automation",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

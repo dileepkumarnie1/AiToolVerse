@@ -1,0 +1,27 @@
+{
+  "slug": "rossum",
+  "name": "Rossum",
+  "url": "https://rossum.ai/",
+  "tagline": "AI document processing platform for automating business document workflows.",
+  "about": "Rossum uses cognitive data capture to understand documents like a human would, learning from corrections and improving over time.",
+  "pros": [
+    "Learns from corrections",
+    "Handles complex layouts",
+    "Enterprise-grade security"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Implementation requires planning",
+    "Best suited for high-volume use"
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

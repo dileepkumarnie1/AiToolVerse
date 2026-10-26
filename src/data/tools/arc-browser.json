@@ -1,0 +1,27 @@
+{
+  "slug": "arc-browser",
+  "name": "Arc Browser",
+  "url": "https://arc.net/",
+  "tagline": "Modern browser with AI-powered organization, instant previews, and innovative space-based browsing.",
+  "about": "Arc Browser reimagines browser organization with AI-powered features, spaces for different contexts, and a fresh take on tab management. While not exclusively AI-focused, its intelligent organization and preview features make browsing more efficient.",
+  "pros": [
+    "Beautiful, modern interface",
+    "Innovative space-based organization",
+    "AI-powered search and previews",
+    "Excellent for managing multiple projects"
+  ],
+  "cons": [
+    "Mac-first with limited Windows support initially",
+    "Requires learning new browsing paradigm",
+    "May be overwhelming for simple use cases"
+  ],
+  "capabilities": [
+    "browser"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

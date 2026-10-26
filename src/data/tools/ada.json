@@ -1,0 +1,28 @@
+{
+  "slug": "ada",
+  "name": "Ada",
+  "url": "https://www.ada.cx/",
+  "tagline": "Automated customer service with multi‑channel chatbots and deflection.",
+  "about": "Ada builds no‑code, brand‑safe chatbots that resolve common support requests across web, mobile, and messaging channels.",
+  "pros": [
+    "No‑code flows empower CX teams.",
+    "Omnichannel deployment.",
+    "Strong deflection for FAQs."
+  ],
+  "cons": [
+    "Complex use cases may need developer help.",
+    "Analytics require setup to track impact.",
+    "Enterprise‑oriented pricing."
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "hotpot-ai",
+  "name": "Hotpot.ai",
+  "url": "https://hotpot.ai/",
+  "tagline": "AI tools for graphics, including image enhancement, art generation, and templates.",
+  "about": "Hotpot provides various AI tools for graphic design including image upscaling, background removal, and art creation.",
+  "pros": [
+    "Multiple tools",
+    "Free tier",
+    "Easy to use"
+  ],
+  "cons": [
+    "Credits system",
+    "Quality varies",
+    "Limited advanced features"
+  ],
+  "capabilities": [
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

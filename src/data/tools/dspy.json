@@ -1,0 +1,19 @@
+{
+  "slug": "dspy",
+  "name": "dspy",
+  "url": "https://dspy.ai/",
+  "tagline": "DSPy: The framework for programming—not prompting—language models",
+  "about": "DSPy: The framework for programming—not prompting—language models",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant",
+    "code-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

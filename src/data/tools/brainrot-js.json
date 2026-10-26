@@ -1,0 +1,29 @@
+{
+  "slug": "brainrot-js",
+  "name": "brainrot.js",
+  "url": "https://brainrotjs.com/",
+  "tagline": "Create viral brainrot videos instantly with AI. Generate funny celebrity dialogues, memes, and more. The ultimate brainrot maker for content creators.",
+  "about": "Create viral brainrot videos instantly with AI. Generate funny celebrity dialogues, memes, and more. The ultimate brainrot maker for content creators.",
+  "pros": [
+    "Accelerates video creation.",
+    "Useful for voice and audio workflows.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Render times or credit limits may apply.",
+    "May need cleanup for artifacts.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "video-generation",
+    "writing",
+    "developer-api",
+    "social-media"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

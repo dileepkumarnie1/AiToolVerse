@@ -1,0 +1,29 @@
+{
+  "slug": "make",
+  "name": "Make (formerly Integromat)",
+  "url": "https://www.make.com/",
+  "tagline": "A powerful, visual workflow automation platform for building complex integrations.",
+  "about": "Make allows you to visually create, build, and automate workflows. Its visual canvas is a key differentiator, enabling users to map out complex, multi-step scenarios with branching logic, which can be enhanced with AI modules.",
+  "pros": [
+    "Powerful visual editor for complex workflows.",
+    "More flexible and often more cost-effective than Zapier for high-volume tasks.",
+    "Offers robust error handling and data manipulation tools."
+  ],
+  "cons": [
+    "Steeper learning curve than Zapier.",
+    "The visual interface can become cluttered with very complex scenarios.",
+    "Fewer total app integrations than Zapier, but still has all the major ones."
+  ],
+  "capabilities": [
+    "automation",
+    "graphic-design",
+    "code-assistant",
+    "app-builder"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

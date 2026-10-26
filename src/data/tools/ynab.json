@@ -1,0 +1,26 @@
+{
+  "slug": "ynab",
+  "name": "YNAB",
+  "url": "https://www.ynab.com/",
+  "tagline": "AI-enhanced budgeting app based on zero-based budgeting methodology.",
+  "about": "YNAB teaches budgeting with its zero-based method, enhanced with AI for smarter categorization and goal tracking.",
+  "pros": [
+    "Effective methodology",
+    "Great education",
+    "Active community"
+  ],
+  "cons": [
+    "Subscription required",
+    "Learning curve",
+    "Manual entry encouraged"
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

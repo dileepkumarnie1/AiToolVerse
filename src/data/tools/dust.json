@@ -1,0 +1,27 @@
+{
+  "slug": "dust",
+  "name": "Dust",
+  "url": "https://dust.tt/",
+  "tagline": "Platform for building custom AI assistants with tool use and knowledge.",
+  "about": "Dust helps teams build custom AI assistants that can use tools, access knowledge bases, and automate workflows.",
+  "pros": [
+    "Tool integration",
+    "Knowledge bases",
+    "Team-focused"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Setup complexity",
+    "Newer platform"
+  ],
+  "capabilities": [
+    "agents",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

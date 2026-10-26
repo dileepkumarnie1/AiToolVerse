@@ -1,0 +1,30 @@
+{
+  "slug": "tella",
+  "name": "Tella",
+  "url": "https://www.tella.tv/",
+  "tagline": "Modern collaborative video platform for quick screen tutorials with team branding and cloud editing",
+  "about": "Tella is a modern video platform that makes it easy to create and share screen recordings for tutorials, demos, and presentations with collaborative features and team branding options.",
+  "pros": [
+    "Simple and intuitive interface for quick recordings",
+    "Great for remote team collaboration",
+    "Built-in editing and annotation features",
+    "Cloud-based storage and easy sharing"
+  ],
+  "cons": [
+    "Requires subscription for advanced features",
+    "Limited offline capabilities",
+    "Storage limitations on free tier"
+  ],
+  "capabilities": [
+    "screen-recording",
+    "video-generation",
+    "education-tutor",
+    "video-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

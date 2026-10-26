@@ -1,0 +1,29 @@
+{
+  "slug": "humanly",
+  "name": "Humanly",
+  "url": "https://www.humanly.io/",
+  "tagline": "AI recruiting assistant that automates screening and scheduling via chat.",
+  "about": "Humanly automates candidate screening, scheduling, and engagement through conversational AI.",
+  "pros": [
+    "Saves recruiter time",
+    "24/7 engagement",
+    "Candidate experience"
+  ],
+  "cons": [
+    "Limited to screening",
+    "Integration needed",
+    "Subscription pricing"
+  ],
+  "capabilities": [
+    "hr-recruiting",
+    "chat-assistant",
+    "scheduling",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

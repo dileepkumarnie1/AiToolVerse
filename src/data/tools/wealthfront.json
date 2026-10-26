@@ -1,0 +1,27 @@
+{
+  "slug": "wealthfront",
+  "name": "Wealthfront",
+  "url": "https://www.wealthfront.com/",
+  "tagline": "AI-powered robo-advisor for automated investing and financial planning.",
+  "about": "Wealthfront uses AI for automated portfolio management, tax-loss harvesting, and personalized financial planning.",
+  "pros": [
+    "Low fees",
+    "Tax optimization",
+    "Automated investing"
+  ],
+  "cons": [
+    "Limited human advice",
+    "US only",
+    "Minimum investment required"
+  ],
+  "capabilities": [
+    "finance",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

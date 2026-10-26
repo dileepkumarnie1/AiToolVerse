@@ -1,0 +1,18 @@
+{
+  "slug": "gpt4free",
+  "name": "gpt4free",
+  "url": "https://t.me/g4f_channel",
+  "tagline": "The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5",
+  "about": "The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "webpurify",
+  "name": "WebPurify",
+  "url": "https://www.webpurify.com/",
+  "tagline": "AI-powered content moderation for images, video, and text.",
+  "about": "WebPurify provides AI and human moderation services for images, video, and text content.",
+  "pros": [
+    "Multiple content types",
+    "Human backup",
+    "API available"
+  ],
+  "cons": [
+    "Per-image pricing",
+    "Accuracy varies",
+    "Review time for human"
+  ],
+  "capabilities": [
+    "industry-ops",
+    "writing",
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

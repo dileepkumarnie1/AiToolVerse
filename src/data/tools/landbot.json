@@ -1,0 +1,29 @@
+{
+  "slug": "landbot",
+  "name": "Landbot",
+  "url": "https://landbot.io/",
+  "tagline": "No-code chatbot builder for conversational landing pages and lead generation.",
+  "about": "Landbot helps create conversational experiences for websites and WhatsApp with a visual drag-and-drop builder.",
+  "pros": [
+    "Beautiful UI",
+    "WhatsApp support",
+    "Lead generation focus"
+  ],
+  "cons": [
+    "Limited AI depth",
+    "Pricing for features",
+    "Template dependent"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "code-assistant",
+    "app-builder"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

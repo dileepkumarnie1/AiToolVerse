@@ -1,0 +1,27 @@
+{
+  "slug": "photoai",
+  "name": "PhotoAI",
+  "url": "https://photoai.com/",
+  "tagline": "AI tool for creating professional product photos and marketing images.",
+  "about": "PhotoAI generates professional product photos and marketing images using AI, eliminating expensive photo shoots.",
+  "pros": [
+    "Cost effective",
+    "Quick turnaround",
+    "Consistent quality"
+  ],
+  "cons": [
+    "May look artificial",
+    "Limited customization",
+    "Subscription pricing"
+  ],
+  "capabilities": [
+    "marketing-seo",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

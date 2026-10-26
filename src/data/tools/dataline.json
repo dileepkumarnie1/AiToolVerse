@@ -1,0 +1,29 @@
+{
+  "slug": "dataline",
+  "name": "dataline",
+  "url": "https://dataline.app/",
+  "tagline": "Chat with your data - AI-driven data analysis and visualization tool.",
+  "about": "Chat with your data - AI-driven data analysis and visualization tool.",
+  "pros": [
+    "Good for drafting and Q&A.",
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "May require fact‑checking.",
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "data-analysis",
+    "chat-assistant",
+    "developer-api",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

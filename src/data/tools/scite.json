@@ -1,0 +1,27 @@
+{
+  "slug": "scite",
+  "name": "Scite",
+  "url": "https://scite.ai/",
+  "tagline": "Smart citations showing how a paper is supported or contrasted.",
+  "about": "See supporting, contrasting, and mentioning citations to judge evidence.",
+  "pros": [
+    "Great context.",
+    "Browser integrations.",
+    "Helpful summaries."
+  ],
+  "cons": [
+    "Coverage varies by field.",
+    "Paid for full features.",
+    "Learning curve for filters."
+  ],
+  "capabilities": [
+    "research-search",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

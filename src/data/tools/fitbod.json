@@ -1,0 +1,26 @@
+{
+  "slug": "fitbod",
+  "name": "Fitbod",
+  "url": "https://fitbod.me/",
+  "tagline": "AI workout app that generates strength training plans based on your equipment and recovery.",
+  "about": "Fitbod uses machine learning to recommend exercises based on muscle recovery, available equipment, and training history.",
+  "pros": [
+    "Smart muscle recovery tracking",
+    "Equipment flexibility",
+    "Exercise form videos"
+  ],
+  "cons": [
+    "Subscription needed",
+    "Focus on gym workouts",
+    "Can be complex for beginners"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

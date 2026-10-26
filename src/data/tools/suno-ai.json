@@ -1,0 +1,26 @@
+{
+  "slug": "suno-ai",
+  "name": "Suno AI",
+  "url": "https://www.suno.ai/",
+  "tagline": "Create full songs (lyrics, instruments, and vocals) from a simple text prompt.",
+  "about": "Suno is a remarkable AI music generator that can create complete, two-minute songs in various genres based on a short text description. It generates lyrics, instrumental tracks, and AI-generated vocals, which can then be extended into longer pieces.",
+  "pros": [
+    "Incredibly easy to create full songs from a prompt.",
+    "Supports a wide variety of musical genres.",
+    "Free tier allows for daily song creation."
+  ],
+  "cons": [
+    "Limited control over specific musical elements (e.g., chord progressions).",
+    "Vocal quality can be hit-or-miss.",
+    "Commercial use of generated music requires a paid plan."
+  ],
+  "capabilities": [
+    "music-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

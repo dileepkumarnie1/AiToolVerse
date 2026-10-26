@@ -1,0 +1,29 @@
+{
+  "slug": "mashvisor",
+  "name": "Mashvisor",
+  "url": "https://www.mashvisor.com/",
+  "tagline": "AI-powered real estate investment analysis and ROI forecasting",
+  "about": "Mashvisor uses AI to compare short- and long-term rental investments, analyze cash flow, and forecast ROI on rental properties. It provides data-driven insights for real estate investors to make informed decisions.",
+  "pros": [
+    "Comprehensive investment analysis",
+    "Short-term and long-term rental comparison",
+    "Market data and trends",
+    "Cash flow projections"
+  ],
+  "cons": [
+    "Limited free tier",
+    "Data may not cover all markets",
+    "Best for investment properties only"
+  ],
+  "capabilities": [
+    "real-estate",
+    "data-analysis",
+    "finance"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

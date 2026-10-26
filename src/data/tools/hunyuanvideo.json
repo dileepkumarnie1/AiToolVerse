@@ -1,0 +1,18 @@
+{
+  "slug": "hunyuanvideo",
+  "name": "HunyuanVideo",
+  "url": "https://aivideo.hunyuan.tencent.com/",
+  "tagline": "HunyuanVideo: A Systematic Framework For Large Video Generation Model",
+  "about": "HunyuanVideo: A Systematic Framework For Large Video Generation Model",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "video-generation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

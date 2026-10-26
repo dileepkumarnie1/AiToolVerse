@@ -1,0 +1,26 @@
+{
+  "slug": "noom",
+  "name": "Noom",
+  "url": "https://www.noom.com/",
+  "tagline": "AI-powered weight loss and wellness app with psychology-based coaching.",
+  "about": "Noom uses AI and behavioral psychology to help users build healthy habits, with personalized coaching and food logging.",
+  "pros": [
+    "Psychology-based approach",
+    "Personalized coaching",
+    "Educational content"
+  ],
+  "cons": [
+    "Expensive subscription",
+    "Requires daily engagement",
+    "Some find it repetitive"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

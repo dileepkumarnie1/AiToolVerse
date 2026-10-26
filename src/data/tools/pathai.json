@@ -1,0 +1,26 @@
+{
+  "slug": "pathai",
+  "name": "PathAI",
+  "url": "https://pathai.com/",
+  "tagline": "AI‑powered pathology for diagnostics and drug development.",
+  "about": "PathAI builds models for pathology workflows, improving accuracy and consistency in disease detection and grading.",
+  "pros": [
+    "Research and clinical collaborations.",
+    "Focus on accuracy and validation.",
+    "Supports pharma and providers."
+  ],
+  "cons": [
+    "Specialized deployment.",
+    "Regulatory constraints.",
+    "Integration with lab systems needed."
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

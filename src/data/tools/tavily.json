@@ -1,0 +1,28 @@
+{
+  "slug": "tavily",
+  "name": "Tavily",
+  "url": "https://tavily.com/",
+  "tagline": "AI search API optimized for AI agents and RAG applications.",
+  "about": "Tavily provides a search API specifically designed for AI applications, agents, and retrieval-augmented generation.",
+  "pros": [
+    "Designed for AI",
+    "Good for RAG",
+    "Fast API"
+  ],
+  "cons": [
+    "API only",
+    "Developer-focused",
+    "Usage pricing"
+  ],
+  "capabilities": [
+    "research-search",
+    "developer-api",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

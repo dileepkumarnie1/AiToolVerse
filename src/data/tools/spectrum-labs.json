@@ -1,0 +1,27 @@
+{
+  "slug": "spectrum-labs",
+  "name": "Spectrum Labs",
+  "url": "https://www.spectrumlabs.com/",
+  "tagline": "AI platform for detecting toxic behavior and protecting online communities.",
+  "about": "Spectrum Labs focuses on detecting toxic behavior in gaming and online communities with contextual AI.",
+  "pros": [
+    "Context-aware",
+    "Gaming focus",
+    "Behavior patterns"
+  ],
+  "cons": [
+    "Enterprise only",
+    "Gaming/community focus",
+    "Setup complexity"
+  ],
+  "capabilities": [
+    "industry-ops",
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

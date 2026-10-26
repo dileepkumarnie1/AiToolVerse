@@ -1,0 +1,28 @@
+{
+  "slug": "photoroom",
+  "name": "PhotoRoom",
+  "url": "https://www.photoroom.com/",
+  "tagline": "AI background removal and product photography tool for e-commerce",
+  "about": "PhotoRoom combines AI background removal with professional product photography templates, making it ideal for e-commerce sellers and marketers creating product listings.",
+  "pros": [
+    "Excellent for product photography",
+    "Background replacement templates",
+    "Mobile app available",
+    "Batch processing capabilities"
+  ],
+  "cons": [
+    "Free version has watermark",
+    "Best features require Pro subscription",
+    "Focused on product/portrait photography"
+  ],
+  "capabilities": [
+    "photo-editing",
+    "ecommerce"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

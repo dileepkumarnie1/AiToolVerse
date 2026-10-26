@@ -1,0 +1,28 @@
+{
+  "slug": "supermaven",
+  "name": "Supermaven",
+  "url": "https://supermaven.com/",
+  "tagline": "Ultra-fast AI code completion with 1 million token context window.",
+  "about": "Supermaven provides extremely fast code completion with a massive context window for better suggestions.",
+  "pros": [
+    "Very fast",
+    "Large context",
+    "Good suggestions"
+  ],
+  "cons": [
+    "Newer product",
+    "Subscription",
+    "Less features than Copilot"
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

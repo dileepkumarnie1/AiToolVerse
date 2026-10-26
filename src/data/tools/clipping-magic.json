@@ -1,0 +1,28 @@
+{
+  "slug": "clipping-magic",
+  "name": "Clipping Magic",
+  "url": "https://clippingmagic.com/",
+  "tagline": "AI background removal with manual editing tools for precise control",
+  "about": "Clipping Magic offers AI-powered background removal with advanced manual editing tools, allowing users to fine-tune results for professional-quality output.",
+  "pros": [
+    "Combination of AI automation and manual control",
+    "High-quality results for complex images",
+    "Professional editing tools",
+    "Good for hair and fine details"
+  ],
+  "cons": [
+    "No free tier available",
+    "Requires subscription",
+    "Steeper learning curve than fully automated tools"
+  ],
+  "capabilities": [
+    "photo-editing",
+    "video-editing"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

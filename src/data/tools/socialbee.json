@@ -1,0 +1,30 @@
+{
+  "slug": "socialbee",
+  "name": "SocialBee",
+  "url": "https://socialbee.com/",
+  "tagline": "Fast publishing with AI-powered scheduling, customizable voice/tone, and deep analytics for brand consistency.",
+  "about": "SocialBee generates posts with image/caption bundles, allows customization of voice and tone, schedules across channels, and provides deep analytics. It organizes posts for consistent brand presentation with high-quality content generation.",
+  "pros": [
+    "Excellent scheduling features",
+    "Brand voice customization",
+    "Good analytics",
+    "Post categorization"
+  ],
+  "cons": [
+    "Learning curve for features",
+    "Higher price for small users",
+    "May be complex for simple needs"
+  ],
+  "capabilities": [
+    "social-media",
+    "voice-tts",
+    "scheduling",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

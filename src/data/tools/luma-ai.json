@@ -1,0 +1,28 @@
+{
+  "slug": "luma-ai",
+  "name": "Luma AI",
+  "url": "https://lumalabs.ai/",
+  "tagline": "Create photorealistic 3D models from video clips using your phone.",
+  "about": "Luma AI uses a technique called NeRFs (Neural Radiance Fields) to create high-quality 3D models from videos. Users can capture a video of an object or scene, and Luma's AI processes it into a detailed, interactive 3D asset.",
+  "pros": [
+    "Creates stunningly realistic 3D captures.",
+    "Accessible through a user-friendly mobile app.",
+    "Free tier is sufficient for many hobbyist projects."
+  ],
+  "cons": [
+    "Requires good lighting and careful video capture for best results.",
+    "Processing can take a significant amount of time.",
+    "Exporting in standard 3D formats may require a paid plan."
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "video-generation",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

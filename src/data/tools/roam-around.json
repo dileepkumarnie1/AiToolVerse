@@ -1,0 +1,27 @@
+{
+  "slug": "roam-around",
+  "name": "Roam Around",
+  "url": "https://www.roamaround.io/",
+  "tagline": "AI travel planner that creates personalized itineraries in seconds.",
+  "about": "Roam Around uses GPT-4 to generate custom travel itineraries based on your destination, duration, and interests.",
+  "pros": [
+    "Instant itinerary generation",
+    "Free to use",
+    "Customizable plans"
+  ],
+  "cons": [
+    "Generic suggestions sometimes",
+    "No booking integration",
+    "Limited local insights"
+  ],
+  "capabilities": [
+    "travel",
+    "scheduling"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

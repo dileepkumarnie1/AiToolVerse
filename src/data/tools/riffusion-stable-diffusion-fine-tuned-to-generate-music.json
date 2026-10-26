@@ -1,0 +1,19 @@
+{
+  "slug": "riffusion-stable-diffusion-fine-tuned-to-generate-music",
+  "name": "Riffusion – Stable Diffusion fine-tuned to generate music",
+  "url": "https://www.riffusion.com/about",
+  "tagline": "Riffusion – Stable Diffusion fine-tuned to generate music",
+  "about": "Riffusion – Stable Diffusion fine-tuned to generate music",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "image-generation",
+    "music-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

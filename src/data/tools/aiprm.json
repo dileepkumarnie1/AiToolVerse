@@ -1,0 +1,27 @@
+{
+  "slug": "aiprm",
+  "name": "AIPRM",
+  "url": "https://www.aiprm.com/",
+  "tagline": "A library of curated prompt templates for ChatGPT and other LLMs.",
+  "about": "AIPRM provides a large, community-driven catalog of high-quality prompt templates organized by use case (SEO, marketing, coding, and more).",
+  "pros": [
+    "Huge template library.",
+    "Easy to discover and reuse.",
+    "Community-vetted content."
+  ],
+  "cons": [
+    "Quality varies by template.",
+    "Best items may require Pro.",
+    "Templates can become outdated."
+  ],
+  "capabilities": [
+    "prompt-tools",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

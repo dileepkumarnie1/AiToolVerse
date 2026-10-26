@@ -1,0 +1,26 @@
+{
+  "slug": "google-veo",
+  "name": "Google Veo",
+  "url": "https://deepmind.google/technologies/veo/",
+  "tagline": "Cinematic text‑to‑video model previewed by Google DeepMind.",
+  "about": "Advanced T2V with strong scene coherence and camera control showcased in research demos.",
+  "pros": [
+    "High fidelity.",
+    "Advanced camera controls.",
+    "Research‑grade quality."
+  ],
+  "cons": [
+    "Limited access.",
+    "Evolving features.",
+    "Unclear timelines for GA."
+  ],
+  "capabilities": [
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

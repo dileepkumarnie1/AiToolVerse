@@ -1,0 +1,26 @@
+{
+  "slug": "remini",
+  "name": "Remini",
+  "url": "https://remini.ai/",
+  "tagline": "AI photo enhancer that restores and improves low-quality, blurry, or old photos.",
+  "about": "Remini uses AI to enhance photo quality, restore old pictures, and improve blurry or low-resolution images dramatically.",
+  "pros": [
+    "Impressive enhancement",
+    "Old photo restoration",
+    "Easy to use"
+  ],
+  "cons": [
+    "Limited free uses",
+    "Can look artificial",
+    "Privacy concerns"
+  ],
+  "capabilities": [
+    "photo-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

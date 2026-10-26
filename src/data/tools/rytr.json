@@ -1,0 +1,30 @@
+{
+  "slug": "rytr",
+  "name": "Rytr",
+  "url": "https://rytr.me/",
+  "tagline": "Affordable AI writing assistant with various tones and email templates for light to moderate users.",
+  "about": "Rytr is a user-friendly and affordable AI writing assistant that provides various tones and email templates. It's suitable for users with low to moderate emailing needs who want AI assistance without premium pricing.",
+  "pros": [
+    "Very affordable pricing",
+    "Multiple tone options",
+    "Easy to use",
+    "Good template library"
+  ],
+  "cons": [
+    "Can produce generic outputs",
+    "Less ideal for complex personalization",
+    "Limited advanced features"
+  ],
+  "capabilities": [
+    "email",
+    "writing",
+    "chat-assistant",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

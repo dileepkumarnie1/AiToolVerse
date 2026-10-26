@@ -1,0 +1,26 @@
+{
+  "slug": "smallpdf",
+  "name": "Smallpdf",
+  "url": "https://smallpdf.com/",
+  "tagline": "AI-enhanced PDF tools for compression, conversion, editing, and signing documents online.",
+  "about": "Smallpdf offers a suite of AI-powered PDF tools including smart compression, OCR, and document conversion in a simple web interface.",
+  "pros": [
+    "Easy to use",
+    "No installation needed",
+    "Multiple format support"
+  ],
+  "cons": [
+    "Limited free uses",
+    "Privacy concerns for sensitive docs",
+    "Subscription for full features"
+  ],
+  "capabilities": [
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

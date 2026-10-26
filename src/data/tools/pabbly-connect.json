@@ -1,0 +1,26 @@
+{
+  "slug": "pabbly-connect",
+  "name": "Pabbly Connect",
+  "url": "https://www.pabbly.com/connect/",
+  "tagline": "Affordable workflow automation platform with unlimited operations.",
+  "about": "Pabbly Connect offers workflow automation with unlimited operations at a flat price, making it cost-effective.",
+  "pros": [
+    "Unlimited operations",
+    "Affordable",
+    "Good for high volume"
+  ],
+  "cons": [
+    "Less polished",
+    "Fewer integrations",
+    "Limited AI features"
+  ],
+  "capabilities": [
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

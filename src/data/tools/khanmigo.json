@@ -1,0 +1,26 @@
+{
+  "slug": "khanmigo",
+  "name": "Khanmigo (Khan Academy)",
+  "url": "https://www.khanacademy.org/khan-labs",
+  "tagline": "An AI-powered tutor and teaching assistant from Khan Academy.",
+  "about": "Khanmigo is an AI tutor integrated into the Khan Academy platform. It's designed to guide students through problems without giving away the answer, acting as a Socratic learning partner. It can also assist teachers with lesson planning.",
+  "pros": [
+    "Focuses on pedagogical best practices.",
+    "From a trusted, non-profit educational organization.",
+    "Can act as both a student tutor and a teacher's assistant."
+  ],
+  "cons": [
+    "Requires a monthly donation/subscription to access.",
+    "Limited to the subjects and content available on Khan Academy.",
+    "Still in development and being actively improved."
+  ],
+  "capabilities": [
+    "education-tutor"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

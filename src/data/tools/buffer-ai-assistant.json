@@ -1,0 +1,28 @@
+{
+  "slug": "buffer-ai-assistant",
+  "name": "Buffer AI Assistant",
+  "url": "https://buffer.com/ai",
+  "tagline": "Generate on‑brand social posts and ideas inside Buffer.",
+  "about": "Buffer’s AI helps brainstorm, draft, and repurpose content across networks, integrated with your scheduling calendar.",
+  "pros": [
+    "Tight with scheduling and analytics.",
+    "Easy brand tone prompts.",
+    "Good free tier."
+  ],
+  "cons": [
+    "Best for SMB and creators.",
+    "Limited long‑form tools.",
+    "Network feature parity varies."
+  ],
+  "capabilities": [
+    "social-media",
+    "chat-assistant",
+    "scheduling"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

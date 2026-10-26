@@ -1,0 +1,18 @@
+{
+  "slug": "chroma",
+  "name": "Chroma",
+  "url": "https://www.trychroma.com/",
+  "tagline": "Open-source vector database for AI applications and retrieval‑augmented generation.",
+  "about": "Chroma is a developer-friendly vector database for embeddings, semantic search, and RAG pipelines.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

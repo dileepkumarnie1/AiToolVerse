@@ -1,0 +1,30 @@
+{
+  "slug": "synthesia",
+  "name": "Synthesia",
+  "url": "https://www.synthesia.io/",
+  "tagline": "Industry-leading AI video avatars with 230+ styles, 140+ languages, and natural gestures for professional content.",
+  "about": "Synthesia is the industry leader for lifelike AI video avatars, offering over 230 avatar styles and support for 140+ languages. Avatars demonstrate natural gestures, expressions, and accurate lip sync, making it ideal for professional social media and marketing videos.",
+  "pros": [
+    "Most realistic video avatars",
+    "230+ avatar styles",
+    "140+ language support",
+    "Professional quality"
+  ],
+  "cons": [
+    "Premium pricing",
+    "Business-focused, not artistic",
+    "Video-centric, not static images"
+  ],
+  "capabilities": [
+    "video-generation",
+    "avatar-video",
+    "writing",
+    "voice-tts"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 96,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

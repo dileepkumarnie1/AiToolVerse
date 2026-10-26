@@ -1,0 +1,26 @@
+{
+  "slug": "stitch-fix",
+  "name": "Stitch Fix",
+  "url": "https://www.stitchfix.com/",
+  "tagline": "AI-powered personal styling service with human stylists and curated clothing selections.",
+  "about": "Stitch Fix combines AI algorithms with human stylists to select and deliver personalized clothing based on your style preferences.",
+  "pros": [
+    "Personalized selections",
+    "Human stylist touch",
+    "Easy returns"
+  ],
+  "cons": [
+    "Styling fee",
+    "Hit or miss items",
+    "Limited to their inventory"
+  ],
+  "capabilities": [
+    "fashion"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

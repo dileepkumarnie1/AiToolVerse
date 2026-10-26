@@ -1,0 +1,61 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isStringList(v, maxItems, maxLen) {
+      return v is list && v.size() <= maxItems
+        && (v.size() == 0 || (v[0] is string && v[0].size() <= maxLen));
+    }
+
+    function validProfile(p) {
+      return p is map
+        && p.keys().hasOnly(['goals', 'tasks', 'interests', 'skill', 'budget'])
+        && p.goals is list && p.goals.size() <= 10
+        && p.goals.hasOnly(['work', 'study', 'create', 'build', 'business', 'hobby'])
+        && p.tasks is list && p.tasks.size() <= 11
+        && p.tasks.hasOnly(['write', 'design', 'video', 'audio', 'code', 'research', 'automate', 'market', 'data', 'organize', 'life'])
+        && p.interests is list && p.interests.size() <= 12
+        && p.interests.hasOnly(['youtube', 'photography', 'music', 'writing-stories', 'podcasting', 'gaming', 'fitness', 'travel', 'fashion', 'home', 'investing', 'languages'])
+        && p.skill in ['beginner', 'intermediate', 'advanced']
+        && p.budget in ['free', 'freemium', 'paid'];
+    }
+
+    function validUserDoc(d) {
+      return d.keys().hasOnly(['profile', 'savedTools', 'updatedAt'])
+        && (!('profile' in d) || validProfile(d.profile))
+        && (!('savedTools' in d) || isStringList(d.savedTools, 300, 60))
+        && d.updatedAt == request.time;
+    }
+
+    // Each user can read and write only their own document.
+    match /users/{uid} {
+      allow read, delete: if signedIn() && request.auth.uid == uid;
+      allow create, update: if signedIn() && request.auth.uid == uid && validUserDoc(request.resource.data);
+    }
+
+    // Tool suggestions: create-only, max 5 per user per day (doc id = uid_day_slot), never readable by clients.
+    match /suggestions/{id} {
+      allow create: if signedIn()
+        && id.matches('^' + request.auth.uid + '_' + string(int(math.floor(request.time.toMillis() / 86400000))) + '_[0-4]$')
+        && request.resource.data.keys().hasOnly(['url', 'name', 'note', 'uid', 'createdAt'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.url is string
+        && request.resource.data.url.size() <= 300
+        && request.resource.data.url.matches('^https://[^\\s<>"]+$')
+        && request.resource.data.name is string
+        && request.resource.data.name.size() > 0 && request.resource.data.name.size() <= 80
+        && request.resource.data.note is string
+        && request.resource.data.note.size() <= 500
+        && request.resource.data.createdAt == request.time;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

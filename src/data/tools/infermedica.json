@@ -1,0 +1,26 @@
+{
+  "slug": "infermedica",
+  "name": "Infermedica",
+  "url": "https://infermedica.com/",
+  "tagline": "AI-powered preliminary diagnosis and patient triage.",
+  "about": "Infermedica provides AI-powered symptom checking and preliminary diagnosis for healthcare providers and patients.",
+  "pros": [
+    "Medical-grade AI",
+    "Symptom checker",
+    "API available"
+  ],
+  "cons": [
+    "Enterprise/healthcare only",
+    "Not for self-diagnosis",
+    "Regulatory considerations"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

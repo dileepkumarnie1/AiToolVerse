@@ -1,0 +1,18 @@
+{
+  "slug": "cartesia",
+  "name": "Cartesia",
+  "url": "https://cartesia.ai/",
+  "tagline": "Real-time voice AI platform for fast, natural text-to-speech and audio experiences.",
+  "about": "Cartesia focuses on low-latency voice AI for interactive apps and assistants.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "voice-tts"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

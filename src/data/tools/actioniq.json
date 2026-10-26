@@ -1,0 +1,27 @@
+{
+  "slug": "actioniq",
+  "name": "ActionIQ",
+  "url": "https://www.actioniq.com/",
+  "tagline": "Enterprise customer data platform with AI for marketing and customer experience.",
+  "about": "ActionIQ provides an enterprise CDP with AI-powered audience management and cross-channel orchestration.",
+  "pros": [
+    "Enterprise-grade",
+    "No-code audiences",
+    "Cross-channel"
+  ],
+  "cons": [
+    "Enterprise only",
+    "Long implementation",
+    "Expensive"
+  ],
+  "capabilities": [
+    "data-analysis",
+    "marketing-seo"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

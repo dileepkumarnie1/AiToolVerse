@@ -1,0 +1,19 @@
+{
+  "slug": "arc-search",
+  "name": "Arc Search",
+  "url": "https://arc.net/",
+  "tagline": "Mobile-first browser with AI-powered search and summary experiences from The Browser Company.",
+  "about": "Arc Search is a companion browser experience focused on faster discovery, with AI-assisted search summaries and browsing workflows.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "research-search",
+    "browser"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

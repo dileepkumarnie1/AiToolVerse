@@ -1,0 +1,24 @@
+{
+  "slug": "ai-chatbot",
+  "name": "ai-chatbot",
+  "url": "https://chat-sdk.dev/",
+  "tagline": "A free, open-source chatbot template that helps you build powerful AI applications.",
+  "about": "A free, open-source chatbot template that helps you build powerful AI applications.",
+  "pros": [
+    "Good for drafting and Q&A."
+  ],
+  "cons": [
+    "May require fact‑checking."
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "graphic-design"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

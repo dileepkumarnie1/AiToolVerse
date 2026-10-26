@@ -1,0 +1,27 @@
+{
+  "slug": "haiper",
+  "name": "Haiper",
+  "url": "https://haiper.ai/",
+  "tagline": "AI video generation focused on creative and artistic video content.",
+  "about": "Haiper creates AI-generated videos with a focus on creative and artistic content.",
+  "pros": [
+    "Creative focus",
+    "Free tier",
+    "Good quality"
+  ],
+  "cons": [
+    "Limited duration",
+    "Less realistic",
+    "Newer platform"
+  ],
+  "capabilities": [
+    "video-generation",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

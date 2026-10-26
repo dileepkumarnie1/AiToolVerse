@@ -1,0 +1,26 @@
+{
+  "slug": "fourkites",
+  "name": "FourKites",
+  "url": "https://www.fourkites.com/",
+  "tagline": "AI-powered supply chain visibility platform for real-time tracking and analytics.",
+  "about": "FourKites provides real-time supply chain visibility with AI-powered insights for shipment tracking and optimization.",
+  "pros": [
+    "Real-time tracking",
+    "Predictive ETAs",
+    "Network effects"
+  ],
+  "cons": [
+    "Enterprise focus",
+    "Carrier coverage varies",
+    "Integration needed"
+  ],
+  "capabilities": [
+    "industry-ops"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

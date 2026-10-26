@@ -1,0 +1,25 @@
+{
+  "slug": "cursor-free-vip",
+  "name": "cursor-free-vip",
+  "url": "https://www.cursor.com/",
+  "tagline": "Built to make you extraordinarily productive, Cursor is the best way to code with AI.",
+  "about": "Built to make you extraordinarily productive, Cursor is the best way to code with AI.",
+  "pros": [
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "graphic-design",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

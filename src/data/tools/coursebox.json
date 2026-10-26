@@ -1,0 +1,28 @@
+{
+  "slug": "coursebox",
+  "name": "Coursebox",
+  "url": "https://www.coursebox.ai/",
+  "tagline": "AI-powered course creation and curriculum design",
+  "about": "Coursebox automates curriculum design from simple outlines or existing materials to full courses, including quiz generation and assessment alignment. It integrates AI tutoring throughout course delivery for personalized learning experiences.",
+  "pros": [
+    "Rapid course creation",
+    "Automated quiz generation",
+    "AI tutoring integration",
+    "Supports multiple formats"
+  ],
+  "cons": [
+    "Subscription-based pricing",
+    "May require refinement of AI output",
+    "Best for structured courses"
+  ],
+  "capabilities": [
+    "education-tutor",
+    "graphic-design"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

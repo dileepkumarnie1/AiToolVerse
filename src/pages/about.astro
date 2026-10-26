@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import { pipelines, tools } from '../lib/catalog';
+---
+
+<Base title="About & methodology" description="How AIToolVerse finds, reviews and recommends AI tools.">
+  <article class="container-page max-w-3xl space-y-5 pt-14 leading-relaxed text-ink-700 dark:text-ink-200 [&_h2]:mt-10 [&_h2]:text-lg [&_h2]:font-semibold [&_h2]:text-ink-950 dark:[&_h2]:text-white">
+    <h1 class="heading-lg">About AIToolVerse</h1>
+    <p>There are thousands of AI tools. Most people need a handful, used in the right order. AIToolVerse lists {tools.length} tools and {pipelines.length} step-by-step pipelines, and recommends the few that fit your goals.</p>
+
+    <h2>How tools are added</h2>
+    <p>Every two days an automated job checks Product Hunt and Hacker News for new AI products. Candidates are checked automatically (secure website, not a duplicate, actually an AI product) and then reviewed by a person before they are published. Anyone can also <a class="text-brand-700 underline dark:text-brand-300" href="/suggest/">suggest a tool</a>.</p>
+
+    <h2>How recommendations work</h2>
+    <p>Each tool is tagged with what it does (for example "voiceover" or "meeting notes"), its pricing and how technical it is. Your answers are matched against these tags in your browser. Tools that fit your tasks, budget and experience rank higher. Popularity is a tie-breaker, never the main factor.</p>
+
+    <h2>Independence</h2>
+    <p>No listing or ranking is paid for. If we ever add affiliate links, they will be clearly labelled and will not change rankings.</p>
+  </article>
+</Base>

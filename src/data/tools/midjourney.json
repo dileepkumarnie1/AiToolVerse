@@ -1,0 +1,26 @@
+{
+  "slug": "midjourney",
+  "name": "Midjourney",
+  "url": "https://www.midjourney.com/",
+  "tagline": "A premier text-to-image AI that creates stunning, artistic visuals from prompts.",
+  "about": "Midjourney is an independent research lab that produces an artificial intelligence program that creates images from textual descriptions. It is known for its highly artistic and coherent image outputs, making it a favorite among artists and designers.",
+  "pros": [
+    "Produces exceptionally high-quality, artistic images.",
+    "Very active community and rapid development.",
+    "Powerful control over image styles and composition."
+  ],
+  "cons": [
+    "Requires using Discord to interact with the bot.",
+    "No free trial available.",
+    "Can be complex for beginners to master advanced prompting."
+  ],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

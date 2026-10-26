@@ -1,0 +1,27 @@
+{
+  "slug": "kits-ai",
+  "name": "Kits AI",
+  "url": "https://www.kits.ai/",
+  "tagline": "Voice models, cloning, and conversions for music creators.",
+  "about": "Convert vocals between timbres, build custom voices, and explore curated model library.",
+  "pros": [
+    "Creator‑focused.",
+    "Good conversions.",
+    "Model marketplace."
+  ],
+  "cons": [
+    "Rights management required.",
+    "Quality varies.",
+    "Credit system."
+  ],
+  "capabilities": [
+    "music-generation",
+    "voice-tts"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

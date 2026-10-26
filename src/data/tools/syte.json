@@ -1,0 +1,28 @@
+{
+  "slug": "syte",
+  "name": "Syte",
+  "url": "https://www.syte.ai/",
+  "tagline": "Visual AI platform for product discovery with visual search and recommendations.",
+  "about": "Syte enables visual product discovery with AI that lets customers search by image and find similar products.",
+  "pros": [
+    "Visual search",
+    "Fashion-focused",
+    "Camera search"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Implementation complexity",
+    "Category-specific"
+  ],
+  "capabilities": [
+    "ecommerce",
+    "research-search",
+    "fashion"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "luma-dream-machine",
+  "name": "Luma Dream Machine",
+  "url": "https://lumalabs.ai/dream-machine",
+  "tagline": "High‑quality text‑to‑video and video‑to‑video generation.",
+  "about": "Generates cinematic clips with good motion and style adherence from short prompts.",
+  "pros": [
+    "Crisp visuals.",
+    "Consistent motion.",
+    "Simple UI."
+  ],
+  "cons": [
+    "Short clip limits.",
+    "High demand queues.",
+    "Watermarks on free tiers."
+  ],
+  "capabilities": [
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "supabase",
+  "name": "supabase",
+  "url": "https://supabase.com/",
+  "tagline": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
+  "about": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
+  "pros": [
+    "Generates visuals quickly.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "developer-api",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

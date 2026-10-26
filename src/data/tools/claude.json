@@ -1,0 +1,26 @@
+{
+  "slug": "claude",
+  "name": "Claude (Anthropic)",
+  "url": "https://claude.ai/",
+  "tagline": "A safety-focused AI assistant known for its large context window and thoughtful responses.",
+  "about": "Claude is an AI assistant built by Anthropic with a focus on being helpful, harmless, and honest. It excels at tasks requiring a large amount of context, such as summarizing long documents or analyzing entire codebases.",
+  "pros": [
+    "Extremely large context window for processing long texts.",
+    "Strong emphasis on AI safety and ethics.",
+    "Often provides more nuanced and cautious responses."
+  ],
+  "cons": [
+    "Free version can have usage limits that reset daily.",
+    "May be less inclined to answer controversial or borderline prompts.",
+    "API access is more limited than some competitors."
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

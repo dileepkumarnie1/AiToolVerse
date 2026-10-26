@@ -1,0 +1,27 @@
+{
+  "slug": "microsoft-copilot-for-m365",
+  "name": "Microsoft Copilot for M365",
+  "url": "https://www.microsoft.com/microsoft-365/copilot",
+  "tagline": "AI across Word, Excel, PowerPoint, Outlook, and Teams.",
+  "about": "Drafts, analyzes, and visualizes directly inside M365 apps using your tenant data.",
+  "pros": [
+    "Deep app integration.",
+    "Enterprise security.",
+    "Strong governance."
+  ],
+  "cons": [
+    "Enterprise pricing.",
+    "Requires change management.",
+    "Feature rollout cadence."
+  ],
+  "capabilities": [
+    "automation",
+    "code-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

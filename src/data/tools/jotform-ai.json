@@ -1,0 +1,26 @@
+{
+  "slug": "jotform-ai",
+  "name": "Jotform AI",
+  "url": "https://www.jotform.com/ai/",
+  "tagline": "AI-powered form builder with smart form creation and analysis.",
+  "about": "Jotform's AI features help create forms automatically and analyze responses.",
+  "pros": [
+    "Easy form creation",
+    "AI analysis",
+    "Many templates"
+  ],
+  "cons": [
+    "Submission limits",
+    "Pricing for features",
+    "Can be complex"
+  ],
+  "capabilities": [
+    "forms-surveys"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

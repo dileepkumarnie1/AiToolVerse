@@ -1,0 +1,19 @@
+{
+  "slug": "bolt-new",
+  "name": "Bolt.new",
+  "url": "https://bolt.new/",
+  "tagline": "AI-powered full‑stack web app builder for shipping prototypes and apps quickly.",
+  "about": "Bolt.new helps you generate and iterate on full-stack apps from prompts, speeding up scaffolding, UI, and integration work.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "code-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

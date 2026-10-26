@@ -1,0 +1,26 @@
+{
+  "slug": "squadcast",
+  "name": "Squadcast",
+  "url": "https://squadcast.fm/",
+  "tagline": "Remote recording platform for podcasts with AI-powered features.",
+  "about": "Squadcast provides professional remote podcast recording with AI features for transcription and production.",
+  "pros": [
+    "Professional quality",
+    "Reliable",
+    "Good support"
+  ],
+  "cons": [
+    "Subscription required",
+    "Less AI than some",
+    "Simpler editing"
+  ],
+  "capabilities": [
+    "podcast"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

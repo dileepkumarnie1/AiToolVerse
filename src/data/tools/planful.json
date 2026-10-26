@@ -1,0 +1,26 @@
+{
+  "slug": "planful",
+  "name": "Planful",
+  "url": "https://planful.com/",
+  "tagline": "AI-powered financial planning and analysis platform for FP&A teams.",
+  "about": "Planful provides AI-powered financial planning, budgeting, and analysis tools for finance teams.",
+  "pros": [
+    "Comprehensive FP&A",
+    "AI forecasting",
+    "Good reporting"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Learning curve",
+    "Implementation time"
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

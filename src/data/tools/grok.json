@@ -1,0 +1,26 @@
+{
+  "slug": "grok",
+  "name": "Grok (xAI)",
+  "url": "https://grok.x.ai/",
+  "tagline": "An AI chatbot by xAI with real-time access to the X (formerly Twitter) platform.",
+  "about": "Grok is a conversational AI developed by xAI, designed to have a bit of wit and a rebellious streak. Its unique feature is its real-time knowledge of the world via the X platform, allowing it to answer questions about very recent events.",
+  "pros": [
+    "Real-time access to information from X.",
+    "Designed to have a more engaging and humorous personality.",
+    "Can handle spicy questions that other AIs might reject."
+  ],
+  "cons": [
+    "Requires a premium X subscription.",
+    "Prone to sarcasm and may not be suitable for all professional tasks.",
+    "Still a very new model with ongoing development."
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

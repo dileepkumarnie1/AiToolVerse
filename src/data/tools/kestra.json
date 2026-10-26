@@ -1,0 +1,20 @@
+{
+  "slug": "kestra",
+  "name": "kestra",
+  "url": "https://kestra.io/",
+  "tagline": "Orchestrate everything — from scripts to data, infra, AI, and business — as code, with UI and AI Copilot. Simple. Fast. Scalable.",
+  "about": "Orchestrate everything — from scripts to data, infra, AI, and business — as code, with UI and AI Copilot. Simple. Fast. Scalable.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "ltx-studio",
+  "name": "LTX Studio",
+  "url": "https://ltx.studio/",
+  "tagline": "AI-powered video creation with story-driven generation and editing.",
+  "about": "LTX Studio provides AI video creation focused on storytelling with generation and editing tools.",
+  "pros": [
+    "Story focus",
+    "Good editing",
+    "Character consistency"
+  ],
+  "cons": [
+    "Beta features",
+    "Learning curve",
+    "Subscription"
+  ],
+  "capabilities": [
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "liveperson",
+  "name": "LivePerson",
+  "url": "https://www.liveperson.com/",
+  "tagline": "Enterprise conversational AI and messaging platform.",
+  "about": "LivePerson provides enterprise-grade conversational AI for customer service across messaging channels and voice.",
+  "pros": [
+    "Enterprise-scale",
+    "Omnichannel support",
+    "Voice AI included"
+  ],
+  "cons": [
+    "Very expensive",
+    "Complex implementation",
+    "Long deployment time"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

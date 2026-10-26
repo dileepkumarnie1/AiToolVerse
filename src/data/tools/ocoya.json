@@ -1,0 +1,28 @@
+{
+  "slug": "ocoya",
+  "name": "Ocoya",
+  "url": "https://www.ocoya.com/",
+  "tagline": "AI-powered social media management with content creation and scheduling.",
+  "about": "Ocoya combines AI content creation with social media scheduling and analytics in one platform.",
+  "pros": [
+    "All-in-one",
+    "AI content",
+    "Affordable"
+  ],
+  "cons": [
+    "Newer platform",
+    "Content quality varies",
+    "Limited analytics"
+  ],
+  "capabilities": [
+    "social-media",
+    "writing",
+    "scheduling"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

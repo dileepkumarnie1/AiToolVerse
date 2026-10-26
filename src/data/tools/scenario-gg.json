@@ -1,0 +1,27 @@
+{
+  "slug": "scenario-gg",
+  "name": "Scenario.gg",
+  "url": "https://www.scenario.gg/",
+  "tagline": "AI game asset generation for consistent art styles",
+  "about": "Scenario.gg lets developers train custom models to generate style-consistent game assets including character art, backgrounds, and icons. It's ideal for small teams who need cohesive visuals quickly without large art departments.",
+  "pros": [
+    "Style-consistent asset generation",
+    "Fast iteration on art",
+    "Good for indie developers",
+    "Customizable AI models"
+  ],
+  "cons": [
+    "Requires training time for custom models",
+    "Quality varies with training data",
+    "Limited to 2D assets primarily"
+  ],
+  "capabilities": [
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

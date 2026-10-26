@@ -1,0 +1,27 @@
+{
+  "slug": "hunters",
+  "name": "Hunters",
+  "url": "https://www.hunters.security/",
+  "tagline": "AI-powered security operations platform that automates threat hunting.",
+  "about": "Hunters provides an AI-powered platform that automates threat detection and investigation for security teams.",
+  "pros": [
+    "Automated hunting",
+    "Reduces SOC workload",
+    "Cross-source correlation"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Implementation effort",
+    "Data integration needed"
+  ],
+  "capabilities": [
+    "cybersecurity",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

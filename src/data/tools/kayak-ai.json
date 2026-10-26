@@ -1,0 +1,27 @@
+{
+  "slug": "kayak-ai",
+  "name": "Kayak AI",
+  "url": "https://www.kayak.com/",
+  "tagline": "AI-powered travel search with natural language queries and price predictions.",
+  "about": "Kayak's AI features include conversational search, price forecasts, and personalized travel recommendations based on preferences.",
+  "pros": [
+    "Natural language search",
+    "Price prediction accuracy",
+    "Comprehensive results"
+  ],
+  "cons": [
+    "Redirects to booking sites",
+    "Some features need account",
+    "Can be overwhelming with options"
+  ],
+  "capabilities": [
+    "travel",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

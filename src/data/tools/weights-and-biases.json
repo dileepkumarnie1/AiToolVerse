@@ -1,0 +1,26 @@
+{
+  "slug": "weights-and-biases",
+  "name": "Weights & Biases",
+  "url": "https://wandb.ai/",
+  "tagline": "ML platform with experiment tracking, model management, and AI governance.",
+  "about": "Weights & Biases provides ML experiment tracking, model management, and governance features for teams.",
+  "pros": [
+    "Industry standard",
+    "Good tracking",
+    "Team features"
+  ],
+  "cons": [
+    "ML focus",
+    "Learning curve",
+    "Pricing for scale"
+  ],
+  "capabilities": [
+    "responsible-ai"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

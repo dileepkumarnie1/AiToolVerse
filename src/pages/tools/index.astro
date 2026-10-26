@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import ToolExplorer from '../../components/ToolExplorer';
+import { capabilities, categories, tools, toIndexEntry } from '../../lib/catalog';
+
+const capabilityLabels = Object.fromEntries(capabilities.map((c) => [c.id, c.label]));
+---
+
+<Base title="All AI tools" description={`Search and filter ${tools.length} AI tools by task, category, price and skill level.`}>
+  <section class="container-page pt-14">
+    <p class="eyebrow">Directory</p>
+    <h1 class="heading-lg mt-2">All AI tools</h1>
+    <p class="mt-2 max-w-2xl muted">
+      Search by what you want to do. Not sure where to start? <a href="/start/" class="font-semibold text-brand-700 hover:underline dark:text-brand-300">Get a personal recommendation</a>.
+    </p>
+    <div class="mt-8">
+      <ToolExplorer client:load initialTools={tools.slice(0, 48).map(toIndexEntry)} categories={categories} capabilityLabels={capabilityLabels} />
+    </div>
+  </section>
+</Base>

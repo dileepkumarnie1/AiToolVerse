@@ -1,0 +1,20 @@
+{
+  "slug": "kilocode",
+  "name": "kilocode",
+  "url": "https://marketplace.visualstudio.com/items?itemName=kilocode.Kilo-Code",
+  "tagline": "Open Source AI coding assistant for planning, building, and fixing code. We frequently merge features from open-source projects like Roo Code and Cline, while building our own vision. Follow us: kilocode.ai/social",
+  "about": "Open Source AI coding assistant for planning, building, and fixing code. We frequently merge features from open-source projects like Roo Code and Cline, while building our own vision. Follow us: kilocode.ai/social",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "adobe-firefly",
+  "name": "Adobe Firefly",
+  "url": "https://www.adobe.com/sensei/generative-ai/firefly.html",
+  "tagline": "Adobe's family of creative generative AI models, integrated into Photoshop and other apps.",
+  "about": "Adobe Firefly is a generative AI model designed to be commercially safe. It's trained exclusively on Adobe Stock's licensed content and public domain images, and is deeply integrated into Adobe's Creative Cloud apps like Photoshop and Illustrator.",
+  "pros": [
+    "Designed to be safe for commercial use.",
+    "Seamless integration with Adobe's professional creative tools.",
+    "Powerful features like Generative Fill in Photoshop."
+  ],
+  "cons": [
+    "Requires an Adobe Creative Cloud subscription for full integration.",
+    "Less suited for highly artistic or abstract styles.",
+    "Generative credits are required for heavy usage."
+  ],
+  "capabilities": [
+    "image-generation",
+    "responsible-ai"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

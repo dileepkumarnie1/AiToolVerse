@@ -1,0 +1,27 @@
+{
+  "slug": "aidoc",
+  "name": "Aidoc",
+  "url": "https://www.aidoc.com/",
+  "tagline": "AI-powered radiology for medical imaging analysis",
+  "about": "Aidoc provides FDA-cleared AI-powered radiology solutions for medical imaging that flags urgent findings in CT scans, MRI, and X-rays. It integrates directly with PACS and helps radiologists detect anomalies quickly, cutting image interpretation time and reducing missed diagnoses.",
+  "pros": [
+    "FDA-cleared for medical use",
+    "Reduces diagnostic errors",
+    "Speeds up radiology workflows",
+    "Supports multiple imaging modalities"
+  ],
+  "cons": [
+    "Requires PACS integration",
+    "Premium pricing",
+    "Focused on radiology only"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

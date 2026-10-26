@@ -1,0 +1,29 @@
+{
+  "slug": "loom-ai",
+  "name": "Loom AI",
+  "url": "https://www.loom.com/",
+  "tagline": "Video messaging with AI summaries, chapters, and transcription.",
+  "about": "Loom provides video messaging with AI-powered summaries and transcription.",
+  "pros": [
+    "Quick recording",
+    "AI summaries",
+    "Easy sharing"
+  ],
+  "cons": [
+    "Subscription for features",
+    "Storage limits",
+    "Video focus only"
+  ],
+  "capabilities": [
+    "screen-recording",
+    "summarization",
+    "video-generation",
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

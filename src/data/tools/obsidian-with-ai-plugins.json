@@ -1,0 +1,26 @@
+{
+  "slug": "obsidian-with-ai-plugins",
+  "name": "Obsidian with AI plugins",
+  "url": "https://obsidian.md/",
+  "tagline": "Extensible markdown knowledge base with AI capabilities.",
+  "about": "Obsidian is a powerful markdown-based knowledge base that becomes AI-enhanced through plugins for GPT integration, smart search, and content generation.",
+  "pros": [
+    "Highly customizable",
+    "Local-first",
+    "Strong community"
+  ],
+  "cons": [
+    "Learning curve",
+    "AI requires plugins",
+    "Sync costs extra"
+  ],
+  "capabilities": [
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

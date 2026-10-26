@@ -1,0 +1,26 @@
+{
+  "slug": "tempus",
+  "name": "Tempus",
+  "url": "https://www.tempus.com/",
+  "tagline": "AI platform for precision medicine using clinical and molecular data analysis.",
+  "about": "Tempus uses AI to analyze clinical and molecular data to help doctors make better treatment decisions for patients.",
+  "pros": [
+    "Comprehensive data",
+    "Precision medicine",
+    "Research partnership"
+  ],
+  "cons": [
+    "Enterprise only",
+    "Complex integration",
+    "Data requirements"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

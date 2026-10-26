@@ -1,0 +1,23 @@
+{
+  "slug": "stabilitymatrix",
+  "name": "StabilityMatrix",
+  "url": "https://lykos.ai/",
+  "tagline": "Multi-Platform Package Manager and Inference UI for AI Image Generation. Works with Flux and Stable Diffusion.",
+  "about": "Multi-Platform Package Manager and Inference UI for AI Image Generation. Works with Flux and Stable Diffusion.",
+  "pros": [
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "image-generation",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

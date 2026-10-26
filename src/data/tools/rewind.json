@@ -1,0 +1,18 @@
+{
+  "slug": "rewind",
+  "name": "Rewind",
+  "url": "https://www.rewind.ai/",
+  "tagline": "Personal AI memory that makes your screen activity searchable.",
+  "about": "Rewind helps you find past context by searching your own captured activity and notes.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "research-search"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

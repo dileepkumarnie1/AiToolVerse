@@ -1,0 +1,29 @@
+{
+  "slug": "openai-moderation-api",
+  "name": "OpenAI Moderation API",
+  "url": "https://platform.openai.com/docs/guides/moderation",
+  "tagline": "Free API for detecting harmful content across multiple categories.",
+  "about": "OpenAI's Moderation API identifies potentially harmful content including hate, violence, and self-harm for free.",
+  "pros": [
+    "Free to use",
+    "Multiple categories",
+    "Easy integration"
+  ],
+  "cons": [
+    "English-focused",
+    "Categories are fixed",
+    "May miss context"
+  ],
+  "capabilities": [
+    "industry-ops",
+    "developer-api",
+    "writing",
+    "responsible-ai"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

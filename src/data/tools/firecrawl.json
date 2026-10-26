@@ -1,0 +1,29 @@
+{
+  "slug": "firecrawl",
+  "name": "firecrawl",
+  "url": "https://firecrawl.dev/",
+  "tagline": "The web crawling, scraping, and search API for AI. Built for scale. Firecrawl delivers the entire internet to AI agents and builders. Clean, structured, and ready to reason with.",
+  "about": "The web crawling, scraping, and search API for AI. Built for scale. Firecrawl delivers the entire internet to AI agents and builders. Clean, structured, and ready to reason with.",
+  "pros": [
+    "Generates visuals quickly.",
+    "Great for research and discovery.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Coverage and speed can vary.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "developer-api",
+    "graphic-design",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

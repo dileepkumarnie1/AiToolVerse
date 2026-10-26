@@ -1,0 +1,27 @@
+{
+  "slug": "wonderplan",
+  "name": "Wonderplan",
+  "url": "https://wonderplan.ai/",
+  "tagline": "AI trip planner that creates personalized itineraries based on your budget and interests.",
+  "about": "Wonderplan generates travel plans considering your budget constraints, preferred activities, and travel style.",
+  "pros": [
+    "Budget-conscious planning",
+    "Interest-based suggestions",
+    "Easy to modify"
+  ],
+  "cons": [
+    "Limited integrations",
+    "Generic for popular destinations",
+    "Newer platform"
+  ],
+  "capabilities": [
+    "travel",
+    "finance"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

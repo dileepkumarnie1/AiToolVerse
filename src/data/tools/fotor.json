@@ -1,0 +1,27 @@
+{
+  "slug": "fotor",
+  "name": "Fotor",
+  "url": "https://www.fotor.com/",
+  "tagline": "Online photo editor and design tool with AI-powered enhancement and creation features.",
+  "about": "Fotor combines photo editing with AI features like background removal, enhancement, and AI image generation in one platform.",
+  "pros": [
+    "All-in-one platform",
+    "Easy to use",
+    "Free tier available"
+  ],
+  "cons": [
+    "Watermarks in free tier",
+    "Limited advanced editing",
+    "Web-based limitations"
+  ],
+  "capabilities": [
+    "photo-editing",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "windsurf",
+  "name": "Windsurf",
+  "url": "https://codeium.com/windsurf",
+  "tagline": "AI-powered code editor with deep codebase understanding and intelligent autocomplete.",
+  "about": "Windsurf by Codeium is an AI-native code editor with intelligent autocomplete and chat features built from the ground up.",
+  "pros": [
+    "Free tier available",
+    "Deep codebase understanding",
+    "Fast autocomplete"
+  ],
+  "cons": [
+    "Newer than VS Code",
+    "Smaller plugin ecosystem",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

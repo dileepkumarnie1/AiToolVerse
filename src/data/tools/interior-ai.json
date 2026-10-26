@@ -1,0 +1,28 @@
+{
+  "slug": "interior-ai",
+  "name": "Interior AI",
+  "url": "https://interiorai.com/",
+  "tagline": "AI tool that redesigns rooms from photos with different styles and decorations.",
+  "about": "Interior AI transforms photos of your rooms into new designs with different styles, furniture, and decorations using AI.",
+  "pros": [
+    "Instant visualization",
+    "Multiple styles",
+    "Easy to use"
+  ],
+  "cons": [
+    "Quality varies",
+    "Limited customization",
+    "Credits-based"
+  ],
+  "capabilities": [
+    "interior-design",
+    "graphic-design",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

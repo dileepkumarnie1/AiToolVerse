@@ -1,0 +1,27 @@
+{
+  "slug": "you-com",
+  "name": "You.com",
+  "url": "https://you.com/",
+  "tagline": "AI-powered search and chat engine with privacy focus.",
+  "about": "You.com combines search, chat, and generative AI for a customizable, privacy-respecting experience.",
+  "pros": [
+    "Customizable search.",
+    "Integrated chat.",
+    "No tracking."
+  ],
+  "cons": [
+    "Results can vary.",
+    "Newer ecosystem.",
+    "Some features paid."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

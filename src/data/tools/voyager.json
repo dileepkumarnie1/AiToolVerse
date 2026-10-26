@@ -1,0 +1,29 @@
+{
+  "slug": "voyager",
+  "name": "Voyager (Minecraft AI)",
+  "url": "https://voyager.minedojo.org/",
+  "tagline": "Lifelong learning agent that autonomously explores and improves at tasks.",
+  "about": "An agent from Microsoft that learns skills in Minecraft autonomously, building a library of abilities. It’s a proof of concept for lifelong learning agents in open worlds.",
+  "pros": [
+    "Innovative lifelong learning.",
+    "Demonstrates continuous skill acquisition.",
+    "Potential for real-world robotics."
+  ],
+  "cons": [
+    "Research demo only.",
+    "Not for productivity tasks.",
+    "High compute cost."
+  ],
+  "capabilities": [
+    "agents",
+    "research-search",
+    "education-tutor",
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

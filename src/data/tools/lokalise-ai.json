@@ -1,0 +1,27 @@
+{
+  "slug": "lokalise-ai",
+  "name": "Lokalise AI",
+  "url": "https://lokalise.com/",
+  "tagline": "Professional localization platform with AI translation, glossary integration, and project management for 30+ languages.",
+  "about": "Lokalise AI provides excellent accuracy for professional localization projects. It supports 30+ languages with robust translation memory, glossary integration, and deep context management including style guides and brand voice. It integrates with GitHub, Figma, and Adobe for seamless workflows.",
+  "pros": [
+    "High accuracy with context awareness",
+    "Translation memory and glossary support",
+    "Integrates with development tools",
+    "Good for high-volume projects"
+  ],
+  "cons": [
+    "Requires TMS subscription for full features",
+    "Learning curve for complex projects",
+    "Can be expensive for small teams"
+  ],
+  "capabilities": [
+    "translation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "levity",
+  "name": "Levity",
+  "url": "https://www.levity.ai/",
+  "tagline": "Levity automatically classifies incoming emails and attachments based on your custom categories so you can sort, route and prioritize without manual tagging.",
+  "about": "Levity automatically classifies incoming emails and attachments based on your custom categories so you can sort, route and prioritize without manual tagging.",
+  "pros": [
+    "Good for drafting and Q&A.",
+    "Generates visuals quickly.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "May require fact‑checking.",
+    "Quality varies by prompt.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "automation",
+    "chat-assistant",
+    "translation",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

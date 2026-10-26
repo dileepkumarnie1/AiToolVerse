@@ -1,0 +1,28 @@
+{
+  "slug": "tome",
+  "name": "Tome",
+  "url": "https://tome.app/",
+  "tagline": "An AI-powered tool for generating entire presentations and narrative documents.",
+  "about": "Tome is an AI-powered storytelling and presentation tool that goes beyond simple slides. It generates entire presentations from a single prompt, complete with AI-generated text and images. It focuses on creating a narrative flow and allows for the embedding of interactive content like 3D renderings, web pages, and data visualizations, making for a more dynamic experience than traditional slideshows.",
+  "pros": [
+    "Incredibly fast for generating an entire, structured presentation from one prompt.",
+    "Creates visually appealing and modern designs automatically.",
+    "Supports interactive and embeddable content."
+  ],
+  "cons": [
+    "Layouts and design options can be less flexible than manual tools like Figma or PowerPoint.",
+    "The free plan is limited, and core AI features require a subscription.",
+    "The highly visual style may not be suitable for all corporate or formal settings."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "presentations",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

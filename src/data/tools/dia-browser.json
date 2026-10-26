@@ -1,0 +1,28 @@
+{
+  "slug": "dia-browser",
+  "name": "Dia Browser",
+  "url": "https://dia.app/",
+  "tagline": "Revolutionary AI-native browser built from scratch with contextual automation, replacing traditional tabs and bookmarks.",
+  "about": "Dia Browser reimagines web browsing with an AI-first approach. Instead of traditional tabs and bookmarks, it uses contextual automation and 'skills' to organize and execute routine workflows. It's designed for early adopters who want the cutting edge of AI browsing.",
+  "pros": [
+    "Most innovative AI-native browsing experience",
+    "Contextual automation replaces manual workflows",
+    "Video summarization and multi-step actions built-in",
+    "Skills system for routine task automation"
+  ],
+  "cons": [
+    "Very new and still evolving",
+    "Requires adaptation to new browsing paradigm",
+    "Limited extensions and traditional browser features"
+  ],
+  "capabilities": [
+    "browser",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "octane-ai",
+  "name": "Octane AI",
+  "url": "https://www.octaneai.com/",
+  "tagline": "AI-powered quiz and personalization platform for Shopify stores.",
+  "about": "Octane AI helps Shopify stores create product recommendation quizzes and personalized shopping experiences.",
+  "pros": [
+    "Conversion-focused",
+    "Easy quiz builder",
+    "Shopify integration"
+  ],
+  "cons": [
+    "Shopify only",
+    "Subscription pricing",
+    "Quiz focus only"
+  ],
+  "capabilities": [
+    "ecommerce"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

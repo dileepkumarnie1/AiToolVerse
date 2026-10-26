@@ -1,0 +1,18 @@
+{
+  "slug": "deepseek-chat",
+  "name": "DeepSeek Chat",
+  "url": "https://chat.deepseek.com/",
+  "tagline": "Fast, high-quality LLM chat",
+  "about": "Fast, high-quality LLM chat",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

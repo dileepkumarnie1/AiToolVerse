@@ -1,0 +1,25 @@
+{
+  "slug": "agentic-security",
+  "name": "agentic_security",
+  "url": "https://agentic-security.vercel.app/",
+  "tagline": "Open-source LLM Vulnerability Scanner for safe and reliable AI.",
+  "about": "Open-source LLM Vulnerability Scanner for safe and reliable AI.",
+  "pros": [
+    "Easy to get started."
+  ],
+  "cons": [
+    "May require an account or credits."
+  ],
+  "capabilities": [
+    "responsible-ai",
+    "agents",
+    "graphic-design",
+    "cybersecurity"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

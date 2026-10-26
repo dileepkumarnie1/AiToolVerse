@@ -1,0 +1,27 @@
+{
+  "slug": "elliptic",
+  "name": "Elliptic",
+  "url": "https://www.elliptic.co/",
+  "tagline": "AI-powered blockchain analytics for compliance and risk management.",
+  "about": "Elliptic provides AI-powered blockchain analytics for compliance, AML, and risk management.",
+  "pros": [
+    "Compliance focus",
+    "Enterprise-grade",
+    "Regulatory acceptance"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Compliance focus only",
+    "Not for trading"
+  ],
+  "capabilities": [
+    "finance",
+    "legal"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "taranis",
+  "name": "Taranis",
+  "url": "https://www.taranis.com/",
+  "tagline": "AI-powered crop intelligence using high-resolution aerial imagery for precision agriculture.",
+  "about": "Taranis captures ultra-high resolution crop imagery and uses AI to identify issues at the leaf level before they become visible.",
+  "pros": [
+    "Leaf-level detection",
+    "Early warning system",
+    "Actionable insights"
+  ],
+  "cons": [
+    "Premium service",
+    "Requires flyovers",
+    "Enterprise-focused"
+  ],
+  "capabilities": [
+    "industry-ops"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

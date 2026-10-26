@@ -1,0 +1,28 @@
+{
+  "slug": "sonix",
+  "name": "Sonix",
+  "url": "https://sonix.ai/",
+  "tagline": "Automated transcription service with translation and subtitle generation in 40+ languages.",
+  "about": "Sonix provides fast automated transcription with built-in translation and subtitle export capabilities.",
+  "pros": [
+    "Fast turnaround",
+    "Many languages",
+    "Subtitle export"
+  ],
+  "cons": [
+    "Pay per minute",
+    "Accuracy varies",
+    "Basic editor"
+  ],
+  "capabilities": [
+    "transcription",
+    "translation",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

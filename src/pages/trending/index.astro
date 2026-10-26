@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import ToolTile from '../../components/ToolTile';
+import { capabilityById, newestTools, tools } from '../../lib/catalog';
+
+const newest = newestTools(24);
+const popular = tools.slice(0, 12);
+---
+
+<Base title="Trending and new AI tools" description="The newest AI tools added to AIToolVerse, reviewed and updated every two days, plus the most popular tools right now.">
+  <section class="container-page pt-14">
+    <p class="eyebrow">Trending</p>
+    <h1 class="heading-lg mt-2">New and trending AI tools</h1>
+    <p class="mt-2 max-w-2xl muted">We scan Product Hunt and Hacker News every two days. Every new tool is reviewed before it is listed.</p>
+    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {newest.map((t) => <ToolTile tool={t} capabilityLabel={capabilityById.get(t.capabilities[0])?.label} />)}
+    </div>
+
+    <h2 class="heading-lg mt-20">Most popular</h2>
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {popular.map((t) => <ToolTile tool={t} capabilityLabel={capabilityById.get(t.capabilities[0])?.label} />)}
+    </div>
+  </section>
+</Base>

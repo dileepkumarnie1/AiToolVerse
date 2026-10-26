@@ -1,0 +1,23 @@
+{
+  "slug": "easydiffusion",
+  "name": "easydiffusion",
+  "url": "https://easydiffusion.github.io/",
+  "tagline": "A simple 1-click way to create beautiful images on your computer, by installing Stable Diffusion. No dependencies or technical knowledge required",
+  "about": "A simple 1-click way to create beautiful images on your computer, by installing Stable Diffusion. No dependencies or technical knowledge required",
+  "pros": [
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "image-generation",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

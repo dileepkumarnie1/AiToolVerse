@@ -1,0 +1,27 @@
+{
+  "slug": "removal-ai",
+  "name": "Removal.ai",
+  "url": "https://removal.ai/",
+  "tagline": "AI-powered background removal for images with batch processing.",
+  "about": "Removal.ai provides AI background removal with batch processing and API access.",
+  "pros": [
+    "Batch processing",
+    "API available",
+    "Good quality"
+  ],
+  "cons": [
+    "Credits-based",
+    "Premium for high-res",
+    "Some artifacts"
+  ],
+  "capabilities": [
+    "photo-editing",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "zappy",
+  "name": "Zappy",
+  "url": "https://zapier.com/zappy",
+  "tagline": "Quick, free screen recording and GIF creation tool for Mac users with instant sharing",
+  "about": "Zappy by Zapier is a lightweight, free screen recording tool for Mac that allows quick captures, GIF creation, and instant sharing with teams.",
+  "pros": [
+    "Completely free to use",
+    "Extremely fast and lightweight",
+    "Great for creating GIFs quickly",
+    "Instant shareable links"
+  ],
+  "cons": [
+    "Mac only - no Windows support",
+    "Limited editing features",
+    "Basic functionality compared to pro tools"
+  ],
+  "capabilities": [
+    "screen-recording",
+    "education-tutor",
+    "video-generation"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "openai-edge-tts",
+  "name": "openai-edge-tts",
+  "url": "https://tts.travisvn.com/",
+  "tagline": "Listen to high-quality text-to-speech samples and use Edge TTS, a free, OpenAI-compatible API leveraging Microsoft Edge voices.",
+  "about": "Listen to high-quality text-to-speech samples and use Edge TTS, a free, OpenAI-compatible API leveraging Microsoft Edge voices.",
+  "pros": [
+    "Useful for voice and audio workflows.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "May need cleanup for artifacts.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "voice-tts",
+    "developer-api",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

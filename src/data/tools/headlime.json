@@ -1,0 +1,27 @@
+{
+  "slug": "headlime",
+  "name": "Headlime",
+  "url": "https://headlime.com/",
+  "tagline": "AI copywriting tool for creating marketing copy, headlines, and landing pages.",
+  "about": "Headlime uses GPT-3 to generate marketing copy, catchy headlines, and complete landing pages from simple inputs.",
+  "pros": [
+    "Quick generation",
+    "Multiple templates",
+    "Easy to use"
+  ],
+  "cons": [
+    "Output needs editing",
+    "Template-dependent",
+    "Subscription required"
+  ],
+  "capabilities": [
+    "marketing-seo",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

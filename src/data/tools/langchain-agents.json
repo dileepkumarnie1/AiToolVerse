@@ -1,0 +1,27 @@
+{
+  "slug": "langchain-agents",
+  "name": "LangChain Agents",
+  "url": "https://python.langchain.com/docs/modules/agents/",
+  "tagline": "A core component of the LangChain framework for building tool-using agents.",
+  "about": "LangChain's agent module provides a standard, flexible interface for building agents that can use a variety of tools. Developers can use pre-built agent types (like ReAct or Self-Ask) or create custom ones, giving the agent access to calculators, search engines, APIs, and other resources.",
+  "pros": [
+    "Massive ecosystem of pre-built tools and integrations.",
+    "Highly flexible, allowing for the creation of complex, custom agent logic.",
+    "Backed by a large and active developer community."
+  ],
+  "cons": [
+    "Has a very steep learning curve for beginners.",
+    "The framework's abstractions can be complex and difficult to debug.",
+    "Rapid development means APIs can change, leading to breaking changes."
+  ],
+  "capabilities": [
+    "agents",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

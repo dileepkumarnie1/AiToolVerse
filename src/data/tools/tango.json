@@ -1,0 +1,29 @@
+{
+  "slug": "tango",
+  "name": "Tango",
+  "url": "https://www.tango.us/",
+  "tagline": "AI tool that creates how-to guides from screen recordings automatically.",
+  "about": "Tango automatically creates step-by-step guides as you click through processes.",
+  "pros": [
+    "Automatic documentation",
+    "Easy to use",
+    "Browser extension"
+  ],
+  "cons": [
+    "Screenshot-based",
+    "Limited editing",
+    "Subscription for teams"
+  ],
+  "capabilities": [
+    "screen-recording",
+    "education-tutor",
+    "video-generation",
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

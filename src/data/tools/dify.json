@@ -1,0 +1,27 @@
+{
+  "slug": "dify",
+  "name": "Dify",
+  "url": "https://dify.ai/",
+  "tagline": "Open-source platform for building and deploying LLM applications.",
+  "about": "Dify is an open-source platform for building AI applications with RAG, agents, and workflow orchestration.",
+  "pros": [
+    "Open source",
+    "Feature-rich",
+    "Active development"
+  ],
+  "cons": [
+    "Self-hosting complexity",
+    "Learning curve",
+    "Resource needs"
+  ],
+  "capabilities": [
+    "agents",
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

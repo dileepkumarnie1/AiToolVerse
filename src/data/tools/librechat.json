@@ -1,0 +1,21 @@
+{
+  "slug": "librechat",
+  "name": "LibreChat",
+  "url": "https://librechat.ai/",
+  "tagline": "Free, open source AI chat platform - Every AI for Everyone",
+  "about": "Free, open source AI chat platform - Every AI for Everyone",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api",
+    "research-search"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

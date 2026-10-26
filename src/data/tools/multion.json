@@ -1,0 +1,28 @@
+{
+  "slug": "multion",
+  "name": "MultiOn",
+  "url": "https://www.multion.ai/",
+  "tagline": "An AI agent that can control web browsers to carry out tasks for you.",
+  "about": "MultiOn is building a practical AI agent that acts as a web navigator. By understanding natural language commands, it can perform multi-step actions on websites, such as booking flights, ordering food, or filling out complex forms, effectively acting as an automated version of you in the browser.",
+  "pros": [
+    "Excellent at automating complex, multi-step tasks across websites.",
+    "User-friendly interface through a browser extension.",
+    "Has the potential to be a massive time-saver for repetitive online tasks."
+  ],
+  "cons": [
+    "Can be brittle and may break when a website's UI changes.",
+    "Requires trusting the service with personal information and login credentials.",
+    "Still in active development, with some features in beta."
+  ],
+  "capabilities": [
+    "agents",
+    "browser",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

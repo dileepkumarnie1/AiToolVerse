@@ -1,0 +1,29 @@
+{
+  "slug": "claraverse",
+  "name": "ClaraVerse",
+  "url": "https://claraverse.space/",
+  "tagline": "Complete AI development suite with LumaUI web dev, ComfyUI image generation, N8N automation, and local LLMs. 100% private and offline.",
+  "about": "Complete AI development suite with LumaUI web dev, ComfyUI image generation, N8N automation, and local LLMs. 100% private and offline.",
+  "pros": [
+    "Good for drafting and Q&A.",
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "May require fact‑checking.",
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "graphic-design",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

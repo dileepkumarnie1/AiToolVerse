@@ -1,0 +1,28 @@
+{
+  "slug": "clockwise",
+  "name": "Clockwise",
+  "url": "https://www.getclockwise.com/",
+  "tagline": "Team-focused AI scheduler that optimizes group calendars and protects deep work time automatically.",
+  "about": "Clockwise is designed for teams, helping optimize group schedules and protect deep work blocks. It automatically reschedules meetings based on priorities, learns team habits, and integrates with Google Calendar and Slack.",
+  "pros": [
+    "Excellent for team coordination",
+    "Protects focus time",
+    "Learns team preferences",
+    "Good integrations"
+  ],
+  "cons": [
+    "Requires team adoption",
+    "Google Calendar focused",
+    "Complex for individual use"
+  ],
+  "capabilities": [
+    "scheduling",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

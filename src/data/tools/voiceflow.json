@@ -1,0 +1,29 @@
+{
+  "slug": "voiceflow",
+  "name": "Voiceflow",
+  "url": "https://www.voiceflow.com/",
+  "tagline": "Collaborative platform for designing, prototyping, and building AI assistants.",
+  "about": "Voiceflow enables teams to design and build conversational AI experiences for chat and voice platforms.",
+  "pros": [
+    "Great for teams",
+    "Multi-channel",
+    "Visual design"
+  ],
+  "cons": [
+    "Learning curve",
+    "Pricing for teams",
+    "Complex for simple bots"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "graphic-design",
+    "voice-tts"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

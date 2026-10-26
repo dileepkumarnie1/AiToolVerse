@@ -1,0 +1,26 @@
+{
+  "slug": "lalal-ai",
+  "name": "LALAL.AI",
+  "url": "https://www.lalal.ai/",
+  "tagline": "An AI-powered service for splitting audio tracks into their constituent stems.",
+  "about": "LALAL.AI is a stem separation service that uses AI to extract vocals, accompaniment, and individual instruments from any audio or video file. It's a powerful tool for music producers, DJs, and musicians who want to create remixes or practice with backing tracks.",
+  "pros": [
+    "High-quality separation of audio stems.",
+    "Fast and easy-to-use web interface.",
+    "Supports a wide range of file formats."
+  ],
+  "cons": [
+    "The free version has very limited processing time.",
+    "Credit-based system can be costly for bulk processing.",
+    "The quality of separation can depend on the complexity of the source audio."
+  ],
+  "capabilities": [
+    "music-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

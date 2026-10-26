@@ -1,0 +1,26 @@
+{
+  "slug": "dreamstudio",
+  "name": "DreamStudio",
+  "url": "https://dreamstudio.ai/",
+  "tagline": "Official web app for Stable Diffusion image generation.",
+  "about": "DreamStudio is the official web interface for Stable Diffusion, offering easy prompt-based image creation.",
+  "pros": [
+    "Official SD interface.",
+    "Easy to use.",
+    "Free credits to start."
+  ],
+  "cons": [
+    "Credits required for heavy use.",
+    "Limited advanced controls.",
+    "Web-based only."
+  ],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

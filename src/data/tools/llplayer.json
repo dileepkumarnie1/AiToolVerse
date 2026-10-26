@@ -1,0 +1,29 @@
+{
+  "slug": "llplayer",
+  "name": "LLPlayer",
+  "url": "https://llplayer.com/",
+  "tagline": "The media player for language learning, with dual subtitles, AI-generated subtitles, real-time translation, and more!",
+  "about": "The media player for language learning, with dual subtitles, AI-generated subtitles, real-time translation, and more!",
+  "pros": [
+    "Open source and extensible.",
+    "Accelerates video creation.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Render times or credit limits may apply.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "voice-tts",
+    "translation",
+    "video-generation",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "auditoria",
+  "name": "Auditoria",
+  "url": "https://www.auditoria.ai/",
+  "tagline": "AI-powered finance automation for accounts payable and receivable.",
+  "about": "Auditoria uses AI agents to automate accounts payable, accounts receivable, and vendor management processes.",
+  "pros": [
+    "AP/AR focus",
+    "AI agents",
+    "Good automation"
+  ],
+  "cons": [
+    "Enterprise focus",
+    "Implementation time",
+    "Specific use case"
+  ],
+  "capabilities": [
+    "finance",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

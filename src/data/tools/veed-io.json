@@ -1,0 +1,28 @@
+{
+  "slug": "veed-io",
+  "name": "Veed.io",
+  "url": "https://www.veed.io/",
+  "tagline": "Online video editor with AI-powered features.",
+  "about": "Veed.io offers video editing, subtitles, and AI tools for content creators.",
+  "pros": [
+    "Beginner-friendly.",
+    "AI subtitle generation.",
+    "Templates included."
+  ],
+  "cons": [
+    "Watermarks on free plan.",
+    "Export limits.",
+    "Some features paid."
+  ],
+  "capabilities": [
+    "video-generation",
+    "video-editing",
+    "transcription"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

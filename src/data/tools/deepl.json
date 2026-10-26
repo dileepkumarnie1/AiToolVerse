@@ -1,0 +1,27 @@
+{
+  "slug": "deepl",
+  "name": "DeepL",
+  "url": "https://www.deepl.com/translator",
+  "tagline": "A highly accurate AI-powered translation service known for its natural-sounding output.",
+  "about": "DeepL is a deep learning-based translation service that is widely considered to be one of the most accurate in the world. It excels at capturing nuance and producing translations that sound natural and fluent.",
+  "pros": [
+    "Exceptionally high translation accuracy.",
+    "Preserves the nuance and tone of the source text.",
+    "Offers a powerful API for developers."
+  ],
+  "cons": [
+    "Free version has limits on text length and usage.",
+    "Fewer languages supported than some competitors like Google Translate.",
+    "Pro features like document translation require a subscription."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "translation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

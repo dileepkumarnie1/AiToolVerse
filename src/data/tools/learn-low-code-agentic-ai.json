@@ -1,0 +1,25 @@
+{
+  "slug": "learn-low-code-agentic-ai",
+  "name": "learn-low-code-agentic-ai",
+  "url": "https://panaversity.org/",
+  "tagline": "Learn Agentic AI with AI-powered Panaversity.",
+  "about": "Learn Agentic AI with AI-powered Panaversity.",
+  "pros": [
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "automation",
+    "agents",
+    "graphic-design",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

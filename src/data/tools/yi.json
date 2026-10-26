@@ -1,0 +1,26 @@
+{
+  "slug": "yi",
+  "name": "Yi",
+  "url": "https://www.01.ai/",
+  "tagline": "01.AI's open-source bilingual LLM with strong Chinese and English capabilities.",
+  "about": "Yi models from 01.AI are bilingual Chinese-English models with strong performance across both languages.",
+  "pros": [
+    "Bilingual excellence",
+    "Open source",
+    "Good benchmarks"
+  ],
+  "cons": [
+    "Chinese company",
+    "Self-hosting needed",
+    "Smaller ecosystem"
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

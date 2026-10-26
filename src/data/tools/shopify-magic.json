@@ -1,0 +1,27 @@
+{
+  "slug": "shopify-magic",
+  "name": "Shopify Magic",
+  "url": "https://www.shopify.com/magic",
+  "tagline": "AI features across Shopify for product text, customer support, and more.",
+  "about": "Shopify Magic helps write product descriptions, answer chats, and personalize storefront content.",
+  "pros": [
+    "Built into Shopify admin.",
+    "Fast copy generation.",
+    "Improves store ops."
+  ],
+  "cons": [
+    "Limited outside Shopify.",
+    "Quality varies by input.",
+    "Advanced features require paid plans."
+  ],
+  "capabilities": [
+    "ecommerce",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

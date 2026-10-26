@@ -1,0 +1,27 @@
+{
+  "slug": "deep-instinct",
+  "name": "Deep Instinct",
+  "url": "https://www.deepinstinct.com/",
+  "tagline": "AI-powered malware and ransomware prevention",
+  "about": "Deep Instinct uses deep neural networks to pre-emptively block threats before they can execute. It's exceptional at stopping new, never-before-seen malware and ransomware with predictive prevention capabilities.",
+  "pros": [
+    "Prevents zero-day threats",
+    "Deep learning-based detection",
+    "Low false positive rate",
+    "Fast threat response"
+  ],
+  "cons": [
+    "May have occasional false positives",
+    "Premium pricing",
+    "Requires baseline training period"
+  ],
+  "capabilities": [
+    "cybersecurity"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

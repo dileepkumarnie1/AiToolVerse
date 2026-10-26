@@ -1,0 +1,29 @@
+{
+  "slug": "canva-presentations",
+  "name": "Canva Presentations",
+  "url": "https://www.canva.com/presentations/",
+  "tagline": "All-in-one design platform with AI-powered presentation features and extensive template library.",
+  "about": "Canva's presentation tool leverages its massive template library and AI features like Doc-to-Deck to create beautiful presentations quickly. It's excellent for teams needing to match brand identity across all visual content.",
+  "pros": [
+    "Huge template and asset library",
+    "Doc-to-Deck AI conversion",
+    "Brand kit for consistency",
+    "Familiar Canva interface"
+  ],
+  "cons": [
+    "Can be overwhelming with too many options",
+    "Some AI features require paid plan",
+    "Export quality varies"
+  ],
+  "capabilities": [
+    "presentations",
+    "graphic-design",
+    "logo-branding"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

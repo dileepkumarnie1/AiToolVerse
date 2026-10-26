@@ -1,0 +1,27 @@
+{
+  "slug": "iris-ai",
+  "name": "Iris.ai",
+  "url": "https://iris.ai/",
+  "tagline": "AI research workspace for exploring, organizing, and analyzing scientific literature.",
+  "about": "Iris.ai provides an AI workspace for researchers to explore connections in literature and analyze large document collections.",
+  "pros": [
+    "Research-focused",
+    "Document analysis",
+    "Connection discovery"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Learning curve",
+    "Technical focus"
+  ],
+  "capabilities": [
+    "research-search",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

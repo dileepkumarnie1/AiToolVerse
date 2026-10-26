@@ -1,0 +1,29 @@
+{
+  "slug": "sembly-ai",
+  "name": "Sembly AI",
+  "url": "https://www.sembly.ai/",
+  "tagline": "Automatically generate accurate meeting notes and transcripts. Sembly joins your meetings, works in the background, and delivers summaries you can trust.",
+  "about": "Automatically generate accurate meeting notes and transcripts. Sembly joins your meetings, works in the background, and delivers summaries you can trust.",
+  "pros": [
+    "Good for drafting and Q&A.",
+    "Generates visuals quickly.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "May require fact‑checking.",
+    "Quality varies by prompt.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "automation",
+    "summarization",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

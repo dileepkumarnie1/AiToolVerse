@@ -1,0 +1,27 @@
+{
+  "slug": "litmaps",
+  "name": "Litmaps",
+  "url": "https://www.litmaps.com/",
+  "tagline": "Visual literature maps to discover related research.",
+  "about": "Map citations and topics to explore adjacent and seminal works quickly.",
+  "pros": [
+    "Great for scoping.",
+    "Visual discovery.",
+    "Easy sharing."
+  ],
+  "cons": [
+    "Coverage gaps in niche areas.",
+    "Export limits on free.",
+    "Requires manual vetting."
+  ],
+  "capabilities": [
+    "research-search",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

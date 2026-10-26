@@ -1,0 +1,26 @@
+{
+  "slug": "microsoft-responsible-ai-toolbox",
+  "name": "Microsoft Responsible AI Toolbox",
+  "url": "https://responsibleaitoolbox.ai/",
+  "tagline": "Interpretability, fairness, and causal analysis tools for ML.",
+  "about": "Suite of OSS tools (Error Analysis, InterpretML, Fairlearn integrations) for responsible AI.",
+  "pros": [
+    "Broad coverage.",
+    "OSS and extensible.",
+    "Good docs."
+  ],
+  "cons": [
+    "Multiple components to learn.",
+    "Azure‑biased samples.",
+    "Dev‑centric setup."
+  ],
+  "capabilities": [
+    "responsible-ai"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

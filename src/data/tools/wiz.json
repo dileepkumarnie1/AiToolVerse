@@ -1,0 +1,27 @@
+{
+  "slug": "wiz",
+  "name": "Wiz",
+  "url": "https://www.wiz.io/",
+  "tagline": "Cloud security posture management with AI insights",
+  "about": "Wiz provides AI-powered visibility into cloud environments and assets, mapping potential attack paths and monitoring for vulnerabilities. Especially valuable for organizations managing multi-cloud setups or migrating to cloud infrastructure.",
+  "pros": [
+    "Comprehensive cloud security visibility",
+    "Attack path analysis",
+    "Multi-cloud support",
+    "Fast deployment"
+  ],
+  "cons": [
+    "Cloud-focused only",
+    "Can be expensive for small cloud deployments",
+    "Requires cloud infrastructure knowledge"
+  ],
+  "capabilities": [
+    "cybersecurity"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

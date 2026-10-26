@@ -1,0 +1,27 @@
+{
+  "slug": "tipalti",
+  "name": "Tipalti",
+  "url": "https://tipalti.com/",
+  "tagline": "AI-powered global payables automation platform for finance teams.",
+  "about": "Tipalti automates global payables from procurement to payment with AI-powered processes and compliance.",
+  "pros": [
+    "Global payments",
+    "Tax compliance",
+    "Strong automation"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complex setup",
+    "Payables focus only"
+  ],
+  "capabilities": [
+    "finance",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

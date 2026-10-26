@@ -1,0 +1,26 @@
+{
+  "slug": "buoy-health",
+  "name": "Buoy Health",
+  "url": "https://www.buoyhealth.com/",
+  "tagline": "AI symptom checker and health assistant.",
+  "about": "Buoy Health uses AI to help people understand their symptoms and find appropriate care with a conversational interface.",
+  "pros": [
+    "Free to use",
+    "Easy conversation",
+    "Care navigation included"
+  ],
+  "cons": [
+    "Not a replacement for doctors",
+    "US-focused",
+    "Limited to common conditions"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

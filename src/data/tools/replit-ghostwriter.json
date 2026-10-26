@@ -1,0 +1,28 @@
+{
+  "slug": "replit-ghostwriter",
+  "name": "Replit Ghostwriter",
+  "url": "https://replit.com/ghostwriter",
+  "tagline": "An AI coding assistant built into the Replit online IDE.",
+  "about": "Ghostwriter is Replit's native AI assistant. It provides features like code completion, code explanation, and bug fixing directly within the browser-based Replit development environment, making it a seamless experience for users of the platform.",
+  "pros": [
+    "Perfectly integrated into the Replit ecosystem.",
+    "No installation or configuration required.",
+    "Includes features for explaining and transforming code."
+  ],
+  "cons": [
+    "Requires a Replit subscription to use.",
+    "Tied to the Replit online IDE.",
+    "May be less powerful than standalone tools like Copilot."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

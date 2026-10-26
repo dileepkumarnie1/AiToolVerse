@@ -1,0 +1,26 @@
+{
+  "slug": "heap",
+  "name": "Heap",
+  "url": "https://heap.io/",
+  "tagline": "AI-powered digital insights platform with auto-capture and analysis.",
+  "about": "Heap automatically captures user interactions and uses AI to surface insights without manual event tracking.",
+  "pros": [
+    "Auto-capture",
+    "No event setup",
+    "AI insights"
+  ],
+  "cons": [
+    "Data volume",
+    "Enterprise pricing",
+    "Can be overwhelming"
+  ],
+  "capabilities": [
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "d-id-creative-reality",
+  "name": "D-ID Creative Reality",
+  "url": "https://www.d-id.com/",
+  "tagline": "Top-rated digital human avatars with superior lip-sync, expression control, and multilingual capabilities.",
+  "about": "D-ID Creative Reality Studio is top-rated for digital human avatars with superior lip-sync and expression control. It excels at multilingual capabilities and is excellent for branding, ads, and interactive education content.",
+  "pros": [
+    "Superior lip-sync technology",
+    "Excellent expression control",
+    "Multilingual support",
+    "Interactive capabilities"
+  ],
+  "cons": [
+    "Tiered pricing structure",
+    "Advanced features locked behind higher tiers",
+    "Learning curve for full features"
+  ],
+  "capabilities": [
+    "avatar-video"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

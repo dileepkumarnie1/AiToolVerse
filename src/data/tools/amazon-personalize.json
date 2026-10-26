@@ -1,0 +1,26 @@
+{
+  "slug": "amazon-personalize",
+  "name": "Amazon Personalize",
+  "url": "https://aws.amazon.com/personalize/",
+  "tagline": "Managed personalization service for recommendations and ranking.",
+  "about": "Personalize brings Amazon.com‑grade recommendation tech to your apps for product, content, and promotions.",
+  "pros": [
+    "Managed service with SDKs.",
+    "Good for cold‑start.",
+    "A/B evaluation tools."
+  ],
+  "cons": [
+    "Requires data pipelines.",
+    "AWS ecosystem knowledge.",
+    "Costs scale with traffic."
+  ],
+  "capabilities": [
+    "ecommerce"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

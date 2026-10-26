@@ -1,0 +1,26 @@
+{
+  "slug": "apollo-io",
+  "name": "Apollo.io",
+  "url": "https://www.apollo.io/",
+  "tagline": "AI-powered sales intelligence and engagement platform with extensive B2B database.",
+  "about": "Apollo provides AI-powered sales tools including prospect database, email sequencing, and engagement analytics.",
+  "pros": [
+    "Large database",
+    "AI-powered insights",
+    "Automation"
+  ],
+  "cons": [
+    "Data accuracy varies",
+    "Pricing for scale",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "sales-crm"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

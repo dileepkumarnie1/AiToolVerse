@@ -1,0 +1,29 @@
+{
+  "slug": "crowdin",
+  "name": "Crowdin",
+  "url": "https://crowdin.com/",
+  "tagline": "Developer-centric translation platform with AI pre-translation, real-time collaboration, and 600+ integrations.",
+  "about": "Crowdin is ideal for software, app, and game developers needing continuous localization. It offers strong API support, real-time collaboration, and over 600 integrations with development tools and platforms.",
+  "pros": [
+    "Excellent for software localization",
+    "600+ integrations",
+    "In-context editing for translators",
+    "Strong API and automation"
+  ],
+  "cons": [
+    "Technical setup required",
+    "Can be complex for non-developers",
+    "Pricing scales with usage"
+  ],
+  "capabilities": [
+    "translation",
+    "code-assistant",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "deepscribe",
+  "name": "DeepScribe",
+  "url": "https://www.deepscribe.ai/",
+  "tagline": "Ambient AI scribe that generates clinical notes from patient visits.",
+  "about": "DeepScribe listens to clinical encounters and drafts structured notes, freeing clinicians from manual typing.",
+  "pros": [
+    "Reduces admin burden.",
+    "Structured outputs for EHR.",
+    "Good specialty coverage."
+  ],
+  "cons": [
+    "Consent/PHI workflows required.",
+    "Quality varies by environment.",
+    "Review still needed."
+  ],
+  "capabilities": [
+    "health-fitness",
+    "notes-knowledge"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

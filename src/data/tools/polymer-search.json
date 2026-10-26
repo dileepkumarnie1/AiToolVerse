@@ -1,0 +1,29 @@
+{
+  "slug": "polymer-search",
+  "name": "Polymer Search",
+  "url": "https://www.polymersearch.com/",
+  "tagline": "AI-powered data exploration tool that creates interactive dashboards automatically.",
+  "about": "Polymer uses AI to automatically create interactive dashboards and visualizations from your spreadsheet data.",
+  "pros": [
+    "Auto-dashboard creation",
+    "Easy sharing",
+    "Interactive exploration"
+  ],
+  "cons": [
+    "Limited to spreadsheet data",
+    "Pricing for teams",
+    "Basic analysis"
+  ],
+  "capabilities": [
+    "data-analysis",
+    "research-search",
+    "science",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

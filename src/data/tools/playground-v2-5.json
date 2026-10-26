@@ -1,0 +1,26 @@
+{
+  "slug": "playground-v2-5",
+  "name": "Playground v2.5",
+  "url": "https://playground.com/",
+  "tagline": "High-quality free image generation model optimized for aesthetics.",
+  "about": "Playground v2.5 is an aesthetic-focused image generation model available for free with generous limits.",
+  "pros": [
+    "Free tier generous",
+    "High aesthetic quality",
+    "Good for art"
+  ],
+  "cons": [
+    "Specific style bias",
+    "Less photorealistic",
+    "Platform-dependent"
+  ],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

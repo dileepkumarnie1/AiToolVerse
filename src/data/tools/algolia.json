@@ -1,0 +1,27 @@
+{
+  "slug": "algolia",
+  "name": "Algolia",
+  "url": "https://www.algolia.com/",
+  "tagline": "AI-powered search and discovery platform for websites and mobile apps.",
+  "about": "Algolia provides lightning-fast AI-powered search and recommendations for e-commerce and content sites.",
+  "pros": [
+    "Extremely fast",
+    "AI features",
+    "Great documentation"
+  ],
+  "cons": [
+    "Can get expensive",
+    "Complex pricing",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "ecommerce",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

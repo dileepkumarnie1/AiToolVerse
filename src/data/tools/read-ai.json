@@ -1,0 +1,30 @@
+{
+  "slug": "read-ai",
+  "name": "Read.ai",
+  "url": "https://www.read.ai/",
+  "tagline": "AI meeting assistant with video summaries, playback, and engagement metrics for remote teams.",
+  "about": "Read.ai provides comprehensive meeting intelligence including video summaries, playback features, and engagement metrics. It's particularly useful for remote teams wanting to understand meeting dynamics and participation.",
+  "pros": [
+    "Video summaries and playback",
+    "Engagement and participation metrics",
+    "Good for remote team dynamics",
+    "Action item tracking"
+  ],
+  "cons": [
+    "Requires camera-on meetings for full features",
+    "Privacy concerns with engagement tracking",
+    "Learning curve for analytics"
+  ],
+  "capabilities": [
+    "meeting-notes",
+    "chat-assistant",
+    "notes-knowledge",
+    "summarization"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

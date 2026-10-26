@@ -1,0 +1,26 @@
+{
+  "slug": "darktrace",
+  "name": "Darktrace",
+  "url": "https://darktrace.com/",
+  "tagline": "Self‑learning AI for threat detection and autonomous response.",
+  "about": "Darktrace models normal behavior in your environment to detect anomalies and can take autonomous actions to contain threats.",
+  "pros": [
+    "Strong anomaly detection.",
+    "Autonomous response.",
+    "Covers email, network, cloud."
+  ],
+  "cons": [
+    "Tuning to reduce noise.",
+    "Opaque model behavior.",
+    "Premium pricing."
+  ],
+  "capabilities": [
+    "cybersecurity"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

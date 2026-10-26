@@ -1,0 +1,27 @@
+{
+  "slug": "zeekit",
+  "name": "Zeekit",
+  "url": "https://zeekit.me/",
+  "tagline": "Virtual try-on technology powered by AI for visualizing clothes on your body.",
+  "about": "Zeekit uses AI to enable virtual try-on experiences, showing how clothes would look on your photo realistically.",
+  "pros": [
+    "Realistic visualization",
+    "Used by major retailers",
+    "Reduces returns"
+  ],
+  "cons": [
+    "Available through partners only",
+    "Quality varies by retailer",
+    "Photo upload required"
+  ],
+  "capabilities": [
+    "fashion",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

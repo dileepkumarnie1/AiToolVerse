@@ -1,0 +1,29 @@
+{
+  "slug": "wrenai",
+  "name": "WrenAI",
+  "url": "https://getwren.ai/oss",
+  "tagline": "Transform how your team explores data. Wren AI’s open-source GenBI platform lets you chat with your data, generate SQL, build charts, and create insights—all with natural language.",
+  "about": "Transform how your team explores data. Wren AI’s open-source GenBI platform lets you chat with your data, generate SQL, build charts, and create insights—all with natural language.",
+  "pros": [
+    "Good for drafting and Q&A.",
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "May require fact‑checking.",
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "data-analysis",
+    "chat-assistant",
+    "developer-api",
+    "graphic-design"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "messari-ai",
+  "name": "Messari AI",
+  "url": "https://messari.io/",
+  "tagline": "AI-powered crypto research and analytics platform.",
+  "about": "Messari provides AI-powered research and analytics for crypto assets and blockchain protocols.",
+  "pros": [
+    "Deep research",
+    "Professional quality",
+    "AI insights"
+  ],
+  "cons": [
+    "Subscription required",
+    "Complex for beginners",
+    "Professional focus"
+  ],
+  "capabilities": [
+    "finance",
+    "research-search",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

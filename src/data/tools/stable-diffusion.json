@@ -1,0 +1,26 @@
+{
+  "slug": "stable-diffusion",
+  "name": "Stable Diffusion",
+  "url": "https://stability.ai/",
+  "tagline": "A powerful, open-source image generation model that can be run locally.",
+  "about": "Stable Diffusion is a deep learning, text-to-image model released by Stability AI. Its main distinction is that it is open source and can be run on consumer-grade hardware, allowing for immense flexibility, privacy, and customization.",
+  "pros": [
+    "Free and open source.",
+    "Can be run locally for privacy and no usage costs.",
+    "Huge community and ecosystem of custom models (checkpoints)."
+  ],
+  "cons": [
+    "Requires technical knowledge to set up and run locally.",
+    "Quality can be inconsistent without fine-tuning and specific models.",
+    "Web-based versions (like DreamStudio) have usage credits."
+  ],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

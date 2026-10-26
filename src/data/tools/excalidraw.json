@@ -1,0 +1,28 @@
+{
+  "slug": "excalidraw",
+  "name": "Excalidraw",
+  "url": "https://excalidraw.com/",
+  "tagline": "Open-source, hand-drawn style diagramming tool with simplicity focus",
+  "about": "Excalidraw is a free, open-source diagramming tool with a hand-drawn aesthetic, perfect for quick sketches, wireframes, and informal diagrams.",
+  "pros": [
+    "Completely free and open source",
+    "Hand-drawn aesthetic",
+    "Simple and fast to use",
+    "No account required"
+  ],
+  "cons": [
+    "Limited features compared to professional tools",
+    "No advanced formatting options",
+    "Basic collaboration features"
+  ],
+  "capabilities": [
+    "diagrams",
+    "data-analysis"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

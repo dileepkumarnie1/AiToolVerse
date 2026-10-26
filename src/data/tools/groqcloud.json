@@ -1,0 +1,19 @@
+{
+  "slug": "groqcloud",
+  "name": "GroqCloud",
+  "url": "https://console.groq.com/",
+  "tagline": "Low-latency LLM inference API powered by Groq hardware.",
+  "about": "GroqCloud offers fast inference for supported models, optimized for responsiveness and throughput.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

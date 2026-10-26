@@ -1,0 +1,18 @@
+{
+  "slug": "helicone",
+  "name": "Helicone",
+  "url": "https://www.helicone.ai/",
+  "tagline": "LLM observability for logging, tracing, and monitoring model usage.",
+  "about": "Helicone helps teams monitor LLM calls with dashboards, traces, and usage analytics.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

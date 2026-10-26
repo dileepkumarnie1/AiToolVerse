@@ -1,0 +1,28 @@
+{
+  "slug": "3dfy",
+  "name": "3DFY",
+  "url": "https://3dfy.ai/",
+  "tagline": "AI-generated 3D models at scale for e-commerce.",
+  "about": "3DFY generates 3D models from images for e-commerce product visualization, AR experiences, and virtual showrooms.",
+  "pros": [
+    "Designed for e-commerce",
+    "Scalable",
+    "AR-ready outputs"
+  ],
+  "cons": [
+    "Enterprise focus",
+    "Pricing unclear",
+    "Requires good input images"
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "graphic-design",
+    "ecommerce"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

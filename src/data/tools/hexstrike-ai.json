@@ -1,0 +1,25 @@
+{
+  "slug": "hexstrike-ai",
+  "name": "hexstrike-ai",
+  "url": "https://www.hexstrike.com/",
+  "tagline": "Advanced AI-driven penetration testing and security assessment tools. Automated vulnerability discovery and intelligent threat analysis.",
+  "about": "Advanced AI-driven penetration testing and security assessment tools. Automated vulnerability discovery and intelligent threat analysis.",
+  "pros": [
+    "Open source and extensible."
+  ],
+  "cons": [
+    "Requires setup and maintenance."
+  ],
+  "capabilities": [
+    "cybersecurity",
+    "chat-assistant",
+    "developer-api",
+    "automation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

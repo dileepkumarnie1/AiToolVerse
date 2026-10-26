@@ -1,0 +1,27 @@
+{
+  "slug": "slidesgo-ai",
+  "name": "Slidesgo AI",
+  "url": "https://slidesgo.com/ai-presentations",
+  "tagline": "AI presentation generator with extensive templates and easy export to Google Slides or PowerPoint.",
+  "about": "Slidesgo's AI generator provides access to a vast template library with AI-powered customization. Integration with Freepik brings extensive design assets, and easy export to Google Slides and PowerPoint ensures compatibility with existing workflows.",
+  "pros": [
+    "Huge template library",
+    "Easy export to Google Slides and PowerPoint",
+    "Integration with Freepik for design assets",
+    "Good team collaboration features"
+  ],
+  "cons": [
+    "AI features less advanced than dedicated tools",
+    "Template-heavy approach may limit originality",
+    "Free version has watermarks"
+  ],
+  "capabilities": [
+    "presentations"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

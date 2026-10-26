@@ -1,0 +1,27 @@
+{
+  "slug": "devv-ai",
+  "name": "Devv.ai",
+  "url": "https://devv.ai/",
+  "tagline": "AI search engine for developers with code-aware search and answers.",
+  "about": "Devv.ai provides AI-powered search specifically for developers, understanding code context and technical queries.",
+  "pros": [
+    "Code context",
+    "Developer-focused",
+    "Good for debugging"
+  ],
+  "cons": [
+    "Technical only",
+    "Newer platform",
+    "Limited general search"
+  ],
+  "capabilities": [
+    "research-search",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

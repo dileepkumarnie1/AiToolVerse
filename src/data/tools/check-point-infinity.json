@@ -1,0 +1,27 @@
+{
+  "slug": "check-point-infinity",
+  "name": "Check Point Infinity",
+  "url": "https://www.checkpoint.com/",
+  "tagline": "Unified AI-driven security management and zero trust protection",
+  "about": "Check Point Infinity provides AI-driven protection for networks, endpoints, cloud, and users with unified security management. It uses behavioral analysis with real-time and automated incident response for enterprise-scale threat prevention and zero trust architecture.",
+  "pros": [
+    "Comprehensive security coverage",
+    "AI-driven threat prevention",
+    "Zero trust architecture support",
+    "Strong enterprise integrations"
+  ],
+  "cons": [
+    "Complex deployment for large environments",
+    "Resource-intensive for smaller organizations",
+    "Premium enterprise pricing"
+  ],
+  "capabilities": [
+    "cybersecurity"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

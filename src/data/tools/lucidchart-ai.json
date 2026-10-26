@@ -1,0 +1,27 @@
+{
+  "slug": "lucidchart-ai",
+  "name": "Lucidchart AI",
+  "url": "https://www.lucidchart.com/",
+  "tagline": "Diagramming tool with AI-powered auto-layout and suggestions.",
+  "about": "Lucidchart provides diagramming with AI-powered layout and smart suggestions.",
+  "pros": [
+    "Professional diagrams",
+    "AI layout",
+    "Integrations"
+  ],
+  "cons": [
+    "Subscription",
+    "Learning curve",
+    "Export limitations"
+  ],
+  "capabilities": [
+    "diagrams",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "tldraw",
+  "name": "Tldraw",
+  "url": "https://www.tldraw.com/",
+  "tagline": "Free infinite canvas whiteboard with AI drawing assistance.",
+  "about": "Tldraw is a free whiteboard tool with AI features for drawing, diagramming, and collaboration.",
+  "pros": [
+    "Free and open source",
+    "Clean interface",
+    "AI features"
+  ],
+  "cons": [
+    "Basic compared to paid tools",
+    "Limited AI depth",
+    "Collaboration features limited"
+  ],
+  "capabilities": [
+    "automation",
+    "diagrams"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

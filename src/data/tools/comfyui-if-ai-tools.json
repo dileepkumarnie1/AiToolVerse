@@ -1,0 +1,18 @@
+{
+  "slug": "comfyui-if-ai-tools",
+  "name": "ComfyUI-IF_AI_tools",
+  "url": "https://ko-fi.com/impactframes",
+  "tagline": "ComfyUI-IF_AI_tools is a set of custom nodes for ComfyUI that allows you to generate prompts using a local Large Language Model (LLM) via Ollama. This tool enables you to enhance your image generation workflow by…",
+  "about": "ComfyUI-IF_AI_tools is a set of custom nodes for ComfyUI that allows you to generate prompts using a local Large Language Model (LLM) via Ollama. This tool enables you to enhance your image generation workflow by leveraging the power of language models.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "graphic-design"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

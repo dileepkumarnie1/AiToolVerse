@@ -1,0 +1,27 @@
+{
+  "slug": "docusign-ai",
+  "name": "DocuSign AI",
+  "url": "https://www.docusign.com/",
+  "tagline": "AI-powered electronic signature platform with intelligent document analysis and workflow automation.",
+  "about": "DocuSign uses AI to streamline agreement processes, automatically extracting key terms, detecting anomalies, and suggesting next steps in contract workflows.",
+  "pros": [
+    "Industry-leading e-signature solution",
+    "Intelligent contract analysis",
+    "Extensive integrations"
+  ],
+  "cons": [
+    "Premium pricing for advanced features",
+    "Learning curve for complex workflows",
+    "Can be overkill for simple use cases"
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

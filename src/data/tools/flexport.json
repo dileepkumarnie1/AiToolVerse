@@ -1,0 +1,26 @@
+{
+  "slug": "flexport",
+  "name": "Flexport",
+  "url": "https://www.flexport.com/",
+  "tagline": "Technology-forward freight forwarder with AI-powered supply chain platform.",
+  "about": "Flexport combines freight forwarding services with AI-powered software for supply chain visibility and optimization.",
+  "pros": [
+    "End-to-end service",
+    "Modern platform",
+    "Good visibility"
+  ],
+  "cons": [
+    "May be expensive",
+    "Service + software model",
+    "Best for international"
+  ],
+  "capabilities": [
+    "industry-ops"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

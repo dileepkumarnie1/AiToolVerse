@@ -1,0 +1,26 @@
+{
+  "slug": "pi",
+  "name": "Pi",
+  "url": "https://pi.ai/",
+  "tagline": "Empathetic AI assistant by Inflection focused on personal conversations and emotional support.",
+  "about": "Pi is designed to be a kind, helpful AI companion that excels at having meaningful conversations and providing emotional support.",
+  "pros": [
+    "Empathetic responses",
+    "Free to use",
+    "Natural conversation style"
+  ],
+  "cons": [
+    "Limited factual capabilities",
+    "No web search",
+    "Less powerful for tasks"
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

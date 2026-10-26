@@ -1,0 +1,26 @@
+{
+  "slug": "sweep",
+  "name": "sweep",
+  "url": "https://sweep.dev/",
+  "tagline": "Sweep is the best AI assistant for JetBrains.",
+  "about": "Sweep is the best AI assistant for JetBrains.",
+  "pros": [
+    "Good for drafting and Q&A.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "May require fact‑checking.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

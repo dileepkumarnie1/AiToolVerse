@@ -1,0 +1,29 @@
+{
+  "slug": "microsoft-edge-copilot",
+  "name": "Microsoft Edge Copilot",
+  "url": "https://www.microsoft.com/edge",
+  "tagline": "Microsoft's AI-powered browser with deep integration into Windows 11, Office, and productivity tools.",
+  "about": "Microsoft Edge with Copilot brings AI assistance directly into the browser, deeply integrated with Windows 11, Office 365, and Microsoft's ecosystem. It's particularly strong for business users who need seamless integration with enterprise tools and workflows.",
+  "pros": [
+    "Deep integration with Microsoft ecosystem",
+    "Enterprise-grade security and compliance",
+    "Excellent for productivity and teamwork",
+    "Copilot assists with emails, documents, and research"
+  ],
+  "cons": [
+    "Best experience requires Microsoft 365 subscription",
+    "Privacy concerns with Microsoft's data collection",
+    "Less innovative than dedicated AI-native browsers"
+  ],
+  "capabilities": [
+    "browser",
+    "code-assistant",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "grammarly-ai-agents",
+  "name": "Grammarly AI Agents",
+  "url": "https://www.grammarly.com/",
+  "tagline": "Specialized agents for writing assistance, editing, and grading.",
+  "about": "A suite of writing-focused agents (proofreader, citation finder, grader, etc.) integrated within Grammarly Docs.",
+  "pros": [
+    "Specialized for writing.",
+    "Practical everyday use.",
+    "Improves productivity."
+  ],
+  "cons": [
+    "Narrow domain.",
+    "Limited flexibility.",
+    "Likely absorbed into larger ecosystems."
+  ],
+  "capabilities": [
+    "agents",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

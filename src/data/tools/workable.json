@@ -1,0 +1,28 @@
+{
+  "slug": "workable",
+  "name": "Workable",
+  "url": "https://www.workable.com/",
+  "tagline": "All-in-one AI recruitment platform with automated candidate matching",
+  "about": "Workable is an all-in-one recruitment platform with built-in AI for resume parsing, automated candidate shortlisting and matching, plus workflow automations for sourcing and interview coordination. Strong for SMBs due to ease of use and integrations.",
+  "pros": [
+    "User-friendly interface",
+    "Comprehensive recruitment features",
+    "Strong integrations with other tools",
+    "Good for rapid hiring cycles"
+  ],
+  "cons": [
+    "Can be pricey for small teams",
+    "Advanced features require higher tier plans",
+    "Learning curve for full feature utilization"
+  ],
+  "capabilities": [
+    "hr-recruiting",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

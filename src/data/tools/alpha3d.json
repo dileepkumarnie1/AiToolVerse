@@ -1,0 +1,28 @@
+{
+  "slug": "alpha3d",
+  "name": "Alpha3D",
+  "url": "https://www.alpha3d.io/",
+  "tagline": "AI platform that converts 2D product images into 3D models for e-commerce.",
+  "about": "Alpha3D converts product photos into 3D models for e-commerce, AR experiences, and metaverse applications.",
+  "pros": [
+    "E-commerce focused",
+    "AR ready",
+    "Quick turnaround"
+  ],
+  "cons": [
+    "Product focus only",
+    "Quality varies",
+    "Subscription pricing"
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "graphic-design",
+    "ecommerce"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

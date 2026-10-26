@@ -1,0 +1,27 @@
+{
+  "slug": "camel-ai",
+  "name": "Camel-AI",
+  "url": "https://www.camel-ai.org/",
+  "tagline": "Framework for multi-agent roleplay and collaboration.",
+  "about": "Camel-AI explores how autonomous agents interact through role-playing. Useful for research in negotiation, governance, and collaboration dynamics.",
+  "pros": [
+    "Novel collaboration experiments.",
+    "Great for multi-agent research.",
+    "Potential for creativity/diplomacy."
+  ],
+  "cons": [
+    "Not production-ready.",
+    "Mostly research-focused.",
+    "Limited adoption."
+  ],
+  "capabilities": [
+    "agents",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

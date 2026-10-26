@@ -1,0 +1,28 @@
+{
+  "slug": "amazon-codewhisperer",
+  "name": "Amazon CodeWhisperer",
+  "url": "https://aws.amazon.com/codewhisperer/",
+  "tagline": "Amazon's AI coding companion, with a generous free tier for individuals.",
+  "about": "CodeWhisperer is Amazon's answer to GitHub Copilot. It provides real-time code suggestions and is particularly well-integrated with AWS services. It also includes a reference tracker to help identify if a suggestion resembles open-source training data.",
+  "pros": [
+    "Completely free for individual developers.",
+    "Strong integration with AWS services and APIs.",
+    "Includes a reference tracker for code attribution."
+  ],
+  "cons": [
+    "Can be less accurate than Copilot for non-AWS code.",
+    "The professional tier for businesses can be expensive.",
+    "User interface is less polished in some editors."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "basedlabs-ai-influencer",
+  "name": "BasedLabs AI Influencer",
+  "url": "https://www.basedlabs.ai/",
+  "tagline": "Tailored for influencer marketing with custom AI model training for consistent photorealistic content across scenarios.",
+  "about": "BasedLabs AI Influencer Generator is tailored for influencer marketing, allowing you to train a custom AI model on a specific face for consistent content across scenarios. Ideal for brands managing AI Instagram influencers.",
+  "pros": [
+    "Consistent face across content",
+    "Photorealistic results",
+    "Custom model training",
+    "Social media optimized"
+  ],
+  "cons": [
+    "Social media focus only",
+    "Higher learning curve",
+    "Requires quality training data"
+  ],
+  "capabilities": [
+    "avatar-video",
+    "writing",
+    "marketing-seo"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

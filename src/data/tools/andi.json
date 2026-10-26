@@ -1,0 +1,27 @@
+{
+  "slug": "andi",
+  "name": "Andi",
+  "url": "https://andisearch.com/",
+  "tagline": "AI search assistant that answers questions conversationally with sources.",
+  "about": "Andi provides a conversational AI search experience, answering questions in a friendly way with sourced information.",
+  "pros": [
+    "Conversational",
+    "Clean interface",
+    "Free to use"
+  ],
+  "cons": [
+    "Less comprehensive",
+    "Newer service",
+    "Limited features"
+  ],
+  "capabilities": [
+    "research-search",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

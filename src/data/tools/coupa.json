@@ -1,0 +1,26 @@
+{
+  "slug": "coupa",
+  "name": "Coupa",
+  "url": "https://www.coupa.com/",
+  "tagline": "AI-powered business spend management platform with supply chain visibility.",
+  "about": "Coupa provides AI-powered spend management and supply chain visibility for enterprises to optimize procurement.",
+  "pros": [
+    "Comprehensive platform",
+    "AI recommendations",
+    "Large ecosystem"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complex implementation",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "industry-ops"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "openai-assistants-api",
+  "name": "OpenAI Assistants API",
+  "url": "https://platform.openai.com/docs/assistants/overview",
+  "tagline": "OpenAI's official framework for building stateful, tool-using agents in your apps.",
+  "about": "The Assistants API is a purpose-built solution from OpenAI for creating AI assistants within applications. It manages conversation history (state), provides access to built-in tools like Code Interpreter and Retrieval, and allows developers to define and call custom functions.",
+  "pros": [
+    "Natively integrated with OpenAI's flagship models.",
+    "Automatically handles persistent threads and context management.",
+    "Powerful built-in tools simplify complex tasks like data analysis and file retrieval."
+  ],
+  "cons": [
+    "Creates vendor lock-in with the OpenAI ecosystem.",
+    "Can become expensive at scale due to token and tool usage.",
+    "Less flexible for complex agent architectures compared to open-source frameworks."
+  ],
+  "capabilities": [
+    "agents",
+    "developer-api",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

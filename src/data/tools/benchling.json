@@ -1,0 +1,27 @@
+{
+  "slug": "benchling",
+  "name": "Benchling",
+  "url": "https://www.benchling.com/",
+  "tagline": "R&D cloud platform with AI for life sciences research and development.",
+  "about": "Benchling provides a cloud platform for life sciences R&D with AI-powered tools for sequences, notebooks, and data.",
+  "pros": [
+    "Comprehensive platform",
+    "Collaboration features",
+    "Good for biotech"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complex for small labs",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "science",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "speechify",
+  "name": "Speechify",
+  "url": "https://speechify.com/",
+  "tagline": "Natural AI narration for accessibility and productivity",
+  "about": "Speechify is a popular text-to-speech tool known for its natural-sounding narration and accessibility features. It's widely used for audiobooks, educational content, and productivity, supporting multiple platforms including web, mobile, and browser extensions.",
+  "pros": [
+    "Highly natural narration quality",
+    "Cross-platform availability",
+    "Great accessibility features",
+    "Speed control and highlighting"
+  ],
+  "cons": [
+    "Premium features require subscription",
+    "Limited voice customization in free tier",
+    "Can be expensive for individual users"
+  ],
+  "capabilities": [
+    "voice-tts",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

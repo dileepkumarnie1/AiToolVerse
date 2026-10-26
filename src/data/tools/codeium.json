@@ -1,0 +1,28 @@
+{
+  "slug": "codeium",
+  "name": "Codeium",
+  "url": "https://codeium.com/",
+  "tagline": "Free AI code completion and chat for individuals across many IDEs.",
+  "about": "Fast, privacy‑friendly completions and inline chat with broad language support.",
+  "pros": [
+    "Free for individuals.",
+    "Wide IDE coverage.",
+    "Good latency."
+  ],
+  "cons": [
+    "Team features paid.",
+    "Occasional suggestion drift.",
+    "Less deep repo context than Cody."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

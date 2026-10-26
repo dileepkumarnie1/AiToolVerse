@@ -1,0 +1,26 @@
+{
+  "slug": "gridlex",
+  "name": "Gridlex",
+  "url": "https://www.gridlex.com/",
+  "tagline": "AI-powered ERP and accounting platform for small to mid-sized businesses.",
+  "about": "Gridlex provides an AI-powered ERP with accounting, CRM, and HR for small to mid-sized businesses.",
+  "pros": [
+    "All-in-one platform",
+    "AI features",
+    "SMB pricing"
+  ],
+  "cons": [
+    "Less specialized",
+    "Newer platform",
+    "Feature depth varies"
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

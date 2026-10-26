@@ -1,0 +1,27 @@
+{
+  "slug": "yesplz-ai",
+  "name": "YesPlz AI",
+  "url": "https://yesplz.ai/",
+  "tagline": "AI-powered fashion search and discovery platform using natural language and visual search.",
+  "about": "YesPlz provides AI-powered fashion search using natural language descriptions and visual search for finding similar items.",
+  "pros": [
+    "Natural language search",
+    "Visual search capability",
+    "Multi-retailer"
+  ],
+  "cons": [
+    "B2B focused",
+    "Limited direct consumer access",
+    "Newer technology"
+  ],
+  "capabilities": [
+    "fashion",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "latenode",
+  "name": "Latenode",
+  "url": "https://latenode.com/",
+  "tagline": "AI-powered automation platform with code and no-code options.",
+  "about": "Latenode combines no-code automation with AI assistance and the option to write code when needed.",
+  "pros": [
+    "AI assistance",
+    "Flexible",
+    "Good pricing"
+  ],
+  "cons": [
+    "Newer platform",
+    "Smaller ecosystem",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "automation",
+    "code-assistant",
+    "app-builder"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

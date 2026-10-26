@@ -1,0 +1,27 @@
+{
+  "slug": "nuance-dax",
+  "name": "Nuance DAX",
+  "url": "https://www.nuance.com/healthcare/ambient-clinical-intelligence.html",
+  "tagline": "AI-powered ambient clinical documentation that creates notes from doctor-patient conversations.",
+  "about": "DAX listens to doctor-patient conversations and automatically generates clinical documentation, reducing physician burnout.",
+  "pros": [
+    "Reduces documentation time",
+    "Ambient listening",
+    "EHR integration"
+  ],
+  "cons": [
+    "Expensive",
+    "Training required",
+    "Privacy considerations"
+  ],
+  "capabilities": [
+    "health-fitness",
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

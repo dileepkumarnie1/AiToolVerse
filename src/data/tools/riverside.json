@@ -1,0 +1,27 @@
+{
+  "slug": "riverside",
+  "name": "Riverside",
+  "url": "https://riverside.fm/",
+  "tagline": "AI-powered podcast recording with high-quality audio and transcription.",
+  "about": "Riverside provides high-quality remote podcast recording with AI transcription and editing features.",
+  "pros": [
+    "High quality",
+    "Remote recording",
+    "AI transcription"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "Internet required",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "podcast",
+    "transcription"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

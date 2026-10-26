@@ -1,0 +1,25 @@
+{
+  "slug": "openspec",
+  "name": "OpenSpec",
+  "url": "https://openspec.dev/",
+  "tagline": "OpenSpec is a lightweight, spec‑driven framework for coding agents and CLIs — universal, open source, and no API keys or MCP required.",
+  "about": "OpenSpec is a lightweight, spec‑driven framework for coding agents and CLIs — universal, open source, and no API keys or MCP required.",
+  "pros": [
+    "Open source and extensible."
+  ],
+  "cons": [
+    "Requires setup and maintenance."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "developer-api",
+    "chat-assistant",
+    "graphic-design"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

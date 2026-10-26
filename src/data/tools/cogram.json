@@ -1,0 +1,28 @@
+{
+  "slug": "cogram",
+  "name": "Cogram",
+  "url": "https://www.cogram.com/",
+  "tagline": "AI meeting assistant that takes notes and tracks action items automatically.",
+  "about": "Cogram automatically takes notes during meetings, identifies action items, and integrates with your tools.",
+  "pros": [
+    "Automatic notes",
+    "Action tracking",
+    "CRM integration"
+  ],
+  "cons": [
+    "Meeting focus only",
+    "Subscription pricing",
+    "Integration setup"
+  ],
+  "capabilities": [
+    "meeting-notes",
+    "notes-knowledge",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

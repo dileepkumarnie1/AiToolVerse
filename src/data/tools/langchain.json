@@ -1,0 +1,18 @@
+{
+  "slug": "langchain",
+  "name": "langchain",
+  "url": "https://python.langchain.com/",
+  "tagline": "🦜🔗 Build context-aware reasoning applications",
+  "about": "🦜🔗 Build context-aware reasoning applications",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

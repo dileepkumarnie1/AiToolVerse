@@ -1,0 +1,26 @@
+{
+  "slug": "gradescope",
+  "name": "Gradescope",
+  "url": "https://www.gradescope.com/",
+  "tagline": "AI-assisted grading platform that streamlines assessment for educators.",
+  "about": "Gradescope uses AI to help educators grade assignments faster with consistent rubrics and group grading features.",
+  "pros": [
+    "Faster grading",
+    "Consistent feedback",
+    "Analytics"
+  ],
+  "cons": [
+    "Learning curve",
+    "Institution pricing",
+    "Limited free features"
+  ],
+  "capabilities": [
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

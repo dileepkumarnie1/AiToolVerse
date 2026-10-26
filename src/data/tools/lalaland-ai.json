@@ -1,0 +1,27 @@
+{
+  "slug": "lalaland-ai",
+  "name": "Lalaland.ai",
+  "url": "https://lalaland.ai/",
+  "tagline": "AI-generated fashion models and virtual influencers.",
+  "about": "Lalaland creates diverse, realistic AI fashion models for e-commerce product photography without traditional photoshoots.",
+  "pros": [
+    "Diverse model representation",
+    "Cost-effective for fashion",
+    "High quality"
+  ],
+  "cons": [
+    "Fashion industry focus",
+    "Subscription model",
+    "Limited to product photography"
+  ],
+  "capabilities": [
+    "avatar-video",
+    "fashion"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

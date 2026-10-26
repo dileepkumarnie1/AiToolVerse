@@ -1,0 +1,27 @@
+{
+  "slug": "synthesis",
+  "name": "Synthesis",
+  "url": "https://www.synthesis.is/",
+  "tagline": "AI-powered learning program teaching problem-solving through games and simulations.",
+  "about": "Synthesis teaches critical thinking and problem-solving to kids through collaborative games and AI-facilitated discussions.",
+  "pros": [
+    "Unique approach",
+    "Collaboration focus",
+    "Engaging games"
+  ],
+  "cons": [
+    "Subscription required",
+    "Limited age range",
+    "Competitive environment"
+  ],
+  "capabilities": [
+    "education-tutor",
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

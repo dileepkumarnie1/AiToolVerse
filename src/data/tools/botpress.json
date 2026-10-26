@@ -1,0 +1,27 @@
+{
+  "slug": "botpress",
+  "name": "Botpress",
+  "url": "https://botpress.com/",
+  "tagline": "Open-source chatbot builder with visual flow editor and GPT integration.",
+  "about": "Botpress is an open-source platform for building AI chatbots with a visual editor and native LLM integration.",
+  "pros": [
+    "Open source option",
+    "Visual builder",
+    "GPT integration"
+  ],
+  "cons": [
+    "Learning curve",
+    "Self-hosting complexity",
+    "Enterprise features paid"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

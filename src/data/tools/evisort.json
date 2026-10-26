@@ -1,0 +1,27 @@
+{
+  "slug": "evisort",
+  "name": "Evisort",
+  "url": "https://www.evisort.com/",
+  "tagline": "AI contract intelligence platform for extracting and analyzing contract data.",
+  "about": "Evisort uses AI to extract data from contracts, track obligations, and provide analytics on contract portfolios.",
+  "pros": [
+    "Quick implementation",
+    "Pre-trained models",
+    "Good extraction"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Limited customization",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "legal",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "circleback",
+  "name": "Circleback",
+  "url": "https://www.circleback.ai/",
+  "tagline": "Premium AI meeting assistant with exceptional summarization and integration with Slack, Notion, and CRMs.",
+  "about": "Circleback offers premium AI meeting assistance with highly accurate summaries, speaker recognition, and deep integrations with popular tools like Slack, Notion, HubSpot, and Salesforce. It's designed for teams wanting automated meeting memory.",
+  "pros": [
+    "Highly accurate summaries and action items",
+    "Excellent speaker recognition",
+    "Deep workflow integrations",
+    "Automated note sharing"
+  ],
+  "cons": [
+    "Premium pricing",
+    "May be expensive for small teams",
+    "Requires integration setup"
+  ],
+  "capabilities": [
+    "meeting-notes",
+    "chat-assistant",
+    "notes-knowledge",
+    "summarization"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

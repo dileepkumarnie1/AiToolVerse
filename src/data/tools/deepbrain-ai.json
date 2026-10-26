@@ -1,0 +1,28 @@
+{
+  "slug": "deepbrain-ai",
+  "name": "DeepBrain AI",
+  "url": "https://www.deepbrain.io/",
+  "tagline": "AI avatars for video presentations and explainers.",
+  "about": "DeepBrain AI generates realistic AI avatars for video content, news, and training.",
+  "pros": [
+    "Lifelike avatars.",
+    "Multiple languages.",
+    "Fast video creation."
+  ],
+  "cons": [
+    "Subscription required.",
+    "Limited creative control.",
+    "Not for long-form video."
+  ],
+  "capabilities": [
+    "video-generation",
+    "avatar-video",
+    "presentations"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

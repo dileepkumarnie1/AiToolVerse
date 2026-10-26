@@ -1,0 +1,27 @@
+{
+  "slug": "blue-yonder",
+  "name": "Blue Yonder",
+  "url": "https://blueyonder.com/",
+  "tagline": "AI-powered supply chain solutions for retail, manufacturing, and logistics.",
+  "about": "Blue Yonder uses AI to optimize supply chain operations including demand forecasting, inventory, and fulfillment.",
+  "pros": [
+    "Industry-leading",
+    "Comprehensive solutions",
+    "Global scale"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Long implementation",
+    "Complex"
+  ],
+  "capabilities": [
+    "industry-ops",
+    "ecommerce"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "copilot-money",
+  "name": "Copilot Money",
+  "url": "https://copilot.money/",
+  "tagline": "AI-powered personal finance app with smart insights and beautiful design for Apple users.",
+  "about": "Copilot provides AI-driven spending insights, budgeting tools, and investment tracking with a focus on beautiful design.",
+  "pros": [
+    "Beautiful design",
+    "Smart insights",
+    "Investment tracking"
+  ],
+  "cons": [
+    "iOS only",
+    "Subscription pricing",
+    "US-focused"
+  ],
+  "capabilities": [
+    "finance",
+    "graphic-design",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

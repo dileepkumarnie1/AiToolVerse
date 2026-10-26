@@ -1,0 +1,26 @@
+{
+  "slug": "magician-for-figma",
+  "name": "Magician for Figma",
+  "url": "https://magician.design/",
+  "tagline": "AI-powered Figma plugin for generating icons, copy, and images.",
+  "about": "Magician adds AI capabilities to Figma for generating icons, copy, images, and design variations.",
+  "pros": [
+    "Figma integration",
+    "Multiple AI tools",
+    "Quick generation"
+  ],
+  "cons": [
+    "Figma only",
+    "Subscription for full use",
+    "Quality varies"
+  ],
+  "capabilities": [
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

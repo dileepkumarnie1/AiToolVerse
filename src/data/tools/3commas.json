@@ -1,0 +1,27 @@
+{
+  "slug": "3commas",
+  "name": "3Commas",
+  "url": "https://3commas.io/",
+  "tagline": "A leading crypto trading bot platform for automating investment strategies.",
+  "about": "3Commas allows users to create and deploy automated trading bots (like DCA bots, Grid bots, and Options bots) on over a dozen major crypto exchanges. It uses algorithms and user-defined strategies to execute trades 24/7, removing emotion from the trading process.",
+  "pros": [
+    "Automates complex trading strategies around the clock.",
+    "Reduces the potential for emotional, panic-driven trading decisions.",
+    "Offers a marketplace for third-party signals and bot strategies."
+  ],
+  "cons": [
+    "Requires a good understanding of trading strategies to be profitable.",
+    "Carries the inherent market risks of automated trading.",
+    "The free tier is very limited, requiring a subscription for serious use."
+  ],
+  "capabilities": [
+    "finance",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

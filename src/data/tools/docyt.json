@@ -1,0 +1,27 @@
+{
+  "slug": "docyt",
+  "name": "Docyt",
+  "url": "https://www.docyt.com/",
+  "tagline": "AI-powered accounting automation for back-office bookkeeping.",
+  "about": "Docyt automates back-office accounting tasks using AI, including transaction coding, reconciliation, and reporting.",
+  "pros": [
+    "High automation",
+    "Reduces manual work",
+    "Real-time visibility"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "Setup time",
+    "US-focused"
+  ],
+  "capabilities": [
+    "finance",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

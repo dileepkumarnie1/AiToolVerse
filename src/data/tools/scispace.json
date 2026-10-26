@@ -1,0 +1,27 @@
+{
+  "slug": "scispace",
+  "name": "SciSpace",
+  "url": "https://typeset.io/",
+  "tagline": "AI copilot for reading and understanding research papers.",
+  "about": "SciSpace (formerly Typeset) helps researchers read and understand papers with AI-powered explanations, highlights, and Q&A.",
+  "pros": [
+    "Explains complex concepts",
+    "Math and table explanations",
+    "Large paper database"
+  ],
+  "cons": [
+    "Free tier limited",
+    "Some explanations inaccurate",
+    "Requires upload or DOI"
+  ],
+  "capabilities": [
+    "research-search",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

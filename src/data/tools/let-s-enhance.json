@@ -1,0 +1,26 @@
+{
+  "slug": "let-s-enhance",
+  "name": "Let's Enhance",
+  "url": "https://letsenhance.io/",
+  "tagline": "AI-powered image upscaling and enhancement for web and print quality.",
+  "about": "Let's Enhance uses AI to upscale and enhance images up to 16x while preserving quality for both web and print use.",
+  "pros": [
+    "High-quality upscaling",
+    "Batch processing",
+    "API available"
+  ],
+  "cons": [
+    "Credits-based pricing",
+    "Slow for large images",
+    "Limited free tier"
+  ],
+  "capabilities": [
+    "photo-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

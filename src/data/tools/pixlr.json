@@ -1,0 +1,26 @@
+{
+  "slug": "pixlr",
+  "name": "Pixlr",
+  "url": "https://pixlr.com/",
+  "tagline": "Free online photo editor with AI-powered tools for quick edits and creative effects.",
+  "about": "Pixlr offers AI-powered photo editing tools in the browser including background removal, smart cutout, and auto-fix features.",
+  "pros": [
+    "Free tier available",
+    "No installation needed",
+    "AI-powered tools"
+  ],
+  "cons": [
+    "Ads in free version",
+    "Limited advanced features",
+    "Requires internet"
+  ],
+  "capabilities": [
+    "photo-editing"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

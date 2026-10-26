@@ -1,0 +1,28 @@
+{
+  "slug": "agentgpt",
+  "name": "AgentGPT",
+  "url": "https://agentgpt.reworkd.ai/",
+  "tagline": "A no-code platform for building and deploying autonomous web-based AI agents.",
+  "about": "AgentGPT provides an easy-to-use web interface for creating autonomous agents. Users can give their agent a name and a goal, and watch as it creates a task list and executes it in real-time, using web browsing to gather information and achieve its objectives.",
+  "pros": [
+    "Extremely easy to use, no coding or setup required.",
+    "Clearly visualizes the agent's thought process and task execution.",
+    "Offers a free tier for experimenting with basic agents."
+  ],
+  "cons": [
+    "Agents are often slow and can get stuck in loops on complex tasks.",
+    "The free version has significant limitations on agent capabilities and runtime.",
+    "Less powerful and flexible than code-based agent frameworks."
+  ],
+  "capabilities": [
+    "agents",
+    "code-assistant",
+    "app-builder"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

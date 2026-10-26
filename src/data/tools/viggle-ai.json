@@ -1,0 +1,26 @@
+{
+  "slug": "viggle-ai",
+  "name": "Viggle AI",
+  "url": "https://viggle.ai/",
+  "tagline": "AI tool for animating characters and making them dance to music.",
+  "about": "Viggle AI makes any character dance and move with AI-powered animation from simple inputs.",
+  "pros": [
+    "Fun and easy",
+    "Character animation",
+    "Free to try"
+  ],
+  "cons": [
+    "Limited to animation",
+    "Quality varies",
+    "Niche use case"
+  ],
+  "capabilities": [
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "notebook-llm",
+  "name": "Notebook LLM",
+  "url": "https://notebooklm.google.com/",
+  "tagline": "This tool helps users to add online resources, pdfs, video links to generate a educational podcast or document which simplifies learning experience",
+  "about": "Sign in - Google Accounts",
+  "pros": [
+    "Free tier available.",
+    "Open source and extensible.",
+    "Good for drafting and Q&A."
+  ],
+  "cons": [
+    "Advanced features require payment.",
+    "Subscription required for full access.",
+    "Requires setup and maintenance."
+  ],
+  "capabilities": [
+    "video-generation",
+    "chat-assistant",
+    "code-assistant",
+    "notes-knowledge"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

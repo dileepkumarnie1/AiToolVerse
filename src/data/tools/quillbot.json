@@ -1,0 +1,30 @@
+{
+  "slug": "quillbot",
+  "name": "Quillbot",
+  "url": "https://quillbot.com/",
+  "tagline": "AI writing assistant for students with paraphrasing and grammar",
+  "about": "Quillbot is an AI writing assistant providing real-time feedback, grammar checks, paraphrasing, and suggestions. It's invaluable for student assignments and improving writing quality across academic contexts.",
+  "pros": [
+    "Excellent paraphrasing tool",
+    "Free tier available",
+    "Multiple writing modes",
+    "Integrates with browsers"
+  ],
+  "cons": [
+    "Premium features require subscription",
+    "Can sometimes change meaning",
+    "Limited plagiarism checker in free tier"
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "education-tutor",
+    "writing",
+    "summarization"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 99,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

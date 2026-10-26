@@ -1,0 +1,26 @@
+{
+  "slug": "cybereason",
+  "name": "Cybereason",
+  "url": "https://www.cybereason.com/",
+  "tagline": "AI-powered endpoint detection and response platform with behavioral analysis.",
+  "about": "Cybereason provides endpoint protection and detection using AI to identify malicious behavior patterns.",
+  "pros": [
+    "Behavioral detection",
+    "Unified platform",
+    "Fast response"
+  ],
+  "cons": [
+    "Resource usage",
+    "Enterprise pricing",
+    "Agent required"
+  ],
+  "capabilities": [
+    "cybersecurity"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

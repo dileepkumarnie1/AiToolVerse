@@ -1,0 +1,29 @@
+{
+  "slug": "perplexity-comet",
+  "name": "Perplexity Comet",
+  "url": "https://www.perplexity.ai/comet",
+  "tagline": "AI browser built on Perplexity's search engine with autonomous browsing, research workflows, and reliable citations.",
+  "about": "Perplexity Comet is an advanced AI browser that leverages Perplexity's powerful AI search engine to provide autonomous browsing capabilities. It excels at research tasks with automatic citation gathering, cross-tab context maintenance, and multi-step action completion.",
+  "pros": [
+    "Excellent for professional research with reliable citations",
+    "Autonomous multi-step actions (booking, comparing, summarizing)",
+    "Maintains cross-tab context for complex workflows",
+    "Strong at fact-checking and source verification"
+  ],
+  "cons": [
+    "Focused more on research than general browsing",
+    "Premium features require subscription",
+    "Learning curve for advanced autonomous features"
+  ],
+  "capabilities": [
+    "browser",
+    "research-search",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

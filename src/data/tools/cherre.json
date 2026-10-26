@@ -1,0 +1,28 @@
+{
+  "slug": "cherre",
+  "name": "Cherre",
+  "url": "https://cherre.com/",
+  "tagline": "AI-powered real estate data platform connecting and analyzing property data.",
+  "about": "Cherre provides a data platform that connects and analyzes real estate data from multiple sources using AI.",
+  "pros": [
+    "Data integration",
+    "Multiple sources",
+    "Enterprise-grade"
+  ],
+  "cons": [
+    "Enterprise focus",
+    "Complex setup",
+    "Technical implementation"
+  ],
+  "capabilities": [
+    "real-estate",
+    "data-analysis",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

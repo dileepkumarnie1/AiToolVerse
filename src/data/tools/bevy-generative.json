@@ -1,0 +1,23 @@
+{
+  "slug": "bevy-generative",
+  "name": "bevy_generative",
+  "url": "https://procedra.netlify.app/",
+  "tagline": "Procedural Generation on the web in real time! Generate dynamic content on-the-fly, from intricate landscapes to immersive 3D planets. Unleash your imagination and create captivating worlds with ease.",
+  "about": "Procedural Generation on the web in real time! Generate dynamic content on-the-fly, from intricate landscapes to immersive 3D planets. Unleash your imagination and create captivating worlds with ease.",
+  "pros": [
+    "Easy to get started."
+  ],
+  "cons": [
+    "May require an account or credits."
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

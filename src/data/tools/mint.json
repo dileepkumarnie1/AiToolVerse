@@ -1,0 +1,26 @@
+{
+  "slug": "mint",
+  "name": "Mint",
+  "url": "https://mint.intuit.com/",
+  "tagline": "AI-powered personal finance app for budgeting, bill tracking, and financial overview.",
+  "about": "Mint provides a comprehensive view of your finances with AI-powered categorization, budget suggestions, and bill reminders.",
+  "pros": [
+    "Free to use",
+    "Account aggregation",
+    "Budget tracking"
+  ],
+  "cons": [
+    "Ads in app",
+    "Privacy concerns",
+    "US-only"
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

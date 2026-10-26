@@ -1,0 +1,27 @@
+{
+  "slug": "housecanary",
+  "name": "HouseCanary",
+  "url": "https://www.housecanary.com/",
+  "tagline": "Property valuations, forecasting, and analytics for real estate.",
+  "about": "HouseCanary provides automated valuation models (AVMs), comparables, and market analytics for lenders and investors.",
+  "pros": [
+    "Robust AVM data.",
+    "Market trend insights.",
+    "Lender/investor focus."
+  ],
+  "cons": [
+    "US‑centric data.",
+    "Enterprise contracts.",
+    "Needs integration into workflows."
+  ],
+  "capabilities": [
+    "real-estate",
+    "data-analysis"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "kimonix",
+  "name": "Kimonix",
+  "url": "https://www.kimonix.com/",
+  "tagline": "AI merchandising engine for optimized product placement",
+  "about": "Kimonix is an AI-driven merchandising engine that analyzes sales, inventory, and customer data to optimize product placement and dynamically adjust collections for maximum sales. It helps retailers make data-driven merchandising decisions.",
+  "pros": [
+    "Automated product merchandising",
+    "Data-driven collection optimization",
+    "Inventory-aware recommendations",
+    "Performance analytics"
+  ],
+  "cons": [
+    "Requires significant product catalog",
+    "Learning curve for merchandising strategy",
+    "Pricing scales with catalog size"
+  ],
+  "capabilities": [
+    "ecommerce",
+    "data-analysis"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

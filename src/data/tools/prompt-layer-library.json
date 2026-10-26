@@ -1,0 +1,27 @@
+{
+  "slug": "prompt-layer-library",
+  "name": "prompt-layer-library",
+  "url": "https://www.promptlayer.com/",
+  "tagline": "PromptLayer - Your workbench for AI engineering. Platform for prompt management, prompt evaluations, and LLM observability",
+  "about": "PromptLayer - Your workbench for AI engineering. Platform for prompt management, prompt evaluations, and LLM observability",
+  "pros": [
+    "Good for drafting and Q&A.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "May require fact‑checking.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "prompt-tools",
+    "chat-assistant",
+    "graphic-design",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

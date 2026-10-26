@@ -1,0 +1,27 @@
+{
+  "slug": "gemini-for-workspace",
+  "name": "Gemini for Workspace",
+  "url": "https://workspace.google.com/products/gemini/",
+  "tagline": "Generative AI inside Google Docs, Sheets, Slides, and Gmail.",
+  "about": "Write, analyze, and visualize with AI in Google Workspace apps.",
+  "pros": [
+    "Native Workspace UX.",
+    "Good for teams on Google.",
+    "Strong collaboration."
+  ],
+  "cons": [
+    "Paid add‑on.",
+    "Admin setup.",
+    "Feature parity varies by region."
+  ],
+  "capabilities": [
+    "automation",
+    "presentations"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

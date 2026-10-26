@@ -1,0 +1,29 @@
+{
+  "slug": "summarist-ai",
+  "name": "Summarist.ai",
+  "url": "https://summarist.ai/",
+  "tagline": "AI tool that summarizes YouTube videos and podcasts into key takeaways.",
+  "about": "Summarist specializes in summarizing YouTube videos and podcasts, extracting key points and timestamps.",
+  "pros": [
+    "Video/audio focus",
+    "Timestamps included",
+    "Quick results"
+  ],
+  "cons": [
+    "Limited to video/audio",
+    "Accuracy depends on content",
+    "Subscription for full access"
+  ],
+  "capabilities": [
+    "summarization",
+    "video-generation",
+    "podcast",
+    "social-media"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

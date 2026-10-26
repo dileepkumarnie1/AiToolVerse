@@ -1,0 +1,28 @@
+{
+  "slug": "anthropic-api",
+  "name": "Anthropic API",
+  "url": "https://www.anthropic.com/api",
+  "tagline": "API access to Claude models with focus on safety and long context windows.",
+  "about": "Anthropic's API provides access to Claude models known for large context windows and safety-focused design.",
+  "pros": [
+    "Large context window",
+    "Safety focus",
+    "Strong performance"
+  ],
+  "cons": [
+    "Limited availability",
+    "Usage pricing",
+    "Fewer models"
+  ],
+  "capabilities": [
+    "developer-api",
+    "code-assistant",
+    "responsible-ai"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

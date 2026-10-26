@@ -1,0 +1,18 @@
+{
+  "slug": "cherry-studio",
+  "name": "cherry-studio",
+  "url": "https://cherry-ai.com/",
+  "tagline": "🍒 Cherry Studio is a desktop client that supports for multiple LLM providers.",
+  "about": "🍒 Cherry Studio is a desktop client that supports for multiple LLM providers.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

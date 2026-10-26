@@ -1,0 +1,27 @@
+{
+  "slug": "alphasense",
+  "name": "AlphaSense",
+  "url": "https://www.alpha-sense.com/",
+  "tagline": "AI-powered market intelligence and research platform.",
+  "about": "AlphaSense uses AI to search and analyze market intelligence, financial documents, and research for business decisions.",
+  "pros": [
+    "Comprehensive data sources",
+    "Powerful search",
+    "Sentiment analysis"
+  ],
+  "cons": [
+    "Very expensive",
+    "Enterprise only",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "finance",
+    "research-search"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "seekout",
+  "name": "Seekout",
+  "url": "https://www.seekout.com/",
+  "tagline": "AI-powered talent search engine for finding diverse and hard-to-find candidates.",
+  "about": "SeekOut helps recruiters find candidates with hard-to-find skills using AI search across multiple sources.",
+  "pros": [
+    "Deep search",
+    "Diversity filters",
+    "Technical talent"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "US-focused",
+    "Data accuracy varies"
+  ],
+  "capabilities": [
+    "hr-recruiting",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "pitch",
+  "name": "Pitch",
+  "url": "https://pitch.com/",
+  "tagline": "Collaborative presentation software with AI-powered design assistance.",
+  "about": "Pitch combines collaborative presentation creation with AI design assistance for modern teams.",
+  "pros": [
+    "Beautiful design",
+    "Real-time collaboration",
+    "Good templates"
+  ],
+  "cons": [
+    "Learning curve",
+    "Limited AI depth",
+    "Subscription pricing"
+  ],
+  "capabilities": [
+    "presentations",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

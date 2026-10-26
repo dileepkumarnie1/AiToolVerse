@@ -1,0 +1,27 @@
+{
+  "slug": "donotpay",
+  "name": "DoNotPay",
+  "url": "https://donotpay.com/",
+  "tagline": "AI-powered consumer legal assistance and automation.",
+  "about": "DoNotPay automates consumer legal tasks like ticket appeals, refunds, and small claims with AI-powered form generation and negotiation.",
+  "pros": [
+    "Affordable",
+    "Many use cases",
+    "Easy to use"
+  ],
+  "cons": [
+    "Limited to certain jurisdictions",
+    "Not for complex legal issues",
+    "Effectiveness varies"
+  ],
+  "capabilities": [
+    "legal",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "drift",
+  "name": "Drift",
+  "url": "https://www.drift.com/",
+  "tagline": "Conversational AI platform for B2B marketing and sales.",
+  "about": "Drift uses conversational AI for B2B lead qualification, meeting scheduling, and customer engagement.",
+  "pros": [
+    "Strong B2B focus",
+    "Integrates with CRM",
+    "Meeting scheduling built-in"
+  ],
+  "cons": [
+    "Expensive",
+    "Overkill for small businesses",
+    "Complex setup"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

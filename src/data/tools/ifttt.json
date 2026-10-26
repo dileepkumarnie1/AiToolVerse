@@ -1,0 +1,18 @@
+{
+  "slug": "ifttt",
+  "name": "IFTTT",
+  "url": "https://ifttt.com/",
+  "tagline": "Automation platform to connect apps and devices with triggers and actions.",
+  "about": "IFTTT helps you automate repetitive tasks by connecting services and devices using simple applets.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

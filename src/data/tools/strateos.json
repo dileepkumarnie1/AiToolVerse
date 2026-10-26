@@ -1,0 +1,28 @@
+{
+  "slug": "strateos",
+  "name": "Strateos",
+  "url": "https://strateos.com/",
+  "tagline": "Robotic cloud lab platform for automated life science research.",
+  "about": "Strateos provides robotic cloud laboratories that automate life science experiments with high reproducibility.",
+  "pros": [
+    "High reproducibility",
+    "24/7 operation",
+    "Scalable"
+  ],
+  "cons": [
+    "High cost",
+    "Limited experiment types",
+    "Complex setup"
+  ],
+  "capabilities": [
+    "science",
+    "research-search",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

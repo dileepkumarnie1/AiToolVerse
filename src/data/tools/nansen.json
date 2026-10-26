@@ -1,0 +1,27 @@
+{
+  "slug": "nansen",
+  "name": "Nansen",
+  "url": "https://www.nansen.ai/",
+  "tagline": "Wallet labels and smart money tracking across chains.",
+  "about": "Identify entity wallets, follow flows, and analyze behavior trends.",
+  "pros": [
+    "Best‑in‑class labels.",
+    "Great UX.",
+    "DeFi insights."
+  ],
+  "cons": [
+    "Expensive.",
+    "Focus on EVM chains.",
+    "Signals not investment advice."
+  ],
+  "capabilities": [
+    "finance",
+    "data-analysis"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "suno",
+  "name": "Suno",
+  "url": "https://suno.com/",
+  "tagline": "AI music generator that creates complete songs with vocals from text prompts.",
+  "about": "Suno creates complete songs including lyrics and vocals from simple text descriptions, making music creation accessible to everyone.",
+  "pros": [
+    "Complete songs with vocals",
+    "Easy to use",
+    "Quick generation"
+  ],
+  "cons": [
+    "Limited control",
+    "Copyright questions",
+    "Quality varies"
+  ],
+  "capabilities": [
+    "music-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

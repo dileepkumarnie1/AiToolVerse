@@ -1,0 +1,29 @@
+{
+  "slug": "memvid",
+  "name": "memvid",
+  "url": "https://www.memvid.com/",
+  "tagline": "Store AI Memory as video files. Branch like Git. Carry anywhere in 50KB.",
+  "about": "Store AI Memory as video files. Branch like Git. Carry anywhere in 50KB.",
+  "pros": [
+    "Good for drafting and Q&A.",
+    "Accelerates video creation.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "May require fact‑checking.",
+    "Render times or credit limits may apply.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "research-search",
+    "chat-assistant",
+    "graphic-design",
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

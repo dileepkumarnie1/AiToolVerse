@@ -1,0 +1,27 @@
+{
+  "slug": "quizlet-q-chat",
+  "name": "Quizlet Q-Chat",
+  "url": "https://quizlet.com/q-chat",
+  "tagline": "An AI tutor that turns study materials into conversational practice.",
+  "about": "Q-Chat is a feature within Quizlet that uses AI to create an interactive tutoring experience from any study set. It can quiz you, help you understand concepts more deeply, and even teach you in a conversational way.",
+  "pros": [
+    "Works with Quizlet's massive library of user-generated study sets.",
+    "Makes studying more engaging and interactive.",
+    "Free tier provides a good amount of access."
+  ],
+  "cons": [
+    "Effectiveness depends on the quality of the underlying Quizlet set.",
+    "Most advanced features require a Quizlet Plus subscription.",
+    "Less structured than a full curriculum like Khanmigo."
+  ],
+  "capabilities": [
+    "education-tutor",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

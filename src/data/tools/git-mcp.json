@@ -1,0 +1,28 @@
+{
+  "slug": "git-mcp",
+  "name": "git-mcp",
+  "url": "https://gitmcp.io/",
+  "tagline": "Instantly create an MCP server for any GitHub project",
+  "about": "Instantly create an MCP server for any GitHub project",
+  "pros": [
+    "Open source and extensible.",
+    "Good for drafting and Q&A.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "May require fact‑checking.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

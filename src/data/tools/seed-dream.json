@@ -1,0 +1,18 @@
+{
+  "slug": "seed-dream",
+  "name": "Seed Dream",
+  "url": "https://seeddream.app/",
+  "tagline": "Creative ideation chat assistant",
+  "about": "Creative ideation chat assistant",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

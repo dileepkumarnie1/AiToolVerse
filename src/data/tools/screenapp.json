@@ -1,0 +1,30 @@
+{
+  "slug": "screenapp",
+  "name": "ScreenApp",
+  "url": "https://screenapp.io/",
+  "tagline": "AI transcription, video summarization, editing suite, and multi-language support for screen recordings",
+  "about": "ScreenApp provides AI-powered screen recording with automatic transcription, video summarization, and support for multiple languages, making it ideal for creating searchable video content.",
+  "pros": [
+    "Automatic AI transcription of recordings",
+    "Video summarization features save time",
+    "Multi-language support for global teams",
+    "Searchable transcripts make content discoverable"
+  ],
+  "cons": [
+    "Requires stable internet connection for AI features",
+    "Pricing can add up for heavy users",
+    "May have accuracy issues with technical jargon"
+  ],
+  "capabilities": [
+    "screen-recording",
+    "video-generation",
+    "education-tutor",
+    "summarization"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

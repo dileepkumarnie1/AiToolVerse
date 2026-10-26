@@ -1,0 +1,28 @@
+{
+  "slug": "coohom",
+  "name": "Coohom",
+  "url": "https://www.coohom.com/",
+  "tagline": "3D interior design platform with AI-powered rendering and furniture placement.",
+  "about": "Coohom provides professional-grade 3D interior design with AI-accelerated rendering and furniture library.",
+  "pros": [
+    "Professional quality",
+    "Fast rendering",
+    "Large catalog"
+  ],
+  "cons": [
+    "Learning curve",
+    "Subscription pricing",
+    "Complex for beginners"
+  ],
+  "capabilities": [
+    "interior-design",
+    "graphic-design",
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

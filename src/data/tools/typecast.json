@@ -1,0 +1,27 @@
+{
+  "slug": "typecast",
+  "name": "Typecast",
+  "url": "https://typecast.ai/",
+  "tagline": "AI voice actors for creating content with expressive synthetic voices.",
+  "about": "Typecast provides AI voice actors for creating videos and content.",
+  "pros": [
+    "Expressive voices",
+    "Character voices",
+    "Content focus"
+  ],
+  "cons": [
+    "Subscription",
+    "Limited customization",
+    "Asian market focus"
+  ],
+  "capabilities": [
+    "voice-tts",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

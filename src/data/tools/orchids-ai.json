@@ -1,0 +1,18 @@
+{
+  "slug": "orchids-ai",
+  "name": "Orchids AI",
+  "url": "https://orchids.ai/",
+  "tagline": "Unified AI chat assistant platform",
+  "about": "Unified AI chat assistant platform",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

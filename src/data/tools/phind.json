@@ -1,0 +1,29 @@
+{
+  "slug": "phind",
+  "name": "Phind",
+  "url": "https://www.phind.com/",
+  "tagline": "An AI search engine and pair programmer for developers.",
+  "about": "Phind is an AI-powered search engine designed specifically for developers. Instead of just links, it provides direct answers, code examples, and summaries based on information from across the web, acting like an expert that is always up-to-date.",
+  "pros": [
+    "Excellent for getting quick, synthesized answers to technical questions.",
+    "Provides code examples and links to sources.",
+    "Free version is very powerful."
+  ],
+  "cons": [
+    "Not an IDE plugin, so it requires switching context.",
+    "Can sometimes hallucinate answers or combine information incorrectly.",
+    "The paid tier is required for the most advanced models."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "galileo-ai",
+  "name": "Galileo AI",
+  "url": "https://www.usegalileo.ai/",
+  "tagline": "Generates high-fidelity UI designs from a single text prompt.",
+  "about": "Galileo AI is a powerful tool that aims to accelerate the design process by generating editable, high-fidelity UI designs directly from text descriptions. It's trained on thousands of top-tier designs to produce visually consistent and appealing results.",
+  "pros": [
+    "Incredibly fast way to generate initial design mockups.",
+    "Produces editable designs for tools like Figma.",
+    "UI is clean and easy to use."
+  ],
+  "cons": [
+    "Still in early access, so there may be a waitlist.",
+    "Less control than manual design.",
+    "Best for ideation, may require significant refinement for production."
+  ],
+  "capabilities": [
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

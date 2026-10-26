@@ -1,0 +1,26 @@
+{
+  "slug": "tensor-art",
+  "name": "Tensor.Art",
+  "url": "https://tensor.art/",
+  "tagline": "Free AI image generation platform with multiple models and community features.",
+  "about": "Tensor.Art provides access to various AI image models for free, with community features for sharing and discovering creations.",
+  "pros": [
+    "Free to use",
+    "Multiple models",
+    "Active community"
+  ],
+  "cons": [
+    "Slower generation",
+    "Quality varies",
+    "Limited control"
+  ],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

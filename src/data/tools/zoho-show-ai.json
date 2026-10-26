@@ -1,0 +1,27 @@
+{
+  "slug": "zoho-show-ai",
+  "name": "Zoho Show AI",
+  "url": "https://www.zoho.com/show/",
+  "tagline": "AI-powered presentation features in Zoho's office suite.",
+  "about": "Zoho Show provides AI-powered presentation creation as part of the Zoho productivity suite.",
+  "pros": [
+    "Zoho integration",
+    "Affordable",
+    "Good for Zoho users"
+  ],
+  "cons": [
+    "Less standalone value",
+    "Limited AI vs dedicated tools",
+    "Basic features"
+  ],
+  "capabilities": [
+    "presentations",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

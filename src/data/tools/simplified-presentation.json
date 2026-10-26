@@ -1,0 +1,27 @@
+{
+  "slug": "simplified-presentation",
+  "name": "Simplified Presentation",
+  "url": "https://simplified.com/ai-presentation-maker",
+  "tagline": "AI presentation maker with design, animation, and team collaboration.",
+  "about": "Simplified's AI presentation maker creates designed slides with animations and team collaboration features.",
+  "pros": [
+    "Full design suite",
+    "Animation",
+    "Free tier"
+  ],
+  "cons": [
+    "Part of larger suite",
+    "Learning curve",
+    "Premium for full features"
+  ],
+  "capabilities": [
+    "presentations",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

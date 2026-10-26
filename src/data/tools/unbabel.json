@@ -1,0 +1,26 @@
+{
+  "slug": "unbabel",
+  "name": "Unbabel",
+  "url": "https://unbabel.com/",
+  "tagline": "AI-powered translation combining machine translation with human review.",
+  "about": "Unbabel combines AI translation with human review for high-quality results.",
+  "pros": [
+    "Quality assurance",
+    "Enterprise-ready",
+    "Many languages"
+  ],
+  "cons": [
+    "Slower than pure AI",
+    "Enterprise pricing",
+    "Review time"
+  ],
+  "capabilities": [
+    "translation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "decepticon",
+  "name": "Decepticon",
+  "url": "https://purplelab.framer.ai/",
+  "tagline": "PurpleAILAB, Decepticon",
+  "about": "PurpleAILAB, Decepticon",
+  "pros": [
+    "Easy to get started."
+  ],
+  "cons": [
+    "May require an account or credits."
+  ],
+  "capabilities": [
+    "responsible-ai",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

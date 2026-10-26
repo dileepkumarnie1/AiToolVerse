@@ -1,0 +1,18 @@
+{
+  "slug": "runpod",
+  "name": "Runpod",
+  "url": "https://www.runpod.io/",
+  "tagline": "GPU cloud for running AI workloads, inference endpoints, and training jobs.",
+  "about": "Runpod provides cost-effective GPU compute for deploying and running AI models.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

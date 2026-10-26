@@ -1,0 +1,27 @@
+{
+  "slug": "hootsuite-owlywriter-ai",
+  "name": "Hootsuite OwlyWriter AI",
+  "url": "https://www.hootsuite.com/products/owlywriter-ai",
+  "tagline": "AI captions, ideas, and repurposing for social marketers.",
+  "about": "OwlyWriter generates captions, repurposes posts, and drafts content calendars, integrated with Hootsuite’s suite.",
+  "pros": [
+    "Fits existing Hootsuite flows.",
+    "Helps ideation and repurposing.",
+    "Team collaboration."
+  ],
+  "cons": [
+    "Requires Hootsuite plan.",
+    "Results still need editing.",
+    "Cost scales with seats."
+  ],
+  "capabilities": [
+    "social-media",
+    "scheduling"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

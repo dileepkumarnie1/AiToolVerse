@@ -1,0 +1,26 @@
+{
+  "slug": "khroma",
+  "name": "Khroma",
+  "url": "https://www.khroma.co/",
+  "tagline": "An AI color tool that learns your preferences to generate limitless palettes.",
+  "about": "Khroma is an AI color palette generator. You start by choosing a set of 50 colors you like, and it uses that data to train a neural network that can generate thousands of color combinations tailored to your personal style.",
+  "pros": [
+    "Creates personalized color palettes based on your taste.",
+    "Generates an infinite number of combinations.",
+    "Completely free to use."
+  ],
+  "cons": [
+    "The initial training process can be time-consuming.",
+    "The interface can be overwhelming with so many options.",
+    "The AI's understanding of 'good' color combinations is subjective."
+  ],
+  "capabilities": [
+    "graphic-design"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

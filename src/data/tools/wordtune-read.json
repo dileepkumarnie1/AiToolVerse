@@ -1,0 +1,27 @@
+{
+  "slug": "wordtune-read",
+  "name": "Wordtune Read",
+  "url": "https://www.wordtune.com/read",
+  "tagline": "AI reading companion that summarizes long documents with interactive Q&A.",
+  "about": "Wordtune Read helps you understand long documents faster with AI summaries and the ability to ask questions.",
+  "pros": [
+    "Interactive Q&A",
+    "Document focus",
+    "Good accuracy"
+  ],
+  "cons": [
+    "Subscription required",
+    "Limited free uses",
+    "Document types limited"
+  ],
+  "capabilities": [
+    "summarization",
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

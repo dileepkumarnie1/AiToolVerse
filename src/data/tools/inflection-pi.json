@@ -1,0 +1,27 @@
+{
+  "slug": "inflection-pi",
+  "name": "Inflection Pi",
+  "url": "https://inflection.ai/",
+  "tagline": "Friendly conversational AI assistant designed for personal interactions.",
+  "about": "Inflection Pi is a conversational AI designed to be friendly, supportive, and empathetic. It focuses on personal interactions and emotional intelligence.",
+  "pros": [
+    "Empathetic and supportive conversational style",
+    "Good for personal use and emotional support",
+    "Natural conversation flow"
+  ],
+  "cons": [
+    "Less suited for technical or professional tasks",
+    "Smaller knowledge base than competitors",
+    "Limited API availability"
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "google-gemini-for-gmail",
+  "name": "Google Gemini for Gmail",
+  "url": "https://workspace.google.com/solutions/ai/",
+  "tagline": "Native AI integration in Gmail for smart compose, replies, summarization, and workspace features.",
+  "about": "Google's Gemini AI provides native integration within Gmail, offering smart compose, intelligent replies, email summarization, and thread organization. It's ideal for Google Workspace users wanting seamless AI assistance.",
+  "pros": [
+    "Native Gmail integration",
+    "No additional apps needed",
+    "Thread summarization",
+    "Google Workspace integration"
+  ],
+  "cons": [
+    "Best features require Workspace subscription",
+    "Limited compared to specialized tools",
+    "Privacy concerns with Google's data use"
+  ],
+  "capabilities": [
+    "email",
+    "chat-assistant",
+    "summarization",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

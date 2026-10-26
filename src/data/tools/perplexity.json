@@ -1,0 +1,26 @@
+{
+  "slug": "perplexity",
+  "name": "Perplexity",
+  "url": "https://www.perplexity.ai/",
+  "tagline": "AI search engine providing cited answers from web sources.",
+  "about": "Perplexity provides AI-powered search with cited sources and follow-up questions.",
+  "pros": [
+    "Cited answers",
+    "Fast research",
+    "Free tier"
+  ],
+  "cons": [
+    "May miss nuance",
+    "Source quality varies",
+    "Premium for more"
+  ],
+  "capabilities": [
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

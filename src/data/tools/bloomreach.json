@@ -1,0 +1,26 @@
+{
+  "slug": "bloomreach",
+  "name": "Bloomreach",
+  "url": "https://www.bloomreach.com/",
+  "tagline": "AI-powered commerce experience cloud.",
+  "about": "Bloomreach combines AI-powered search, merchandising, content, and customer data for personalized e-commerce experiences.",
+  "pros": [
+    "Comprehensive platform",
+    "Strong personalization",
+    "Scalable"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complex implementation",
+    "Overkill for small stores"
+  ],
+  "capabilities": [
+    "ecommerce"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

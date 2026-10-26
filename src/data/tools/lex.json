@@ -1,0 +1,27 @@
+{
+  "slug": "lex",
+  "name": "Lex",
+  "url": "https://lex.page/",
+  "tagline": "AI-powered writing tool that combines a clean editor with smart AI assistance.",
+  "about": "Lex provides a distraction-free writing environment with AI that can continue your thoughts, provide feedback, and help overcome writer's block.",
+  "pros": [
+    "Clean interface",
+    "Smart AI suggestions",
+    "Focus on writing flow"
+  ],
+  "cons": [
+    "Limited formatting options",
+    "Newer platform",
+    "Subscription required"
+  ],
+  "capabilities": [
+    "writing",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

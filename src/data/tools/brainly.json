@@ -1,0 +1,26 @@
+{
+  "slug": "brainly",
+  "name": "Brainly",
+  "url": "https://brainly.com/",
+  "tagline": "AI-powered homework help platform with community answers and explanations.",
+  "about": "Brainly combines AI-generated explanations with community answers to help students with homework across subjects.",
+  "pros": [
+    "Wide subject coverage",
+    "Community answers",
+    "AI explanations"
+  ],
+  "cons": [
+    "Answer quality varies",
+    "Subscription for full access",
+    "Ads in free tier"
+  ],
+  "capabilities": [
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

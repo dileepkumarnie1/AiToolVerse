@@ -1,0 +1,27 @@
+{
+  "slug": "century-tech",
+  "name": "Century Tech",
+  "url": "https://www.century.tech/",
+  "tagline": "AI-powered adaptive learning and assessment platform",
+  "about": "Century Tech focuses on rapid and automated formative assessments, mastery analytics, and adaptive learning paths with ongoing feedback for students and actionable insights for teachers.",
+  "pros": [
+    "Personalized learning paths",
+    "Real-time analytics",
+    "Reduces teacher workload",
+    "Evidence-based pedagogy"
+  ],
+  "cons": [
+    "School/district pricing",
+    "Requires consistent student engagement",
+    "Limited content in some subjects"
+  ],
+  "capabilities": [
+    "education-tutor"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

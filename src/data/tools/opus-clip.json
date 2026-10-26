@@ -1,0 +1,29 @@
+{
+  "slug": "opus-clip",
+  "name": "Opus Clip",
+  "url": "https://www.opus.pro/",
+  "tagline": "AI repurposing tool that turns long videos into viral short clips automatically.",
+  "about": "Opus Clip uses AI to identify the most engaging segments of long-form video content (podcasts, webinars, interviews) and converts them into short, captioned, social-media-ready clips with automated framing, dynamic captions, and virality scoring.",
+  "pros": [
+    "Automatic highlight detection saves editing time.",
+    "Dynamic captions and reframing for multiple aspect ratios.",
+    "Virality score helps prioritize best clips."
+  ],
+  "cons": [
+    "Free tier limits export quality and volume.",
+    "AI cuts occasionally miss full context.",
+    "Brand styling customization limited on lower tiers."
+  ],
+  "capabilities": [
+    "video-generation",
+    "video-editing",
+    "social-media",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

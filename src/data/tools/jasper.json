@@ -1,0 +1,29 @@
+{
+  "slug": "jasper",
+  "name": "Jasper",
+  "url": "https://www.jasper.ai/",
+  "tagline": "AI writing assistant for social media copywriting and content",
+  "about": "Jasper excels at generating copy for social media posts, including short captions, product descriptions, and long-form marketing content. It stands out for its brand voice customization and workflow tools, ideal for maintaining consistency across large campaigns.",
+  "pros": [
+    "Brand voice customization",
+    "Multiple content templates",
+    "Team collaboration features",
+    "Integration with other tools"
+  ],
+  "cons": [
+    "Premium pricing",
+    "Requires editing for best results",
+    "Learning curve for advanced features"
+  ],
+  "capabilities": [
+    "marketing-seo",
+    "social-media",
+    "writing"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

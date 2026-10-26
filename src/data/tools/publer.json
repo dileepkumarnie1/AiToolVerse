@@ -1,0 +1,28 @@
+{
+  "slug": "publer",
+  "name": "Publer",
+  "url": "https://publer.io/",
+  "tagline": "Social media scheduling tool with AI-powered features for content creation.",
+  "about": "Publer provides social media scheduling with AI features for generating captions and optimizing posting times.",
+  "pros": [
+    "Affordable",
+    "Easy to use",
+    "AI captions"
+  ],
+  "cons": [
+    "Limited analytics",
+    "Basic AI features",
+    "Smaller platform"
+  ],
+  "capabilities": [
+    "social-media",
+    "writing",
+    "scheduling"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

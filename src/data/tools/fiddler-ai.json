@@ -1,0 +1,26 @@
+{
+  "slug": "fiddler-ai",
+  "name": "Fiddler AI",
+  "url": "https://www.fiddler.ai/",
+  "tagline": "A platform for monitoring, explaining, and analyzing AI models in production.",
+  "about": "Fiddler is an enterprise-grade Model Performance Management (MPM) platform. It helps organizations gain visibility into their production AI systems, explaining why models make certain predictions, detecting bias, and monitoring for performance drift.",
+  "pros": [
+    "Provides crucial explainability for 'black box' models.",
+    "Helps ensure fairness and compliance.",
+    "Monitors model performance in real-time."
+  ],
+  "cons": [
+    "Aimed at large enterprises with models in production.",
+    "Can be complex and expensive to implement.",
+    "Focuses on post-deployment, not the initial model training."
+  ],
+  "capabilities": [
+    "responsible-ai"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

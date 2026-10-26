@@ -1,0 +1,26 @@
+{
+  "slug": "postiz-app",
+  "name": "postiz-app",
+  "url": "https://postiz.com/",
+  "tagline": "Streamline your social media with Postiz. Schedule posts, analyze performance, and manage all accounts in one place.",
+  "about": "Streamline your social media with Postiz. Schedule posts, analyze performance, and manage all accounts in one place.",
+  "pros": [
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "social-media",
+    "graphic-design",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

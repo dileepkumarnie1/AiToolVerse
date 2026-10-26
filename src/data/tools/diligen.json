@@ -1,0 +1,26 @@
+{
+  "slug": "diligen",
+  "name": "Diligen",
+  "url": "https://www.diligen.com/",
+  "tagline": "AI-powered contract review for due diligence with customizable extraction.",
+  "about": "Diligen helps legal teams review contracts faster with AI extraction that can be customized for specific needs.",
+  "pros": [
+    "Customizable extraction",
+    "Good accuracy",
+    "Training options"
+  ],
+  "cons": [
+    "Technical setup",
+    "Enterprise pricing",
+    "Implementation time"
+  ],
+  "capabilities": [
+    "legal"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

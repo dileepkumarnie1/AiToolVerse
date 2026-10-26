@@ -1,0 +1,20 @@
+{
+  "slug": "zep",
+  "name": "Zep",
+  "url": "https://www.getzep.com/",
+  "tagline": "Long-term memory for AI assistants and agents (open-source + managed options).",
+  "about": "Zep helps you add durable memory to AI assistants by storing and retrieving conversation history and user context.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "notes-knowledge",
+    "developer-api",
+    "agents"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

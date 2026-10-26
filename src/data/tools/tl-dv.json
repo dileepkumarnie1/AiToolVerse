@@ -1,0 +1,30 @@
+{
+  "slug": "tl-dv",
+  "name": "tl;dv",
+  "url": "https://tldv.io/",
+  "tagline": "Meeting recorder with powerful search, time-stamped highlights, and UX/product team features.",
+  "about": "tl;dv is designed for teams who need searchable video transcripts and time-stamped highlights. It's particularly popular with UX researchers and product teams who need to extract insights from user interviews and meetings.",
+  "pros": [
+    "Powerful search within transcripts",
+    "Time-stamped highlight reels",
+    "Excellent for UX/product research",
+    "Easy snippet sharing"
+  ],
+  "cons": [
+    "May be over-featured for basic note-taking",
+    "Focus on video features vs pure transcription",
+    "Learning curve for advanced features"
+  ],
+  "capabilities": [
+    "meeting-notes",
+    "chat-assistant",
+    "notes-knowledge",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

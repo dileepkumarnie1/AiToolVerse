@@ -1,0 +1,28 @@
+{
+  "slug": "visme",
+  "name": "Visme",
+  "url": "https://www.visme.co/",
+  "tagline": "Visual content creation platform with AI features for design and presentations.",
+  "about": "Visme is a visual content creation platform with AI features for infographics, presentations, and marketing materials.",
+  "pros": [
+    "Versatile output",
+    "AI features",
+    "Good templates"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "Learning curve",
+    "Can be overwhelming"
+  ],
+  "capabilities": [
+    "graphic-design",
+    "presentations",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

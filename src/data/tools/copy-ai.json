@@ -1,0 +1,29 @@
+{
+  "slug": "copy-ai",
+  "name": "Copy.ai",
+  "url": "https://www.copy.ai/",
+  "tagline": "An AI writing tool with a large suite of templates for marketing and sales copy.",
+  "about": "Copy.ai is an AI-powered writing tool that helps generate a wide range of marketing copy and other content. It provides over 90 templates and tools for tasks like writing blog posts, social media updates, ad copy, and sales emails. It is known for its user-friendly interface and features that can automate marketing workflows and maintain a consistent brand voice.",
+  "pros": [
+    "Extensive library of templates for specific marketing tasks.",
+    "Real-time web search capability allows for more current content generation.",
+    "Generous free plan and cost-effective for teams."
+  ],
+  "cons": [
+    "Long-form content editor is less robust than some competitors.",
+    "Generated content always requires fact-checking for accuracy.",
+    "Lacks built-in SEO optimization tools and a plagiarism checker."
+  ],
+  "capabilities": [
+    "marketing-seo",
+    "social-media",
+    "writing",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 96,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "phenom",
+  "name": "Phenom",
+  "url": "https://www.phenom.com/",
+  "tagline": "AI-driven talent experience management platform.",
+  "about": "Phenom provides AI-powered talent acquisition, onboarding, and employee experience optimization for enterprises.",
+  "pros": [
+    "Complete talent platform",
+    "Personalization features",
+    "Good candidate experience"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complex implementation",
+    "Requires large volume to justify cost"
+  ],
+  "capabilities": [
+    "hr-recruiting"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

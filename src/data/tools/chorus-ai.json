@@ -1,0 +1,27 @@
+{
+  "slug": "chorus-ai",
+  "name": "Chorus.ai",
+  "url": "https://www.chorus.ai/",
+  "tagline": "Conversation intelligence for sales teams.",
+  "about": "Chorus.ai (now ZoomInfo) captures and analyzes sales conversations to provide coaching, deal intelligence, and market insights.",
+  "pros": [
+    "Deep conversation analysis",
+    "Deal insights",
+    "Team performance tracking"
+  ],
+  "cons": [
+    "Expensive",
+    "Requires adoption across team",
+    "Part of ZoomInfo now"
+  ],
+  "capabilities": [
+    "sales-crm",
+    "data-analysis"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

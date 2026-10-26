@@ -1,0 +1,22 @@
+{
+  "slug": "cube",
+  "name": "cube",
+  "url": "https://cube.dev/",
+  "tagline": "Cube: Agentic Analytics Platform",
+  "about": "Cube: Agentic Analytics Platform",
+  "pros": [
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "varonis",
+  "name": "Varonis",
+  "url": "https://www.varonis.com/",
+  "tagline": "Data security platform with AI-powered threat detection",
+  "about": "Varonis is a data-centric security platform that uses AI for real-time risk analysis, behavior-based threat detection, and automated remediation of suspicious activities. Excellent for organizations focused on data protection and compliance.",
+  "pros": [
+    "Strong data protection and classification",
+    "AI-assisted risk remediation",
+    "Compliance support",
+    "Insider threat detection"
+  ],
+  "cons": [
+    "Complex initial setup",
+    "Requires integration with data infrastructure",
+    "Enterprise-focused pricing"
+  ],
+  "capabilities": [
+    "cybersecurity",
+    "legal"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

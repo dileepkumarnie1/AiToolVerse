@@ -1,0 +1,27 @@
+{
+  "slug": "gamma",
+  "name": "Gamma",
+  "url": "https://gamma.app/",
+  "tagline": "An AI alternative to slide decks for creating engaging presentations and docs.",
+  "about": "Gamma is an AI tool designed to create engaging presentations, documents, and webpages with minimal effort. Instead of forcing users to build slide by slide, Gamma allows them to draft an entire presentation from a prompt and then refine it using a flexible, card-based editor. It emphasizes speed and ease of use, with one-click restyling and polishing features.",
+  "pros": [
+    "Extremely user-friendly and fast for generating content.",
+    "Outputs are web-native and responsive on any device.",
+    "Offers a generous free plan with a recurring credit system."
+  ],
+  "cons": [
+    "Limited variety in design themes compared to more established tools.",
+    "Export options can be limited, with potential formatting issues when converting to PowerPoint or Google Slides.",
+    "Lacks offline editing capabilities."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "presentations"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

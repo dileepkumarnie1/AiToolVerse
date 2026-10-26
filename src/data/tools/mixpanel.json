@@ -1,0 +1,26 @@
+{
+  "slug": "mixpanel",
+  "name": "Mixpanel",
+  "url": "https://mixpanel.com/",
+  "tagline": "Product analytics with AI insights for understanding user engagement.",
+  "about": "Mixpanel provides self-serve product analytics with AI-powered insights for tracking user engagement and conversion.",
+  "pros": [
+    "Self-serve",
+    "Good UX",
+    "Free tier"
+  ],
+  "cons": [
+    "Event-based pricing",
+    "Complex for large data",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

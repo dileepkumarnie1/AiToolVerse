@@ -1,0 +1,27 @@
+{
+  "slug": "prezo",
+  "name": "Prezo",
+  "url": "https://www.prezo.ai/",
+  "tagline": "AI presentation maker that turns outlines into designed presentations.",
+  "about": "Prezo uses AI to transform outlines and notes into fully designed presentations automatically.",
+  "pros": [
+    "Very quick",
+    "From outlines",
+    "Easy to use"
+  ],
+  "cons": [
+    "Limited control",
+    "Generic designs",
+    "Basic features"
+  ],
+  "capabilities": [
+    "presentations",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

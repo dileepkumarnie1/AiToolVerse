@@ -1,0 +1,29 @@
+{
+  "slug": "cleanvoice-ai",
+  "name": "Cleanvoice AI",
+  "url": "https://cleanvoice.ai/",
+  "tagline": "Specialized audio cleanup removing background noise, stutters, mouth clicks, and filler words automatically.",
+  "about": "Cleanvoice specializes in automated audio cleanup, removing background noise, stutters, mouth clicks, silences, and filler words. It ensures podcasts sound professional even when recorded in suboptimal environments with fast processing.",
+  "pros": [
+    "Excellent automated cleanup",
+    "Fast processing",
+    "Volume leveling included",
+    "Easy to use"
+  ],
+  "cons": [
+    "Limited manual editing",
+    "Focused only on cleanup",
+    "Subscription required for regular use"
+  ],
+  "capabilities": [
+    "music-generation",
+    "podcast",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

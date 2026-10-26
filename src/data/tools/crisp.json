@@ -1,0 +1,29 @@
+{
+  "slug": "crisp",
+  "name": "Crisp",
+  "url": "https://www.crispthinking.com/",
+  "tagline": "AI-powered brand safety and content moderation for digital advertising.",
+  "about": "Crisp provides contextual AI for brand safety in digital advertising, ensuring ads appear in safe environments.",
+  "pros": [
+    "Brand safety focus",
+    "Contextual analysis",
+    "Ad tech integration"
+  ],
+  "cons": [
+    "Advertising focus",
+    "Enterprise pricing",
+    "Specific use case"
+  ],
+  "capabilities": [
+    "industry-ops",
+    "writing",
+    "marketing-seo",
+    "responsible-ai"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

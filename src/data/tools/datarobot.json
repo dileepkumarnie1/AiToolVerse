@@ -1,0 +1,28 @@
+{
+  "slug": "datarobot",
+  "name": "DataRobot",
+  "url": "https://www.datarobot.com/",
+  "tagline": "Enterprise AI platform for automated machine learning.",
+  "about": "DataRobot provides an end-to-end platform for building, deploying, and maintaining AI models with automated machine learning.",
+  "pros": [
+    "Comprehensive AutoML platform",
+    "Enterprise-grade features",
+    "Model deployment included"
+  ],
+  "cons": [
+    "Very expensive",
+    "Complex setup",
+    "Requires data science knowledge"
+  ],
+  "capabilities": [
+    "data-analysis",
+    "science",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

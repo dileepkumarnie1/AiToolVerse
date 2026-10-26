@@ -1,0 +1,28 @@
+{
+  "slug": "xero",
+  "name": "Xero",
+  "url": "https://www.xero.com/",
+  "tagline": "Cloud-based accounting with AI automation",
+  "about": "Xero is highly rated for its cloud-based automation of data entry, invoice matching, and reconciliation. Its design makes collaboration and integration with 700+ apps straightforward, appealing to tech-savvy accountants and small businesses.",
+  "pros": [
+    "Excellent bank reconciliation",
+    "700+ integrations",
+    "User-friendly interface",
+    "Strong mobile app"
+  ],
+  "cons": [
+    "Limited inventory management",
+    "Payroll is an add-on",
+    "Can be expensive for sole traders"
+  ],
+  "capabilities": [
+    "finance",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

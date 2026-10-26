@@ -1,0 +1,18 @@
+{
+  "slug": "groq",
+  "name": "Groq",
+  "url": "https://groq.com/",
+  "tagline": "High-performance AI inference platform and hardware powering fast LLM inference (GroqCloud).",
+  "about": "Groq provides ultra-fast inference experiences and developer access via GroqCloud for running popular LLMs.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

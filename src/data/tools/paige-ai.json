@@ -1,0 +1,26 @@
+{
+  "slug": "paige-ai",
+  "name": "Paige AI",
+  "url": "https://paige.ai/",
+  "tagline": "AI-powered digital pathology platform for cancer diagnosis and detection.",
+  "about": "Paige AI assists pathologists in detecting cancer with AI that analyzes tissue samples with high accuracy.",
+  "pros": [
+    "FDA-approved",
+    "High accuracy",
+    "Cancer focus"
+  ],
+  "cons": [
+    "Specialist tool",
+    "Hospital integration",
+    "Expensive"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

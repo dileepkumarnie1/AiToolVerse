@@ -1,0 +1,26 @@
+{
+  "slug": "fibo",
+  "name": "FIBO",
+  "url": "https://bria.ai/",
+  "tagline": "Build responsibly with Bria",
+  "about": "Build responsibly with Bria",
+  "pros": [
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "legal",
+    "graphic-design",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

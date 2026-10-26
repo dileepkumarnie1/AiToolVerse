@@ -1,0 +1,27 @@
+{
+  "slug": "mindsdb",
+  "name": "mindsdb",
+  "url": "https://mindsdb.com/",
+  "tagline": "MindsDB enables humans, AI agents, and applications to get highly accurate answers across disparate data sources and types.",
+  "about": "MindsDB enables humans, AI agents, and applications to get highly accurate answers across disparate data sources and types.",
+  "pros": [
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "research-search",
+    "graphic-design",
+    "developer-api",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

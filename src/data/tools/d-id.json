@@ -1,0 +1,27 @@
+{
+  "slug": "d-id",
+  "name": "D-ID",
+  "url": "https://www.d-id.com/",
+  "tagline": "Create talking head videos from photos using AI.",
+  "about": "D-ID animates photos into talking head videos for presentations, learning, and more.",
+  "pros": [
+    "Easy to use.",
+    "Supports multiple languages.",
+    "Web-based."
+  ],
+  "cons": [
+    "Credits for heavy use.",
+    "Some features paid.",
+    "Limited to talking heads."
+  ],
+  "capabilities": [
+    "video-generation",
+    "avatar-video"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

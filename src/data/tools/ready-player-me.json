@@ -1,0 +1,28 @@
+{
+  "slug": "ready-player-me",
+  "name": "Ready Player Me",
+  "url": "https://readyplayer.me/",
+  "tagline": "Cross-platform avatar system for creating customizable 3D avatars for games, VR, and metaverse applications.",
+  "about": "Ready Player Me provides a cross-platform avatar system for creating customizable 3D avatars that work across games, VR experiences, and metaverse applications. It's designed for interoperability and ease of integration.",
+  "pros": [
+    "Cross-platform compatibility",
+    "3D customizable avatars",
+    "Developer-friendly",
+    "Free for basic use"
+  ],
+  "cons": [
+    "Focused on gaming/VR",
+    "Not for 2D or marketing",
+    "Requires technical integration"
+  ],
+  "capabilities": [
+    "avatar-video",
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

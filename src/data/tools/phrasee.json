@@ -1,0 +1,26 @@
+{
+  "slug": "phrasee",
+  "name": "Phrasee",
+  "url": "https://www.phrasee.co/",
+  "tagline": "AI-powered brand language optimization for marketing.",
+  "about": "Phrasee uses AI to generate and optimize marketing copy for email, social media, and ads while maintaining brand voice.",
+  "pros": [
+    "Maintains brand voice",
+    "A/B testing built-in",
+    "Improves engagement metrics"
+  ],
+  "cons": [
+    "Enterprise pricing only",
+    "Requires integration setup",
+    "Learning period needed"
+  ],
+  "capabilities": [
+    "marketing-seo"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

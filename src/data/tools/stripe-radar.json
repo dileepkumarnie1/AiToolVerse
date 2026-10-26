@@ -1,0 +1,26 @@
+{
+  "slug": "stripe-radar",
+  "name": "Stripe Radar",
+  "url": "https://stripe.com/radar",
+  "tagline": "ML‑powered fraud detection and risk scoring for payments.",
+  "about": "Radar uses network‑level signals across Stripe to block fraud, score risk, and reduce chargebacks.",
+  "pros": [
+    "Easy enablement on Stripe.",
+    "Custom rules and reviews.",
+    "Good network effects."
+  ],
+  "cons": [
+    "Tied to Stripe processing.",
+    "Requires rule tuning.",
+    "Hard to compare against bespoke models."
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

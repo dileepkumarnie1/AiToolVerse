@@ -1,0 +1,27 @@
+{
+  "slug": "devin",
+  "name": "Devin (Cognition Labs)",
+  "url": "https://www.cognition-labs.com/",
+  "tagline": "The first AI software engineer, capable of handling entire development projects.",
+  "about": "Devin is a landmark AI agent from Cognition Labs, designed to function as an autonomous software engineer. It can take a natural language prompt, create a development plan, write code, debug errors, and deploy the final application, demonstrating an unprecedented level of autonomy in complex tasks.",
+  "pros": [
+    "Can complete entire software engineering tasks from start to finish.",
+    "Demonstrates advanced reasoning, planning, and self-correction abilities.",
+    "Sets a new benchmark for AI agent capabilities."
+  ],
+  "cons": [
+    "Access is currently limited to a select few, with a long waitlist.",
+    "Its real-world effectiveness across diverse tasks is still being evaluated.",
+    "Raises significant questions about the future of software development jobs."
+  ],
+  "capabilities": [
+    "agents",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

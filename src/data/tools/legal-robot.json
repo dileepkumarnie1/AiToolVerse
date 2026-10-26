@@ -1,0 +1,26 @@
+{
+  "slug": "legal-robot",
+  "name": "Legal Robot",
+  "url": "https://www.legalrobot.com/",
+  "tagline": "AI contract analysis and simplification tool.",
+  "about": "Legal Robot uses AI to analyze legal documents, identify issues, and provide plain language explanations of contracts and terms.",
+  "pros": [
+    "Makes legal language accessible",
+    "Contract analysis",
+    "Educational value"
+  ],
+  "cons": [
+    "Not a lawyer replacement",
+    "Limited to certain document types",
+    "Accuracy varies"
+  ],
+  "capabilities": [
+    "legal"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

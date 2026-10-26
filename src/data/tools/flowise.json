@@ -1,0 +1,18 @@
+{
+  "slug": "flowise",
+  "name": "Flowise",
+  "url": "https://flowiseai.com/",
+  "tagline": "Build AI Agents, Visually",
+  "about": "Build AI Agents, Visually",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

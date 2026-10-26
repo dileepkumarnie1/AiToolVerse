@@ -1,0 +1,28 @@
+{
+  "slug": "ray",
+  "name": "ray",
+  "url": "https://ray.io/",
+  "tagline": "Ray is an open source framework for managing, executing, and optimizing compute needs. Unify AI workloads with Ray by Anyscale. Try it for free today.",
+  "about": "Ray is an open source framework for managing, executing, and optimizing compute needs. Unify AI workloads with Ray by Anyscale. Try it for free today.",
+  "pros": [
+    "Open source and extensible.",
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "developer-api",
+    "notes-knowledge",
+    "education-tutor"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

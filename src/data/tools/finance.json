@@ -1,0 +1,25 @@
+{
+  "slug": "finance",
+  "name": "finance",
+  "url": "https://finance.valyu.ai/",
+  "tagline": "AI-powered financial analysis by Valyu. Real-time data, secure Python execution in Daytona sandboxes, and interactive visualizations for research and reporting.",
+  "about": "AI-powered financial analysis by Valyu. Real-time data, secure Python execution in Daytona sandboxes, and interactive visualizations for research and reporting.",
+  "pros": [
+    "Generates visuals quickly.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "finance",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

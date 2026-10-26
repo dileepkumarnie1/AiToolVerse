@@ -1,0 +1,27 @@
+{
+  "slug": "glasp",
+  "name": "Glasp",
+  "url": "https://glasp.co/",
+  "tagline": "Social web highlighter and AI-powered note-taking.",
+  "about": "Glasp allows highlighting web content, creating notes, and using AI to summarize articles with a social learning community aspect.",
+  "pros": [
+    "Free to use",
+    "Social features",
+    "AI summaries"
+  ],
+  "cons": [
+    "Limited to web content",
+    "Social aspect may not appeal to all",
+    "Basic features"
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "social-media"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "freshdesk-freddy",
+  "name": "Freshdesk Freddy",
+  "url": "https://www.freshworks.com/freshdesk/",
+  "tagline": "AI-powered support automation in Freshdesk for ticket routing and self-service.",
+  "about": "Freddy AI automates support tasks in Freshdesk including ticket categorization, routing, and self-service suggestions.",
+  "pros": [
+    "Freshdesk integration",
+    "Ticket automation",
+    "Self-service AI"
+  ],
+  "cons": [
+    "Freshdesk required",
+    "Limited standalone",
+    "Premium pricing"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

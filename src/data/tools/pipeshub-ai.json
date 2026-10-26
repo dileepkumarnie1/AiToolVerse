@@ -1,0 +1,27 @@
+{
+  "slug": "pipeshub-ai",
+  "name": "pipeshub-ai",
+  "url": "https://pipeshub.com/",
+  "tagline": "Empower your enterprise with PipesHub – the open-source, enterprise-ready workplace AI platform that unifies your scattered business data, connects your business and enterprise apps, and powers AI agents to get work…",
+  "about": "Empower your enterprise with PipesHub – the open-source, enterprise-ready workplace AI platform that unifies your scattered business data, connects your business and enterprise apps, and powers AI agents to get work done. Built for teams that move fast.",
+  "pros": [
+    "Open source and extensible.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "automation",
+    "graphic-design",
+    "developer-api",
+    "agents"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

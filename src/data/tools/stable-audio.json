@@ -1,0 +1,26 @@
+{
+  "slug": "stable-audio",
+  "name": "Stable Audio (Stability AI)",
+  "url": "https://www.stableaudio.com/",
+  "tagline": "An AI music and sound effect generator with audio-to-audio capabilities.",
+  "about": "Stable Audio is Stability AI's platform for music and sound effect generation. The latest version can produce high-quality, full tracks up to three minutes long with coherent musical structures. A key feature is its audio-to-audio capability, allowing users to upload an audio sample and transform it using a text prompt, offering a powerful tool for remixing and sound design.",
+  "pros": [
+    "Generates full, three-minute songs in high-quality stereo.",
+    "Innovative audio-to-audio feature for transforming existing sounds.",
+    "Offers a free tier for experimentation."
+  ],
+  "cons": [
+    "The quality of the output can depend heavily on the quality of an uploaded audio sample.",
+    "The range of features may be complex for absolute beginners.",
+    "Commercial use and advanced features require a paid subscription."
+  ],
+  "capabilities": [
+    "music-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

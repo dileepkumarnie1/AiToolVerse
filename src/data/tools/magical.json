@@ -1,0 +1,27 @@
+{
+  "slug": "magical",
+  "name": "Magical",
+  "url": "https://www.getmagical.com/",
+  "tagline": "AI text expander and automation tool that works across any website or app.",
+  "about": "Magical automates repetitive typing tasks with AI-powered text expansion and data transfer between tabs.",
+  "pros": [
+    "Works everywhere",
+    "Easy setup",
+    "Time saving"
+  ],
+  "cons": [
+    "Browser-based only",
+    "Premium features paid",
+    "Privacy considerations"
+  ],
+  "capabilities": [
+    "browser",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

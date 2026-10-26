@@ -1,0 +1,26 @@
+{
+  "slug": "glean",
+  "name": "Glean",
+  "url": "https://www.glean.com/",
+  "tagline": "Enterprise AI search and knowledge discovery platform.",
+  "about": "Glean connects to all your company’s apps and surfaces answers, files, and people instantly using AI.",
+  "pros": [
+    "Unified search across apps.",
+    "Enterprise-grade security.",
+    "Contextual answers."
+  ],
+  "cons": [
+    "Enterprise focus.",
+    "Setup required.",
+    "Not for individuals."
+  ],
+  "capabilities": [
+    "research-search"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

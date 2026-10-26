@@ -1,0 +1,27 @@
+{
+  "slug": "openai-api",
+  "name": "OpenAI API",
+  "url": "https://platform.openai.com/",
+  "tagline": "API access to GPT-4, DALL-E, and other OpenAI models for building AI applications.",
+  "about": "OpenAI's API provides access to powerful language and vision models including GPT-4, GPT-4 Vision, and DALL-E for developers.",
+  "pros": [
+    "Most capable models",
+    "Comprehensive documentation",
+    "Wide adoption"
+  ],
+  "cons": [
+    "Usage-based pricing",
+    "Rate limits",
+    "Dependency on OpenAI"
+  ],
+  "capabilities": [
+    "developer-api",
+    "code-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "kommunicate",
+  "name": "Kommunicate",
+  "url": "https://www.kommunicate.io/",
+  "tagline": "AI chatbot platform that integrates ChatGPT for customer support automation.",
+  "about": "Kommunicate provides AI chatbots powered by ChatGPT and other models for customer support with easy integration.",
+  "pros": [
+    "ChatGPT integration",
+    "Easy setup",
+    "Multiple models"
+  ],
+  "cons": [
+    "Limited customization",
+    "Pricing per conversation",
+    "Basic analytics"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

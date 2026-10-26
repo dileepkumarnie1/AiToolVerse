@@ -1,0 +1,28 @@
+{
+  "slug": "phind-model",
+  "name": "Phind Model",
+  "url": "https://www.phind.com/",
+  "tagline": "Code-optimized model built for developer productivity and programming help.",
+  "about": "Phind's model is optimized for programming and developer productivity, available through their search interface.",
+  "pros": [
+    "Developer-focused",
+    "Free to use",
+    "Good at code"
+  ],
+  "cons": [
+    "Phind interface only",
+    "Limited general use",
+    "Newer model"
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "code-assistant",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

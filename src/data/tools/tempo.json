@@ -1,0 +1,26 @@
+{
+  "slug": "tempo",
+  "name": "Tempo",
+  "url": "https://tempo.fit/",
+  "tagline": "AI home gym with 3D motion sensors for form correction and personalized workouts.",
+  "about": "Tempo uses 3D sensors and AI to analyze your form in real-time, providing corrections and tracking your progress.",
+  "pros": [
+    "Real-time form feedback",
+    "All-in-one equipment",
+    "Live and on-demand classes"
+  ],
+  "cons": [
+    "Expensive initial cost",
+    "Requires space",
+    "Monthly subscription"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "chatterbox-tts-api",
+  "name": "chatterbox-tts-api",
+  "url": "https://chatterboxtts.com/",
+  "tagline": "Local, OpenAI-compatible text-to-speech (TTS) API using Chatterbox, enabling users to generate voice cloned speech anywhere the OpenAI API is used (e.g. Open WebUI, AnythingLLM, etc.) with multilingual support.",
+  "about": "Local, OpenAI-compatible text-to-speech (TTS) API using Chatterbox, enabling users to generate voice cloned speech anywhere the OpenAI API is used (e.g. Open WebUI, AnythingLLM, etc.) with multilingual support.",
+  "pros": [
+    "Good for drafting and Q&A.",
+    "Generates visuals quickly.",
+    "Useful for voice and audio workflows."
+  ],
+  "cons": [
+    "May require fact‑checking.",
+    "Quality varies by prompt.",
+    "May need cleanup for artifacts."
+  ],
+  "capabilities": [
+    "music-generation",
+    "chat-assistant",
+    "voice-tts",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

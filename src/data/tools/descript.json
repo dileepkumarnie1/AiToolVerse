@@ -1,0 +1,30 @@
+{
+  "slug": "descript",
+  "name": "Descript",
+  "url": "https://www.descript.com/",
+  "tagline": "Revolutionary text-based audio editing with transcription, filler word removal, noise reduction, and voice cloning.",
+  "about": "Descript is the leading podcast editing tool with innovative text-based editing - edit audio by editing text. It offers automatic transcription, filler word removal, background noise reduction, multi-track editing, and voice cloning (Overdub) for corrections.",
+  "pros": [
+    "Revolutionary text-based editing",
+    "Voice cloning for corrections",
+    "Automatic transcription",
+    "Collaborative workflows"
+  ],
+  "cons": [
+    "Learning curve for new paradigm",
+    "Advanced features require paid plan",
+    "Can be resource-intensive"
+  ],
+  "capabilities": [
+    "video-generation",
+    "podcast",
+    "transcription",
+    "video-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

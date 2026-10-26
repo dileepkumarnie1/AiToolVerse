@@ -1,0 +1,26 @@
+{
+  "slug": "savvycal",
+  "name": "SavvyCal",
+  "url": "https://savvycal.com/",
+  "tagline": "Smarter scheduling with personalized links and overlay calendars.",
+  "about": "SavvyCal provides smarter scheduling with personalized booking and calendar overlays.",
+  "pros": [
+    "User-friendly",
+    "Personalized experience",
+    "Clean interface"
+  ],
+  "cons": [
+    "Subscription",
+    "Limited AI vs others",
+    "Smaller platform"
+  ],
+  "capabilities": [
+    "scheduling"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

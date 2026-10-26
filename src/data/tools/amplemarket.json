@@ -1,0 +1,27 @@
+{
+  "slug": "amplemarket",
+  "name": "Amplemarket",
+  "url": "https://www.amplemarket.com/",
+  "tagline": "AI sales platform that automates outbound prospecting and multichannel engagement.",
+  "about": "Amplemarket automates the entire outbound sales process from finding leads to multichannel engagement using AI.",
+  "pros": [
+    "Full automation",
+    "Multichannel",
+    "AI personalization"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complex setup",
+    "Quality control needed"
+  ],
+  "capabilities": [
+    "sales-crm",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

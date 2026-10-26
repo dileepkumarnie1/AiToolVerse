@@ -1,0 +1,27 @@
+{
+  "slug": "recursion",
+  "name": "Recursion",
+  "url": "https://www.recursion.com/",
+  "tagline": "AI-powered drug discovery platform using cellular imaging and machine learning.",
+  "about": "Recursion combines AI with automated cell biology to accelerate drug discovery across multiple disease areas.",
+  "pros": [
+    "Massive dataset",
+    "Multiple programs",
+    "Pharmaceutical partnerships"
+  ],
+  "cons": [
+    "Pharma industry focus",
+    "Long timelines",
+    "Complex technology"
+  ],
+  "capabilities": [
+    "science",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

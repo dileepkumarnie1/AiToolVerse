@@ -1,0 +1,26 @@
+{
+  "slug": "arable",
+  "name": "Arable",
+  "url": "https://www.arable.com/",
+  "tagline": "In-field sensing and analytics platform for precision agriculture and crop modeling.",
+  "about": "Arable provides continuous field-level data through AI-powered sensors that track weather, crop, and soil conditions in real-time.",
+  "pros": [
+    "Comprehensive field data",
+    "Real-time monitoring",
+    "Predictive analytics"
+  ],
+  "cons": [
+    "Hardware required",
+    "Subscription model",
+    "Setup complexity"
+  ],
+  "capabilities": [
+    "industry-ops"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

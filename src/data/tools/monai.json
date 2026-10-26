@@ -1,0 +1,29 @@
+{
+  "slug": "monai",
+  "name": "MONAI",
+  "url": "https://monai.io/",
+  "tagline": "MONAI is the leading open-source framework for healthcare imaging AI, trusted by researchers and clinicians worldwide. Build, train, and deploy medical AI solutions with industry-standard tools.",
+  "about": "MONAI is the leading open-source framework for healthcare imaging AI, trusted by researchers and clinicians worldwide. Build, train, and deploy medical AI solutions with industry-standard tools.",
+  "pros": [
+    "Open source and extensible.",
+    "Great for research and discovery.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Coverage and speed can vary.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "health-fitness",
+    "research-search",
+    "graphic-design",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

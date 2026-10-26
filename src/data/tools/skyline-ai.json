@@ -1,0 +1,27 @@
+{
+  "slug": "skyline-ai",
+  "name": "Skyline AI",
+  "url": "https://www.skyline.ai/",
+  "tagline": "AI-powered commercial real estate investment analysis platform.",
+  "about": "Skyline AI analyzes commercial real estate opportunities using AI to predict property performance.",
+  "pros": [
+    "Investment focus",
+    "Deep analysis",
+    "Data-driven"
+  ],
+  "cons": [
+    "Commercial only",
+    "US-focused",
+    "Enterprise pricing"
+  ],
+  "capabilities": [
+    "real-estate",
+    "finance"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

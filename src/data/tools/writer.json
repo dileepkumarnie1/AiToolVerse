@@ -1,0 +1,28 @@
+{
+  "slug": "writer",
+  "name": "Writer",
+  "url": "https://writer.com/",
+  "tagline": "Enterprise generative AI platform for accurate, on-brand content.",
+  "about": "Writer is an enterprise-grade generative AI platform that lets organizations ground models in their own data, brand, and style guidelines so every output is consistent, accurate, and compliant across teams.",
+  "pros": [
+    "Supports brand and style governance.",
+    "Private data grounding improves factual accuracy.",
+    "Enterprise security and compliance features."
+  ],
+  "cons": [
+    "Higher cost for smaller teams.",
+    "Setup and data integration required.",
+    "Less oriented to open-ended creative exploration."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "writing",
+    "voice-tts"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

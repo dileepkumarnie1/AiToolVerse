@@ -1,0 +1,19 @@
+{
+  "slug": "traceloop",
+  "name": "Traceloop",
+  "url": "https://www.traceloop.com/",
+  "tagline": "Tracing and observability for LLM pipelines, tools, and agent workflows.",
+  "about": "Traceloop helps debug and evaluate agent runs with traces, spans, and metadata.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

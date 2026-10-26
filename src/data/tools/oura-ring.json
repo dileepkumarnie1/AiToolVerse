@@ -1,0 +1,26 @@
+{
+  "slug": "oura-ring",
+  "name": "Oura Ring",
+  "url": "https://ouraring.com/",
+  "tagline": "Smart ring with AI-powered sleep and readiness tracking for wellness optimization.",
+  "about": "Oura uses AI to analyze sleep stages, heart rate variability, and activity to provide personalized wellness insights.",
+  "pros": [
+    "Discrete wearable",
+    "Excellent sleep tracking",
+    "Long battery life"
+  ],
+  "cons": [
+    "Subscription for features",
+    "Limited workout tracking",
+    "Ring sizing required"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

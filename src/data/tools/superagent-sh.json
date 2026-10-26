@@ -1,0 +1,27 @@
+{
+  "slug": "superagent-sh",
+  "name": "Superagent.sh",
+  "url": "https://superagent.sh/",
+  "tagline": "An open-source framework for building, managing, and deploying AI agents.",
+  "about": "Superagent is an open-source developer framework designed to simplify the process of creating and deploying AI agents. It provides features like long-term memory, connectivity to various data sources and tools, and a simple API for running and managing agent workflows.",
+  "pros": [
+    "Simplifies the agent development process with a clean API.",
+    "Open-source with the option for a managed cloud platform.",
+    "Built-in support for document retrieval (RAG) and tool use."
+  ],
+  "cons": [
+    "Smaller community and ecosystem compared to LangChain.",
+    "As a newer framework, some features may be less mature.",
+    "The cloud platform can become costly depending on usage."
+  ],
+  "capabilities": [
+    "agents",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

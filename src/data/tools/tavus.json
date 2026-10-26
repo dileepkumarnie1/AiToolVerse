@@ -1,0 +1,19 @@
+{
+  "slug": "tavus",
+  "name": "Tavus",
+  "url": "https://www.tavus.io/",
+  "tagline": "Video personalization platform for generating AI-powered, tailored videos at scale.",
+  "about": "Tavus enables personalized video generation workflows for outreach, onboarding, and marketing.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "video-generation",
+    "avatar-video"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

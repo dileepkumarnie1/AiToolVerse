@@ -1,0 +1,30 @@
+{
+  "slug": "predis-ai",
+  "name": "Predis.ai",
+  "url": "https://predis.ai/",
+  "tagline": "All-in-one AI social media tool generating captions, visuals, hashtags with scheduling and performance analysis.",
+  "about": "Predis.ai is an all-in-one content creation and scheduling platform that generates captions, visuals, and hashtags while providing scheduling and performance analysis. It's ideal for small teams or businesses wanting consistent content.",
+  "pros": [
+    "Complete solution for social media",
+    "Auto-generates visuals and captions",
+    "Built-in scheduling",
+    "Cost-effective"
+  ],
+  "cons": [
+    "Quality can vary",
+    "Limited customization on lower tiers",
+    "May need manual refinement"
+  ],
+  "capabilities": [
+    "social-media",
+    "writing",
+    "scheduling",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

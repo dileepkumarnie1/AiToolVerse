@@ -1,0 +1,19 @@
+{
+  "slug": "inbox-zero",
+  "name": "inbox-zero",
+  "url": "https://getinboxzero.com/",
+  "tagline": "The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.",
+  "about": "The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "email",
+    "automation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

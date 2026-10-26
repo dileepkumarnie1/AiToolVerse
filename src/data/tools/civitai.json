@@ -1,0 +1,27 @@
+{
+  "slug": "civitai",
+  "name": "Civitai",
+  "url": "https://civitai.com/",
+  "tagline": "Community platform for sharing and discovering AI image generation models and prompts.",
+  "about": "Civitai is a community platform where users share custom AI models, prompts, and generated images for Stable Diffusion and other tools.",
+  "pros": [
+    "Huge model library",
+    "Community driven",
+    "Free resources"
+  ],
+  "cons": [
+    "NSFW content present",
+    "Quality varies",
+    "Technical knowledge needed"
+  ],
+  "capabilities": [
+    "image-generation",
+    "prompt-tools"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

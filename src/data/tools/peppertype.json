@@ -1,0 +1,29 @@
+{
+  "slug": "peppertype",
+  "name": "Peppertype",
+  "url": "https://www.peppertype.ai/",
+  "tagline": "AI content generation platform for marketing copy, ads, and social media content.",
+  "about": "Peppertype generates marketing content including ad copy, product descriptions, and social posts using AI templates.",
+  "pros": [
+    "Marketing-focused",
+    "Template variety",
+    "Quick generation"
+  ],
+  "cons": [
+    "Needs editing",
+    "Template-dependent",
+    "Subscription required"
+  ],
+  "capabilities": [
+    "writing",
+    "chat-assistant",
+    "marketing-seo",
+    "social-media"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "inworld-ai",
+  "name": "Inworld AI",
+  "url": "https://inworld.ai/",
+  "tagline": "Intelligent NPCs with personalities, memory, and real‑time dialogue.",
+  "about": "Inworld powers dynamic NPCs that react, emote, and converse naturally, with SDKs for popular engines.",
+  "pros": [
+    "Rich character tools and memory.",
+    "Unity/Unreal integrations.",
+    "Conversation safety features."
+  ],
+  "cons": [
+    "Online dependency for inference.",
+    "Latency considerations.",
+    "Usage‑based pricing."
+  ],
+  "capabilities": [
+    "gaming-3d"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "auphonic",
+  "name": "Auphonic",
+  "url": "https://auphonic.com/",
+  "tagline": "AI audio post-production with normalization, noise reduction, level adjustments, and direct platform publishing.",
+  "about": "Auphonic is an AI-powered audio post-production platform offering normalization, noise reduction, automatic level adjustments, and transcription. It ensures broadcast-quality sound and can publish directly to multiple podcast platforms.",
+  "pros": [
+    "Broadcast-quality output",
+    "Automatic level normalization",
+    "Direct publishing to platforms",
+    "Minimal manual intervention"
+  ],
+  "cons": [
+    "Limited transcription hours on free tier",
+    "Less editing features than full DAWs",
+    "Focused on post-production only"
+  ],
+  "capabilities": [
+    "music-generation",
+    "podcast"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

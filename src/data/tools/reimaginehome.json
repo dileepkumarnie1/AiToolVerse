@@ -1,0 +1,28 @@
+{
+  "slug": "reimaginehome",
+  "name": "REimagineHome",
+  "url": "https://www.reimaginehome.ai/",
+  "tagline": "AI-powered virtual staging and home redesign",
+  "about": "REimagineHome transforms property photos into fully furnished, styled spaces using AI. It makes listings more attractive and helps buyers visualize potential through virtual staging, redesign, and enhancement features.",
+  "pros": [
+    "Fast virtual staging results",
+    "Multiple design styles available",
+    "Cost-effective compared to physical staging",
+    "Easy to use interface"
+  ],
+  "cons": [
+    "Quality depends on input photo quality",
+    "Limited customization in lower tiers",
+    "May not replace physical staging for high-end properties"
+  ],
+  "capabilities": [
+    "real-estate",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

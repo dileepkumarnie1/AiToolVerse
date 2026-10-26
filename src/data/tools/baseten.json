@@ -1,0 +1,18 @@
+{
+  "slug": "baseten",
+  "name": "Baseten",
+  "url": "https://www.baseten.co/",
+  "tagline": "Platform for deploying and serving ML/LLM models with production infrastructure.",
+  "about": "Baseten helps teams deploy models with autoscaling, monitoring, and optimized serving.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

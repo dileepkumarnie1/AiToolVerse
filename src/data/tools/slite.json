@@ -1,0 +1,27 @@
+{
+  "slug": "slite",
+  "name": "Slite",
+  "url": "https://slite.com/",
+  "tagline": "AI-powered team knowledge base with smart search and organization.",
+  "about": "Slite provides an AI-powered knowledge base for teams with smart organization.",
+  "pros": [
+    "AI search",
+    "Clean interface",
+    "Team-focused"
+  ],
+  "cons": [
+    "Subscription",
+    "Limited free tier",
+    "Migration effort"
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

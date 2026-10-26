@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import { capabilities, categories, toolsInCategory, toolsWithCapability } from '../../lib/catalog';
+---
+
+<Base title="AI tool categories" description="Browse AI tools by category and by the task you want to get done.">
+  <section class="container-page pt-14">
+    <p class="eyebrow">Categories</p>
+    <h1 class="heading-lg mt-2">Browse by category</h1>
+    <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        categories.map((cat) => (
+          <div class="card p-6">
+            <a href={`/categories/${cat.id}/`} class="group flex items-baseline justify-between">
+              <h2 class="font-semibold text-ink-900 group-hover:text-brand-700 dark:text-white dark:group-hover:text-brand-300">{cat.label}</h2>
+              <span class="text-xs muted">{toolsInCategory(cat.id).length} tools</span>
+            </a>
+            <p class="mt-1.5 text-sm muted">{cat.description}</p>
+            <ul class="mt-4 flex flex-wrap gap-1.5">
+              {capabilities
+                .filter((c) => c.category === cat.id && toolsWithCapability(c.id).length > 0)
+                .map((c) => (
+                  <li><a href={`/best/${c.id}/`} class="chip hover:border-brand-300">{c.label}</a></li>
+                ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</Base>

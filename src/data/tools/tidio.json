@@ -1,0 +1,29 @@
+{
+  "slug": "tidio",
+  "name": "Tidio",
+  "url": "https://www.tidio.com/",
+  "tagline": "AI chatbot and live chat for e-commerce customer support",
+  "about": "Tidio combines AI-powered chatbots with live support, automating common queries and freeing up staff for complex cases. It integrates with major e-commerce platforms and provides 24/7 customer engagement.",
+  "pros": [
+    "Free tier available",
+    "Easy setup and integration",
+    "Combines AI and human support",
+    "Mobile app for on-the-go support"
+  ],
+  "cons": [
+    "Advanced features require paid plans",
+    "Limited customization in free tier",
+    "AI can struggle with complex queries"
+  ],
+  "capabilities": [
+    "customer-support",
+    "ecommerce",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

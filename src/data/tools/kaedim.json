@@ -1,0 +1,27 @@
+{
+  "slug": "kaedim",
+  "name": "Kaedim",
+  "url": "https://www.kaedim3d.com/",
+  "tagline": "Turn 2D concepts into usable 3D game assets.",
+  "about": "Accelerates concept‑to‑asset workflows with human QA options.",
+  "pros": [
+    "Production‑minded.",
+    "QA services.",
+    "Artist friendly."
+  ],
+  "cons": [
+    "Paid service.",
+    "Turnaround times.",
+    "Manual tweaks needed."
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "graphic-design"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

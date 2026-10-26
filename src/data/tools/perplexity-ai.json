@@ -1,0 +1,27 @@
+{
+  "slug": "perplexity-ai",
+  "name": "Perplexity AI",
+  "url": "https://www.perplexity.ai/",
+  "tagline": "A conversational search engine that provides direct answers with cited sources.",
+  "about": "Perplexity AI functions as a conversational 'answer engine,' distinguishing itself from traditional search engines by providing direct, summarized answers to user queries, complete with in-line citations of its sources.",
+  "pros": [
+    "Excellent for research and learning.",
+    "Provides citations for all its claims.",
+    "Clean, ad-free interface."
+  ],
+  "cons": [
+    "Less suited for creative or open-ended tasks.",
+    "Can be slower than a traditional search engine.",
+    "Pro version required for advanced features like file uploads."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

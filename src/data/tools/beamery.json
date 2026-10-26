@@ -1,0 +1,26 @@
+{
+  "slug": "beamery",
+  "name": "Beamery",
+  "url": "https://beamery.com/",
+  "tagline": "AI talent lifecycle platform for recruiting, mobility, and workforce planning.",
+  "about": "Beamery provides an AI-powered talent platform covering recruiting, internal mobility, and skills development.",
+  "pros": [
+    "Comprehensive platform",
+    "Skills intelligence",
+    "Enterprise-grade"
+  ],
+  "cons": [
+    "Complex implementation",
+    "Enterprise pricing",
+    "Long sales cycle"
+  ],
+  "capabilities": [
+    "hr-recruiting"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

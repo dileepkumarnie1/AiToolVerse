@@ -1,0 +1,27 @@
+{
+  "slug": "orca-security",
+  "name": "Orca Security",
+  "url": "https://orca.security/",
+  "tagline": "AI-powered cloud security platform with agentless scanning.",
+  "about": "Orca Security provides agentless cloud security with AI-powered risk prioritization across cloud environments.",
+  "pros": [
+    "Agentless",
+    "Multi-cloud",
+    "AI prioritization"
+  ],
+  "cons": [
+    "Cloud-only",
+    "Enterprise pricing",
+    "Alert volume"
+  ],
+  "capabilities": [
+    "cybersecurity",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

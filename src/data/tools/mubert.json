@@ -1,0 +1,26 @@
+{
+  "slug": "mubert",
+  "name": "Mubert",
+  "url": "https://mubert.com/",
+  "tagline": "AI music streaming and generation platform for royalty-free background music.",
+  "about": "Mubert generates endless royalty-free music streams using AI, perfect for content creators, businesses, and apps.",
+  "pros": [
+    "Royalty-free",
+    "Endless generation",
+    "API available"
+  ],
+  "cons": [
+    "Less creative control",
+    "Generic sound",
+    "Subscription for commercial"
+  ],
+  "capabilities": [
+    "music-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

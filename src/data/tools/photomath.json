@@ -1,0 +1,26 @@
+{
+  "slug": "photomath",
+  "name": "Photomath",
+  "url": "https://photomath.com/",
+  "tagline": "Step‑by‑step math solutions via camera input.",
+  "about": "Scan problems and learn steps with explanations and alternate methods.",
+  "pros": [
+    "Great for practice.",
+    "Clear steps.",
+    "Good OCR."
+  ],
+  "cons": [
+    "Can encourage answer‑seeking.",
+    "Struggles with complex layouts.",
+    "Premium features gated."
+  ],
+  "capabilities": [
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

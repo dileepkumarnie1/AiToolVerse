@@ -1,0 +1,27 @@
+{
+  "slug": "brave-leo",
+  "name": "Brave Leo",
+  "url": "https://brave.com/leo/",
+  "tagline": "Privacy-focused browser with built-in AI assistant that works locally or with user-provided models.",
+  "about": "Brave Leo is the AI assistant built into the Brave browser, designed with privacy as the top priority. It can run locally or use user-provided models, ensuring your data never leaves your device if you choose. Combined with Brave's existing ad-blocking and privacy features, it's ideal for security-conscious users.",
+  "pros": [
+    "Strong privacy with local AI options",
+    "No data sent to cloud by default",
+    "Built into existing Brave browser with ad-blocking",
+    "Free to use with no tracking"
+  ],
+  "cons": [
+    "Local models may be less powerful than cloud options",
+    "Limited compared to full AI-native browsers",
+    "Requires technical knowledge for custom models"
+  ],
+  "capabilities": [
+    "browser"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

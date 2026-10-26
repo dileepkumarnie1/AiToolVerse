@@ -1,0 +1,28 @@
+{
+  "slug": "lately",
+  "name": "Lately",
+  "url": "https://www.lately.ai/",
+  "tagline": "AI social media content generator from long-form content.",
+  "about": "Lately uses AI to automatically generate dozens of social media posts from blogs, podcasts, videos, and other long-form content.",
+  "pros": [
+    "Repurposes existing content",
+    "Learns brand voice",
+    "Multi-platform"
+  ],
+  "cons": [
+    "Expensive",
+    "Needs good source content",
+    "Requires editing"
+  ],
+  "capabilities": [
+    "social-media",
+    "writing",
+    "video-editing"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

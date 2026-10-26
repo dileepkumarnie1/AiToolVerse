@@ -1,0 +1,26 @@
+{
+  "slug": "mistral-ai",
+  "name": "Mistral AI",
+  "url": "https://mistral.ai/",
+  "tagline": "High-performance open-source language models with efficient architecture.",
+  "about": "Mistral AI develops efficient open-source language models known for excellent performance relative to their size.",
+  "pros": [
+    "Efficient architecture",
+    "Open source options",
+    "Strong performance per parameter"
+  ],
+  "cons": [
+    "Less brand recognition",
+    "Smaller ecosystem",
+    "Limited support"
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

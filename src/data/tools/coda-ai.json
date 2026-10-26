@@ -1,0 +1,28 @@
+{
+  "slug": "coda-ai",
+  "name": "Coda AI",
+  "url": "https://coda.io/product/ai",
+  "tagline": "AI features in Coda for document automation and intelligent assistance.",
+  "about": "Coda AI adds intelligent features to Coda docs including writing assistance, summarization, and data analysis.",
+  "pros": [
+    "Integrated in docs",
+    "Automation",
+    "Versatile"
+  ],
+  "cons": [
+    "Coda-specific",
+    "Learning curve",
+    "Subscription for AI"
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "chat-assistant",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

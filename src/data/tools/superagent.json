@@ -1,0 +1,29 @@
+{
+  "slug": "superagent",
+  "name": "superagent",
+  "url": "https://superagent.sh/",
+  "tagline": "Y Combinator-backed Superagent gives your agents runtime protection that stops data leaks and threats. Hosted trust center proves compliance to buyers.",
+  "about": "Y Combinator-backed Superagent gives your agents runtime protection that stops data leaks and threats. Hosted trust center proves compliance to buyers.",
+  "pros": [
+    "Open source and extensible.",
+    "Generates visuals quickly.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "Subscription required for full access.",
+    "Requires setup and maintenance.",
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "cybersecurity",
+    "developer-api",
+    "research-search",
+    "automation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

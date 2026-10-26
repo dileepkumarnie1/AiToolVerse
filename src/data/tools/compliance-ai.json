@@ -1,0 +1,26 @@
+{
+  "slug": "compliance-ai",
+  "name": "Compliance.ai",
+  "url": "https://www.compliance.ai/",
+  "tagline": "AI-powered regulatory change management and compliance tracking.",
+  "about": "Compliance.ai tracks regulatory changes and uses AI to help organizations manage compliance obligations.",
+  "pros": [
+    "Regulatory tracking",
+    "AI analysis",
+    "Multiple jurisdictions"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complex setup",
+    "Industry-specific"
+  ],
+  "capabilities": [
+    "legal"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

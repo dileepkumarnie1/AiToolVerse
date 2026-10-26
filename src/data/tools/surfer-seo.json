@@ -1,0 +1,27 @@
+{
+  "slug": "surfer-seo",
+  "name": "Surfer SEO",
+  "url": "https://surferseo.com/",
+  "tagline": "An AI-powered tool for optimizing content to rank higher on search engines.",
+  "about": "Surfer SEO analyzes the top-ranking pages for a given keyword and provides a data-driven blueprint for how to write and structure your content to rank. It gives recommendations on keywords, structure, word count, and more.",
+  "pros": [
+    "Provides data-driven insights for SEO.",
+    "Helps optimize content before it's published.",
+    "Integrates with other writing tools like Jasper and Google Docs."
+  ],
+  "cons": [
+    "Has a steep learning curve.",
+    "Subscription can be expensive for individuals.",
+    "Recommendations should be treated as guidelines, not strict rules."
+  ],
+  "capabilities": [
+    "marketing-seo",
+    "writing"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

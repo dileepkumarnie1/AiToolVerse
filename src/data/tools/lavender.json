@@ -1,0 +1,30 @@
+{
+  "slug": "lavender",
+  "name": "Lavender",
+  "url": "https://www.lavender.ai/",
+  "tagline": "Sales-focused email assistant that boosts reply rates with AI coaching and personalization for outreach.",
+  "about": "Lavender is popular among sales teams for improving cold email reply rates. It provides AI coaching, personalization suggestions, and analytics to help sales professionals craft more effective outreach emails.",
+  "pros": [
+    "Specialized for sales outreach",
+    "Improves reply rates significantly",
+    "Personalization recommendations",
+    "Email scoring and analytics"
+  ],
+  "cons": [
+    "Sales-focused features may not suit general use",
+    "Pricing can add up for teams",
+    "Learning curve for optimization"
+  ],
+  "capabilities": [
+    "email",
+    "chat-assistant",
+    "sales-crm",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

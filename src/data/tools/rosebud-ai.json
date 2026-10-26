@@ -1,0 +1,28 @@
+{
+  "slug": "rosebud-ai",
+  "name": "Rosebud AI",
+  "url": "https://www.rosebud.ai/",
+  "tagline": "AI platform for creating games using natural language without coding.",
+  "about": "Rosebud AI lets anyone create games by describing them in natural language, no programming required.",
+  "pros": [
+    "No coding needed",
+    "Fast prototyping",
+    "Accessible"
+  ],
+  "cons": [
+    "Limited complexity",
+    "Quality varies",
+    "Early stage"
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "code-assistant",
+    "app-builder"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

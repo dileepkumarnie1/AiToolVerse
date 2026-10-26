@@ -1,0 +1,28 @@
+{
+  "slug": "taskade",
+  "name": "Taskade",
+  "url": "https://www.taskade.com/",
+  "tagline": "AI-powered productivity platform for task management, notes, and team collaboration.",
+  "about": "Taskade combines task management, notes, and AI agents for team productivity and automated workflow creation.",
+  "pros": [
+    "All-in-one platform",
+    "AI agents",
+    "Real-time collaboration"
+  ],
+  "cons": [
+    "Can be overwhelming",
+    "Subscription for full features",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "automation",
+    "notes-knowledge",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

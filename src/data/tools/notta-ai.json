@@ -1,0 +1,30 @@
+{
+  "slug": "notta-ai",
+  "name": "Notta AI",
+  "url": "https://www.notta.ai/",
+  "tagline": "Multilingual transcription supporting 58+ languages with note management and easy sharing.",
+  "about": "Notta AI excels at multilingual transcription, supporting over 58 languages with high accuracy. It's perfect for international teams and includes robust note management and sharing capabilities.",
+  "pros": [
+    "Supports 58+ languages",
+    "Fast and accurate transcription",
+    "Customizable output formats",
+    "Good app integrations"
+  ],
+  "cons": [
+    "Paid plans required for long meetings",
+    "Free tier has volume limitations",
+    "Some languages more accurate than others"
+  ],
+  "capabilities": [
+    "meeting-notes",
+    "chat-assistant",
+    "notes-knowledge",
+    "translation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

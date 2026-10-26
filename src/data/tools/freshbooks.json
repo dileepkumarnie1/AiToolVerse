@@ -1,0 +1,27 @@
+{
+  "slug": "freshbooks",
+  "name": "FreshBooks",
+  "url": "https://www.freshbooks.com/",
+  "tagline": "Simple AI accounting for freelancers and small businesses",
+  "about": "FreshBooks is easy for freelancers and service businesses, providing AI-driven payment tracking and expense categorization, wrapped in a user-friendly interface. Perfect for solo entrepreneurs and small service-based businesses.",
+  "pros": [
+    "Very user-friendly",
+    "Excellent invoicing features",
+    "Good mobile app",
+    "Time tracking built-in"
+  ],
+  "cons": [
+    "Limited advanced accounting features",
+    "Per-client pricing can add up",
+    "Not ideal for product-based businesses"
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

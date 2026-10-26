@@ -1,0 +1,26 @@
+{
+  "slug": "parabola",
+  "name": "Parabola",
+  "url": "https://parabola.io/",
+  "tagline": "Visual data workflow tool that combines AI with automation for ops teams.",
+  "about": "Parabola helps operations teams automate data workflows visually without code, with AI-powered transformations.",
+  "pros": [
+    "Data-focused",
+    "Visual interface",
+    "AI features"
+  ],
+  "cons": [
+    "Data workflow only",
+    "Learning curve",
+    "Subscription pricing"
+  ],
+  "capabilities": [
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

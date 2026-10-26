@@ -1,0 +1,28 @@
+{
+  "slug": "obsidian-ai",
+  "name": "Obsidian AI",
+  "url": "https://obsidian.md/",
+  "tagline": "AI plugins for Obsidian that add chat, summarization, and generation features.",
+  "about": "Obsidian with AI plugins provides local-first note-taking with AI chat, summarization, and content generation.",
+  "pros": [
+    "Local-first",
+    "Plugin ecosystem",
+    "Markdown"
+  ],
+  "cons": [
+    "Setup required",
+    "Plugin quality varies",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "chat-assistant",
+    "summarization"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

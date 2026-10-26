@@ -1,0 +1,28 @@
+{
+  "slug": "reflect",
+  "name": "Reflect",
+  "url": "https://reflect.app/",
+  "tagline": "Networked note-taking with ChatGPT-4 built-in for idea connection, journaling, and knowledge building.",
+  "about": "Reflect ties your notes across time, connecting ideas and enabling seamless flow of thoughts. Its strong AI integration with ChatGPT-4 supports summaries, context-aware suggestions, and knowledge building from daily notes and journal entries.",
+  "pros": [
+    "Networked thought connections",
+    "Built-in ChatGPT-4",
+    "Great for journaling",
+    "Daily note workflow"
+  ],
+  "cons": [
+    "Subscription required",
+    "Network effect takes time to build",
+    "Can be overwhelming initially"
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "chat-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

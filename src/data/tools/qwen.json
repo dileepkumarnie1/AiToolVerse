@@ -1,0 +1,26 @@
+{
+  "slug": "qwen",
+  "name": "Qwen",
+  "url": "https://qwenlm.github.io/",
+  "tagline": "Alibaba's open-source large language model family with multi-modal support.",
+  "about": "Qwen is Alibaba's family of open-source language models with strong multi-modal and multi-lingual capabilities.",
+  "pros": [
+    "Open source",
+    "Multi-modal",
+    "Good performance"
+  ],
+  "cons": [
+    "Self-hosting needed",
+    "Documentation in Chinese primarily",
+    "Newer ecosystem"
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

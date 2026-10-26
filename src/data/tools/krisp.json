@@ -1,0 +1,30 @@
+{
+  "slug": "krisp",
+  "name": "Krisp",
+  "url": "https://krisp.ai/",
+  "tagline": "AI-powered noise cancellation combined with transcription and note-taking for clean audio meetings.",
+  "about": "Krisp is unique in combining industry-leading noise cancellation with meeting transcription and note-taking. It's ideal for users in noisy environments who need both clean audio and automated notes.",
+  "pros": [
+    "Excellent noise cancellation",
+    "Improves audio quality significantly",
+    "Easy to deploy and use",
+    "Works with all meeting platforms"
+  ],
+  "cons": [
+    "Transcription features less advanced than specialists",
+    "Primarily focused on audio quality",
+    "Summarization more limited"
+  ],
+  "capabilities": [
+    "meeting-notes",
+    "chat-assistant",
+    "notes-knowledge",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

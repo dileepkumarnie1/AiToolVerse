@@ -1,0 +1,29 @@
+{
+  "slug": "replit-agent",
+  "name": "Replit Agent",
+  "url": "https://replit.com/",
+  "tagline": "AI coding agent that can build complete applications from prompts.",
+  "about": "Replit Agent can build complete applications from natural language descriptions, handling the full development process.",
+  "pros": [
+    "Full app building",
+    "No setup needed",
+    "Deployment included"
+  ],
+  "cons": [
+    "Replit platform",
+    "Cost at scale",
+    "Limited control"
+  ],
+  "capabilities": [
+    "code-assistant",
+    "agents",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "lately-ai",
+  "name": "Lately AI",
+  "url": "https://www.lately.ai/",
+  "tagline": "AI that learns brand voice to generate authentic social posts from long-form content automatically.",
+  "about": "Lately AI learns your brand voice to generate authentic social media posts. It excels at repurposing long-form content (blogs, videos, podcasts) into multiple social posts that sound genuinely like your brand.",
+  "pros": [
+    "Learns authentic brand voice",
+    "Great content repurposing",
+    "Generates multiple posts from one source",
+    "High-quality outputs"
+  ],
+  "cons": [
+    "Requires content to repurpose",
+    "Learning period for brand voice",
+    "Premium pricing"
+  ],
+  "capabilities": [
+    "social-media",
+    "voice-tts",
+    "writing",
+    "video-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

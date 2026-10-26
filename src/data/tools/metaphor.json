@@ -1,0 +1,27 @@
+{
+  "slug": "metaphor",
+  "name": "Metaphor",
+  "url": "https://metaphor.systems/",
+  "tagline": "AI search engine designed for research with conceptual understanding.",
+  "about": "Metaphor provides AI-powered search with deep conceptual understanding for research and discovery.",
+  "pros": [
+    "Conceptual search",
+    "Research-focused",
+    "Unique approach"
+  ],
+  "cons": [
+    "Newer service",
+    "Limited general search",
+    "API focus"
+  ],
+  "capabilities": [
+    "research-search",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

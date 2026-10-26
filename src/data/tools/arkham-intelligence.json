@@ -1,0 +1,27 @@
+{
+  "slug": "arkham-intelligence",
+  "name": "Arkham Intelligence",
+  "url": "https://www.arkhamintelligence.com/",
+  "tagline": "An AI-powered blockchain intelligence platform that de-anonymizes transactions.",
+  "about": "Arkham Intelligence uses an AI engine called 'ULTRA' to algorithmically link blockchain addresses to real-world identities, providing transparency into the activities of whales, funds, and other major players in the crypto ecosystem.",
+  "pros": [
+    "Powerful for tracking and analyzing crypto fund flows.",
+    "Provides a clear visualizer for mapping connections.",
+    "Features an 'Intel-to-Earn' marketplace for blockchain data bounties."
+  ],
+  "cons": [
+    "Raises significant privacy concerns due to its focus on de-anonymization.",
+    "The sheer amount of data can be overwhelming for beginners.",
+    "Core user base is more for professional analysts and researchers."
+  ],
+  "capabilities": [
+    "finance",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

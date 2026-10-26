@@ -1,0 +1,27 @@
+{
+  "slug": "elai-io",
+  "name": "Elai.io",
+  "url": "https://elai.io/",
+  "tagline": "AI video generator with digital avatars for creating training and marketing videos.",
+  "about": "Elai creates AI-generated videos with realistic digital avatars, ideal for corporate training and marketing content.",
+  "pros": [
+    "Realistic avatars",
+    "Multi-language support",
+    "Quick turnaround"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "Avatar limitations",
+    "Enterprise focus"
+  ],
+  "capabilities": [
+    "video-generation",
+    "avatar-video"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

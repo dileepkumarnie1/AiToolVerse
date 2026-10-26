@@ -1,0 +1,52 @@
+---
+import AuthButton from './AuthButton';
+
+const path = Astro.url.pathname;
+const links = [
+  { href: '/tools/', label: 'Tools' },
+  { href: '/pipelines/', label: 'Pipelines' },
+  { href: '/trending/', label: 'Trending' },
+  { href: '/categories/', label: 'Categories' },
+];
+---
+
+<header class="sticky top-0 z-40 border-b border-ink-200/60 bg-ink-50/80 backdrop-blur-xl dark:border-white/5 dark:bg-ink-950/75">
+  <div class="container-page flex h-16 items-center justify-between gap-4">
+    <a href="/" class="flex items-center gap-2 font-semibold tracking-tight text-ink-950 dark:text-white" aria-label="AIToolVerse home">
+      <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-linear-to-br from-brand-500 via-fuchsia-500 to-orange-400 text-sm text-white shadow-sm">A</span>
+      <span>AIToolVerse</span>
+    </a>
+    <nav aria-label="Main" class="hidden items-center gap-1 md:flex">
+      {
+        links.map((l) => (
+          <a
+            href={l.href}
+            class:list={[
+              'rounded-full px-3.5 py-2 text-sm font-medium transition',
+              path.startsWith(l.href)
+                ? 'bg-white text-ink-950 shadow-sm dark:bg-white/10 dark:text-white'
+                : 'text-ink-600 hover:text-ink-950 dark:text-ink-300 dark:hover:text-white',
+            ]}
+            aria-current={path.startsWith(l.href) ? 'page' : undefined}
+          >
+            {l.label}
+          </a>
+        ))
+      }
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="/start/" class="btn-primary hidden sm:inline-flex">Get my plan</a>
+      <AuthButton client:idle />
+    </div>
+  </div>
+  <nav aria-label="Main mobile" class="container-page flex gap-1 overflow-x-auto pb-2 md:hidden">
+    {
+      links.map((l) => (
+        <a href={l.href} class="shrink-0 rounded-full px-3 py-1.5 text-sm font-medium text-ink-600 dark:text-ink-300">
+          {l.label}
+        </a>
+      ))
+    }
+    <a href="/start/" class="shrink-0 rounded-full px-3 py-1.5 text-sm font-semibold text-brand-700 dark:text-brand-300">Get my plan</a>
+  </nav>
+</header>

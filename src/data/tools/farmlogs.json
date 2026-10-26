@@ -1,0 +1,27 @@
+{
+  "slug": "farmlogs",
+  "name": "FarmLogs",
+  "url": "https://farmlogs.com/",
+  "tagline": "Farm management software with AI-powered insights for field planning and operations.",
+  "about": "FarmLogs helps farmers track field activities, monitor crop health, and make data-driven decisions using AI analytics.",
+  "pros": [
+    "Easy to use",
+    "Field mapping",
+    "Weather integration"
+  ],
+  "cons": [
+    "US-focused",
+    "Limited free tier",
+    "Basic AI features"
+  ],
+  "capabilities": [
+    "industry-ops",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

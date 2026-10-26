@@ -1,0 +1,26 @@
+{
+  "slug": "crypto-com-ai",
+  "name": "Crypto.com AI",
+  "url": "https://crypto.com/",
+  "tagline": "AI-powered cryptocurrency trading insights.",
+  "about": "Crypto.com integrates AI for market analysis, trading signals, and portfolio insights within their cryptocurrency exchange platform.",
+  "pros": [
+    "Integrated with exchange",
+    "Market insights",
+    "Multiple crypto assets"
+  ],
+  "cons": [
+    "Requires Crypto.com account",
+    "AI features limited",
+    "Trading risks"
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "namecheap-logo-maker",
+  "name": "Namecheap Logo Maker",
+  "url": "https://www.namecheap.com/logo-maker/",
+  "tagline": "Free AI logo generator integrated with domain services.",
+  "about": "Namecheap's AI logo maker provides free logo design with optional paid high-resolution downloads, integrated with their domain services.",
+  "pros": [
+    "Free basic version",
+    "Easy to use",
+    "Domain integration"
+  ],
+  "cons": [
+    "Basic features",
+    "Pay for high-res",
+    "Limited customization"
+  ],
+  "capabilities": [
+    "logo-branding",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "textio",
+  "name": "Textio",
+  "url": "https://textio.com/",
+  "tagline": "AI writing assistant for inclusive job descriptions",
+  "about": "Textio uses AI to augment job descriptions and communications to be more inclusive. It reduces bias in language, offers real-time suggestions for improving postings, and increases candidate diversity through data-driven writing guidance.",
+  "pros": [
+    "Reduces unconscious bias in job postings",
+    "Real-time writing suggestions",
+    "Increases diversity in applicant pools",
+    "Data-backed recommendations"
+  ],
+  "cons": [
+    "Subscription required for full features",
+    "Limited to text optimization",
+    "May require cultural adaptation for global use"
+  ],
+  "capabilities": [
+    "hr-recruiting",
+    "writing"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

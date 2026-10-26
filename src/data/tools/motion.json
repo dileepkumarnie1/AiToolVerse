@@ -1,0 +1,29 @@
+{
+  "slug": "motion",
+  "name": "Motion",
+  "url": "https://www.usemotion.com/",
+  "tagline": "AI scheduling assistant that automates tasks and meetings, minimizes decision fatigue with advanced project management.",
+  "about": "Motion is frequently rated as one of the best AI scheduling assistants. It automates both task and meeting scheduling using intelligent algorithms, offers advanced project management features, and includes ROI analysis and focus time blocking.",
+  "pros": [
+    "Intelligent task and meeting scheduling",
+    "Reduces decision fatigue",
+    "Project management features",
+    "ROI tracking"
+  ],
+  "cons": [
+    "Higher price point ($19/month)",
+    "Learning curve for full features",
+    "Can be overwhelming initially"
+  ],
+  "capabilities": [
+    "scheduling",
+    "automation",
+    "meeting-notes"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

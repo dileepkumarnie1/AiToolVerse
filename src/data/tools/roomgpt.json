@@ -1,0 +1,27 @@
+{
+  "slug": "roomgpt",
+  "name": "RoomGPT",
+  "url": "https://www.roomgpt.io/",
+  "tagline": "Free AI tool that generates room designs from photos using Stable Diffusion.",
+  "about": "RoomGPT uses AI to reimagine your rooms in different styles, providing quick design inspiration from photos.",
+  "pros": [
+    "Free to use",
+    "Quick results",
+    "Multiple styles"
+  ],
+  "cons": [
+    "Limited quality",
+    "No customization",
+    "Basic features only"
+  ],
+  "capabilities": [
+    "interior-design",
+    "graphic-design"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

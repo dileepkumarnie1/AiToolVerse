@@ -1,0 +1,27 @@
+{
+  "slug": "daytona",
+  "name": "daytona",
+  "url": "https://daytona.io/",
+  "tagline": "Deploy Al code with confidence using Daytona",
+  "about": "Deploy Al code with confidence using Daytona",
+  "pros": [
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "developer-api",
+    "chat-assistant",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

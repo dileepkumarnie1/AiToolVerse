@@ -1,0 +1,26 @@
+{
+  "slug": "neeva-ai",
+  "name": "Neeva AI (legacy)",
+  "url": "https://neeva.com/",
+  "tagline": "AI-powered search engine with direct answers (now acquired by Snowflake).",
+  "about": "Neeva was a consumer search engine that used AI to provide direct answers and ad-free results.",
+  "pros": [
+    "Ad-free experience.",
+    "Direct answers.",
+    "Privacy-focused."
+  ],
+  "cons": [
+    "No longer available to new users.",
+    "Acquired by Snowflake.",
+    "Consumer product sunset."
+  ],
+  "capabilities": [
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

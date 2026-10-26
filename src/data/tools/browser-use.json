@@ -1,0 +1,20 @@
+{
+  "slug": "browser-use",
+  "name": "browser-use",
+  "url": "https://browser-use.com/",
+  "tagline": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+  "about": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant",
+    "browser",
+    "automation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

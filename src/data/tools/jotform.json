@@ -1,0 +1,29 @@
+{
+  "slug": "jotform",
+  "name": "Jotform",
+  "url": "https://www.jotform.com/",
+  "tagline": "Powerful form builder with 10,000+ templates and AI form generation",
+  "about": "Jotform offers a comprehensive form building platform with 10,000+ templates, AI form generation, payment integration, and workflow automation.",
+  "pros": [
+    "Massive template library (10,000+)",
+    "AI-powered form generation",
+    "Payment collection built-in",
+    "Generous free tier"
+  ],
+  "cons": [
+    "Interface can feel overwhelming",
+    "Some advanced features require paid plans",
+    "Mobile editor less intuitive"
+  ],
+  "capabilities": [
+    "forms-surveys",
+    "code-assistant",
+    "app-builder"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "tabbyml",
+  "name": "TabbyML",
+  "url": "https://tabbyml.ai/",
+  "tagline": "Self-hosted AI code assistant for completions and chat.",
+  "about": "TabbyML is an open, self‑hostable coding assistant that provides fast, private code completions and chat across editors and languages.",
+  "pros": [
+    "On‑prem and private by design.",
+    "Good performance on commodity GPUs/CPUs.",
+    "Active OSS community."
+  ],
+  "cons": [
+    "Requires setup and ops.",
+    "Smaller model zoo than proprietary tools.",
+    "Quality depends on config and hardware."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

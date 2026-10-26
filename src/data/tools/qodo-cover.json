@@ -1,0 +1,21 @@
+{
+  "slug": "qodo-cover",
+  "name": "qodo-cover",
+  "url": "https://qodo.ai/",
+  "tagline": "Qodo-Cover: An AI-Powered Tool for Automated Test Generation and Code Coverage Enhancement! 💻🤖🧪🐞",
+  "about": "Qodo-Cover: An AI-Powered Tool for Automated Test Generation and Code Coverage Enhancement! 💻🤖🧪🐞",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api",
+    "automation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

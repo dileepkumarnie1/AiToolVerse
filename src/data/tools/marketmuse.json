@@ -1,0 +1,27 @@
+{
+  "slug": "marketmuse",
+  "name": "MarketMuse",
+  "url": "https://www.marketmuse.com/",
+  "tagline": "AI content planning and gap analysis platform.",
+  "about": "Identify topics, gaps, and authority opportunities; score drafts for coverage.",
+  "pros": [
+    "Robust topic modeling.",
+    "Good scoring.",
+    "Team workflows."
+  ],
+  "cons": [
+    "Pricey.",
+    "Time to master.",
+    "Content scores can be gamed."
+  ],
+  "capabilities": [
+    "marketing-seo",
+    "writing"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

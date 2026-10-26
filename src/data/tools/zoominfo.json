@@ -1,0 +1,27 @@
+{
+  "slug": "zoominfo",
+  "name": "ZoomInfo",
+  "url": "https://www.zoominfo.com/",
+  "tagline": "B2B sales intelligence and lead generation platform",
+  "about": "ZoomInfo is a leading B2B sales intelligence platform that provides real-time insights, contact data, and intent signals. It helps sales teams identify, qualify, and engage prospects with AI-driven tools for targeting and outreach.",
+  "pros": [
+    "Extensive B2B contact database",
+    "Real-time buyer intent data",
+    "Excellent data accuracy",
+    "Strong integration capabilities"
+  ],
+  "cons": [
+    "Premium enterprise pricing",
+    "Can be overwhelming for small teams",
+    "Requires training to maximize value"
+  ],
+  "capabilities": [
+    "sales-crm"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

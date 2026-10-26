@@ -1,0 +1,28 @@
+{
+  "slug": "brandmark",
+  "name": "Brandmark",
+  "url": "https://brandmark.io/",
+  "tagline": "AI branding tool delivering unique logos, color schemes, fonts, and mockups for startups and small businesses.",
+  "about": "Brandmark focuses on full branding with AI-generated unique logo designs, color schemes, font suggestions, and mockups. It's designed for speed and ease, supporting small businesses and startups with professional results.",
+  "pros": [
+    "Unique AI-generated designs",
+    "Complete branding package",
+    "Mockup generation",
+    "Fast and easy"
+  ],
+  "cons": [
+    "Limited customization post-generation",
+    "Can be expensive for individual users",
+    "Designs may need refinement"
+  ],
+  "capabilities": [
+    "logo-branding",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

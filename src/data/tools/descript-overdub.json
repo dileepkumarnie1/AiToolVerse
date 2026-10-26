@@ -1,0 +1,29 @@
+{
+  "slug": "descript-overdub",
+  "name": "Descript Overdub",
+  "url": "https://www.descript.com/overdub",
+  "tagline": "AI voice cloning and editing for podcasts and video.",
+  "about": "Descript Overdub allows you to create a digital voice clone for editing and generating audio content.",
+  "pros": [
+    "Easy voice cloning.",
+    "Podcast-friendly.",
+    "Integrated with Descript editor."
+  ],
+  "cons": [
+    "Premium for best features.",
+    "Voice training required.",
+    "Ethical considerations."
+  ],
+  "capabilities": [
+    "music-generation",
+    "voice-tts",
+    "video-generation",
+    "video-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

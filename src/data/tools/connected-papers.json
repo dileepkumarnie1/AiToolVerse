@@ -1,0 +1,28 @@
+{
+  "slug": "connected-papers",
+  "name": "Connected Papers",
+  "url": "https://www.connectedpapers.com/",
+  "tagline": "Visual tool to find and explore academic papers.",
+  "about": "Connected Papers creates visual graphs of related academic papers to help researchers explore literature and find relevant work.",
+  "pros": [
+    "Beautiful visualizations",
+    "Helps discover related papers",
+    "Easy to use"
+  ],
+  "cons": [
+    "Limited searches in free tier",
+    "Requires registration",
+    "Not comprehensive"
+  ],
+  "capabilities": [
+    "research-search",
+    "science",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

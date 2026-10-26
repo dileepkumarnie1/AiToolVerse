@@ -1,0 +1,27 @@
+{
+  "slug": "deepgram",
+  "name": "Deepgram",
+  "url": "https://deepgram.com/",
+  "tagline": "Advanced speech-to-text API with real-time transcription.",
+  "about": "Deepgram provides highly accurate speech recognition APIs built on deep learning. Offers real-time and batch transcription with speaker diarization and custom model training.",
+  "pros": [
+    "High accuracy",
+    "Real-time processing",
+    "Custom model training"
+  ],
+  "cons": [
+    "Requires API integration",
+    "Usage-based pricing",
+    "Technical setup needed"
+  ],
+  "capabilities": [
+    "voice-tts",
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

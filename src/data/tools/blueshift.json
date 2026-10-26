@@ -1,0 +1,29 @@
+{
+  "slug": "blueshift",
+  "name": "Blueshift",
+  "url": "https://blueshift.com/",
+  "tagline": "AI-powered customer data platform and marketing automation",
+  "about": "Blueshift uses predictive analytics for customer segmentation, journey orchestration, and real-time product recommendations. It integrates across multiple channels for a cohesive customer experience with AI-driven personalization.",
+  "pros": [
+    "Powerful predictive analytics",
+    "Omnichannel marketing automation",
+    "Real-time personalization",
+    "Strong segmentation capabilities"
+  ],
+  "cons": [
+    "Enterprise-level complexity",
+    "Premium pricing",
+    "Requires technical expertise to maximize"
+  ],
+  "capabilities": [
+    "ecommerce",
+    "automation",
+    "marketing-seo"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

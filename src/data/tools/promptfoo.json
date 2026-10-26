@@ -1,0 +1,26 @@
+{
+  "slug": "promptfoo",
+  "name": "promptfoo",
+  "url": "https://www.promptfoo.dev/",
+  "tagline": "Test prompts and guardrails locally and in CI.",
+  "about": "Define eval datasets and run regressions to keep prompts reliable.",
+  "pros": [
+    "Great for CI.",
+    "Model‑agnostic.",
+    "Lightweight."
+  ],
+  "cons": [
+    "Requires crafting datasets.",
+    "CLI‑centric.",
+    "Manual analysis for nuanced outputs."
+  ],
+  "capabilities": [
+    "prompt-tools"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

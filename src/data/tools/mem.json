@@ -1,0 +1,30 @@
+{
+  "slug": "mem",
+  "name": "Mem",
+  "url": "https://mem.ai/",
+  "tagline": "AI-powered second brain that auto-organizes notes, mirrors workflows, and enables contextual information recall.",
+  "about": "Mem acts like a true second brain, using AI to automatically sort, tag, and recall information contextually. Its auto-organizing system eliminates manual categorization while allowing fast search and retrieval based on natural language queries.",
+  "pros": [
+    "Automatic organization without folders",
+    "Contextual recall and search",
+    "Fast and intuitive",
+    "Good for knowledge workers"
+  ],
+  "cons": [
+    "Requires trusting AI organization",
+    "Less control than manual systems",
+    "Premium pricing for advanced features"
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "automation",
+    "meeting-notes",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

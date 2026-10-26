@@ -1,0 +1,28 @@
+{
+  "slug": "cradl-ai",
+  "name": "Cradl AI",
+  "url": "https://www.cradl.ai/",
+  "tagline": "Build and train custom document parsing models without coding expertise.",
+  "about": "Cradl AI enables teams to create custom document extraction models through a user-friendly interface for unique document types.",
+  "pros": [
+    "No coding required",
+    "Custom model training",
+    "Quick deployment"
+  ],
+  "cons": [
+    "Requires training data",
+    "Advanced features need technical knowledge",
+    "Newer platform"
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "code-assistant",
+    "app-builder"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

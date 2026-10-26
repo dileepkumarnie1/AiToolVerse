@@ -1,0 +1,27 @@
+{
+  "slug": "notion-ai",
+  "name": "Notion AI",
+  "url": "https://www.notion.so/product/ai",
+  "tagline": "An AI assistant integrated directly into the Notion productivity workspace.",
+  "about": "Notion AI is a suite of features built into the Notion platform. It can summarize existing notes, draft content, brainstorm ideas, translate text, and organize data, all within your existing Notion pages.",
+  "pros": [
+    "Seamlessly integrated into the Notion workflow.",
+    "Can work with your existing documents and databases.",
+    "Versatile for a wide range of productivity tasks."
+  ],
+  "cons": [
+    "Requires a Notion account and is a paid add-on.",
+    "Less powerful than standalone, dedicated AI models.",
+    "Effectiveness depends on how well-structured your Notion workspace is."
+  ],
+  "capabilities": [
+    "automation",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

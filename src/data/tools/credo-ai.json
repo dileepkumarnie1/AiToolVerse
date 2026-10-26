@@ -1,0 +1,26 @@
+{
+  "slug": "credo-ai",
+  "name": "Credo AI",
+  "url": "https://www.credo.ai/",
+  "tagline": "AI governance platform for responsible AI development and deployment.",
+  "about": "Credo AI helps organizations implement responsible AI practices with governance and risk management tools.",
+  "pros": [
+    "Governance focus",
+    "Enterprise-ready",
+    "Policy management"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complex setup",
+    "Organizational change needed"
+  ],
+  "capabilities": [
+    "responsible-ai"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "ellie-ai",
+  "name": "Ellie AI",
+  "url": "https://ellieai.com/",
+  "tagline": "Ellie learns from your writing style and crafts replies as if they were written by you",
+  "about": "Ellie learns from your writing style and crafts replies as if they were written by you",
+  "pros": [
+    "Free tier available.",
+    "Open source and extensible.",
+    "Good for drafting and Q&A."
+  ],
+  "cons": [
+    "Advanced features require payment.",
+    "Subscription required for full access.",
+    "Requires setup and maintenance."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "automation",
+    "writing",
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

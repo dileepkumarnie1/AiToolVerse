@@ -1,0 +1,27 @@
+{
+  "slug": "utopia-ai",
+  "name": "Utopia AI",
+  "url": "https://www.utopia.ai/",
+  "tagline": "AI moderation platform for social platforms with multi-language support.",
+  "about": "Utopia AI provides content moderation for social platforms with support for over 100 languages.",
+  "pros": [
+    "Many languages",
+    "Social focus",
+    "Real-time"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Platform focus",
+    "Integration needed"
+  ],
+  "capabilities": [
+    "industry-ops",
+    "social-media"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

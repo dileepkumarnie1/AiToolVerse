@@ -1,0 +1,26 @@
+{
+  "slug": "cropx",
+  "name": "CropX",
+  "url": "https://cropx.com/",
+  "tagline": "Soil intelligence platform using AI and sensors for precision irrigation and nutrient management.",
+  "about": "CropX combines soil sensors with AI to provide precise irrigation and fertilization recommendations based on soil conditions.",
+  "pros": [
+    "Accurate soil data",
+    "Water savings",
+    "Easy sensor installation"
+  ],
+  "cons": [
+    "Hardware investment",
+    "Ongoing sensor maintenance",
+    "Data interpretation needed"
+  ],
+  "capabilities": [
+    "industry-ops"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

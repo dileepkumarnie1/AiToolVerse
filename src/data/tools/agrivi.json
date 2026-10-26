@@ -1,0 +1,26 @@
+{
+  "slug": "agrivi",
+  "name": "Agrivi",
+  "url": "https://www.agrivi.com/",
+  "tagline": "Farm management software with AI-driven best practices and analytics for sustainable farming.",
+  "about": "Agrivi provides AI-powered farming recommendations based on crop types, weather conditions, and historical data.",
+  "pros": [
+    "Knowledge base included",
+    "Multi-crop support",
+    "Compliance tracking"
+  ],
+  "cons": [
+    "Learning curve",
+    "Subscription pricing",
+    "Some features need customization"
+  ],
+  "capabilities": [
+    "industry-ops"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

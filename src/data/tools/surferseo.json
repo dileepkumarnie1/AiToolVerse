@@ -1,0 +1,27 @@
+{
+  "slug": "surferseo",
+  "name": "SurferSEO",
+  "url": "https://surferseo.com/",
+  "tagline": "AI-powered SEO tool for content optimization with real-time suggestions.",
+  "about": "Surfer analyzes top-ranking content and provides AI recommendations to optimize your content for better search rankings.",
+  "pros": [
+    "Data-driven suggestions",
+    "Real-time scoring",
+    "Content editor"
+  ],
+  "cons": [
+    "Learning curve",
+    "Subscription pricing",
+    "Can be prescriptive"
+  ],
+  "capabilities": [
+    "marketing-seo",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

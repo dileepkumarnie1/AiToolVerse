@@ -1,0 +1,26 @@
+{
+  "slug": "promptbase",
+  "name": "PromptBase",
+  "url": "https://promptbase.com/",
+  "tagline": "Marketplace for buying and selling AI prompts.",
+  "about": "PromptBase is a marketplace for buying and selling prompts for various AI models.",
+  "pros": [
+    "Quality prompts",
+    "Revenue for creators",
+    "Variety"
+  ],
+  "cons": [
+    "Marketplace model",
+    "Quality varies",
+    "Cost per prompt"
+  ],
+  "capabilities": [
+    "prompt-tools"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "salesforce-einstein-copilot",
+  "name": "Salesforce Einstein Copilot",
+  "url": "https://www.salesforce.com/products/einstein/copilot/",
+  "tagline": "Conversational Copilot embedded across Salesforce clouds.",
+  "about": "Einstein Copilot helps reps draft emails, update records, and get pipeline insights with grounded data from Salesforce.",
+  "pros": [
+    "Native Salesforce context.",
+    "Secure data grounding.",
+    "Automates repetitive CRM work."
+  ],
+  "cons": [
+    "Salesforce licensing required.",
+    "Feature availability varies by cloud.",
+    "Customization effort for best results."
+  ],
+  "capabilities": [
+    "sales-crm",
+    "chat-assistant",
+    "code-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

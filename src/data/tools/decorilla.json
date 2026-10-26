@@ -1,0 +1,27 @@
+{
+  "slug": "decorilla",
+  "name": "Decorilla",
+  "url": "https://www.decorilla.com/",
+  "tagline": "Online interior design service combining AI with professional designers.",
+  "about": "Decorilla matches clients with interior designers who use AI tools to create personalized room designs.",
+  "pros": [
+    "Human designers",
+    "Full room design",
+    "Shopping lists"
+  ],
+  "cons": [
+    "Service pricing",
+    "Turnaround time",
+    "Limited revisions"
+  ],
+  "capabilities": [
+    "interior-design",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

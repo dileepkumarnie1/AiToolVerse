@@ -1,0 +1,29 @@
+{
+  "slug": "alwrity",
+  "name": "ALwrity",
+  "url": "https://alwrity.com/",
+  "tagline": "Alwrity, complete AI content creation toolkit. Factual &amp; Web researched Writing assistant for Blog articles, research reports, essay, story. Create personalized AI Agents content team. Free &amp; Open Source AI…",
+  "about": "Alwrity, complete AI content creation toolkit. Factual &amp; Web researched Writing assistant for Blog articles, research reports, essay, story. Create personalized AI Agents content team. Free &amp; Open Source AI writer.",
+  "pros": [
+    "Open source and extensible.",
+    "Good for drafting and Q&A.",
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "May require fact‑checking.",
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "marketing-seo",
+    "chat-assistant",
+    "research-search",
+    "writing"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

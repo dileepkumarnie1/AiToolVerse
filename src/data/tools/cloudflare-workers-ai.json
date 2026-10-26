@@ -1,0 +1,18 @@
+{
+  "slug": "cloudflare-workers-ai",
+  "name": "Cloudflare Workers AI",
+  "url": "https://developers.cloudflare.com/workers-ai/",
+  "tagline": "Run AI models at the edge and build inference-powered applications on Workers.",
+  "about": "Workers AI provides managed inference and edge delivery for AI-powered features.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

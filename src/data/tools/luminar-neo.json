@@ -1,0 +1,26 @@
+{
+  "slug": "luminar-neo",
+  "name": "Luminar Neo",
+  "url": "https://skylum.com/luminar",
+  "tagline": "AI-powered photo editor with advanced retouching, sky replacement, and creative effects.",
+  "about": "Luminar Neo uses AI for one-click enhancements, portrait retouching, sky replacement, and creative effects in a professional editor.",
+  "pros": [
+    "Powerful AI tools",
+    "Non-destructive editing",
+    "One-time purchase option"
+  ],
+  "cons": [
+    "Resource intensive",
+    "Learning curve",
+    "Subscription or purchase required"
+  ],
+  "capabilities": [
+    "photo-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

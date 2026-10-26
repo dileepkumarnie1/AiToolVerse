@@ -1,0 +1,19 @@
+{
+  "slug": "fireworks-ai",
+  "name": "Fireworks AI",
+  "url": "https://fireworks.ai/",
+  "tagline": "Inference platform for serving open models with production reliability and speed.",
+  "about": "Fireworks provides hosted inference for popular open models, with tooling designed for shipping LLM features to production.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api",
+    "code-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

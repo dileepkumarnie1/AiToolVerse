@@ -1,0 +1,26 @@
+{
+  "slug": "betterment",
+  "name": "Betterment",
+  "url": "https://www.betterment.com/",
+  "tagline": "Digital investment platform with AI-powered portfolio management and financial advice.",
+  "about": "Betterment offers AI-driven investment management with goal-based planning, tax optimization, and optional human advice.",
+  "pros": [
+    "Goal-based investing",
+    "Tax optimization",
+    "Human advisor option"
+  ],
+  "cons": [
+    "Management fees",
+    "US only",
+    "Limited investment options"
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

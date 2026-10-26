@@ -1,0 +1,27 @@
+{
+  "slug": "julius-ai",
+  "name": "Julius AI",
+  "url": "https://julius.ai/",
+  "tagline": "Analyze data in spreadsheets and CSV files by asking questions in plain English.",
+  "about": "Julius AI allows you to connect data sources like spreadsheets, CSVs, and databases, and then ask complex questions in natural language. It can perform analysis, create visualizations, and explain its methodology.",
+  "pros": [
+    "Makes data analysis accessible to non-technical users.",
+    "Can create charts and graphs automatically.",
+    "Shows the Python code it generates for transparency."
+  ],
+  "cons": [
+    "Free tier has limits on the number of queries.",
+    "May struggle with very complex or poorly structured data.",
+    "Requires a paid plan for advanced data sources."
+  ],
+  "capabilities": [
+    "data-analysis",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

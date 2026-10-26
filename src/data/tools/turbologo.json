@@ -1,0 +1,28 @@
+{
+  "slug": "turbologo",
+  "name": "Turbologo",
+  "url": "https://turbologo.com/",
+  "tagline": "User-friendly logo generator with business cards, social media kits, brand guidelines, and full ownership.",
+  "about": "Turbologo is ideal for quick, customized logo designs with additional business materials. It allows unlimited changes during creation and provides full ownership with high-res downloads in multiple formats.",
+  "pros": [
+    "Fast logo creation",
+    "Unlimited changes",
+    "Full ownership rights",
+    "Multiple file formats"
+  ],
+  "cons": [
+    "Less sophisticated than premium tools",
+    "Template-based approach",
+    "Limited unique designs"
+  ],
+  "capabilities": [
+    "logo-branding",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

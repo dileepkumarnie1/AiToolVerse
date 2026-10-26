@@ -1,0 +1,18 @@
+{
+  "slug": "mem0",
+  "name": "mem0",
+  "url": "https://mem0.ai/",
+  "tagline": "Universal memory layer for AI Agents; Announcing OpenMemory MCP - local and secure memory management.",
+  "about": "Universal memory layer for AI Agents; Announcing OpenMemory MCP - local and secure memory management.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

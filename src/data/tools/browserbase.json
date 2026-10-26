@@ -1,0 +1,20 @@
+{
+  "slug": "browserbase",
+  "name": "Browserbase",
+  "url": "https://www.browserbase.com/",
+  "tagline": "Hosted browsers for automation and agent-driven web workflows.",
+  "about": "Browserbase provides managed browser infrastructure for scraping, testing, and agent actions.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "browser",
+    "automation",
+    "agents"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

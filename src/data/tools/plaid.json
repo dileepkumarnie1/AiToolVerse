@@ -1,0 +1,27 @@
+{
+  "slug": "plaid",
+  "name": "Plaid",
+  "url": "https://plaid.com/",
+  "tagline": "Financial data connectivity platform that powers AI in thousands of finance apps.",
+  "about": "Plaid connects financial accounts to apps, enabling AI-powered financial services by providing secure access to banking data.",
+  "pros": [
+    "Wide bank coverage",
+    "Secure connections",
+    "Powers major apps"
+  ],
+  "cons": [
+    "B2B focus",
+    "Privacy considerations",
+    "Not consumer-facing"
+  ],
+  "capabilities": [
+    "finance",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

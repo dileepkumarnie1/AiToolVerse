@@ -1,0 +1,20 @@
+{
+  "slug": "langgraph",
+  "name": "LangGraph",
+  "url": "https://langchain-ai.github.io/langgraph/",
+  "tagline": "Graph-based agent orchestration framework for building multi-step AI workflows.",
+  "about": "LangGraph is designed for reliable agent control flow, state, and branching execution.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api",
+    "automation",
+    "agents"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

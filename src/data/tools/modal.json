@@ -1,0 +1,18 @@
+{
+  "slug": "modal",
+  "name": "Modal",
+  "url": "https://modal.com/",
+  "tagline": "Serverless platform for running Python workloads, including AI inference and pipelines.",
+  "about": "Modal helps you ship compute-heavy workloads (including ML/LLM tasks) with simple deployment.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

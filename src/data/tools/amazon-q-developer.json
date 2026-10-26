@@ -1,0 +1,28 @@
+{
+  "slug": "amazon-q-developer",
+  "name": "Amazon Q Developer",
+  "url": "https://aws.amazon.com/q/developer/",
+  "tagline": "AWS's AI assistant for developers with code generation and cloud expertise.",
+  "about": "Amazon Q Developer is AWS's AI-powered assistant for developers, helping with code, architecture, and AWS services.",
+  "pros": [
+    "AWS expertise",
+    "IDE integration",
+    "Free tier available"
+  ],
+  "cons": [
+    "AWS-centric",
+    "Newer than competitors",
+    "Limited general coding"
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

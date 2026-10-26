@@ -1,0 +1,26 @@
+{
+  "slug": "aequitas",
+  "name": "Aequitas",
+  "url": "https://aequitas.dssg.io/",
+  "tagline": "Bias and fairness audit toolkit for data scientists and policymakers.",
+  "about": "Aequitas is an open-source bias audit toolkit to audit models for discrimination and fairness across groups.",
+  "pros": [
+    "Easy to use.",
+    "Clear reports.",
+    "Open source."
+  ],
+  "cons": [
+    "Focuses on binary classification.",
+    "Requires data export.",
+    "Not a mitigation tool."
+  ],
+  "capabilities": [
+    "responsible-ai"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

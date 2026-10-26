@@ -1,0 +1,18 @@
+{
+  "slug": "langwatch",
+  "name": "langwatch",
+  "url": "https://langwatch.ai/",
+  "tagline": "The open LLM Ops platform - Traces, Analytics, Evaluations, Datasets and Prompt Optimization ✨",
+  "about": "The open LLM Ops platform - Traces, Analytics, Evaluations, Datasets and Prompt Optimization ✨",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "prompt-tools"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,150 @@
+---
+import Base from '../../layouts/Base.astro';
+import ToolAvatar from '../../components/ToolAvatar';
+import ToolTile from '../../components/ToolTile';
+import SaveToolButton from '../../components/SaveToolButton';
+import { alternativesFor, capabilityById, categoryById, categoryOf, pipelinesUsingTool, pipelinesForCapability, tools } from '../../lib/catalog';
+import { PRICING_LABEL, SKILL_LABEL } from '../../lib/labels';
+import type { Tool } from '../../lib/types';
+
+export function getStaticPaths() {
+  return tools.map((tool) => ({ params: { slug: tool.slug }, props: { tool } }));
+}
+
+const { tool } = Astro.props as { tool: Tool };
+const primary = capabilityById.get(tool.capabilities[0])!;
+const category = categoryById.get(categoryOf(tool));
+const usedIn = pipelinesUsingTool(tool.slug);
+const related = usedIn.length ? usedIn : pipelinesForCapability(primary.id).slice(0, 3);
+const alternatives = alternativesFor(tool, 6);
+const host = new URL(tool.url).hostname.replace(/^www\./, '');
+const description = `${tool.name}: ${tool.tagline} How to get started, pros and cons, pricing and the best alternatives.`.slice(0, 300);
+---
+
+<Base
+  title={`${tool.name} — what it's for and how to use it`}
+  description={description}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: tool.name,
+    url: tool.url,
+    description: tool.tagline,
+    applicationCategory: primary.label,
+    offers: tool.pricing === 'paid' ? undefined : { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  }}
+>
+  <article class="container-page pt-12">
+    <nav aria-label="Breadcrumb" class="text-sm muted">
+      <a href="/tools/" class="hover:text-ink-900 dark:hover:text-white">Tools</a>
+      {category && <> / <a href={`/categories/${category.id}/`} class="hover:text-ink-900 dark:hover:text-white">{category.label}</a></>}
+    </nav>
+
+    <header class="mt-6 flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
+      <div class="flex items-start gap-5">
+        <ToolAvatar slug={tool.slug} name={tool.name} size="lg" />
+        <div>
+          <h1 class="heading-lg">{tool.name}</h1>
+          <p class="mt-2 max-w-2xl text-lg muted">{tool.tagline}</p>
+          <div class="mt-4 flex flex-wrap gap-2">
+            {tool.capabilities.map((c) => <a href={`/best/${c}/`} class="chip hover:border-brand-300">{capabilityById.get(c)?.label}</a>)}
+            <span class="chip">{PRICING_LABEL[tool.pricing]}</span>
+            <span class="chip">{SKILL_LABEL[tool.skillLevel]}</span>
+            {tool.openSource && <span class="chip">Open source</span>}
+          </div>
+        </div>
+      </div>
+      <div class="flex shrink-0 gap-2">
+        <SaveToolButton client:visible slug={tool.slug} />
+        <a href={tool.url} target="_blank" rel="noopener noreferrer nofollow" class="btn-primary">Visit {host} ↗</a>
+      </div>
+    </header>
+
+    <div class="mt-12 grid gap-8 lg:grid-cols-3">
+      <div class="space-y-8 lg:col-span-2">
+        {
+          tool.about && (
+            <section class="card p-7">
+              <h2 class="text-lg font-semibold text-ink-900 dark:text-white">Overview</h2>
+              <p class="mt-3 leading-relaxed text-ink-700 dark:text-ink-200">{tool.about}</p>
+            </section>
+          )
+        }
+
+        <section class="card p-7" aria-labelledby="howto">
+          <h2 id="howto" class="text-lg font-semibold text-ink-900 dark:text-white">How to get started</h2>
+          <p class="mt-1 text-sm muted">For {primary.label.toLowerCase()} with {tool.name}.</p>
+          <ol class="mt-5 space-y-4">
+            {
+              primary.howTo.map((step, i) => (
+                <li class="flex gap-4">
+                  <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-brand-100 text-sm font-semibold text-brand-700 dark:bg-brand-500/15 dark:text-brand-200">{i + 1}</span>
+                  <p class="pt-0.5 text-ink-700 dark:text-ink-200">{step}</p>
+                </li>
+              ))
+            }
+          </ol>
+          <div class="mt-6 rounded-xl border border-dashed border-brand-200 bg-brand-50/60 p-4 dark:border-brand-500/30 dark:bg-brand-500/5">
+            <p class="text-xs font-semibold uppercase tracking-wide text-brand-700 dark:text-brand-300">Starter prompt</p>
+            <p class="mt-2 font-mono text-sm text-ink-800 dark:text-ink-100">{primary.samplePrompt}</p>
+          </div>
+        </section>
+
+        {
+          (tool.pros.length > 0 || tool.cons.length > 0) && (
+            <section class="grid gap-4 sm:grid-cols-2">
+              <div class="card p-6">
+                <h2 class="font-semibold text-emerald-700 dark:text-emerald-300">Strengths</h2>
+                <ul class="mt-3 space-y-2 text-sm text-ink-700 dark:text-ink-200">{tool.pros.map((p) => <li>+ {p}</li>)}</ul>
+              </div>
+              <div class="card p-6">
+                <h2 class="font-semibold text-rose-700 dark:text-rose-300">Watch out for</h2>
+                <ul class="mt-3 space-y-2 text-sm text-ink-700 dark:text-ink-200">{tool.cons.map((c) => <li>– {c}</li>)}</ul>
+              </div>
+            </section>
+          )
+        }
+      </div>
+
+      <aside class="space-y-6">
+        {
+          related.length > 0 && (
+            <section class="card p-6">
+              <h2 class="font-semibold text-ink-900 dark:text-white">{usedIn.length ? 'Pipelines that use it' : 'Related pipelines'}</h2>
+              <ul class="mt-3 space-y-3">
+                {related.map((p) => (
+                  <li>
+                    <a href={`/pipelines/${p.slug}/`} class="group block">
+                      <span class="font-medium text-ink-800 group-hover:text-brand-700 dark:text-ink-100 dark:group-hover:text-brand-300">{p.title}</span>
+                      <span class="block text-xs muted">{p.steps.length} steps · {p.timeToResult}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+        <section class="card p-6 text-sm">
+          <h2 class="font-semibold text-ink-900 dark:text-white">Before you sign up</h2>
+          <ul class="mt-3 space-y-2 muted">
+            <li>Check current pricing and limits on the official site.</li>
+            <li>Read how your data is used and whether it trains models.</li>
+            <li>Never paste passwords, keys or sensitive personal data.</li>
+          </ul>
+          <p class="mt-4 text-xs muted">Listed {tool.addedAt}. Information may change; we are not affiliated with {tool.name}.</p>
+        </section>
+      </aside>
+    </div>
+
+    {
+      alternatives.length > 0 && (
+        <section class="mt-16" aria-labelledby="alts">
+          <h2 id="alts" class="heading-lg">Alternatives to {tool.name}</h2>
+          <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {alternatives.map((t) => <ToolTile tool={t} capabilityLabel={capabilityById.get(t.capabilities[0])?.label} />)}
+          </div>
+        </section>
+      )
+    }
+  </article>
+</Base>

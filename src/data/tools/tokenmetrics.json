@@ -1,0 +1,28 @@
+{
+  "slug": "tokenmetrics",
+  "name": "TokenMetrics",
+  "url": "https://www.tokenmetrics.com/",
+  "tagline": "AI-driven crypto analytics and investment research platform.",
+  "about": "TokenMetrics is an investment research platform that uses machine learning to analyze on-chain data, social sentiment, and developer activity. It provides quantitative ratings and price predictions for thousands of crypto assets to help investors make data-driven decisions.",
+  "pros": [
+    "Provides actionable data-driven grades and insights.",
+    "Helps filter the noise in a volatile market.",
+    "Offers model portfolios and detailed asset analysis."
+  ],
+  "cons": [
+    "Requires a paid subscription for most valuable features.",
+    "AI predictions are not financial advice and carry inherent risk.",
+    "The amount of information can be overwhelming for new investors."
+  ],
+  "capabilities": [
+    "finance",
+    "research-search",
+    "data-analysis"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

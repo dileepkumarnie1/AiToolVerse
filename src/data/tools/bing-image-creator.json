@@ -1,0 +1,26 @@
+{
+  "slug": "bing-image-creator",
+  "name": "Bing Image Creator",
+  "url": "https://www.bing.com/create",
+  "tagline": "Microsoft's free AI image generator powered by DALL-E integrated with Bing.",
+  "about": "Bing Image Creator uses DALL-E to generate images from text prompts, integrated into Microsoft's Bing search engine for free use.",
+  "pros": [
+    "Free to use",
+    "DALL-E quality",
+    "Easy access"
+  ],
+  "cons": [
+    "Microsoft account required",
+    "Limited daily boosts",
+    "Less control than DALL-E direct"
+  ],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

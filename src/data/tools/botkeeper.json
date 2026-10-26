@@ -1,0 +1,26 @@
+{
+  "slug": "botkeeper",
+  "name": "Botkeeper",
+  "url": "https://www.botkeeper.com/",
+  "tagline": "AI-powered bookkeeping for accounting firms and businesses.",
+  "about": "Botkeeper combines AI with human accountants to provide automated bookkeeping services for businesses and firms.",
+  "pros": [
+    "AI + human hybrid",
+    "Scales well",
+    "Good for firms"
+  ],
+  "cons": [
+    "Premium pricing",
+    "Firm focus",
+    "Less for solo businesses"
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

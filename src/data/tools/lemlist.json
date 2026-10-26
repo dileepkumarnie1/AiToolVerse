@@ -1,0 +1,20 @@
+{
+  "slug": "lemlist",
+  "name": "Lemlist",
+  "url": "https://lemlist.com/",
+  "tagline": "Outbound email platform with AI-assisted personalization and sequences.",
+  "about": "Lemlist helps teams run outbound campaigns with personalization and automation at scale.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "email",
+    "marketing-seo",
+    "sales-crm"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "abnormal-security",
+  "name": "Abnormal Security",
+  "url": "https://abnormalsecurity.com/",
+  "tagline": "AI-powered email security platform protecting against sophisticated attacks.",
+  "about": "Abnormal Security uses AI to detect and prevent business email compromise and sophisticated email attacks.",
+  "pros": [
+    "BEC detection",
+    "Behavioral AI",
+    "Cloud-native"
+  ],
+  "cons": [
+    "Email focus only",
+    "Enterprise pricing",
+    "Integration needed"
+  ],
+  "capabilities": [
+    "cybersecurity",
+    "email"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

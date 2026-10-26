@@ -1,0 +1,25 @@
+{
+  "slug": "prompt-builder",
+  "name": "Prompt-Builder",
+  "url": "https://buildprompts.ai/",
+  "tagline": "The ultimate tool for designing, testing, and managing reusable AI prompts.",
+  "about": "The ultimate tool for designing, testing, and managing reusable AI prompts.",
+  "pros": [
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "prompt-tools",
+    "graphic-design",
+    "developer-api",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "opera-one",
+  "name": "Opera One",
+  "url": "https://www.opera.com/one",
+  "tagline": "Browser with built-in AI assistant Aria for browsing assistance.",
+  "about": "Opera One includes Aria, an AI assistant built into the browser for help.",
+  "pros": [
+    "Built-in AI",
+    "Free to use",
+    "Good features"
+  ],
+  "cons": [
+    "Less popular browser",
+    "AI capabilities limited",
+    "Ecosystem lock-in"
+  ],
+  "capabilities": [
+    "browser",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

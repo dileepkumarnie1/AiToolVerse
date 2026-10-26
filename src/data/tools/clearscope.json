@@ -1,0 +1,27 @@
+{
+  "slug": "clearscope",
+  "name": "Clearscope",
+  "url": "https://www.clearscope.io/",
+  "tagline": "AI content optimization platform for creating high-ranking SEO content.",
+  "about": "Clearscope uses AI to help content teams create content that ranks, with keyword recommendations and content grading.",
+  "pros": [
+    "Enterprise-grade",
+    "Clean interface",
+    "Good recommendations"
+  ],
+  "cons": [
+    "Expensive",
+    "Enterprise focus",
+    "Limited free trial"
+  ],
+  "capabilities": [
+    "marketing-seo",
+    "writing"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

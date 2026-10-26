@@ -1,0 +1,27 @@
+{
+  "slug": "atomwise",
+  "name": "Atomwise",
+  "url": "https://www.atomwise.com/",
+  "tagline": "AI platform for predicting small molecule binding for drug discovery.",
+  "about": "Atomwise uses deep learning to predict which small molecules might bind to protein targets for drug development.",
+  "pros": [
+    "Fast virtual screening",
+    "Research partnerships",
+    "Multiple disease areas"
+  ],
+  "cons": [
+    "Pharma focus",
+    "Prediction vs experimental",
+    "Enterprise only"
+  ],
+  "capabilities": [
+    "science",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

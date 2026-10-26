@@ -1,0 +1,28 @@
+{
+  "slug": "outreach",
+  "name": "Outreach",
+  "url": "https://www.outreach.io/",
+  "tagline": "AI-powered sales engagement and workflow automation",
+  "about": "Outreach automates sales engagement with AI optimizing cadence, sequence, and response rates. Its strengths include personalized email creation, workflow management, and tracking pipeline health, making sales reps more productive while automating routine tasks.",
+  "pros": [
+    "Comprehensive engagement automation",
+    "AI-driven sequence optimization",
+    "Excellent analytics and reporting",
+    "Strong CRM integrations"
+  ],
+  "cons": [
+    "Complex setup and configuration",
+    "Expensive for small businesses",
+    "Steep learning curve"
+  ],
+  "capabilities": [
+    "sales-crm",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "forethought",
+  "name": "Forethought",
+  "url": "https://forethought.ai/",
+  "tagline": "AI platform that resolves customer issues automatically using generative AI.",
+  "about": "Forethought uses generative AI to resolve customer issues automatically, routing complex cases to the right agents.",
+  "pros": [
+    "Generative AI",
+    "Smart routing",
+    "Enterprise focus"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Setup complexity",
+    "Integration work"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

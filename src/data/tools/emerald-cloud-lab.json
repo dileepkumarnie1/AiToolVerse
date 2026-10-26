@@ -1,0 +1,28 @@
+{
+  "slug": "emerald-cloud-lab",
+  "name": "Emerald Cloud Lab",
+  "url": "https://www.emeraldcloudlab.com/",
+  "tagline": "Remote-controlled lab with AI for automating scientific experiments.",
+  "about": "Emerald Cloud Lab provides a fully automated laboratory that scientists can control remotely through software.",
+  "pros": [
+    "Remote lab access",
+    "Reproducible experiments",
+    "No lab infrastructure needed"
+  ],
+  "cons": [
+    "Learning curve",
+    "Limited experiment types",
+    "Pricing"
+  ],
+  "capabilities": [
+    "science",
+    "automation",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

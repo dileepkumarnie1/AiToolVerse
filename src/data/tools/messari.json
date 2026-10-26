@@ -1,0 +1,27 @@
+{
+  "slug": "messari",
+  "name": "Messari",
+  "url": "https://messari.io/",
+  "tagline": "Crypto research, data, and screeners for investors.",
+  "about": "Curated research library with data tools for due diligence and monitoring.",
+  "pros": [
+    "Quality reports.",
+    "Good screeners.",
+    "Market coverage."
+  ],
+  "cons": [
+    "Paywall for Pro.",
+    "Not real‑time trading.",
+    "Coverage varies by asset."
+  ],
+  "capabilities": [
+    "finance",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

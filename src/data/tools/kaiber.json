@@ -1,0 +1,26 @@
+{
+  "slug": "kaiber",
+  "name": "Kaiber",
+  "url": "https://www.kaiber.ai/",
+  "tagline": "Creative video transformations and stylized animations from images or text.",
+  "about": "Turn static images into animated clips and apply stylistic transformations easily.",
+  "pros": [
+    "Great styles.",
+    "Fast to iterate.",
+    "Simple workflow."
+  ],
+  "cons": [
+    "Short durations.",
+    "Style over control.",
+    "Credits needed for HD."
+  ],
+  "capabilities": [
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

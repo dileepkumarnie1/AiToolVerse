@@ -1,0 +1,27 @@
+{
+  "slug": "insilico-medicine",
+  "name": "Insilico Medicine",
+  "url": "https://insilico.com/",
+  "tagline": "AI platform for drug discovery and aging research acceleration.",
+  "about": "Insilico Medicine uses AI to accelerate drug discovery, from target identification to clinical trials.",
+  "pros": [
+    "End-to-end platform",
+    "Multiple therapeutic areas",
+    "Research partnerships"
+  ],
+  "cons": [
+    "Enterprise/pharma only",
+    "Long development cycles",
+    "Complex domain"
+  ],
+  "capabilities": [
+    "science",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "eightfold-ai",
+  "name": "Eightfold AI",
+  "url": "https://eightfold.ai/",
+  "tagline": "Talent intelligence for sourcing, matching, and internal mobility.",
+  "about": "Eightfold AI unifies candidate and employee data to power sourcing, matching, and skills‑based mobility across the talent lifecycle.",
+  "pros": [
+    "Strong candidate/job matching.",
+    "Skills graph and mobility.",
+    "Enterprise integrations."
+  ],
+  "cons": [
+    "Complex implementation.",
+    "Best for larger orgs.",
+    "Change management required."
+  ],
+  "capabilities": [
+    "hr-recruiting"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

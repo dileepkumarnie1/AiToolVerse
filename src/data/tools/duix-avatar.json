@@ -1,0 +1,23 @@
+{
+  "slug": "duix-avatar",
+  "name": "Duix-Avatar",
+  "url": "https://www.duix.com/",
+  "tagline": "Talk face-to-face with Duix, your personal visual AI companion. Get instant support, share your thoughts freely, and build a real connection. Your privacy is 100% secure. Try it now.",
+  "about": "Talk face-to-face with Duix, your personal visual AI companion. Get instant support, share your thoughts freely, and build a real connection. Your privacy is 100% secure. Try it now.",
+  "pros": [
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "avatar-video"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

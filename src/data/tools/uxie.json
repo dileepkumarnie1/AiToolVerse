@@ -1,0 +1,24 @@
+{
+  "slug": "uxie",
+  "name": "uxie",
+  "url": "https://uxie.vercel.app/",
+  "tagline": "Revolutionise your Learning Experience.",
+  "about": "Revolutionise your Learning Experience.",
+  "pros": [
+    "Free tier available."
+  ],
+  "cons": [
+    "Advanced features require payment.",
+    "Subscription required for full access."
+  ],
+  "capabilities": [
+    "education-tutor",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

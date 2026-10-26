@@ -1,0 +1,26 @@
+{
+  "slug": "sprinklr",
+  "name": "Sprinklr",
+  "url": "https://www.sprinklr.com/",
+  "tagline": "Enterprise AI platform for customer experience across social, marketing, and service.",
+  "about": "Sprinklr provides a unified AI platform for managing customer experience across social, marketing, and service channels.",
+  "pros": [
+    "Comprehensive platform",
+    "Enterprise scale",
+    "AI insights"
+  ],
+  "cons": [
+    "Very expensive",
+    "Complex",
+    "Long implementation"
+  ],
+  "capabilities": [
+    "social-media"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "spark-ai",
+  "name": "Spark AI",
+  "url": "https://sparkmailapp.com/",
+  "tagline": "Email client with AI-powered writing assistance and smart features.",
+  "about": "Spark is an email client with AI writing assistance and smart organization.",
+  "pros": [
+    "Good email client",
+    "AI writing help",
+    "Cross-platform"
+  ],
+  "cons": [
+    "Subscription for AI",
+    "Privacy concerns",
+    "Different from traditional clients"
+  ],
+  "capabilities": [
+    "email",
+    "chat-assistant",
+    "writing",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

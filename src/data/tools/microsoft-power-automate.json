@@ -1,0 +1,26 @@
+{
+  "slug": "microsoft-power-automate",
+  "name": "Microsoft Power Automate",
+  "url": "https://powerautomate.microsoft.com/",
+  "tagline": "Microsoft's native tool for automating workflows across its ecosystem and beyond.",
+  "about": "Microsoft Power Automate (formerly Microsoft Flow) is a service for automating workflows across a growing number of apps and SaaS services. It is deeply integrated into the Microsoft 365 ecosystem and also includes Robotic Process Automation (RPA) features for automating desktop tasks.",
+  "pros": [
+    "Deep integration with Microsoft 365, Azure, and Dynamics 365.",
+    "Includes powerful RPA capabilities for automating legacy systems.",
+    "Often included in existing Microsoft enterprise licenses."
+  ],
+  "cons": [
+    "The user interface can be less intuitive than competitors.",
+    "Building complex flows can be challenging.",
+    "The best connectors and features are reserved for premium plans."
+  ],
+  "capabilities": [
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

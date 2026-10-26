@@ -1,0 +1,26 @@
+{
+  "slug": "playground-v2",
+  "name": "Playground v2 (Playground AI)",
+  "url": "https://playground.com/",
+  "tagline": "Accessible image generation with strong typography and styles.",
+  "about": "Fast, creative generations with good text rendering and an easy prompt UI.",
+  "pros": [
+    "Great typography.",
+    "Fast iterations.",
+    "Beginner‑friendly."
+  ],
+  "cons": [
+    "Credits required for heavy use.",
+    "Fewer pro parameters than SD.",
+    "Quality varies by style."
+  ],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

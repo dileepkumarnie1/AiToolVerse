@@ -1,0 +1,19 @@
+{
+  "slug": "codebuff",
+  "name": "Codebuff",
+  "url": "https://codebuff.com/",
+  "tagline": "AI coding assistant focused on fast iteration and developer productivity.",
+  "about": "Codebuff helps developers generate, refactor, and iterate on code with AI assistance.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "code-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

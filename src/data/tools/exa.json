@@ -1,0 +1,28 @@
+{
+  "slug": "exa",
+  "name": "Exa",
+  "url": "https://exa.ai/",
+  "tagline": "AI-powered search API for finding specific content and data on the web.",
+  "about": "Exa provides an AI search API that finds semantically similar content and specific information for developers.",
+  "pros": [
+    "Semantic search",
+    "Developer-friendly",
+    "Good API"
+  ],
+  "cons": [
+    "API-only",
+    "Usage pricing",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "research-search",
+    "writing",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

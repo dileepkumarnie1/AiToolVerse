@@ -1,0 +1,26 @@
+{
+  "slug": "soundraw",
+  "name": "Soundraw",
+  "url": "https://soundraw.io/",
+  "tagline": "AI music generator with full customization control.",
+  "about": "Soundraw generates royalty-free music with AI, allowing customization of mood, genre, length, and instruments.",
+  "pros": [
+    "Royalty-free for subscribers",
+    "High customization",
+    "Professional quality"
+  ],
+  "cons": [
+    "Subscription required",
+    "Learning curve for features",
+    "Limited genre variety"
+  ],
+  "capabilities": [
+    "music-generation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

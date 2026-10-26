@@ -1,0 +1,28 @@
+{
+  "slug": "jan",
+  "name": "jan",
+  "url": "https://jan.ai/",
+  "tagline": "Jan is building Open Superintelligence. It’s the open-source ChatGPT alternative that leverages the best of open-source AI.",
+  "about": "Jan is building Open Superintelligence. It’s the open-source ChatGPT alternative that leverages the best of open-source AI.",
+  "pros": [
+    "Open source and extensible.",
+    "Good for drafting and Q&A.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "May require fact‑checking.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "graphic-design",
+    "research-search"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "clari",
+  "name": "Clari",
+  "url": "https://www.clari.com/",
+  "tagline": "AI-powered revenue operations and forecasting platform.",
+  "about": "Clari uses AI to provide revenue forecasting, pipeline management, and sales execution insights for B2B sales teams.",
+  "pros": [
+    "Accurate forecasting",
+    "Pipeline visibility",
+    "Executive dashboards"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complex setup",
+    "Requires CRM data"
+  ],
+  "capabilities": [
+    "sales-crm"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

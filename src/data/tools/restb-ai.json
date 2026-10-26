@@ -1,0 +1,26 @@
+{
+  "slug": "restb-ai",
+  "name": "Restb.ai",
+  "url": "https://restb.ai/",
+  "tagline": "AI image recognition for real estate photos including tagging and quality analysis.",
+  "about": "Restb.ai uses AI to automatically tag and analyze real estate photos for property features and quality.",
+  "pros": [
+    "Photo analysis",
+    "Auto-tagging",
+    "Quality scoring"
+  ],
+  "cons": [
+    "Photo focus only",
+    "API integration",
+    "Niche use case"
+  ],
+  "capabilities": [
+    "real-estate"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

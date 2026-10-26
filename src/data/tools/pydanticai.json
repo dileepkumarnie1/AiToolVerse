@@ -1,0 +1,20 @@
+{
+  "slug": "pydanticai",
+  "name": "PydanticAI",
+  "url": "https://ai.pydantic.dev/",
+  "tagline": "Type-safe Python framework for building LLM apps and agents with Pydantic.",
+  "about": "PydanticAI helps you build structured LLM applications in Python with validated outputs and tool calling.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api",
+    "code-assistant",
+    "agents"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

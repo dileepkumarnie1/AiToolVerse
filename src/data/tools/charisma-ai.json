@@ -1,0 +1,27 @@
+{
+  "slug": "charisma-ai",
+  "name": "Charisma.ai",
+  "url": "https://charisma.ai/",
+  "tagline": "Interactive storytelling and dynamic NPC dialogue",
+  "about": "Charisma.ai powers branching narratives and dynamic NPC dialogue for games with rich storytelling. Characters can remember and respond to player decisions over time, creating more immersive and personalized gaming experiences.",
+  "pros": [
+    "Dynamic branching narratives",
+    "Memory-based character interactions",
+    "No coding required for basic use",
+    "Cross-platform support"
+  ],
+  "cons": [
+    "Complex stories require planning",
+    "Pricing based on interactions",
+    "Learning curve for advanced features"
+  ],
+  "capabilities": [
+    "gaming-3d"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "huggingchat",
+  "name": "HuggingChat",
+  "url": "https://huggingface.co/chat/",
+  "tagline": "Free and open-source AI chat interface powered by the best open models from Hugging Face.",
+  "about": "HuggingChat provides a free ChatGPT alternative using open-source models like Llama, Falcon, and other community models.",
+  "pros": [
+    "Completely free",
+    "Multiple model options",
+    "Open source"
+  ],
+  "cons": [
+    "Variable quality",
+    "Less consistent",
+    "Limited features"
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

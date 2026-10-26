@@ -1,0 +1,28 @@
+{
+  "slug": "roam-research",
+  "name": "Roam Research",
+  "url": "https://roamresearch.com/",
+  "tagline": "Networked thought tool with AI-driven contextual linking and bidirectional connections",
+  "about": "Roam Research pioneered networked note-taking with bidirectional links, daily notes, and AI-powered contextual connections for researchers and deep thinkers.",
+  "pros": [
+    "Pioneered bidirectional linking concept",
+    "Excellent for research and deep work",
+    "Strong community and resources",
+    "Powerful query and filter capabilities"
+  ],
+  "cons": [
+    "Expensive subscription model",
+    "Interface can be confusing for newcomers",
+    "Limited offline functionality"
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "research-search"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "fireflies-ai",
+  "name": "Fireflies.ai",
+  "url": "https://fireflies.ai/",
+  "tagline": "Advanced AI notetaker with conversation analysis, speaker insights, and deep search capabilities.",
+  "about": "Fireflies.ai goes beyond basic transcription to provide conversation analysis, speaker sentiment tracking, talk time metrics, and powerful search capabilities. It's ideal for power users and teams needing actionable insights from their meetings.",
+  "pros": [
+    "Deep conversation analytics and insights",
+    "Speaker sentiment and talk time tracking",
+    "Powerful search across all meetings",
+    "Strong CRM and workflow integrations"
+  ],
+  "cons": [
+    "Can be complex for simple use cases",
+    "Some features require configuration",
+    "Higher learning curve than simpler tools"
+  ],
+  "capabilities": [
+    "sales-crm",
+    "meeting-notes",
+    "notes-knowledge",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 99,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

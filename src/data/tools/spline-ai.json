@@ -1,0 +1,27 @@
+{
+  "slug": "spline-ai",
+  "name": "Spline AI",
+  "url": "https://spline.design/",
+  "tagline": "3D design in the browser with AI assistance.",
+  "about": "Generate and edit 3D scenes and assets with AI prompts in a web editor.",
+  "pros": [
+    "Low barrier to 3D.",
+    "Interactive web output.",
+    "Fun to prototype."
+  ],
+  "cons": [
+    "Browser performance limits.",
+    "Not for heavy production.",
+    "Learning curve for 3D beginners."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

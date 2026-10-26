@@ -1,0 +1,28 @@
+{
+  "slug": "blackbox-ai",
+  "name": "Blackbox AI",
+  "url": "https://www.useblackbox.io/",
+  "tagline": "AI code search and autocomplete for developers.",
+  "about": "Blackbox AI provides code search, autocomplete, and code generation for multiple languages.",
+  "pros": [
+    "Fast code search.",
+    "Supports many languages.",
+    "Free tier available."
+  ],
+  "cons": [
+    "Premium for advanced features.",
+    "Not always accurate.",
+    "Limited IDE integrations."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

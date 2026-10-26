@@ -1,0 +1,26 @@
+{
+  "slug": "flick",
+  "name": "Flick",
+  "url": "https://www.flick.tech/",
+  "tagline": "AI assistant for Instagram and social media marketing.",
+  "about": "Flick provides AI-powered caption writing, hashtag research, and content planning specifically for Instagram marketing.",
+  "pros": [
+    "Instagram-focused",
+    "Hashtag analytics",
+    "Content planning"
+  ],
+  "cons": [
+    "Subscription required",
+    "Mainly for Instagram",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "social-media"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

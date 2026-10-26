@@ -1,0 +1,28 @@
+{
+  "slug": "manatal",
+  "name": "Manatal",
+  "url": "https://www.manatal.com/",
+  "tagline": "AI-enhanced ATS with resume parsing and candidate ranking",
+  "about": "Manatal is an AI-enhanced applicant tracking system that parses resumes, scores candidates, automates interview scheduling, and offers candidate ranking based on competencies. Popular with agencies and larger teams for powerful analytics and customization options.",
+  "pros": [
+    "Powerful AI-driven candidate ranking",
+    "Excellent analytics and reporting",
+    "Good customization options",
+    "Social media enrichment"
+  ],
+  "cons": [
+    "Interface can be overwhelming initially",
+    "Premium pricing for advanced features",
+    "Mobile app could be improved"
+  ],
+  "capabilities": [
+    "hr-recruiting",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

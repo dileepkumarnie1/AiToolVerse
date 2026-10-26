@@ -1,0 +1,27 @@
+{
+  "slug": "socratic-by-google",
+  "name": "Socratic by Google",
+  "url": "https://socratic.org/",
+  "tagline": "AI homework helper with visual explanations",
+  "about": "Socratic uses AI to guide students to answers for science, math, and more with visual explanations and step-by-step walkthroughs. It helps students understand concepts rather than just providing answers.",
+  "pros": [
+    "Completely free",
+    "Visual learning approach",
+    "Covers multiple subjects",
+    "Mobile app available"
+  ],
+  "cons": [
+    "Limited to certain subjects",
+    "May not cover advanced topics",
+    "Explanation depth varies"
+  ],
+  "capabilities": [
+    "education-tutor"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

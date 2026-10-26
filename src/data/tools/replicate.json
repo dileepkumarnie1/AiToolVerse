@@ -1,0 +1,27 @@
+{
+  "slug": "replicate",
+  "name": "Replicate",
+  "url": "https://replicate.com/",
+  "tagline": "Platform to run and deploy open-source machine learning models via API.",
+  "about": "Replicate lets developers run open-source ML models in the cloud with a simple API, including Stable Diffusion and Llama.",
+  "pros": [
+    "Easy model deployment",
+    "Pay per use",
+    "Wide model selection"
+  ],
+  "cons": [
+    "Cold starts",
+    "Costs can scale",
+    "Limited customization"
+  ],
+  "capabilities": [
+    "developer-api",
+    "code-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

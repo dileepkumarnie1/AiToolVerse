@@ -1,0 +1,26 @@
+{
+  "slug": "aiva",
+  "name": "AIVA",
+  "url": "https://www.aiva.ai/",
+  "tagline": "An AI music composer that creates emotional soundtracks for films, games, and commercials.",
+  "about": "AIVA (Artificial Intelligence Virtual Artist) is an AI that specializes in composing emotional, orchestral music. It's designed for creative professionals who need original soundtracks for their projects, and it allows for a high degree of customization.",
+  "pros": [
+    "Excellent for creating classical and cinematic music.",
+    "Allows users to edit the generated MIDI tracks.",
+    "Copyright of the music can be owned with a pro plan."
+  ],
+  "cons": [
+    "Less suited for modern genres like pop or electronic music.",
+    "The free version has significant restrictions on usage and monetization.",
+    "The interface can be complex for beginners."
+  ],
+  "capabilities": [
+    "music-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

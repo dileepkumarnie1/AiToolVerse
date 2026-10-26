@@ -1,0 +1,28 @@
+{
+  "slug": "sourcegraph-cody",
+  "name": "Sourcegraph Cody",
+  "url": "https://sourcegraph.com/cody",
+  "tagline": "Codebase‑aware AI for large repos with powerful context windows.",
+  "about": "Understands big monorepos, references, and symbols to answer and refactor at scale.",
+  "pros": [
+    "Great code navigation context.",
+    "Handles big repos.",
+    "IDE + chat + CLI."
+  ],
+  "cons": [
+    "Best with Sourcegraph setup.",
+    "Paid for enterprise scale.",
+    "Learning curve for config."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

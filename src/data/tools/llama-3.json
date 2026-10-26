@@ -1,0 +1,26 @@
+{
+  "slug": "llama-3",
+  "name": "Llama 3",
+  "url": "https://llama.meta.com/",
+  "tagline": "Meta's open-source large language model available for free use and customization.",
+  "about": "Llama 3 is Meta's latest open-source LLM offering competitive performance with closed models while being freely available for research and commercial use.",
+  "pros": [
+    "Free and open source",
+    "Highly customizable",
+    "Competitive performance"
+  ],
+  "cons": [
+    "Requires technical setup",
+    "Resource intensive",
+    "No hosted service from Meta"
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

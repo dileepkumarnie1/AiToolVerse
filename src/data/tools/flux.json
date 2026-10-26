@@ -1,0 +1,27 @@
+{
+  "slug": "flux",
+  "name": "Flux",
+  "url": "https://blackforestlabs.ai/",
+  "tagline": "High-quality text-to-image model from Black Forest Labs with excellent prompt following.",
+  "about": "Flux is a state-of-the-art text-to-image model known for excellent prompt adherence and high-quality outputs.",
+  "pros": [
+    "Excellent quality",
+    "Good text rendering",
+    "Open weights available"
+  ],
+  "cons": [
+    "Resource intensive",
+    "Newer model",
+    "Fewer integrations"
+  ],
+  "capabilities": [
+    "image-generation",
+    "prompt-tools"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

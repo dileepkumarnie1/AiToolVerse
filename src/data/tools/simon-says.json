@@ -1,0 +1,29 @@
+{
+  "slug": "simon-says",
+  "name": "Simon Says",
+  "url": "https://www.simonsaysai.com/",
+  "tagline": "AI transcription and translation for video editors with NLE integrations.",
+  "about": "Simon Says provides AI transcription with direct integration into video editing software like Premiere Pro and Final Cut Pro.",
+  "pros": [
+    "NLE integration",
+    "100+ languages",
+    "Fast processing"
+  ],
+  "cons": [
+    "Pay per hour",
+    "Video editor focus",
+    "Accuracy varies"
+  ],
+  "capabilities": [
+    "transcription",
+    "video-generation",
+    "translation",
+    "video-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

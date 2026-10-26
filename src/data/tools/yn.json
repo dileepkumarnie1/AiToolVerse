@@ -1,0 +1,20 @@
+{
+  "slug": "yn",
+  "name": "yn",
+  "url": "https://yank-note.com/",
+  "tagline": "A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.",
+  "about": "A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "data-analysis",
+    "code-assistant",
+    "science"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

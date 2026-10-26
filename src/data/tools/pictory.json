@@ -1,0 +1,27 @@
+{
+  "slug": "pictory",
+  "name": "Pictory",
+  "url": "https://pictory.ai/",
+  "tagline": "AI video creation from text and blog posts.",
+  "about": "Pictory turns scripts and blog posts into short videos with AI narration and visuals.",
+  "pros": [
+    "Fast video creation.",
+    "Script to video.",
+    "Stock footage included."
+  ],
+  "cons": [
+    "Credits for heavy use.",
+    "Limited editing.",
+    "Some features paid."
+  ],
+  "capabilities": [
+    "video-generation",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

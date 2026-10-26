@@ -1,0 +1,29 @@
+{
+  "slug": "obviously-ai",
+  "name": "Obviously AI",
+  "url": "https://www.obviously.ai/",
+  "tagline": "No-code machine learning platform for creating predictive models in minutes.",
+  "about": "Obviously AI allows anyone to build ML models by simply uploading data and clicking what they want to predict.",
+  "pros": [
+    "Extremely easy",
+    "Fast results",
+    "No expertise needed"
+  ],
+  "cons": [
+    "Limited model types",
+    "Less control",
+    "Subscription required"
+  ],
+  "capabilities": [
+    "data-analysis",
+    "code-assistant",
+    "app-builder",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

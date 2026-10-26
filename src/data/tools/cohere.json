@@ -1,0 +1,27 @@
+{
+  "slug": "cohere",
+  "name": "Cohere",
+  "url": "https://cohere.com/",
+  "tagline": "Enterprise-grade language AI platform with powerful APIs for NLP tasks.",
+  "about": "Cohere provides foundation language models, embeddings, and APIs for natural language processing. Focused on enterprise deployments with strong privacy and security features.",
+  "pros": [
+    "Enterprise-grade security and compliance",
+    "High-quality embeddings for search and classification",
+    "Flexible deployment options"
+  ],
+  "cons": [
+    "Premium pricing for enterprises",
+    "Less known in consumer market",
+    "Steeper learning curve for developers"
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

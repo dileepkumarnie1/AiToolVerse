@@ -1,0 +1,28 @@
+{
+  "slug": "zendesk-ai",
+  "name": "Zendesk AI",
+  "url": "https://www.zendesk.com/ai/",
+  "tagline": "AI features across Zendesk for triage, answers, and agent assist.",
+  "about": "Zendesk AI automates intent detection, routing, and suggested answers, while assisting agents with real‑time guidance and macros.",
+  "pros": [
+    "Native to Zendesk workflows and SLAs.",
+    "Good intent/routing models.",
+    "Agent assist improves consistency."
+  ],
+  "cons": [
+    "Requires Zendesk ecosystem.",
+    "Quality depends on historical ticket data.",
+    "Costs scale with usage."
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "agents"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

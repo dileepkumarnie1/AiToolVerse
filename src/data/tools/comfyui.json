@@ -1,0 +1,18 @@
+{
+  "slug": "comfyui",
+  "name": "ComfyUI",
+  "url": "https://www.comfy.org/",
+  "tagline": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+  "about": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

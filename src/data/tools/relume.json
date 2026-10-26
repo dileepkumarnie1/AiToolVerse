@@ -1,0 +1,27 @@
+{
+  "slug": "relume",
+  "name": "Relume",
+  "url": "https://www.relume.io/",
+  "tagline": "AI-powered website builder and design system tool.",
+  "about": "Relume generates website sitemaps and wireframes using AI, then exports to Figma or Webflow for development.",
+  "pros": [
+    "Fast website planning",
+    "Figma and Webflow export",
+    "Good starting point"
+  ],
+  "cons": [
+    "Requires refinement",
+    "Subscription for full features",
+    "Limited to certain frameworks"
+  ],
+  "capabilities": [
+    "graphic-design",
+    "app-builder"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

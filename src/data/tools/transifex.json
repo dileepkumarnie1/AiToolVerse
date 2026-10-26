@@ -1,0 +1,28 @@
+{
+  "slug": "transifex",
+  "name": "Transifex",
+  "url": "https://www.transifex.com/",
+  "tagline": "Comprehensive localization management supporting 450+ languages with SEO optimization and continuous workflows.",
+  "about": "Transifex offers comprehensive localization management for global websites and apps. It supports 450+ languages, includes SEO optimization features, and enables continuous workflow support for rapid go-to-market.",
+  "pros": [
+    "Massive language support (450+)",
+    "SEO optimization built-in",
+    "Continuous localization workflows",
+    "Real-time collaboration"
+  ],
+  "cons": [
+    "Enterprise-focused pricing",
+    "Less suitable for casual users",
+    "Can be overwhelming for small projects"
+  ],
+  "capabilities": [
+    "translation",
+    "marketing-seo"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

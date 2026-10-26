@@ -1,0 +1,26 @@
+{
+  "slug": "weclone",
+  "name": "WeClone",
+  "url": "https://weclone.love/",
+  "tagline": "One-stop solution for creating your digital avatar from chat history",
+  "about": "One-stop solution for creating your digital avatar from chat history",
+  "pros": [
+    "Good for drafting and Q&A.",
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "May require fact‑checking.",
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "avatar-video"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

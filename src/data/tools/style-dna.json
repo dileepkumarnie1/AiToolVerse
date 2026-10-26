@@ -1,0 +1,26 @@
+{
+  "slug": "style-dna",
+  "name": "Style DNA",
+  "url": "https://www.styledna.co/",
+  "tagline": "AI style analysis tool that identifies your personal style and provides recommendations.",
+  "about": "Style DNA analyzes your preferences and photos to identify your personal style DNA, providing tailored fashion recommendations.",
+  "pros": [
+    "Personal style analysis",
+    "Tailored recommendations",
+    "Self-discovery"
+  ],
+  "cons": [
+    "Newer platform",
+    "Limited features",
+    "Accuracy varies"
+  ],
+  "capabilities": [
+    "fashion"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

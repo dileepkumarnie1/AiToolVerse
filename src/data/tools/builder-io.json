@@ -1,0 +1,19 @@
+{
+  "slug": "builder-io",
+  "name": "Builder.io",
+  "url": "https://www.builder.io/",
+  "tagline": "Visual web builder with AI capabilities for generating and editing pages.",
+  "about": "Builder.io combines a visual editor with AI to speed up landing pages and content updates.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "graphic-design",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

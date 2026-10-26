@@ -1,0 +1,27 @@
+{
+  "slug": "pdfgear",
+  "name": "PDFgear",
+  "url": "https://www.pdfgear.com/",
+  "tagline": "Free AI-powered PDF editor with ChatGPT integration for document analysis.",
+  "about": "PDFgear is a completely free PDF editor that includes an AI assistant powered by ChatGPT for summarizing and analyzing PDF content.",
+  "pros": [
+    "Completely free",
+    "AI chat built-in",
+    "Cross-platform"
+  ],
+  "cons": [
+    "Desktop app only",
+    "AI requires internet",
+    "Less features than premium tools"
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

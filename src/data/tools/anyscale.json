@@ -1,0 +1,18 @@
+{
+  "slug": "anyscale",
+  "name": "Anyscale",
+  "url": "https://www.anyscale.com/",
+  "tagline": "AI compute platform for building and scaling AI applications (Ray-powered).",
+  "about": "Anyscale provides infrastructure to build and scale AI workloads and applications.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

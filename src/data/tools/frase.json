@@ -1,0 +1,28 @@
+{
+  "slug": "frase",
+  "name": "Frase",
+  "url": "https://www.frase.io/",
+  "tagline": "Topic research and SEO briefs with content optimization.",
+  "about": "Research SERPs, create outlines, and optimize content for target keywords.",
+  "pros": [
+    "Solid briefs.",
+    "On‑page guidance.",
+    "Integrations."
+  ],
+  "cons": [
+    "Subscription cost.",
+    "Template learning curve.",
+    "SERP volatility impacts suggestions."
+  ],
+  "capabilities": [
+    "marketing-seo",
+    "writing",
+    "research-search"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "magi-1",
+  "name": "MAGI-1",
+  "url": "https://sand.ai/",
+  "tagline": "MAGI-1: Autoregressive Video Generation at Scale",
+  "about": "MAGI-1: Autoregressive Video Generation at Scale",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "video-generation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

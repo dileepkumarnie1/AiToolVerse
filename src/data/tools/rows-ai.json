@@ -1,0 +1,29 @@
+{
+  "slug": "rows-ai",
+  "name": "Rows AI",
+  "url": "https://rows.com/",
+  "tagline": "Spreadsheet with built-in AI for data analysis, summaries, and automated tasks.",
+  "about": "Rows combines a modern spreadsheet interface with AI capabilities for natural language analysis and automated workflows.",
+  "pros": [
+    "Familiar interface",
+    "AI built-in",
+    "Integrations"
+  ],
+  "cons": [
+    "Learning curve",
+    "Limited vs Excel",
+    "Team pricing"
+  ],
+  "capabilities": [
+    "data-analysis",
+    "summarization",
+    "science",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

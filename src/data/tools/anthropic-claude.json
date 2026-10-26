@@ -1,0 +1,26 @@
+{
+  "slug": "anthropic-claude",
+  "name": "Anthropic Claude",
+  "url": "https://www.anthropic.com/",
+  "tagline": "Constitutional AI focused on safety and alignment.",
+  "about": "Anthropic's Claude is built with Constitutional AI principles, prioritizing safety, honesty, and reduced harmful outputs in LLM responses.",
+  "pros": [
+    "Safety-focused design",
+    "Reduced hallucinations",
+    "Transparent development"
+  ],
+  "cons": [
+    "More conservative outputs",
+    "API access only",
+    "Newer platform"
+  ],
+  "capabilities": [
+    "responsible-ai"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

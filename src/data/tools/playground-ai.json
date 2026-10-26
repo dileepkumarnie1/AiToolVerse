@@ -1,0 +1,27 @@
+{
+  "slug": "playground-ai",
+  "name": "Playground AI",
+  "url": "https://playgroundai.com/",
+  "tagline": "User-friendly AI image generator with extensive model library and social features",
+  "about": "Playground AI provides an accessible platform for AI image generation with a large model library, social features for sharing creations, and an easy-to-use interface.",
+  "pros": [
+    "Very user-friendly for beginners",
+    "Large library of AI models to choose from",
+    "Social features for inspiration",
+    "Good free tier for experimentation"
+  ],
+  "cons": [
+    "Can be slower during peak times",
+    "Advanced features require payment",
+    "Generated images may vary in quality"
+  ],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "zillow",
+  "name": "Zillow",
+  "url": "https://www.zillow.com/",
+  "tagline": "AI-powered home valuations and real estate marketplace",
+  "about": "Zillow is one of the most recognized real estate platforms featuring the Zestimate automated valuation model. It uses machine learning and computer vision to estimate home values by analyzing public records, listing data, and property images.",
+  "pros": [
+    "Free access to property valuations",
+    "Extensive property database",
+    "User-friendly interface",
+    "Mobile app available"
+  ],
+  "cons": [
+    "Valuations can have significant margins of error",
+    "Limited to residential properties",
+    "Data accuracy varies by location"
+  ],
+  "capabilities": [
+    "real-estate"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

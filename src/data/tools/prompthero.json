@@ -1,0 +1,26 @@
+{
+  "slug": "prompthero",
+  "name": "PromptHero",
+  "url": "https://prompthero.com/",
+  "tagline": "Prompt gallery for Midjourney, Stable Diffusion, and other models.",
+  "about": "Discover successful prompts with example outputs for popular image models; great for learning prompt patterns and styles.",
+  "pros": [
+    "Visual examples.",
+    "Great for image prompts.",
+    "Helpful for style transfer."
+  ],
+  "cons": [
+    "Focuses on images.",
+    "Results depend on model settings.",
+    "Some content may be paywalled."
+  ],
+  "capabilities": [
+    "prompt-tools"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

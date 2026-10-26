@@ -1,0 +1,28 @@
+{
+  "slug": "podcastle",
+  "name": "Podcastle",
+  "url": "https://podcastle.ai/",
+  "tagline": "Web-based AI platform for podcast recording and editing with voice clarity enhancement and smart editing.",
+  "about": "Podcastle is a comprehensive web-based platform for both recording (including remote guests) and editing podcasts. It provides quality transcription, voice clarity enhancement, background noise removal, and smart editing that automatically trims filler sounds.",
+  "pros": [
+    "All-in-one recording and editing",
+    "Web-based, no installation",
+    "Remote guest recording",
+    "Smart audio cleanup"
+  ],
+  "cons": [
+    "Requires internet connection",
+    "Limited offline capabilities",
+    "Paid plans for advanced features"
+  ],
+  "capabilities": [
+    "podcast",
+    "voice-tts"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

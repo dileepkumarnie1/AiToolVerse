@@ -1,0 +1,26 @@
+{
+  "slug": "clearmetal",
+  "name": "ClearMetal",
+  "url": "https://www.project44.com/clearmetal",
+  "tagline": "AI-powered demand sensing and inventory optimization for supply chains.",
+  "about": "ClearMetal uses AI for demand sensing and inventory optimization, now part of Project44.",
+  "pros": [
+    "Demand accuracy",
+    "Inventory optimization",
+    "Integration with Project44"
+  ],
+  "cons": [
+    "Enterprise only",
+    "Project44 required",
+    "Complex implementation"
+  ],
+  "capabilities": [
+    "industry-ops"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

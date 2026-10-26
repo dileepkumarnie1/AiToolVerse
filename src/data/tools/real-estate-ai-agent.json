@@ -1,0 +1,27 @@
+{
+  "slug": "real-estate-ai-agent",
+  "name": "real-estate-ai-agent",
+  "url": "https://brightdata.com/",
+  "tagline": "Award winning proxy networks, powerful web scrapers, and ready-to-use datasets for download. Welcome to the world&#039;s #1 web data platform.",
+  "about": "Award winning proxy networks, powerful web scrapers, and ready-to-use datasets for download. Welcome to the world&#039;s #1 web data platform.",
+  "pros": [
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "real-estate",
+    "developer-api",
+    "automation",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

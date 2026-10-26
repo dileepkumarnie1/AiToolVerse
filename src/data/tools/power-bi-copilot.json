@@ -1,0 +1,28 @@
+{
+  "slug": "power-bi-copilot",
+  "name": "Power BI Copilot",
+  "url": "https://learn.microsoft.com/power-bi/create-reports/copilot",
+  "tagline": "Natural‑language insights and narratives in Power BI.",
+  "about": "Ask questions of your data and generate summaries, DAX, and visuals in Power BI.",
+  "pros": [
+    "Great for NL queries.",
+    "Deep M365 ties.",
+    "Governed environment."
+  ],
+  "cons": [
+    "Requires Fabric/Power BI setup.",
+    "Licensing complexity.",
+    "Best for MSFT shops."
+  ],
+  "capabilities": [
+    "data-analysis",
+    "code-assistant",
+    "science"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

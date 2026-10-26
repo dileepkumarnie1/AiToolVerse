@@ -1,0 +1,29 @@
+{
+  "slug": "hootsuite-insights",
+  "name": "Hootsuite Insights",
+  "url": "https://www.hootsuite.com/",
+  "tagline": "Enterprise social media management with AI analytics, content suggestions, and multi-account scheduling.",
+  "about": "Hootsuite is a leading enterprise social media management platform with AI-powered analytics, content suggestions, and robust multi-account scheduling. It's ideal for agencies and large teams managing multiple brands.",
+  "pros": [
+    "Comprehensive enterprise features",
+    "Multi-account management",
+    "Deep analytics",
+    "Team collaboration"
+  ],
+  "cons": [
+    "Expensive for small teams",
+    "Complex interface",
+    "AI features limited compared to specialists"
+  ],
+  "capabilities": [
+    "social-media",
+    "writing",
+    "data-analysis"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

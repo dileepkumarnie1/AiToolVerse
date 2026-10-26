@@ -1,0 +1,26 @@
+{
+  "slug": "modelbench",
+  "name": "modelbench",
+  "url": "https://mlcommons.org/ailuminate",
+  "tagline": "The v1.0 AILuminate benchmark from the MLCommons AI Risk &amp; Reliability working group is the first AI risk assessment benchmark developed with broad involvement from leading AI companies, academia, and civil…",
+  "about": "The v1.0 AILuminate benchmark from the MLCommons AI Risk &amp; Reliability working group is the first AI risk assessment benchmark developed with broad involvement from leading AI companies, academia, and civil society. It is a significant step towards standard risk assessment for “chat” style systems.",
+  "pros": [
+    "Good for drafting and Q&A.",
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "May require fact‑checking.",
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "responsible-ai",
+    "chat-assistant",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

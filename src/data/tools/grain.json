@@ -1,0 +1,29 @@
+{
+  "slug": "grain",
+  "name": "Grain",
+  "url": "https://grain.com/",
+  "tagline": "AI meeting recorder with highlights, clips, and searchable transcripts.",
+  "about": "Grain records meetings with AI-powered highlights and shareable clips.",
+  "pros": [
+    "Highlight clips",
+    "Easy sharing",
+    "Searchable"
+  ],
+  "cons": [
+    "Subscription",
+    "Recording consent needed",
+    "Storage limits"
+  ],
+  "capabilities": [
+    "meeting-notes",
+    "chat-assistant",
+    "notes-knowledge",
+    "video-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "casetext-cocounsel",
+  "name": "Casetext CoCounsel",
+  "url": "https://casetext.com/cocounsel",
+  "tagline": "AI legal assistant for research and document drafting.",
+  "about": "CoCounsel uses GPT-4 to assist lawyers with legal research, document review, and drafting. Provides case law analysis and contract review.",
+  "pros": [
+    "Powered by GPT-4",
+    "Legal-specific training",
+    "Good for research"
+  ],
+  "cons": [
+    "Expensive subscription",
+    "US law focus",
+    "Requires legal expertise to verify"
+  ],
+  "capabilities": [
+    "legal",
+    "research-search"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

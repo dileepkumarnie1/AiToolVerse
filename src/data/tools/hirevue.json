@@ -1,0 +1,28 @@
+{
+  "slug": "hirevue",
+  "name": "HireVue",
+  "url": "https://www.hirevue.com/",
+  "tagline": "AI-powered video interviewing and candidate assessment platform",
+  "about": "HireVue is an AI-powered platform for video interviewing and candidate assessments. It analyzes candidate responses, tone, and engagement to assess fit, automatically scores interviews, and streamlines communication, helping reduce bias and save recruiter time.",
+  "pros": [
+    "Reduces unconscious bias in hiring",
+    "Automated interview scoring and analysis",
+    "Scales efficiently for high-volume hiring",
+    "Integration with major ATS platforms"
+  ],
+  "cons": [
+    "Can feel impersonal to candidates",
+    "Expensive for small businesses",
+    "Requires training to use effectively"
+  ],
+  "capabilities": [
+    "hr-recruiting",
+    "video-generation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

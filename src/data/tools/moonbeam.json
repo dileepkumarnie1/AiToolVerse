@@ -1,0 +1,27 @@
+{
+  "slug": "moonbeam",
+  "name": "Moonbeam",
+  "url": "https://www.gomoonbeam.com/",
+  "tagline": "AI writing assistant specialized in long-form content like blog posts, essays, and articles.",
+  "about": "Moonbeam helps writers create structured long-form content with AI-powered outlines, introductions, and paragraph generation.",
+  "pros": [
+    "Structured approach",
+    "Good for blogs",
+    "Outline generation"
+  ],
+  "cons": [
+    "Long-form focus only",
+    "Subscription pricing",
+    "Limited customization"
+  ],
+  "capabilities": [
+    "writing",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

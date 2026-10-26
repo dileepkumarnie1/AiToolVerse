@@ -1,0 +1,29 @@
+{
+  "slug": "activepieces",
+  "name": "activepieces",
+  "url": "https://www.activepieces.com/",
+  "tagline": "Activepieces is the best way to build a self-driven AI culture across HR, finance, marketing, sales and more — under the supervision of your IT ninjas",
+  "about": "Activepieces is the best way to build a self-driven AI culture across HR, finance, marketing, sales and more — under the supervision of your IT ninjas",
+  "pros": [
+    "Open source and extensible.",
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "automation",
+    "developer-api",
+    "graphic-design",
+    "marketing-seo"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

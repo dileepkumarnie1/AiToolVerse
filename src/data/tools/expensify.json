@@ -1,0 +1,27 @@
+{
+  "slug": "expensify",
+  "name": "Expensify",
+  "url": "https://www.expensify.com/",
+  "tagline": "AI-powered expense tracking and reimbursement",
+  "about": "Expensify is known for receipt scanning, automated expense tracking, and reimbursement reminders. It integrates with major accounting platforms, making expense submission and approval much easier for teams of all sizes.",
+  "pros": [
+    "Excellent receipt scanning",
+    "Automated expense reports",
+    "Strong integrations",
+    "Mobile-first design"
+  ],
+  "cons": [
+    "Can be complex for simple needs",
+    "Premium features require subscription",
+    "Learning curve for advanced features"
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

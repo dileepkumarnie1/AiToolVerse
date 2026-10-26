@@ -1,0 +1,27 @@
+{
+  "slug": "vev",
+  "name": "Vev",
+  "url": "https://www.vev.design/",
+  "tagline": "A visual editor for building websites that integrates AI for content and design.",
+  "about": "Vev is a no-code/low-code platform for creating professional websites. It incorporates AI to assist with writing copy, generating images, and even suggesting design layouts, aiming to streamline the entire web creation process.",
+  "pros": [
+    "Combines a powerful visual editor with helpful AI assistants.",
+    "Great for creating interactive and animated web content.",
+    "Allows for collaboration between designers and developers."
+  ],
+  "cons": [
+    "Can have a steeper learning curve than simpler website builders.",
+    "The best features are part of the paid plans.",
+    "The AI is an assistant, not a replacement for design skills."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

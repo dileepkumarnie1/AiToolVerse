@@ -1,0 +1,26 @@
+{
+  "slug": "apollo-ai",
+  "name": "Apollo AI",
+  "url": "https://www.apollo.io/",
+  "tagline": "Prospecting, enrichment, and AI‑assisted outreach.",
+  "about": "Apollo combines a large B2B contact database with sequencing and AI to help generate and convert leads.",
+  "pros": [
+    "Large B2B dataset.",
+    "Affordable entry tier.",
+    "Sequencing built‑in."
+  ],
+  "cons": [
+    "Data accuracy varies.",
+    "Deliverability management needed.",
+    "Privacy compliance per region."
+  ],
+  "capabilities": [
+    "sales-crm"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

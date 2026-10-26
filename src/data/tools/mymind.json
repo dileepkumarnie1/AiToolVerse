@@ -1,0 +1,27 @@
+{
+  "slug": "mymind",
+  "name": "MyMind",
+  "url": "https://mymind.com/",
+  "tagline": "Visual memory tool with AI organization for notes, images, quotes, and highlights perfect for creative work.",
+  "about": "MyMind offers a visually-oriented, privately organized digital space enhanced by AI. It's designed for designers, writers, and researchers who favor a visual approach to knowledge management with automatic tagging and organization.",
+  "pros": [
+    "Beautiful visual interface",
+    "Privacy-focused design",
+    "Automatic visual organization",
+    "Great for creative professionals"
+  ],
+  "cons": [
+    "Less suited for text-heavy knowledge",
+    "Limited collaboration features",
+    "Subscription-based pricing"
+  ],
+  "capabilities": [
+    "notes-knowledge"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

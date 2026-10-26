@@ -1,0 +1,29 @@
+{
+  "slug": "tray-io",
+  "name": "Tray.io",
+  "url": "https://tray.io/",
+  "tagline": "A flexible, low-code platform for integrating cloud stacks and automating processes.",
+  "about": "Tray.io is a low-code automation platform that gives users the power to integrate their entire cloud stack using a visual workflow builder. It is known for its flexibility and its powerful connector for working with any web-based API.",
+  "pros": [
+    "Extremely flexible and powerful for API-level integrations.",
+    "Visual workflow builder is powerful for complex logic.",
+    "Scalable for both departmental and enterprise-wide use cases."
+  ],
+  "cons": [
+    "Aimed at users with some technical knowledge.",
+    "Can be expensive, with pricing based on usage and features.",
+    "Less focused on simple, no-code automations for beginners."
+  ],
+  "capabilities": [
+    "automation",
+    "code-assistant",
+    "app-builder",
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

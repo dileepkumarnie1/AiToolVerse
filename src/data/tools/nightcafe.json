@@ -1,0 +1,26 @@
+{
+  "slug": "nightcafe",
+  "name": "NightCafe",
+  "url": "https://nightcafe.studio/",
+  "tagline": "Beginner‑friendly image generator with presets and social challenges.",
+  "about": "Create art quickly using style presets; join community challenges to explore prompts.",
+  "pros": [
+    "Easy to start.",
+    "Community features.",
+    "Style presets."
+  ],
+  "cons": [
+    "Less granular control.",
+    "Credit system.",
+    "Output quality varies."
+  ],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

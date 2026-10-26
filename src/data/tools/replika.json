@@ -1,0 +1,26 @@
+{
+  "slug": "replika",
+  "name": "Replika",
+  "url": "https://replika.com/",
+  "tagline": "AI companion for conversation and emotional support.",
+  "about": "Replika is an AI chatbot designed for personal conversation, support, and companionship.",
+  "pros": [
+    "Emotional support.",
+    "Customizable persona.",
+    "Mobile app available."
+  ],
+  "cons": [
+    "Premium features gated.",
+    "Not for professional advice.",
+    "Occasional odd responses."
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

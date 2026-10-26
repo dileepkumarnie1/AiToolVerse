@@ -1,0 +1,28 @@
+{
+  "slug": "v0-by-vercel",
+  "name": "v0 by Vercel",
+  "url": "https://v0.dev/",
+  "tagline": "AI-powered UI generator that creates React components from text descriptions.",
+  "about": "v0 generates production-ready UI code from text prompts. Creates React components with Tailwind CSS and shadcn/ui components.",
+  "pros": [
+    "Generates high-quality React components",
+    "Modern styling with Tailwind CSS",
+    "Iterative refinement of designs"
+  ],
+  "cons": [
+    "Limited to React and specific tech stack",
+    "Requires credits for extensive use",
+    "May need manual refinement"
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

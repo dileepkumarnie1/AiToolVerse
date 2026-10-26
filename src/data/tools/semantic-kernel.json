@@ -1,0 +1,27 @@
+{
+  "slug": "semantic-kernel",
+  "name": "Semantic Kernel",
+  "url": "https://learn.microsoft.com/semantic-kernel/",
+  "tagline": "Microsoft's SDK for building AI agents and integrating LLMs into applications.",
+  "about": "Semantic Kernel is Microsoft's SDK for building AI agents and integrating LLMs into enterprise applications.",
+  "pros": [
+    "Microsoft backing",
+    "Enterprise-ready",
+    "Multi-language"
+  ],
+  "cons": [
+    "Microsoft ecosystem",
+    "Learning curve",
+    "Less community than LangChain"
+  ],
+  "capabilities": [
+    "agents",
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

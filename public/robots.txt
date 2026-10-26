@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard/
+Disallow: /suggest/
+
+Sitemap: https://aitoolverse.ai/sitemap-index.xml

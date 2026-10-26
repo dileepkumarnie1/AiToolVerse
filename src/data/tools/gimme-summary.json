@@ -1,0 +1,28 @@
+{
+  "slug": "gimme-summary",
+  "name": "Gimme Summary",
+  "url": "https://gimmesummary.ai/",
+  "tagline": "Chrome extension that summarizes articles using ChatGPT with one click.",
+  "about": "Gimme Summary is a simple Chrome extension that uses ChatGPT to summarize any article you're reading.",
+  "pros": [
+    "One-click summary",
+    "Uses ChatGPT",
+    "Free to use"
+  ],
+  "cons": [
+    "Chrome only",
+    "Needs ChatGPT account",
+    "Basic features"
+  ],
+  "capabilities": [
+    "summarization",
+    "chat-assistant",
+    "browser"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

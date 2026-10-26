@@ -1,0 +1,26 @@
+{
+  "slug": "quickbooks-ai",
+  "name": "QuickBooks + AI",
+  "url": "https://quickbooks.intuit.com/",
+  "tagline": "Bookkeeping and invoicing with AI‑assisted categorization and insights.",
+  "about": "QuickBooks uses AI to categorize transactions, surface cash‑flow insights, and reduce manual bookkeeping.",
+  "pros": [
+    "Widely used by SMBs.",
+    "Bank feeds and rules.",
+    "Ecosystem of apps."
+  ],
+  "cons": [
+    "Advanced features on higher tiers.",
+    "Bank sync quirks occasionally.",
+    "Accountant collaboration varies by plan."
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

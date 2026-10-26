@@ -1,0 +1,26 @@
+{
+  "slug": "duolingo-max",
+  "name": "Duolingo Max",
+  "url": "https://www.duolingo.com/",
+  "tagline": "Premium AI tutor features in Duolingo (explain my answer, roleplay).",
+  "about": "Enhanced language learning with conversational practice and granular feedback.",
+  "pros": [
+    "Engaging.",
+    "Mobile first.",
+    "Granular explanations."
+  ],
+  "cons": [
+    "Premium tier.",
+    "Language availability varies.",
+    "Less for advanced learners."
+  ],
+  "capabilities": [
+    "education-tutor"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

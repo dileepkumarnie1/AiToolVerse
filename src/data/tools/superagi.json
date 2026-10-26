@@ -1,0 +1,27 @@
+{
+  "slug": "superagi",
+  "name": "SuperAGI",
+  "url": "https://superagi.com/",
+  "tagline": "An open-source framework for building scalable autonomous agents.",
+  "about": "Designed to let developers build and deploy autonomous AI agents at scale. Includes memory, tool use, and monitoring features.",
+  "pros": [
+    "Enterprise focus.",
+    "Extensible and open-source.",
+    "Supports monitoring."
+  ],
+  "cons": [
+    "Smaller community.",
+    "Immature compared to LangChain.",
+    "Early adoption stage."
+  ],
+  "capabilities": [
+    "agents",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

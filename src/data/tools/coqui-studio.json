@@ -1,0 +1,26 @@
+{
+  "slug": "coqui-studio",
+  "name": "Coqui Studio",
+  "url": "https://coqui.ai/",
+  "tagline": "Open-source voice AI platform for voice cloning and text-to-speech.",
+  "about": "Coqui provides open-source voice AI technology for text-to-speech and voice cloning applications.",
+  "pros": [
+    "Open source",
+    "Good quality",
+    "Self-hosting option"
+  ],
+  "cons": [
+    "Setup complexity",
+    "Limited support",
+    "Company restructuring"
+  ],
+  "capabilities": [
+    "voice-tts"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

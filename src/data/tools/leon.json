@@ -1,0 +1,27 @@
+{
+  "slug": "leon",
+  "name": "leon",
+  "url": "https://getleon.ai/",
+  "tagline": "Leon is an open-source personal assistant who can live on your server. He is built on the top of Node.js, Python and artificial intelligence concepts.",
+  "about": "Leon is an open-source personal assistant who can live on your server. He is built on the top of Node.js, Python and artificial intelligence concepts.",
+  "pros": [
+    "Open source and extensible.",
+    "Good for drafting and Q&A.",
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "May require fact‑checking.",
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "graphic-design"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

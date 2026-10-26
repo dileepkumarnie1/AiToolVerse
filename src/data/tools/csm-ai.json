@@ -1,0 +1,28 @@
+{
+  "slug": "csm-ai",
+  "name": "CSM AI",
+  "url": "https://www.csm.ai/",
+  "tagline": "AI platform for generating 3D assets from videos, images, and text.",
+  "about": "CSM AI enables 3D world creation from various inputs including videos, images, and text descriptions.",
+  "pros": [
+    "Multiple input types",
+    "World creation",
+    "Advanced AI"
+  ],
+  "cons": [
+    "Beta features",
+    "Quality varies",
+    "Enterprise focus"
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "video-generation",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

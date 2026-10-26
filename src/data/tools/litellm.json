@@ -1,0 +1,19 @@
+{
+  "slug": "litellm",
+  "name": "LiteLLM",
+  "url": "https://www.litellm.ai/",
+  "tagline": "OpenAI-compatible gateway for calling and routing across many LLM providers.",
+  "about": "LiteLLM provides a unified API surface, routing, retries, and fallbacks to simplify multi-provider LLM apps.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api",
+    "code-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

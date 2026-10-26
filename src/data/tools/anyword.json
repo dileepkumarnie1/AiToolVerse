@@ -1,0 +1,27 @@
+{
+  "slug": "anyword",
+  "name": "Anyword",
+  "url": "https://anyword.com/",
+  "tagline": "AI copy with predictive performance scoring.",
+  "about": "Generate and test marketing copy variants with audience‑based predictions.",
+  "pros": [
+    "Performance scoring.",
+    "Ad/channel templates.",
+    "Brand voice."
+  ],
+  "cons": [
+    "Paid tiers for teams.",
+    "Training needs data.",
+    "Predictions are estimates."
+  ],
+  "capabilities": [
+    "marketing-seo",
+    "writing"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

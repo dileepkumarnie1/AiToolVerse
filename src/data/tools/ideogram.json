@@ -1,0 +1,26 @@
+{
+  "slug": "ideogram",
+  "name": "Ideogram",
+  "url": "https://ideogram.ai/",
+  "tagline": "An AI image generator that excels at rendering text and typography within images.",
+  "about": "Ideogram launched with a primary focus on solving one of the biggest challenges for AI image generators: reliably rendering text. It allows users to create images that include specific words or phrases, making it great for logos, posters, and memes.",
+  "pros": [
+    "Best-in-class for generating images with accurate text.",
+    "Simple and easy-to-use web interface.",
+    "Offers a free tier for generation."
+  ],
+  "cons": [
+    "Overall image quality can be slightly lower than top competitors.",
+    "Fewer advanced features and parameters to control.",
+    "Can be slow during peak usage times."
+  ],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

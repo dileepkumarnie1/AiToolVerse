@@ -1,0 +1,30 @@
+{
+  "slug": "play-ht",
+  "name": "Play.ht",
+  "url": "https://play.ht/",
+  "tagline": "AI voice generation with 900+ voices and ultra-realistic speech",
+  "about": "Play.ht is an AI-powered text-to-speech platform offering 900+ AI voices with high-accuracy voice cloning and strong audio editing controls. Its low-latency TTS API and multilingual support make it particularly useful for blog, podcast, and publishing workflows.",
+  "pros": [
+    "Massive library of 900+ voices",
+    "High-quality voice cloning",
+    "Developer-friendly API with low latency",
+    "Excellent for long-form content"
+  ],
+  "cons": [
+    "Premium pricing for commercial use",
+    "Voice quality can vary across different voices",
+    "Limited free tier usage"
+  ],
+  "capabilities": [
+    "music-generation",
+    "voice-tts",
+    "writing",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 56,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

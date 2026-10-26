@@ -1,0 +1,29 @@
+{
+  "slug": "unity-ml-agents",
+  "name": "Unity ML-Agents",
+  "url": "https://unity.com/products/machine-learning-agents",
+  "tagline": "Machine learning toolkit for training intelligent game agents",
+  "about": "Unity ML-Agents Toolkit integrates with the Unity engine to train intelligent agents and NPCs using reinforcement learning and imitation learning. Developers use this for adaptive NPC behaviors, procedural content, and scalable difficulty, making it popular among indie and AAA studios.",
+  "pros": [
+    "Open source and free",
+    "Integrates with Unity engine",
+    "Flexible reinforcement learning",
+    "Active community support"
+  ],
+  "cons": [
+    "Requires machine learning knowledge",
+    "Can be resource-intensive",
+    "Steep learning curve"
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "agents",
+    "education-tutor"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

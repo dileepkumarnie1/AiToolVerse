@@ -1,0 +1,27 @@
+{
+  "slug": "crowdstrike-charlotte-ai",
+  "name": "CrowdStrike Charlotte AI",
+  "url": "https://www.crowdstrike.com/charlotte-ai/",
+  "tagline": "Conversational security analyst for the CrowdStrike Falcon platform.",
+  "about": "Charlotte AI enables natural‑language queries and guided investigations across Falcon telemetry and detections.",
+  "pros": [
+    "Powerful on Falcon data.",
+    "Speeds up investigations.",
+    "Guided response workflows."
+  ],
+  "cons": [
+    "Tied to CrowdStrike ecosystem.",
+    "License tier dependent.",
+    "Requires tuned detections."
+  ],
+  "capabilities": [
+    "cybersecurity",
+    "chat-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "babylon-health",
+  "name": "Babylon Health",
+  "url": "https://www.babylonhealth.com/",
+  "tagline": "AI-powered virtual healthcare services.",
+  "about": "Babylon offers AI symptom checking combined with access to healthcare professionals through video consultations.",
+  "pros": [
+    "Combines AI and human doctors",
+    "Comprehensive health records",
+    "Prescription services"
+  ],
+  "cons": [
+    "Geographic limitations",
+    "Subscription for full access",
+    "Not available everywhere"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "jetbrains-ai-assistant",
+  "name": "JetBrains AI Assistant",
+  "url": "https://www.jetbrains.com/ai/",
+  "tagline": "Native AI coding features across JetBrains IDEs.",
+  "about": "Inline chat, code generation, and refactors within JetBrains products.",
+  "pros": [
+    "Tight IDE integration.",
+    "Good refactor support.",
+    "Quality code edits."
+  ],
+  "cons": [
+    "Paid add‑on.",
+    "Model choice opaque.",
+    "Variable results on niche stacks."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

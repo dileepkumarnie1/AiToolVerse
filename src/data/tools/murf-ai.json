@@ -1,0 +1,29 @@
+{
+  "slug": "murf-ai",
+  "name": "Murf AI",
+  "url": "https://murf.ai/",
+  "tagline": "AI voice generator with 200+ voices in 20+ languages",
+  "about": "Murf AI is a comprehensive AI voice generator platform designed for multimedia content creation. It offers over 200 realistic AI voices across 20+ languages with advanced customization options for pitch, pace, and pronunciation. Perfect for podcasts, videos, presentations, and e-learning.",
+  "pros": [
+    "Extensive voice library with diverse accents and tones",
+    "Advanced voice customization controls",
+    "Team collaboration features",
+    "Voice cloning capabilities"
+  ],
+  "cons": [
+    "Pricing can be steep for heavy users",
+    "Learning curve for advanced features",
+    "Some voices may sound robotic for certain use cases"
+  ],
+  "capabilities": [
+    "voice-tts",
+    "writing",
+    "presentations"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

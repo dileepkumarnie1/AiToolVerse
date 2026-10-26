@@ -1,0 +1,26 @@
+{
+  "slug": "vue-ai",
+  "name": "Vue.ai",
+  "url": "https://vue.ai/",
+  "tagline": "AI-powered visual merchandising and product recommendations.",
+  "about": "Vue.ai uses computer vision and AI to automate product tagging, visual merchandising, and personalized recommendations for fashion retail.",
+  "pros": [
+    "Automated product tagging",
+    "Visual search",
+    "Fashion-focused"
+  ],
+  "cons": [
+    "Fashion/apparel focus",
+    "Enterprise pricing",
+    "Requires good product images"
+  ],
+  "capabilities": [
+    "ecommerce"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "otter-ai",
+  "name": "Otter.ai",
+  "url": "https://otter.ai/",
+  "tagline": "Real-time transcription and automated meeting summaries with action item tracking for Zoom, Google Meet, and Teams.",
+  "about": "Otter.ai (OtterPilot) is one of the most popular AI meeting assistants, offering real-time transcription, automated summaries, and action item tracking. It integrates seamlessly with major video conferencing platforms and provides easy sharing and collaboration features.",
+  "pros": [
+    "Highly accurate real-time transcription",
+    "Automated meeting summaries and action items",
+    "Seamless integration with Zoom, Google Meet, Teams",
+    "Intuitive interface and easy sharing"
+  ],
+  "cons": [
+    "Advanced features require paid subscription",
+    "Real-time transcription can occasionally lag",
+    "Storage limits on free tier"
+  ],
+  "capabilities": [
+    "education-tutor",
+    "meeting-notes",
+    "notes-knowledge",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 99,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

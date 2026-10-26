@@ -1,0 +1,26 @@
+{
+  "slug": "vimcal",
+  "name": "Vimcal",
+  "url": "https://www.vimcal.com/",
+  "tagline": "Fast, AI-enhanced calendar for busy professionals.",
+  "about": "Vimcal is a lightning-fast calendar with AI features for scheduling, time zone handling, and meeting analytics designed for busy professionals.",
+  "pros": [
+    "Very fast",
+    "Keyboard shortcuts",
+    "Time zone features"
+  ],
+  "cons": [
+    "Free tier limited",
+    "Learning curve",
+    "Desktop-focused"
+  ],
+  "capabilities": [
+    "scheduling"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "speechmatics",
+  "name": "Speechmatics",
+  "url": "https://www.speechmatics.com/",
+  "tagline": "AI speech recognition supporting multiple languages with high accuracy.",
+  "about": "Speechmatics provides highly accurate speech recognition across many languages for enterprise applications.",
+  "pros": [
+    "Many languages",
+    "High accuracy",
+    "On-premise option"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complex for simple use",
+    "Integration needed"
+  ],
+  "capabilities": [
+    "voice-tts"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

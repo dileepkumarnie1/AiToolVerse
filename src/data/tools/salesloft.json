@@ -1,0 +1,26 @@
+{
+  "slug": "salesloft",
+  "name": "SalesLoft",
+  "url": "https://www.salesloft.com/",
+  "tagline": "AI-powered sales engagement platform for modern revenue teams.",
+  "about": "SalesLoft provides AI-enhanced sales engagement with workflow automation, coaching, and revenue intelligence.",
+  "pros": [
+    "Comprehensive platform",
+    "AI insights",
+    "Enterprise-ready"
+  ],
+  "cons": [
+    "Expensive",
+    "Complex implementation",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "sales-crm"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

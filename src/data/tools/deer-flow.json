@@ -1,0 +1,29 @@
+{
+  "slug": "deer-flow",
+  "name": "deer-flow",
+  "url": "https://deerflow.tech/",
+  "tagline": "Deep Exploration and Efficient Research, an AI tool that combines language models with specialized tools for research tasks.",
+  "about": "Deep Exploration and Efficient Research, an AI tool that combines language models with specialized tools for research tasks.",
+  "pros": [
+    "Open source and extensible.",
+    "Generates visuals quickly.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Quality varies by prompt.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "research-search",
+    "graphic-design",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

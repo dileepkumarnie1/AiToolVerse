@@ -1,0 +1,27 @@
+{
+  "slug": "trullion",
+  "name": "Trullion",
+  "url": "https://trullion.com/",
+  "tagline": "AI-powered accounting platform for lease accounting and revenue recognition.",
+  "about": "Trullion uses AI to automate complex accounting processes like lease accounting and revenue recognition compliance.",
+  "pros": [
+    "Complex accounting automation",
+    "Compliance-focused",
+    "AI extraction"
+  ],
+  "cons": [
+    "Specific use cases",
+    "Enterprise pricing",
+    "Implementation time"
+  ],
+  "capabilities": [
+    "finance",
+    "legal"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

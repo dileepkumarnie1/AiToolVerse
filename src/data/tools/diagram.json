@@ -1,0 +1,27 @@
+{
+  "slug": "diagram",
+  "name": "Diagram",
+  "url": "https://diagram.com/",
+  "tagline": "AI design tools for Figma including Genius for UI/UX design assistance.",
+  "about": "Diagram creates AI design tools for Figma, helping designers with automation, naming, and design generation.",
+  "pros": [
+    "Multiple tools",
+    "Figma native",
+    "Time-saving"
+  ],
+  "cons": [
+    "Figma only",
+    "Some tools beta",
+    "Subscription pricing"
+  ],
+  "capabilities": [
+    "graphic-design",
+    "diagrams"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

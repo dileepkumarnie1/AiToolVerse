@@ -1,0 +1,26 @@
+{
+  "slug": "hour-one",
+  "name": "Hour One",
+  "url": "https://hourone.ai/",
+  "tagline": "AI presenter and virtual human platform.",
+  "about": "Hour One creates AI-powered virtual presenters for videos, training, and corporate communications with customizable characters.",
+  "pros": [
+    "Professional virtual presenters",
+    "Multilingual",
+    "Enterprise features"
+  ],
+  "cons": [
+    "Expensive",
+    "Uncanny valley effect",
+    "Limited emotional range"
+  ],
+  "capabilities": [
+    "avatar-video"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "lamini",
+  "name": "Lamini",
+  "url": "https://lamini.ai/",
+  "tagline": "LLM fine-tuning platform for adapting models to your data and tasks.",
+  "about": "Lamini helps teams fine-tune and deploy custom LLMs with a production workflow.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

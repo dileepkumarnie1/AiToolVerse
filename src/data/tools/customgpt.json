@@ -1,0 +1,28 @@
+{
+  "slug": "customgpt",
+  "name": "CustomGPT",
+  "url": "https://customgpt.ai/",
+  "tagline": "Platform for creating custom ChatGPT bots with your business content.",
+  "about": "CustomGPT enables businesses to create ChatGPT-powered bots trained on their specific content and knowledge.",
+  "pros": [
+    "Business-focused",
+    "Multiple data sources",
+    "No coding"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "Setup time",
+    "GPT limitations apply"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

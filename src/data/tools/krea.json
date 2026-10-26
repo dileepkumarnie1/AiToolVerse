@@ -1,0 +1,18 @@
+{
+  "slug": "krea",
+  "name": "Krea",
+  "url": "https://www.krea.ai/",
+  "tagline": "Real-time AI image generation and enhancement for creating and iterating on visuals fast.",
+  "about": "Krea focuses on fast visual iteration with AI generation and enhancement tools aimed at creative workflows.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "e2b",
+  "name": "E2B",
+  "url": "https://e2b.dev/",
+  "tagline": "Secure, sandboxed cloud environments for AI agents to run code.",
+  "about": "E2B (English-to-Bash) provides a crucial piece of infrastructure for AI agents: a secure, sandboxed cloud environment where they can safely execute code, browse the web, and interact with files. It allows developers to give agents powerful capabilities without compromising security.",
+  "pros": [
+    "Solves the critical security problem of letting AI agents run code.",
+    "Provides a simple API for creating and managing sandboxed environments.",
+    "Supports a wide range of programming languages and tools."
+  ],
+  "cons": [
+    "Adds a layer of infrastructure complexity and cost to agent deployment.",
+    "The free tier has limits on concurrent sandboxes and duration.",
+    "Requires developers to manage the lifecycle of the sandboxed environments."
+  ],
+  "capabilities": [
+    "agents",
+    "code-assistant",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

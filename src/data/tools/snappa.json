@@ -1,0 +1,27 @@
+{
+  "slug": "snappa",
+  "name": "Snappa",
+  "url": "https://snappa.com/",
+  "tagline": "Quick graphic design tool with AI features for social media and marketing.",
+  "about": "Snappa provides quick graphic design with AI features focused on social media and marketing visuals.",
+  "pros": [
+    "Quick and easy",
+    "Good templates",
+    "Social focus"
+  ],
+  "cons": [
+    "Limited AI depth",
+    "Template-dependent",
+    "Subscription for download"
+  ],
+  "capabilities": [
+    "graphic-design",
+    "social-media"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

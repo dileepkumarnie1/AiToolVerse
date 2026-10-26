@@ -1,0 +1,27 @@
+{
+  "slug": "crew-ai",
+  "name": "Crew AI",
+  "url": "https://www.crewai.io/",
+  "tagline": "Framework for orchestrating role-playing, autonomous AI agents.",
+  "about": "CrewAI is a framework for creating and orchestrating multiple AI agents that work together on complex tasks.",
+  "pros": [
+    "Multi-agent",
+    "Easy to use",
+    "Growing community"
+  ],
+  "cons": [
+    "Python knowledge needed",
+    "API costs",
+    "Complex for simple tasks"
+  ],
+  "capabilities": [
+    "agents",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

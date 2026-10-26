@@ -1,0 +1,28 @@
+{
+  "slug": "shortly-ai",
+  "name": "Shortly AI",
+  "url": "https://www.shortlyai.com/",
+  "tagline": "AI writing assistant for long-form content creation with simple interface.",
+  "about": "Shortly AI focuses on helping writers create long-form content with minimal friction using GPT-powered text generation.",
+  "pros": [
+    "Simple interface",
+    "Good for long-form",
+    "No complex features"
+  ],
+  "cons": [
+    "Limited features",
+    "No team features",
+    "Basic compared to competitors"
+  ],
+  "capabilities": [
+    "writing",
+    "chat-assistant",
+    "social-media"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

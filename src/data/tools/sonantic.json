@@ -1,0 +1,27 @@
+{
+  "slug": "sonantic",
+  "name": "Sonantic",
+  "url": "https://www.sonantic.io/",
+  "tagline": "AI voice technology for games and entertainment with emotional performance.",
+  "about": "Sonantic (now part of Spotify) provides AI voice acting technology for games and entertainment with emotional depth.",
+  "pros": [
+    "Emotional range",
+    "Game-focused",
+    "High quality"
+  ],
+  "cons": [
+    "Now part of Spotify",
+    "Enterprise focus",
+    "Limited availability"
+  ],
+  "capabilities": [
+    "voice-tts",
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

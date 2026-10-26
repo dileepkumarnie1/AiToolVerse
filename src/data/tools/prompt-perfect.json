@@ -1,0 +1,27 @@
+{
+  "slug": "prompt-perfect",
+  "name": "Prompt Perfect",
+  "url": "https://promptperfect.jina.ai/",
+  "tagline": "Refines your initial idea into a clear, detailed prompt for better outputs.",
+  "about": "Prompt Perfect helps users iteratively rephrase and enrich prompts to improve LLM response quality and reliability.",
+  "pros": [
+    "Beginner-friendly.",
+    "Improves clarity.",
+    "Works across tasks."
+  ],
+  "cons": [
+    "Adds an extra step.",
+    "Not a substitute for domain knowledge.",
+    "Pro features gated."
+  ],
+  "capabilities": [
+    "prompt-tools",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

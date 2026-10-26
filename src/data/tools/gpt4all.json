@@ -1,0 +1,18 @@
+{
+  "slug": "gpt4all",
+  "name": "gpt4all",
+  "url": "https://nomic.ai/gpt4all",
+  "tagline": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
+  "about": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

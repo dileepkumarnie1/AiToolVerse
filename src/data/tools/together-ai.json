@@ -1,0 +1,28 @@
+{
+  "slug": "together-ai",
+  "name": "Together AI",
+  "url": "https://together.ai/",
+  "tagline": "Developer platform for serving open-source AI models reliably and cost-effectively.",
+  "about": "Together AI provides a developer platform for serving open-source AI models with high reliability and low cost. Supports fine-tuning and deployment of various open models.",
+  "pros": [
+    "Cost-effective model serving",
+    "Wide selection of open-source models",
+    "Good for developers wanting control and flexibility"
+  ],
+  "cons": [
+    "Requires technical knowledge to use effectively",
+    "Less polished interface than consumer products",
+    "Support primarily for open models"
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "developer-api",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

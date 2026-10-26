@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import SuggestForm from '../../components/SuggestForm';
+---
+
+<Base title="Suggest an AI tool" description="Suggest an AI tool for the AIToolVerse directory. Every suggestion is reviewed before it is listed." noindex>
+  <section class="container-page max-w-2xl pt-14">
+    <p class="eyebrow">Suggest a tool</p>
+    <h1 class="heading-lg mt-2">Know a great AI tool?</h1>
+    <p class="mt-2 muted">Tell us about it. Every tool is reviewed by a person before it is listed, and we never accept payment for placement.</p>
+    <div class="mt-8">
+      <SuggestForm client:only="react" />
+    </div>
+  </section>
+</Base>

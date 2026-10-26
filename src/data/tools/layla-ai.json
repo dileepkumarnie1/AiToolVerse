@@ -1,0 +1,28 @@
+{
+  "slug": "layla-ai",
+  "name": "Layla AI",
+  "url": "https://justasklayla.com/",
+  "tagline": "Conversational AI travel agent for planning and booking trips through chat.",
+  "about": "Layla acts as a personal AI travel agent, handling everything from inspiration to booking through natural conversation.",
+  "pros": [
+    "Full booking capability",
+    "Conversational interface",
+    "Remembers preferences"
+  ],
+  "cons": [
+    "May have booking fees",
+    "Limited destinations",
+    "New service still evolving"
+  ],
+  "capabilities": [
+    "travel",
+    "chat-assistant",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "you-com-ai",
+  "name": "You.com AI",
+  "url": "https://you.com/",
+  "tagline": "AI search engine with conversational AI and source citations for research.",
+  "about": "You.com combines AI chat with web search, providing answers with sources and allowing users to customize their AI experience.",
+  "pros": [
+    "Web search integrated",
+    "Source citations",
+    "Customizable"
+  ],
+  "cons": [
+    "Less powerful than dedicated chatbots",
+    "Can be slower",
+    "Free tier limits"
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "vista-social",
+  "name": "Vista Social",
+  "url": "https://vistasocial.com/",
+  "tagline": "Modern social media management platform with AI-powered features.",
+  "about": "Vista Social provides modern social media management with AI features for content suggestions and scheduling.",
+  "pros": [
+    "Modern interface",
+    "Affordable",
+    "Growing features"
+  ],
+  "cons": [
+    "Smaller platform",
+    "Limited AI depth",
+    "Fewer integrations"
+  ],
+  "capabilities": [
+    "social-media"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

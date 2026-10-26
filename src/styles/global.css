@@ -1,0 +1,95 @@
+@import '@fontsource-variable/inter';
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+  --color-ink-50: #f7f7fb;
+  --color-ink-100: #eeeef6;
+  --color-ink-200: #dcdcea;
+  --color-ink-300: #b9b9cf;
+  --color-ink-400: #8a8aa6;
+  --color-ink-500: #636381;
+  --color-ink-600: #4a4a66;
+  --color-ink-700: #33334d;
+  --color-ink-800: #1f1f33;
+  --color-ink-900: #13131f;
+  --color-ink-950: #0b0b14;
+  --color-brand-50: #f3f1ff;
+  --color-brand-100: #e9e5ff;
+  --color-brand-200: #d4ccff;
+  --color-brand-300: #b4a5ff;
+  --color-brand-400: #9177ff;
+  --color-brand-500: #7352ff;
+  --color-brand-600: #6236f5;
+  --color-brand-700: #5228d6;
+  --color-brand-800: #4322ad;
+  --color-brand-900: #381f8a;
+}
+
+@layer base {
+  html {
+    color-scheme: light dark;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    @apply bg-ink-50 text-ink-800 dark:bg-ink-950 dark:text-ink-100;
+  }
+  ::selection {
+    @apply bg-brand-200 text-ink-900;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand-500;
+  }
+}
+
+@utility container-page {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+}
+
+@utility card {
+    @apply rounded-2xl border border-ink-200/70 bg-white shadow-[0_1px_2px_rgba(19,19,31,0.04)] dark:border-white/8 dark:bg-ink-900;
+}
+
+@utility card-hover {
+    @apply transition duration-200 hover:-translate-y-0.5 hover:border-brand-300 hover:shadow-[0_12px_32px_-12px_rgba(98,54,245,0.25)] dark:hover:border-brand-500/50;
+}
+
+@utility btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition disabled:cursor-not-allowed disabled:opacity-50;
+}
+
+@utility btn-primary {
+    @apply btn bg-ink-900 text-white hover:bg-brand-600 dark:bg-white dark:text-ink-900 dark:hover:bg-brand-200;
+}
+
+@utility btn-secondary {
+    @apply btn border border-ink-200 bg-white text-ink-800 hover:border-ink-300 hover:bg-ink-50 dark:border-white/10 dark:bg-white/5 dark:text-ink-100 dark:hover:bg-white/10;
+}
+
+@utility chip {
+    @apply inline-flex items-center rounded-full border border-ink-200 bg-white px-2.5 py-0.5 text-xs font-medium text-ink-600 dark:border-white/10 dark:bg-white/5 dark:text-ink-300;
+}
+
+@utility eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.16em] text-brand-600 dark:text-brand-300;
+}
+
+@utility heading-xl {
+    @apply text-4xl font-semibold tracking-tight text-ink-950 sm:text-5xl md:text-6xl dark:text-white;
+}
+
+@utility heading-lg {
+    @apply text-2xl font-semibold tracking-tight text-ink-950 sm:text-3xl dark:text-white;
+}
+
+@utility muted {
+    @apply text-ink-500 dark:text-ink-400;
+}
+
+@utility input {
+    @apply w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 placeholder:text-ink-400 focus:border-brand-400 focus:outline-none focus:ring-4 focus:ring-brand-100 dark:border-white/10 dark:bg-ink-900 dark:text-white dark:focus:ring-brand-500/20;
+}
+
+@utility gradient-text {
+    @apply bg-linear-to-r from-brand-600 via-fuchsia-500 to-orange-400 bg-clip-text text-transparent;
+}

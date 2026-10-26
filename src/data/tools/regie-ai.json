@@ -1,0 +1,28 @@
+{
+  "slug": "regie-ai",
+  "name": "Regie.ai",
+  "url": "https://www.regie.ai/",
+  "tagline": "AI platform for creating personalized sales content and sequences at scale.",
+  "about": "Regie uses AI to generate personalized sales content, email sequences, and social touches for sales teams.",
+  "pros": [
+    "Personalization at scale",
+    "Multi-channel",
+    "Integrations"
+  ],
+  "cons": [
+    "Content needs review",
+    "Enterprise focus",
+    "Setup complexity"
+  ],
+  "capabilities": [
+    "sales-crm",
+    "writing",
+    "social-media"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

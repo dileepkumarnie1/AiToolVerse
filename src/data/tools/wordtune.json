@@ -1,0 +1,27 @@
+{
+  "slug": "wordtune",
+  "name": "Wordtune",
+  "url": "https://www.wordtune.com/",
+  "tagline": "Context-aware rewriting with tone adjustments and smart synonym suggestions",
+  "about": "Wordtune provides context-aware rewriting with the ability to adjust tone (formal/casual), improve clarity, and enhance English writing with smart synonym suggestions and grammar corrections.",
+  "pros": [
+    "Excellent context understanding",
+    "Tone switching capabilities",
+    "Natural language suggestions",
+    "Great for non-native English speakers"
+  ],
+  "cons": [
+    "Free version has daily limits",
+    "Premium pricing for unlimited access",
+    "Focused primarily on English"
+  ],
+  "capabilities": [
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

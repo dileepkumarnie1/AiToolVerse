@@ -1,0 +1,28 @@
+{
+  "slug": "fetcher",
+  "name": "Fetcher",
+  "url": "https://fetcher.ai/",
+  "tagline": "Automated AI-powered candidate sourcing and outreach",
+  "about": "Fetcher is an automated sourcing platform that uses AI to find, qualify, and reach out to passive candidates. It streamlines top-of-funnel recruitment for hard-to-fill roles by automating initial sourcing and outreach with personalized messaging.",
+  "pros": [
+    "Excellent for expanding talent pools",
+    "Automated outreach saves time",
+    "Good for hard-to-fill positions",
+    "Personalized candidate engagement"
+  ],
+  "cons": [
+    "Premium pricing model",
+    "May require manual follow-up",
+    "Best suited for specialized roles"
+  ],
+  "capabilities": [
+    "hr-recruiting",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "happy-scribe",
+  "name": "Happy Scribe",
+  "url": "https://www.happyscribe.com/",
+  "tagline": "AI transcription and subtitling platform with human proofreading option.",
+  "about": "Happy Scribe offers AI-powered transcription and subtitles with optional human proofreading for professional quality.",
+  "pros": [
+    "Human review option",
+    "Good editor",
+    "Multiple formats"
+  ],
+  "cons": [
+    "Premium pricing",
+    "Credits system",
+    "Processing time"
+  ],
+  "capabilities": [
+    "transcription"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

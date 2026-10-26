@@ -1,0 +1,27 @@
+{
+  "slug": "vue-ai-styling",
+  "name": "Vue.ai Styling",
+  "url": "https://vue.ai/",
+  "tagline": "AI-powered fashion styling platform for retailers with personalization and recommendations.",
+  "about": "Vue.ai helps fashion retailers provide AI-powered personalized styling recommendations and virtual try-on experiences.",
+  "pros": [
+    "Enterprise-grade",
+    "Comprehensive platform",
+    "Multiple AI features"
+  ],
+  "cons": [
+    "B2B focus",
+    "Not consumer-facing",
+    "Enterprise pricing"
+  ],
+  "capabilities": [
+    "fashion",
+    "ecommerce"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

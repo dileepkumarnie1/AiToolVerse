@@ -1,0 +1,29 @@
+{
+  "slug": "rex",
+  "name": "Rex",
+  "url": "https://www.rexsoftware.com/",
+  "tagline": "AI-powered real estate CRM with automated follow-ups and insights.",
+  "about": "Rex provides an AI-powered CRM for real estate agencies with automated workflows and client insights.",
+  "pros": [
+    "Real estate-specific",
+    "Automation",
+    "Good for agencies"
+  ],
+  "cons": [
+    "Agency focus",
+    "Learning curve",
+    "Subscription pricing"
+  ],
+  "capabilities": [
+    "real-estate",
+    "sales-crm",
+    "automation",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

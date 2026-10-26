@@ -1,0 +1,28 @@
+{
+  "slug": "parsio",
+  "name": "Parsio",
+  "url": "https://parsio.io/",
+  "tagline": "AI-powered email and document parser for extracting structured data automatically.",
+  "about": "Parsio extracts data from emails, PDFs, and documents automatically, integrating with popular tools like Google Sheets and Zapier.",
+  "pros": [
+    "Easy email forwarding setup",
+    "Multiple export options",
+    "Affordable pricing"
+  ],
+  "cons": [
+    "Template-based approach",
+    "Complex documents need tuning",
+    "Limited OCR for handwriting"
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "email",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

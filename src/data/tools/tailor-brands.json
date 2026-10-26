@@ -1,0 +1,29 @@
+{
+  "slug": "tailor-brands",
+  "name": "Tailor Brands",
+  "url": "https://www.tailorbrands.com/",
+  "tagline": "Robust AI branding platform generating style guides, social posts, and landing pages for long-term consistency.",
+  "about": "Tailor Brands is a comprehensive AI branding platform that goes beyond logos to generate brand style guides, social media posts, and landing pages. Its focus is on long-term brand consistency and scalability for growing businesses.",
+  "pros": [
+    "Complete branding ecosystem",
+    "Style guide generation",
+    "Social media integration",
+    "Scalable for growth"
+  ],
+  "cons": [
+    "Subscription-based pricing",
+    "Can be complex for simple needs",
+    "Ongoing costs"
+  ],
+  "capabilities": [
+    "logo-branding",
+    "social-media",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

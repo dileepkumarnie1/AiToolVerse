@@ -1,0 +1,29 @@
+{
+  "slug": "probe",
+  "name": "probe",
+  "url": "https://probeai.dev/",
+  "tagline": "AI-friendly, fully local, semantic code search tool designed to power the next generation of AI coding assistants",
+  "about": "AI-friendly, fully local, semantic code search tool designed to power the next generation of AI coding assistants",
+  "pros": [
+    "Open source and extensible.",
+    "Good for drafting and Q&A.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "May require fact‑checking.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "research-search",
+    "chat-assistant",
+    "graphic-design",
+    "code-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

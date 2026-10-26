@@ -1,0 +1,26 @@
+{
+  "slug": "promptlayer",
+  "name": "PromptLayer",
+  "url": "https://promptlayer.com/",
+  "tagline": "Manage, version, and monitor prompts across projects.",
+  "about": "Organize prompts, track usage, and collaborate on prompt libraries.",
+  "pros": [
+    "Great organization.",
+    "Team workflows.",
+    "Versioning."
+  ],
+  "cons": [
+    "Best for teams.",
+    "Learning curve.",
+    "Requires workflow adoption."
+  ],
+  "capabilities": [
+    "prompt-tools"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

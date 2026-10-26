@@ -1,0 +1,30 @@
+{
+  "slug": "avoma",
+  "name": "Avoma",
+  "url": "https://www.avoma.com/",
+  "tagline": "Conversation intelligence platform focused on insights, analysis, and CRM workflow integration.",
+  "about": "Avoma is a comprehensive conversation intelligence platform that focuses on extracting insights from meetings and automating follow-ups. It offers deep business tool integrations and is designed for teams seeking continuous improvement through data-driven insights.",
+  "pros": [
+    "Excellent conversation analysis and insights",
+    "Strong CRM and workflow integration",
+    "Accurate speaker recognition",
+    "Automated follow-up workflows"
+  ],
+  "cons": [
+    "Higher learning curve",
+    "Premium pricing",
+    "May be overkill for basic needs"
+  ],
+  "capabilities": [
+    "meeting-notes",
+    "chat-assistant",
+    "notes-knowledge",
+    "sales-crm"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

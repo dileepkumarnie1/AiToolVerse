@@ -1,0 +1,28 @@
+{
+  "slug": "tabnine",
+  "name": "Tabnine",
+  "url": "https://www.tabnine.com/",
+  "tagline": "An AI code completion assistant that can be run locally for privacy.",
+  "about": "Tabnine is one of the original AI code assistants. It provides powerful code completions and, for enterprise teams, can be trained on specific codebases and run entirely locally, ensuring code privacy and security.",
+  "pros": [
+    "Can be run locally for maximum privacy.",
+    "Can be personalized by training on your own repositories.",
+    "Supports a wide range of languages and editors."
+  ],
+  "cons": [
+    "The free version is less powerful than competitors.",
+    "Local models require significant computational resources.",
+    "User interface for configuration can be complex."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

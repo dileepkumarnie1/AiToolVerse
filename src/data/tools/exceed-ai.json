@@ -1,0 +1,28 @@
+{
+  "slug": "exceed-ai",
+  "name": "Exceed.ai",
+  "url": "https://exceed.ai/",
+  "tagline": "AI-powered conversational marketing and sales assistant for lead qualification.",
+  "about": "Exceed.ai uses AI to engage and qualify leads through email and chat conversations automatically.",
+  "pros": [
+    "Automatic qualification",
+    "24/7 engagement",
+    "CRM integration"
+  ],
+  "cons": [
+    "Can feel robotic",
+    "Setup required",
+    "Premium pricing"
+  ],
+  "capabilities": [
+    "sales-crm",
+    "chat-assistant",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

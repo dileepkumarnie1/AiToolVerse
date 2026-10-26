@@ -1,0 +1,29 @@
+{
+  "slug": "planner-5d",
+  "name": "Planner 5D",
+  "url": "https://planner5d.com/",
+  "tagline": "AI-enhanced home design app for creating floor plans and 3D room visualizations.",
+  "about": "Planner 5D combines AI with 3D design tools to help users create floor plans and visualize home interiors.",
+  "pros": [
+    "Floor plan creation",
+    "3D visualization",
+    "Large library"
+  ],
+  "cons": [
+    "Premium for full features",
+    "Learning curve",
+    "Catalog limits"
+  ],
+  "capabilities": [
+    "interior-design",
+    "graphic-design",
+    "scheduling",
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

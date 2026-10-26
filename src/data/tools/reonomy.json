@@ -1,0 +1,26 @@
+{
+  "slug": "reonomy",
+  "name": "Reonomy",
+  "url": "https://www.reonomy.com/",
+  "tagline": "Commercial real estate intelligence and property data platform.",
+  "about": "Reonomy unifies ownership, property, and transaction data to power CRE prospecting and market research.",
+  "pros": [
+    "Comprehensive CRE data.",
+    "Prospecting and outreach tools.",
+    "Data exports and integrations."
+  ],
+  "cons": [
+    "Coverage varies by region.",
+    "Data freshness considerations.",
+    "Seat‑based pricing."
+  ],
+  "capabilities": [
+    "real-estate"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

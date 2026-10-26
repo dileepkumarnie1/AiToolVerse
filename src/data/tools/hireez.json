@@ -1,0 +1,26 @@
+{
+  "slug": "hireez",
+  "name": "hireEZ",
+  "url": "https://hireez.com/",
+  "tagline": "AI sourcing platform with outreach and enrichment.",
+  "about": "hireEZ helps recruiters find, enrich, and engage candidates at scale with AI‑assisted search and campaigns.",
+  "pros": [
+    "Large talent data coverage.",
+    "Sequencing and outreach.",
+    "Team collaboration."
+  ],
+  "cons": [
+    "Email deliverability management needed.",
+    "Compliance varies by region.",
+    "License costs per seat."
+  ],
+  "capabilities": [
+    "hr-recruiting"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

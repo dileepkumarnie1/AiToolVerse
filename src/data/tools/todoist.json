@@ -1,0 +1,26 @@
+{
+  "slug": "todoist",
+  "name": "Todoist",
+  "url": "https://todoist.com/",
+  "tagline": "A leading to-do list app with new AI-powered features for task management.",
+  "about": "Todoist is a popular task management application. It has recently integrated AI features that can help users break down large tasks into smaller, manageable steps, suggest next actions for a project, and help rephrase tasks to be more actionable.",
+  "pros": [
+    "Clean, fast, and reliable task management.",
+    "AI features help with planning and overcoming procrastination.",
+    "Available on virtually every platform."
+  ],
+  "cons": [
+    "Most AI features require a paid plan.",
+    "The AI is an assistant, not a full-fledged project manager.",
+    "Can be simpler than what's needed for complex team projects."
+  ],
+  "capabilities": [
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

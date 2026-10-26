@@ -1,0 +1,24 @@
+{
+  "slug": "invariant",
+  "name": "invariant",
+  "url": "https://invariantlabs.ai/",
+  "tagline": "We help agent builders create reliable, robust and secure products.",
+  "about": "We help agent builders create reliable, robust and secure products.",
+  "pros": [
+    "Easy to get started."
+  ],
+  "cons": [
+    "May require an account or credits."
+  ],
+  "capabilities": [
+    "responsible-ai",
+    "graphic-design",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "deeplake",
+  "name": "deeplake",
+  "url": "https://activeloop.ai/",
+  "tagline": "Activeloop&#x27;s AI data analyst is for teams that work with complex, unstructured data. Search, index, and retrieve text, images, video, and audio in one place.",
+  "about": "Activeloop&#x27;s AI data analyst is for teams that work with complex, unstructured data. Search, index, and retrieve text, images, video, and audio in one place.",
+  "pros": [
+    "Generates visuals quickly.",
+    "Accelerates video creation.",
+    "Useful for voice and audio workflows."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Render times or credit limits may apply.",
+    "May need cleanup for artifacts."
+  ],
+  "capabilities": [
+    "image-generation",
+    "video-generation",
+    "developer-api",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

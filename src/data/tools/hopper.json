@@ -1,0 +1,26 @@
+{
+  "slug": "hopper",
+  "name": "Hopper",
+  "url": "https://www.hopper.com/",
+  "tagline": "AI travel app that predicts prices and tells you when to buy flights and hotels.",
+  "about": "Hopper uses AI to analyze billions of prices daily and predict when travel costs will be lowest, saving users up to 40% on flights.",
+  "pros": [
+    "Accurate price predictions",
+    "Price freeze feature",
+    "Easy mobile experience"
+  ],
+  "cons": [
+    "Mobile app only",
+    "Limited to flights/hotels",
+    "Cancellation policies can be strict"
+  ],
+  "capabilities": [
+    "travel"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

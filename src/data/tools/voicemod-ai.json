@@ -1,0 +1,27 @@
+{
+  "slug": "voicemod-ai",
+  "name": "Voicemod AI",
+  "url": "https://www.voicemod.net/",
+  "tagline": "AI-powered real-time voice changer and effects.",
+  "about": "Voicemod AI lets you transform your voice in real time for gaming, streaming, and content creation.",
+  "pros": [
+    "Fun effects.",
+    "Real-time processing.",
+    "Free and paid plans."
+  ],
+  "cons": [
+    "Windows only.",
+    "Premium for best voices.",
+    "Not for professional audio."
+  ],
+  "capabilities": [
+    "music-generation",
+    "voice-tts"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

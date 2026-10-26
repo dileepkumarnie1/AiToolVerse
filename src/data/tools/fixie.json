@@ -1,0 +1,26 @@
+{
+  "slug": "fixie",
+  "name": "Fixie",
+  "url": "https://fixie.ai/",
+  "tagline": "Platform for building and deploying AI agents that can take actions.",
+  "about": "Fixie provides a platform for building AI agents that can understand context, remember conversations, and take actions.",
+  "pros": [
+    "Action-capable",
+    "Easy deployment",
+    "Good documentation"
+  ],
+  "cons": [
+    "Newer platform",
+    "Pricing",
+    "Limited scale testing"
+  ],
+  "capabilities": [
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

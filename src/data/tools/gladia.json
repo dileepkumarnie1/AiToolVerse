@@ -1,0 +1,20 @@
+{
+  "slug": "gladia",
+  "name": "Gladia",
+  "url": "https://www.gladia.io/",
+  "tagline": "Speech-to-text API for transcription and audio intelligence features.",
+  "about": "Gladia provides an API to transcribe audio and build speech-driven applications with common features like diarization and language support.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "transcription",
+    "voice-tts",
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

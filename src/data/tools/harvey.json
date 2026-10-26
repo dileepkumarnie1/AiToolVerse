@@ -1,0 +1,27 @@
+{
+  "slug": "harvey",
+  "name": "Harvey",
+  "url": "https://www.harvey.ai/",
+  "tagline": "Legal AI for research, drafting, and contract workflows.",
+  "about": "Harvey partners with leading law firms and in‑house teams to accelerate legal research and drafting with guardrails and enterprise controls.",
+  "pros": [
+    "Built for legal workflows and teams.",
+    "Emphasis on accuracy and governance.",
+    "Enterprise security posture."
+  ],
+  "cons": [
+    "Closed platform with limited public access.",
+    "Best value at firm/enterprise scale.",
+    "Specialized domain setup required."
+  ],
+  "capabilities": [
+    "legal",
+    "research-search"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

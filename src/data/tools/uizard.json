@@ -1,0 +1,26 @@
+{
+  "slug": "uizard",
+  "name": "Uizard",
+  "url": "https://uizard.io/",
+  "tagline": "An AI-powered tool for rapidly creating wireframes, mockups, and prototypes.",
+  "about": "Uizard uses AI to speed up the design process. It can transform hand-drawn sketches into digital wireframes, generate UI designs from text prompts, and create entire design systems, making it a powerful tool for rapid prototyping.",
+  "pros": [
+    "Can convert hand-drawn sketches into digital designs.",
+    "Generates multi-screen mockups from text prompts.",
+    "Easy to use for non-designers."
+  ],
+  "cons": [
+    "The generated designs can be generic and may lack creativity.",
+    "The free plan is limited.",
+    "Best for early-stage ideation rather than pixel-perfect final designs."
+  ],
+  "capabilities": [
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

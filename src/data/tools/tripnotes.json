@@ -1,0 +1,26 @@
+{
+  "slug": "tripnotes",
+  "name": "Tripnotes",
+  "url": "https://tripnotes.ai/",
+  "tagline": "AI travel assistant that creates personalized trip guides from natural language requests.",
+  "about": "Tripnotes generates comprehensive travel guides tailored to your preferences, including activities, dining, and local tips.",
+  "pros": [
+    "Highly personalized",
+    "Detailed recommendations",
+    "Saves research time"
+  ],
+  "cons": [
+    "New platform",
+    "May miss hidden gems",
+    "No real-time updates"
+  ],
+  "capabilities": [
+    "travel"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "deepbi",
+  "name": "DeepBI",
+  "url": "https://www.deepbi.com/",
+  "tagline": "LLM based data scientist, AI native data application. AI-driven infinite thinking redefines BI.",
+  "about": "LLM based data scientist, AI native data application. AI-driven infinite thinking redefines BI.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "data-analysis",
+    "science"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

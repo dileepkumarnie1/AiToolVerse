@@ -1,0 +1,29 @@
+{
+  "slug": "flowrite",
+  "name": "Flowrite",
+  "url": "https://www.flowrite.com/",
+  "tagline": "Real-time AI email generation that adapts to your tone for quick, contextual replies.",
+  "about": "Flowrite provides real-time AI-powered email generation that adapts to your tone and can automate repetitive responses. It's ideal for busy professionals needing quick, contextual replies without starting from scratch.",
+  "pros": [
+    "Real-time generation as you type",
+    "Adapts to your tone and style",
+    "Good for repetitive responses",
+    "Quick contextual replies"
+  ],
+  "cons": [
+    "Customization options can be limited",
+    "Less suitable for complex emails",
+    "Requires learning to use effectively"
+  ],
+  "capabilities": [
+    "email",
+    "chat-assistant",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

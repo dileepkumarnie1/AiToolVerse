@@ -1,0 +1,27 @@
+{
+  "slug": "guidegeek",
+  "name": "GuideGeek",
+  "url": "https://www.guidegeek.com/",
+  "tagline": "AI travel guide powered by ChatGPT for instant travel advice and recommendations.",
+  "about": "GuideGeek uses ChatGPT to provide instant travel advice, destination information, and personalized recommendations via chat.",
+  "pros": [
+    "Instant responses",
+    "Wide knowledge base",
+    "Multi-platform access"
+  ],
+  "cons": [
+    "Generic advice sometimes",
+    "No booking integration",
+    "May need fact-checking"
+  ],
+  "capabilities": [
+    "travel",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

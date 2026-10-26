@@ -1,0 +1,26 @@
+{
+  "slug": "o9-solutions",
+  "name": "o9 Solutions",
+  "url": "https://o9solutions.com/",
+  "tagline": "AI-powered platform for integrated business planning and supply chain management.",
+  "about": "o9 provides an AI-powered platform for demand planning, supply planning, and integrated business operations.",
+  "pros": [
+    "End-to-end planning",
+    "Real-time AI",
+    "Scenario modeling"
+  ],
+  "cons": [
+    "Enterprise only",
+    "Implementation time",
+    "Complex platform"
+  ],
+  "capabilities": [
+    "industry-ops"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

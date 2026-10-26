@@ -1,0 +1,27 @@
+{
+  "slug": "cropin",
+  "name": "Cropin",
+  "url": "https://www.cropin.com/",
+  "tagline": "AI-powered farm management platform for crop intelligence and predictive analytics.",
+  "about": "Cropin uses satellite imagery and AI to provide insights on crop health, yield predictions, and optimal farming practices.",
+  "pros": [
+    "Satellite-based monitoring",
+    "Yield predictions",
+    "Large-scale farm support"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Requires training",
+    "Internet connectivity needed"
+  ],
+  "capabilities": [
+    "industry-ops",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

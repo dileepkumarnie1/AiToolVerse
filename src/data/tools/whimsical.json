@@ -1,0 +1,28 @@
+{
+  "slug": "whimsical",
+  "name": "Whimsical",
+  "url": "https://whimsical.com/",
+  "tagline": "Fast, collaborative diagramming with AI assistance for wireframes and flowcharts",
+  "about": "Whimsical provides fast, beautiful diagramming tools with AI assistance for creating flowcharts, wireframes, mind maps, and docs in a collaborative environment.",
+  "pros": [
+    "Extremely fast and responsive",
+    "Beautiful, clean design",
+    "Great for collaboration",
+    "Multiple diagram types (flowcharts, wireframes, mind maps)"
+  ],
+  "cons": [
+    "Free tier limits board count",
+    "Fewer integrations than enterprise tools",
+    "Advanced features require paid plan"
+  ],
+  "capabilities": [
+    "diagrams",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

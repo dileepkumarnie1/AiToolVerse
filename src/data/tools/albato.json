@@ -1,0 +1,26 @@
+{
+  "slug": "albato",
+  "name": "Albato",
+  "url": "https://albato.com/",
+  "tagline": "Workflow automation platform with AI features and affordable pricing.",
+  "about": "Albato provides simple workflow automation with AI features at an affordable price point.",
+  "pros": [
+    "Affordable",
+    "Easy to use",
+    "Good for SMBs"
+  ],
+  "cons": [
+    "Limited advanced features",
+    "Fewer integrations",
+    "Basic AI"
+  ],
+  "capabilities": [
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

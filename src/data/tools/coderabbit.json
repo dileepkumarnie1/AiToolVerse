@@ -1,0 +1,29 @@
+{
+  "slug": "coderabbit",
+  "name": "Coderabbit",
+  "url": "https://coderabbit.ai/",
+  "tagline": "AI-powered code review tool that provides automated PR reviews and suggestions.",
+  "about": "CodeRabbit provides AI-powered code reviews for pull requests, catching bugs and suggesting improvements automatically.",
+  "pros": [
+    "Automated reviews",
+    "Catches issues early",
+    "Easy integration"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "May have false positives",
+    "Review quality varies"
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

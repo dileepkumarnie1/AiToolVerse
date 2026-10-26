@@ -1,0 +1,27 @@
+{
+  "slug": "clipchamp",
+  "name": "Clipchamp",
+  "url": "https://clipchamp.com/",
+  "tagline": "Microsoft's free online video editor with AI-powered features and templates.",
+  "about": "Clipchamp is Microsoft's free video editor with AI features including text-to-speech, auto-captions, and smart templates.",
+  "pros": [
+    "Free with Microsoft account",
+    "AI text-to-speech",
+    "Good templates"
+  ],
+  "cons": [
+    "Export quality limits",
+    "Requires Microsoft account",
+    "Limited advanced features"
+  ],
+  "capabilities": [
+    "video-generation",
+    "video-editing"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

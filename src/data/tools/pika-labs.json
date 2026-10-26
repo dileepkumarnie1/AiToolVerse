@@ -1,0 +1,26 @@
+{
+  "slug": "pika-labs",
+  "name": "Pika Labs",
+  "url": "https://pika.art/",
+  "tagline": "Fast and accessible AI video generation from text and images.",
+  "about": "Pika Labs provides quick AI video generation from text prompts and images. Known for its speed and accessibility, with a friendly Discord-based interface.",
+  "pros": [
+    "Fast video generation",
+    "Easy to use",
+    "Active community on Discord"
+  ],
+  "cons": [
+    "Lower quality than Runway",
+    "Limited control over outputs",
+    "Discord-based workflow may not suit everyone"
+  ],
+  "capabilities": [
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

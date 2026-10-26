@@ -1,0 +1,25 @@
+{
+  "slug": "chronulus-mcp",
+  "name": "chronulus-mcp",
+  "url": "https://www.chronulus.com/",
+  "tagline": "Chronulus is the first agentic platform purpose-built for forecasting and prediction. What would you like to predict today?",
+  "about": "Chronulus is the first agentic platform purpose-built for forecasting and prediction. What would you like to predict today?",
+  "pros": [
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "finance",
+    "graphic-design",
+    "developer-api",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

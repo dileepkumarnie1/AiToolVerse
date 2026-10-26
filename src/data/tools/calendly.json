@@ -1,0 +1,28 @@
+{
+  "slug": "calendly",
+  "name": "Calendly",
+  "url": "https://calendly.com/",
+  "tagline": "Leading automated scheduling tool with AI Pro features for context-aware intelligent booking and integrations.",
+  "about": "Calendly remains a leader in automated scheduling. Its AI Pro features add context-aware intelligent booking, support for multiple event types, time buffers, and robust integrations with Zoom, Google Calendar, and more.",
+  "pros": [
+    "Very easy to use",
+    "Excellent integrations",
+    "Multiple event type support",
+    "Widely recognized and trusted"
+  ],
+  "cons": [
+    "AI features require Pro tier",
+    "Can seem impersonal",
+    "Limited customization on lower tiers"
+  ],
+  "capabilities": [
+    "scheduling",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

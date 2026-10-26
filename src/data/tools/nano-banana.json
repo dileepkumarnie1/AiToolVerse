@@ -1,0 +1,18 @@
+{
+  "slug": "nano-banana",
+  "name": "Nano Banana",
+  "url": "https://nanobanana.ai/",
+  "tagline": "Gemini-powered image editing features",
+  "about": "Gemini-powered image editing features",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

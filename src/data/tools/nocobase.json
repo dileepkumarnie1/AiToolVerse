@@ -1,0 +1,27 @@
+{
+  "slug": "nocobase",
+  "name": "nocobase",
+  "url": "https://www.nocobase.com/",
+  "tagline": "NocoBase is an AI-driven lightweight, extremely extensible open source no-code and low-code development platform. Quickly deploy to gain a private, controllable no-code solution!",
+  "about": "NocoBase is an AI-driven lightweight, extremely extensible open source no-code and low-code development platform. Quickly deploy to gain a private, controllable no-code solution!",
+  "pros": [
+    "Open source and extensible.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "developer-api",
+    "chat-assistant",
+    "graphic-design"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

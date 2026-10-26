@@ -1,0 +1,27 @@
+{
+  "slug": "llamaindex",
+  "name": "LlamaIndex",
+  "url": "https://www.llamaindex.ai/",
+  "tagline": "Data framework for building LLM applications with data ingestion and retrieval.",
+  "about": "LlamaIndex helps developers connect LLMs to external data sources for retrieval-augmented generation applications.",
+  "pros": [
+    "RAG-focused",
+    "Many connectors",
+    "Good documentation"
+  ],
+  "cons": [
+    "Specific use case",
+    "Can be complex",
+    "Performance tuning needed"
+  ],
+  "capabilities": [
+    "developer-api",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

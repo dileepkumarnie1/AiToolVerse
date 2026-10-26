@@ -1,0 +1,27 @@
+{
+  "slug": "lokalise",
+  "name": "Lokalise",
+  "url": "https://lokalise.com/",
+  "tagline": "Translation management platform with AI-powered automation.",
+  "about": "Lokalise provides translation management with AI-powered workflows for teams.",
+  "pros": [
+    "Good workflow",
+    "Team features",
+    "Integrations"
+  ],
+  "cons": [
+    "Subscription",
+    "Learning curve",
+    "Feature complexity"
+  ],
+  "capabilities": [
+    "translation",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

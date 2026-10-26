@@ -1,0 +1,27 @@
+{
+  "slug": "docsumo",
+  "name": "Docsumo",
+  "url": "https://www.docsumo.com/",
+  "tagline": "Document AI platform that automates data capture from documents using machine learning.",
+  "about": "Docsumo uses AI to extract, validate, and export data from documents like invoices and bank statements with minimal manual intervention.",
+  "pros": [
+    "Pre-built document extractors",
+    "Real-time validation",
+    "REST API available"
+  ],
+  "cons": [
+    "Volume-based pricing",
+    "Setup time for custom fields",
+    "Limited free tier"
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

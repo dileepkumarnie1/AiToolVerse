@@ -1,0 +1,27 @@
+{
+  "slug": "le-chat",
+  "name": "Le Chat",
+  "url": "https://chat.mistral.ai/",
+  "tagline": "Mistral AI's conversational assistant with advanced reasoning and coding capabilities.",
+  "about": "Le Chat is Mistral's conversational AI offering fast, capable responses with strong coding and reasoning abilities.",
+  "pros": [
+    "Fast responses",
+    "Good reasoning",
+    "European privacy"
+  ],
+  "cons": [
+    "Newer than competitors",
+    "Smaller ecosystem",
+    "Limited integrations"
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

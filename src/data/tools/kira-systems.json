@@ -1,0 +1,26 @@
+{
+  "slug": "kira-systems",
+  "name": "Kira Systems",
+  "url": "https://kirasystems.com/",
+  "tagline": "AI contract analysis software for due diligence and contract review.",
+  "about": "Kira uses machine learning to extract and analyze information from contracts for due diligence and compliance.",
+  "pros": [
+    "High accuracy",
+    "Multiple contract types",
+    "Due diligence focus"
+  ],
+  "cons": [
+    "Enterprise only",
+    "Expensive",
+    "Implementation needed"
+  ],
+  "capabilities": [
+    "legal"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

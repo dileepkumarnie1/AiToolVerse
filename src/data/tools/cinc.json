@@ -1,0 +1,28 @@
+{
+  "slug": "cinc",
+  "name": "CINC",
+  "url": "https://www.cincpro.com/",
+  "tagline": "AI-powered lead generation and CRM for real estate",
+  "about": "CINC (Commissions Inc) provides AI-powered lead generation, scoring, nurturing, and CRM features specifically for real estate professionals. It integrates MLS listings and personalizes property recommendations to improve conversion rates.",
+  "pros": [
+    "Excellent lead generation tools",
+    "Automated follow-up campaigns",
+    "MLS integration",
+    "Personalized property matching"
+  ],
+  "cons": [
+    "Requires monthly subscription",
+    "Learning curve for new users",
+    "Best suited for active real estate professionals"
+  ],
+  "capabilities": [
+    "real-estate",
+    "sales-crm"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

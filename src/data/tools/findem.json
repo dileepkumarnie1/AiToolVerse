@@ -1,0 +1,28 @@
+{
+  "slug": "findem",
+  "name": "Findem",
+  "url": "https://www.findem.ai/",
+  "tagline": "AI-powered people intelligence platform for finding and analyzing talent.",
+  "about": "Findem uses AI to aggregate and analyze talent data, helping recruiters find candidates matching specific attributes.",
+  "pros": [
+    "Deep analytics",
+    "Attribute-based search",
+    "Market insights"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Data privacy concerns",
+    "US-focused"
+  ],
+  "capabilities": [
+    "hr-recruiting",
+    "research-search",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

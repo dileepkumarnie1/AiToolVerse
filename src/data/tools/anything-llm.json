@@ -1,0 +1,20 @@
+{
+  "slug": "anything-llm",
+  "name": "anything-llm",
+  "url": "https://anythingllm.com/",
+  "tagline": "The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility, and more.",
+  "about": "The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility, and more.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "research-search",
+    "chat-assistant",
+    "code-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "sunsama",
+  "name": "Sunsama",
+  "url": "https://www.sunsama.com/",
+  "tagline": "Daily planner with AI that helps you plan your day mindfully and avoid burnout.",
+  "about": "Sunsama is a calm daily planner that uses AI to help you plan achievable days and maintain work-life balance.",
+  "pros": [
+    "Mindful approach",
+    "Integrations",
+    "Reduces overwork"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "Specific workflow",
+    "Not for everyone"
+  ],
+  "capabilities": [
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "colossyan",
+  "name": "Colossyan",
+  "url": "https://www.colossyan.com/",
+  "tagline": "AI video platform for creating learning and development videos with AI presenters.",
+  "about": "Colossyan specializes in creating AI-generated training videos with diverse AI presenters for corporate learning.",
+  "pros": [
+    "L&D focused",
+    "Diverse avatars",
+    "Translation features"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Specific use case",
+    "Limited creativity"
+  ],
+  "capabilities": [
+    "video-generation",
+    "avatar-video"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

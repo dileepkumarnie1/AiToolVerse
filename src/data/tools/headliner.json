@@ -1,0 +1,27 @@
+{
+  "slug": "headliner",
+  "name": "Headliner",
+  "url": "https://www.headliner.app/",
+  "tagline": "AI-powered podcast-to-video and audiogram creation.",
+  "about": "Headliner converts podcast audio into engaging videos, audiograms, and social media clips with automated transcription and waveforms.",
+  "pros": [
+    "Easy video creation",
+    "Social media optimized",
+    "Templates available"
+  ],
+  "cons": [
+    "Free tier has watermark",
+    "Limited customization",
+    "Export quality varies"
+  ],
+  "capabilities": [
+    "podcast",
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

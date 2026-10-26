@@ -1,0 +1,27 @@
+{
+  "slug": "framer-ai",
+  "name": "Framer AI",
+  "url": "https://www.framer.com/ai",
+  "tagline": "AI features within the Framer website builder for generating and editing content.",
+  "about": "Framer is a popular tool for designing and building websites. Its AI features can generate entire landing pages from a text prompt, rewrite copy to fit a specific tone, and translate your site into different languages, all within the editor.",
+  "pros": [
+    "Can generate a full, responsive website from a single prompt.",
+    "Seamlessly integrated into a powerful design tool.",
+    "The free plan is very generous."
+  ],
+  "cons": [
+    "Generated sites are a starting point and require significant refinement.",
+    "The AI works best for standard marketing page layouts.",
+    "Can be more complex than necessary for very simple sites."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "tessian",
+  "name": "Tessian",
+  "url": "https://www.tessian.com/",
+  "tagline": "AI email security that prevents data loss, phishing, and human error.",
+  "about": "Tessian uses AI to understand email behavior and prevent security incidents caused by human error.",
+  "pros": [
+    "Behavioral analysis",
+    "Phishing prevention",
+    "Easy deployment"
+  ],
+  "cons": [
+    "Email-only",
+    "Enterprise pricing",
+    "Can flag false positives"
+  ],
+  "capabilities": [
+    "cybersecurity",
+    "email"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

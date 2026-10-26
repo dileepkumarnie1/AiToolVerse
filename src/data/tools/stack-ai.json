@@ -1,0 +1,29 @@
+{
+  "slug": "stack-ai",
+  "name": "Stack AI",
+  "url": "https://www.stack-ai.com/",
+  "tagline": "No-code platform for building AI workflows and chatbots with LLMs.",
+  "about": "Stack AI provides a visual builder for creating AI workflows and chatbots using various LLMs and data sources.",
+  "pros": [
+    "Visual workflow builder",
+    "Multiple LLMs",
+    "Data connectors"
+  ],
+  "cons": [
+    "Learning curve",
+    "Pricing",
+    "New platform"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "code-assistant",
+    "app-builder"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

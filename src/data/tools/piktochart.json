@@ -1,0 +1,28 @@
+{
+  "slug": "piktochart",
+  "name": "Piktochart",
+  "url": "https://piktochart.com/",
+  "tagline": "AI-powered visual content maker for infographics, presentations, and reports.",
+  "about": "Piktochart uses AI to help create infographics, presentations, and visual reports from data.",
+  "pros": [
+    "Infographic focus",
+    "Data visualization",
+    "Easy to use"
+  ],
+  "cons": [
+    "Infographic-oriented",
+    "Subscription for full features",
+    "Limited customization"
+  ],
+  "capabilities": [
+    "graphic-design",
+    "writing",
+    "presentations"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

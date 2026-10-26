@@ -1,0 +1,29 @@
+{
+  "slug": "mutableai",
+  "name": "MutableAI",
+  "url": "https://mutable.ai/",
+  "tagline": "AI development tool for writing tests, documentation, and refactoring code.",
+  "about": "MutableAI focuses on AI-powered test generation, documentation creation, and code refactoring for development teams.",
+  "pros": [
+    "Auto test generation",
+    "Doc generation",
+    "Refactoring assistance"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "Variable test quality",
+    "Limited languages"
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "writing",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

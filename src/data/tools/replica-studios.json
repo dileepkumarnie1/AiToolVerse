@@ -1,0 +1,27 @@
+{
+  "slug": "replica-studios",
+  "name": "Replica Studios",
+  "url": "https://replicastudios.com/",
+  "tagline": "AI voice actors for games, film, and VR.",
+  "about": "Replica provides AI voice acting for games, virtual reality, and animation with a library of voice actors and emotion control.",
+  "pros": [
+    "High-quality voice acting",
+    "Emotion and style control",
+    "Good for game development"
+  ],
+  "cons": [
+    "Subscription model",
+    "Limited to certain use cases",
+    "Ethical considerations"
+  ],
+  "capabilities": [
+    "voice-tts",
+    "gaming-3d"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

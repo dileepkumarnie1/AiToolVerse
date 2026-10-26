@@ -1,0 +1,26 @@
+{
+  "slug": "audiobox",
+  "name": "Audiobox",
+  "url": "https://ai.meta.com/audiobox/",
+  "tagline": "Meta's AI audio generator for creating custom sound effects and ambient audio.",
+  "about": "Audiobox by Meta generates custom sound effects, ambient audio, and voice transformations using AI from text descriptions.",
+  "pros": [
+    "Free to use",
+    "Good quality",
+    "Variety of sounds"
+  ],
+  "cons": [
+    "Limited availability",
+    "Research focus",
+    "Less polished UI"
+  ],
+  "capabilities": [
+    "music-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

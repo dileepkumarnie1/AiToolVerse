@@ -1,0 +1,29 @@
+{
+  "slug": "pyht",
+  "name": "pyht",
+  "url": "https://play.ht/",
+  "tagline": "The Best AI Voice Generator with 200+ realistic AI voices. PlayAI is the voice platform for creators &amp; enterprises. See our low latency Text to Speech API.",
+  "about": "The Best AI Voice Generator with 200+ realistic AI voices. PlayAI is the voice platform for creators &amp; enterprises. See our low latency Text to Speech API.",
+  "pros": [
+    "Good for drafting and Q&A.",
+    "Accelerates video creation.",
+    "Useful for voice and audio workflows."
+  ],
+  "cons": [
+    "May require fact‑checking.",
+    "Render times or credit limits may apply.",
+    "May need cleanup for artifacts."
+  ],
+  "capabilities": [
+    "music-generation",
+    "chat-assistant",
+    "developer-api",
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

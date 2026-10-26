@@ -1,0 +1,30 @@
+{
+  "slug": "clara",
+  "name": "Clara",
+  "url": "https://claralabs.com/",
+  "tagline": "Virtual assistant for meeting coordination handling scheduling via email in natural language like a human assistant.",
+  "about": "Clara offers near-human virtual assistant capabilities for meeting coordination. It handles scheduling via email in natural language, automates replies and reminders, and manages multi-participant coordination while learning your communication style.",
+  "pros": [
+    "Near-human email interaction",
+    "Multi-participant coordination",
+    "Learns communication style",
+    "Professional appearance"
+  ],
+  "cons": [
+    "Higher cost",
+    "Email-only interface",
+    "May need training period"
+  ],
+  "capabilities": [
+    "scheduling",
+    "chat-assistant",
+    "meeting-notes",
+    "email"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

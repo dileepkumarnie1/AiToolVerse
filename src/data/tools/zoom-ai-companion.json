@@ -1,0 +1,18 @@
+{
+  "slug": "zoom-ai-companion",
+  "name": "Zoom AI Companion",
+  "url": "https://www.zoom.com/en/ai-companion/",
+  "tagline": "AI assistant integrated into Zoom for meeting summaries, notes, and productivity.",
+  "about": "Zoom AI Companion helps summarize meetings, draft messages, and support collaboration across Zoom experiences.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "meeting-notes"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

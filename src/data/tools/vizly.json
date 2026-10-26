@@ -1,0 +1,28 @@
+{
+  "slug": "vizly",
+  "name": "Vizly",
+  "url": "https://www.vizly.fyi/",
+  "tagline": "AI data analyst that creates visualizations and insights from your data automatically.",
+  "about": "Vizly uses AI to analyze your data and create beautiful charts and insights without any coding or data science skills.",
+  "pros": [
+    "Beautiful charts",
+    "Automatic insights",
+    "Easy to use"
+  ],
+  "cons": [
+    "Limited customization",
+    "Data size limits",
+    "Newer platform"
+  ],
+  "capabilities": [
+    "data-analysis",
+    "science",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

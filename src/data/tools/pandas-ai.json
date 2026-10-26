@@ -1,0 +1,27 @@
+{
+  "slug": "pandas-ai",
+  "name": "pandas-ai",
+  "url": "https://pandas-ai.com/",
+  "tagline": "Build AI Agents in 3 Lines of Code",
+  "about": "Build AI Agents in 3 Lines of Code",
+  "pros": [
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "data-analysis",
+    "developer-api",
+    "graphic-design",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

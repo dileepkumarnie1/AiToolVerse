@@ -1,0 +1,26 @@
+{
+  "slug": "people-ai",
+  "name": "People.ai",
+  "url": "https://people.ai/",
+  "tagline": "AI revenue operations and intelligence platform.",
+  "about": "People.ai automatically captures and analyzes revenue activities to provide insights on pipeline, forecasting, and team performance.",
+  "pros": [
+    "Automatic activity capture",
+    "Revenue insights",
+    "Good integrations"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complex platform",
+    "Requires buy-in"
+  ],
+  "capabilities": [
+    "sales-crm"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

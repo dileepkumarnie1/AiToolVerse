@@ -1,0 +1,29 @@
+{
+  "slug": "topaz-video-ai",
+  "name": "Topaz Video AI",
+  "url": "https://www.topazlabs.com/topaz-video-ai",
+  "tagline": "AI video enhancement and upscaling for improving video quality and resolution",
+  "about": "Topaz Video AI specializes in enhancing and upscaling video quality using AI, making old or low-resolution footage look sharper and more professional.",
+  "pros": [
+    "Excellent video quality enhancement",
+    "Professional-grade upscaling",
+    "Batch processing capabilities",
+    "One-time purchase model"
+  ],
+  "cons": [
+    "Higher upfront cost",
+    "Resource-intensive processing",
+    "Requires powerful hardware for best results"
+  ],
+  "capabilities": [
+    "video-generation",
+    "photo-editing",
+    "video-editing"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

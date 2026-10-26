@@ -1,0 +1,28 @@
+{
+  "slug": "pipedream",
+  "name": "Pipedream",
+  "url": "https://pipedream.com/",
+  "tagline": "Developer-focused automation platform with code and AI capabilities.",
+  "about": "Pipedream provides workflow automation for developers with the ability to write code and use AI in automations.",
+  "pros": [
+    "Developer-friendly",
+    "Free tier generous",
+    "Code support"
+  ],
+  "cons": [
+    "Technical focus",
+    "Less visual",
+    "Not for non-developers"
+  ],
+  "capabilities": [
+    "automation",
+    "code-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

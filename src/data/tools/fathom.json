@@ -1,0 +1,30 @@
+{
+  "slug": "fathom",
+  "name": "Fathom",
+  "url": "https://fathom.video/",
+  "tagline": "Free high-quality transcription with instant summaries and action items for budget-conscious teams.",
+  "about": "Fathom offers surprisingly robust features on its free tier, including high-quality transcription, instant meeting summaries, and action item extraction. It's perfect for individuals and small teams on a budget.",
+  "pros": [
+    "Generous free tier with robust features",
+    "Quick and accurate summary generation",
+    "Action item extraction",
+    "Easy to use"
+  ],
+  "cons": [
+    "Advanced integrations limited on free plan",
+    "Less analytics than premium tools",
+    "Some features require paid upgrade"
+  ],
+  "capabilities": [
+    "meeting-notes",
+    "chat-assistant",
+    "summarization",
+    "notes-knowledge"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

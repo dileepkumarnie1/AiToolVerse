@@ -1,0 +1,22 @@
+{
+  "slug": "comfyui-deepfuze",
+  "name": "ComfyUI-DeepFuze",
+  "url": "https://cogidigm.com/",
+  "tagline": "Home - CogiDigm",
+  "about": "Home - CogiDigm",
+  "pros": [
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "music-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

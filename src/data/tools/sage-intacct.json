@@ -1,0 +1,27 @@
+{
+  "slug": "sage-intacct",
+  "name": "Sage Intacct",
+  "url": "https://www.sage.com/en-us/sage-business-cloud/intacct/",
+  "tagline": "Enterprise AI-driven financial management and ERP",
+  "about": "Sage Intacct is popular among mid-sized and larger enterprises. Its AI assistant automates procurement, audit-readiness, and reporting workflows, and integrates robustly with existing ERP systems for comprehensive financial management.",
+  "pros": [
+    "Powerful for mid-size businesses",
+    "Excellent reporting capabilities",
+    "Strong multi-entity support",
+    "Audit-ready compliance"
+  ],
+  "cons": [
+    "Expensive for small businesses",
+    "Complex implementation",
+    "Steep learning curve"
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

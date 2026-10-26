@@ -1,0 +1,29 @@
+{
+  "slug": "roomvo",
+  "name": "Roomvo",
+  "url": "https://www.roomvo.com/",
+  "tagline": "AI-powered room visualization for flooring, tile, and home improvement retailers.",
+  "about": "Roomvo helps shoppers visualize flooring and tile products in their own rooms using AI-powered augmented reality.",
+  "pros": [
+    "Product-specific",
+    "Retail integration",
+    "AR visualization"
+  ],
+  "cons": [
+    "B2B focus",
+    "Flooring/tile only",
+    "Partner dependent"
+  ],
+  "capabilities": [
+    "interior-design",
+    "graphic-design",
+    "ecommerce",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

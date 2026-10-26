@@ -1,0 +1,27 @@
+{
+  "slug": "masterpiece-studio",
+  "name": "Masterpiece Studio",
+  "url": "https://masterpiecestudio.com/",
+  "tagline": "A suite of AI tools for generating and editing 3D models from text or images.",
+  "about": "Masterpiece Studio provides a generative AI platform that can create 3D models, textures, and animations from various inputs like text, images, or video. It's designed to accelerate the workflow for game developers, artists, and animators.",
+  "pros": [
+    "Can generate 3D models from multiple types of input.",
+    "Aims to be a complete solution for 3D creation.",
+    "Offers a free tier to test the platform."
+  ],
+  "cons": [
+    "Generated 3D models often require manual cleanup and optimization.",
+    "The technology is still rapidly evolving.",
+    "Can be complex to master all the available tools."
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

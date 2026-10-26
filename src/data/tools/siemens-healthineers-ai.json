@@ -1,0 +1,27 @@
+{
+  "slug": "siemens-healthineers-ai",
+  "name": "Siemens Healthineers AI",
+  "url": "https://www.siemens-healthineers.com/",
+  "tagline": "AI-enhanced medical imaging and diagnostics platform",
+  "about": "Siemens Healthineers provides AI-powered MRI, CT, and X-ray analysis that integrates imaging data with electronic health records for enhanced accuracy. It boosts diagnostic precision in radiology and speeds up workflow with evidence-based insights.",
+  "pros": [
+    "Comprehensive imaging solutions",
+    "EHR integration",
+    "High diagnostic accuracy",
+    "Global support network"
+  ],
+  "cons": [
+    "Enterprise-level investment",
+    "Complex deployment",
+    "Requires specialized training"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

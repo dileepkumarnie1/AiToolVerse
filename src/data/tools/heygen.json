@@ -1,0 +1,29 @@
+{
+  "slug": "heygen",
+  "name": "HeyGen",
+  "url": "https://www.heygen.com/",
+  "tagline": "A platform for creating AI spokesperson videos and translating video content.",
+  "about": "HeyGen is an AI video platform that specializes in generating spokesperson videos with realistic avatars. Its standout feature is AI-powered video translation, which can change the spoken language of a person in a video while syncing their lip movements.",
+  "pros": [
+    "Impressive video translation and lip-sync feature.",
+    "Good selection of high-quality AI avatars.",
+    "Free trial allows for the creation of a short video."
+  ],
+  "cons": [
+    "Credit-based system can become expensive.",
+    "Avatar customization is limited on lower-tier plans.",
+    "Processing times for videos can be long."
+  ],
+  "capabilities": [
+    "video-generation",
+    "avatar-video",
+    "translation",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 96,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

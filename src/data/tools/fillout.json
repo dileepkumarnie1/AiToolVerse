@@ -1,0 +1,27 @@
+{
+  "slug": "fillout",
+  "name": "Fillout",
+  "url": "https://www.fillout.com/",
+  "tagline": "Modern form builder with AI features and powerful integrations",
+  "about": "Fillout is a modern, powerful form builder with AI capabilities, scheduling features, and seamless integrations for collecting information and payments.",
+  "pros": [
+    "Modern, clean interface",
+    "Generous free tier (unlimited forms)",
+    "Scheduling and payment features",
+    "Good integrations"
+  ],
+  "cons": [
+    "Newer platform with evolving features",
+    "Smaller community than established competitors",
+    "Some advanced features coming soon"
+  ],
+  "capabilities": [
+    "forms-surveys"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

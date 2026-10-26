@@ -1,0 +1,28 @@
+{
+  "slug": "rath",
+  "name": "Rath",
+  "url": "https://kanaries.net/rath",
+  "tagline": "Open-source AI data exploration tool with automated pattern discovery.",
+  "about": "Rath automatically discovers patterns and generates visualizations from your data using AI, with open-source flexibility.",
+  "pros": [
+    "Open source",
+    "Automatic discovery",
+    "Pattern detection"
+  ],
+  "cons": [
+    "Technical setup",
+    "Less polished UI",
+    "Smaller community"
+  ],
+  "capabilities": [
+    "data-analysis",
+    "science",
+    "automation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

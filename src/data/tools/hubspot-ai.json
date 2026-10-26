@@ -1,0 +1,28 @@
+{
+  "slug": "hubspot-ai",
+  "name": "HubSpot AI",
+  "url": "https://www.hubspot.com/ai",
+  "tagline": "AI writing, content, and CRM assistance within HubSpot.",
+  "about": "HubSpot AI helps draft emails, generate content, and surface insights across Marketing, Sales, and Service Hubs.",
+  "pros": [
+    "Good for SMB and mid‑market.",
+    "Simple UX.",
+    "Free tier options."
+  ],
+  "cons": [
+    "Depth varies by hub/tier.",
+    "Less flexible than custom stacks.",
+    "May require data cleanup."
+  ],
+  "capabilities": [
+    "sales-crm",
+    "writing",
+    "marketing-seo"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

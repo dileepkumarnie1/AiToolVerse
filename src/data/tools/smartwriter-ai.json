@@ -1,0 +1,30 @@
+{
+  "slug": "smartwriter-ai",
+  "name": "SmartWriter.ai",
+  "url": "https://www.smartwriter.ai/",
+  "tagline": "AI tool for personalizing cold outreach at scale with automated research and custom icebreakers.",
+  "about": "SmartWriter.ai focuses on personalizing cold outreach emails at scale. It automatically researches prospects and generates custom icebreakers, making it ideal for sales teams managing large outreach campaigns.",
+  "pros": [
+    "Automated prospect research",
+    "Personalized icebreakers at scale",
+    "Good for cold outreach",
+    "Time-saving for sales teams"
+  ],
+  "cons": [
+    "Expensive for individual users",
+    "Requires good prospect data",
+    "Can feel automated if not customized"
+  ],
+  "capabilities": [
+    "email",
+    "chat-assistant",
+    "automation",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

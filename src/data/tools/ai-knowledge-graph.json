@@ -1,0 +1,18 @@
+{
+  "slug": "ai-knowledge-graph",
+  "name": "ai-knowledge-graph",
+  "url": "https://robert-mcdermott.medium.com/from-unstructured-text-to-interactive-knowledge-graphs-using-llms-dd02a1f71cd6",
+  "tagline": "AI Powered Knowledge Graph Generator",
+  "about": "AI Powered Knowledge Graph Generator",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "research-search"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

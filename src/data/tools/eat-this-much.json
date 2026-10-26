@@ -1,0 +1,26 @@
+{
+  "slug": "eat-this-much",
+  "name": "Eat This Much",
+  "url": "https://www.eatthismuch.com/",
+  "tagline": "AI meal planner that creates customized nutrition plans based on your goals and preferences.",
+  "about": "Eat This Much uses AI to generate meal plans that fit your nutritional targets, dietary restrictions, and food preferences.",
+  "pros": [
+    "Automatic meal planning",
+    "Grocery lists generated",
+    "Flexible dietary options"
+  ],
+  "cons": [
+    "Premium features paid",
+    "Recipe variety varies",
+    "US-centric ingredients"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

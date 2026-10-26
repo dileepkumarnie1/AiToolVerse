@@ -1,0 +1,26 @@
+{
+  "slug": "udio",
+  "name": "Udio",
+  "url": "https://www.udio.com/",
+  "tagline": "A new and powerful AI music generation tool for creating full tracks with vocals.",
+  "about": "Udio is a recent entrant in the AI music generation space that has quickly gained popularity for its high-quality output. Similar to Suno, it can generate complete songs with lyrics and vocals from text prompts, often with surprisingly coherent and catchy results.",
+  "pros": [
+    "Generates very high-quality and coherent music.",
+    "Generous free tier with a large number of monthly credits.",
+    "Simple and fun to use."
+  ],
+  "cons": [
+    "As a new service, long-term availability is unknown.",
+    "Can have long queues during peak demand.",
+    "Limited fine-tuning controls for advanced users."
+  ],
+  "capabilities": [
+    "music-generation"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "screenpal",
+  "name": "ScreenPal",
+  "url": "https://screenpal.com/",
+  "tagline": "Easy screen capture with AI-generated captions, content recognition, and editing tools",
+  "about": "ScreenPal (formerly Screencast-O-Matic) is an affordable screen recording and editing tool with AI-powered captions and content recognition, perfect for educators and trainers.",
+  "pros": [
+    "Affordable pricing for educators and students",
+    "AI-generated captions and transcription",
+    "Easy to use for beginners",
+    "Cross-platform support (Windows, Mac, Chrome)"
+  ],
+  "cons": [
+    "Limited advanced editing features compared to pro tools",
+    "Watermark on free version recordings",
+    "Storage limits on lower tier plans"
+  ],
+  "capabilities": [
+    "screen-recording",
+    "education-tutor",
+    "writing",
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

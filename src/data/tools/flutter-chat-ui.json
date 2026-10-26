@@ -1,0 +1,26 @@
+{
+  "slug": "flutter-chat-ui",
+  "name": "flutter_chat_ui",
+  "url": "https://flyer.chat/",
+  "tagline": "Open-source chat SDK for Flutter and React Native. Build fast, real-time apps and AI agents with a high-performance, customizable, cross-platform UI.",
+  "about": "Open-source chat SDK for Flutter and React Native. Build fast, real-time apps and AI agents with a high-performance, customizable, cross-platform UI.",
+  "pros": [
+    "Good for drafting and Q&A.",
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "May require fact‑checking.",
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "graphic-design",
+    "agents"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

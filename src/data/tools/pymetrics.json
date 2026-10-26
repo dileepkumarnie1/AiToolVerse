@@ -1,0 +1,28 @@
+{
+  "slug": "pymetrics",
+  "name": "Pymetrics",
+  "url": "https://www.pymetrics.ai/",
+  "tagline": "AI-based talent matching using neuroscience games instead of resumes.",
+  "about": "Pymetrics uses neuroscience-based games and AI to match candidates to roles based on cognitive and emotional traits.",
+  "pros": [
+    "Bias reduction",
+    "Skills-based",
+    "Candidate experience"
+  ],
+  "cons": [
+    "Unusual approach",
+    "Enterprise only",
+    "Game acceptance varies"
+  ],
+  "capabilities": [
+    "hr-recruiting",
+    "gaming-3d",
+    "responsible-ai"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

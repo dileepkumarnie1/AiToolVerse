@@ -1,0 +1,27 @@
+{
+  "slug": "leonardo-ai",
+  "name": "Leonardo Ai",
+  "url": "https://leonardo.ai/",
+  "tagline": "A platform for generating game assets, concept art, and other artistic images.",
+  "about": "Leonardo Ai is a generative AI platform focused on creative assets. It offers a suite of tools, including image generation, AI canvas for editing, and the ability to train your own custom models on your art style.",
+  "pros": [
+    "Generous free tier with daily credits.",
+    "Ability to train custom models.",
+    "Strong focus on gaming and creative asset generation."
+  ],
+  "cons": [
+    "Interface can be complex for new users.",
+    "Image quality can be less consistent than Midjourney.",
+    "Popularity can lead to slow generation times."
+  ],
+  "capabilities": [
+    "image-generation",
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

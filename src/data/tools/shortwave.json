@@ -1,0 +1,29 @@
+{
+  "slug": "shortwave",
+  "name": "Shortwave",
+  "url": "https://www.shortwave.com/",
+  "tagline": "AI-powered email with smart organization, search, and writing assistance.",
+  "about": "Shortwave provides AI-powered email with smart organization and writing features.",
+  "pros": [
+    "Great organization",
+    "AI features",
+    "Clean design"
+  ],
+  "cons": [
+    "Gmail only",
+    "Subscription",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "email",
+    "chat-assistant",
+    "writing",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

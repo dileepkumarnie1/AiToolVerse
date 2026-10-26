@@ -1,0 +1,26 @@
+{
+  "slug": "ada-health",
+  "name": "Ada Health",
+  "url": "https://ada.com/",
+  "tagline": "AI-powered symptom assessment and health guide for patients and providers.",
+  "about": "Ada uses AI to assess symptoms through a conversational interface, helping users understand conditions and next steps.",
+  "pros": [
+    "Easy to use",
+    "Comprehensive symptoms",
+    "Free app"
+  ],
+  "cons": [
+    "Not diagnosis",
+    "May cause anxiety",
+    "Accuracy varies"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

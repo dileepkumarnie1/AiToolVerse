@@ -1,0 +1,22 @@
+{
+  "slug": "photoprism",
+  "name": "photoprism",
+  "url": "https://www.photoprism.app/",
+  "tagline": "AI-Powered Photos App for the Decentralized Web",
+  "about": "AI-Powered Photos App for the Decentralized Web",
+  "pros": [
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

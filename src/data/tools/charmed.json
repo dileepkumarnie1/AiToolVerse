@@ -1,0 +1,26 @@
+{
+  "slug": "charmed",
+  "name": "Charmed",
+  "url": "https://charmed.ai/",
+  "tagline": "AI tools for game development including texture generation and 3D asset creation.",
+  "about": "Charmed provides AI tools for game developers to generate textures, 3D assets, and other game content.",
+  "pros": [
+    "Game-focused tools",
+    "Multiple asset types",
+    "Easy integration"
+  ],
+  "cons": [
+    "Early stage",
+    "Limited features",
+    "Pricing unclear"
+  ],
+  "capabilities": [
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

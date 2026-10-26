@@ -1,0 +1,28 @@
+{
+  "slug": "writesonic-paraphraser",
+  "name": "Writesonic Paraphraser",
+  "url": "https://writesonic.com/",
+  "tagline": "Fast AI paraphrasing for blog posts, articles, and SEO content optimization",
+  "about": "Writesonic's paraphrasing tool helps quickly rewrite blog posts, articles, and marketing content with SEO optimization in mind, making it ideal for content marketers and bloggers.",
+  "pros": [
+    "Fast rewriting for long-form content",
+    "SEO-focused features",
+    "Good for content repurposing",
+    "Multiple output variations"
+  ],
+  "cons": [
+    "Can be less nuanced than specialized paraphrasers",
+    "Credit-based pricing model",
+    "May require manual editing for technical content"
+  ],
+  "capabilities": [
+    "writing",
+    "marketing-seo"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "colormind",
+  "name": "Colormind",
+  "url": "https://colormind.io/",
+  "tagline": "AI color scheme generator that creates palettes from images or themes.",
+  "about": "Colormind uses deep learning to generate color schemes, extracting palettes from images or creating from scratch.",
+  "pros": [
+    "Free to use",
+    "Image extraction",
+    "Template integration"
+  ],
+  "cons": [
+    "Basic interface",
+    "Limited features",
+    "No account system"
+  ],
+  "capabilities": [
+    "graphic-design"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

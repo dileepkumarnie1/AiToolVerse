@@ -1,0 +1,28 @@
+{
+  "slug": "reimagine-home",
+  "name": "REimagine Home",
+  "url": "https://www.reimaginehome.ai/",
+  "tagline": "AI home staging and interior design for real estate and homeowners.",
+  "about": "REimagine Home uses AI to virtually stage and redesign rooms, popular with real estate professionals.",
+  "pros": [
+    "Virtual staging",
+    "Real estate focus",
+    "Multiple styles"
+  ],
+  "cons": [
+    "Credits system",
+    "Quality varies",
+    "Limited editing"
+  ],
+  "capabilities": [
+    "interior-design",
+    "graphic-design",
+    "real-estate"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

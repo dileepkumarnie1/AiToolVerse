@@ -1,0 +1,27 @@
+{
+  "slug": "kapwing",
+  "name": "Kapwing",
+  "url": "https://www.kapwing.com/",
+  "tagline": "Online collaborative video editing platform with AI-powered tools.",
+  "about": "Kapwing offers browser-based video editing with AI features for subtitles, background removal, and content creation.",
+  "pros": [
+    "Collaborative editing",
+    "No download needed",
+    "AI subtitle generation"
+  ],
+  "cons": [
+    "Watermark in free tier",
+    "Processing can be slow",
+    "Limited advanced features"
+  ],
+  "capabilities": [
+    "video-generation",
+    "video-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "manus",
+  "name": "Manus",
+  "url": "https://en.wikipedia.org/wiki/Manus_(AI_agent)",
+  "tagline": "Commercial autonomous agent capable of independent planning and execution.",
+  "about": "Released in 2025, Manus is considered the first true commercial autonomous AI agent. It plans and executes complex workflows without continuous human oversight.",
+  "pros": [
+    "Commercial-grade autonomy.",
+    "First mover in autonomous agents.",
+    "Potential to set new standards."
+  ],
+  "cons": [
+    "Very new, adoption unknown.",
+    "Safety and oversight concerns.",
+    "Likely expensive."
+  ],
+  "capabilities": [
+    "agents"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

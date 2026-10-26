@@ -1,0 +1,28 @@
+{
+  "slug": "smartling",
+  "name": "Smartling",
+  "url": "https://www.smartling.com/",
+  "tagline": "Enterprise AI translation with human post-editing, risk assessment, and workflow automation for large-scale projects.",
+  "about": "Smartling is an enterprise-level solution combining AI translation with human post-editing. It includes built-in translation risk assessment, workflow automation, and is designed for organizations needing granular control over quality and compliance.",
+  "pros": [
+    "Hybrid AI + human approach",
+    "Advanced quality control",
+    "Workflow automation",
+    "Enterprise-grade features"
+  ],
+  "cons": [
+    "Higher learning curve",
+    "Premium enterprise pricing",
+    "Complex for simple projects"
+  ],
+  "capabilities": [
+    "translation",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

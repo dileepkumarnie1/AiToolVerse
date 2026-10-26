@@ -1,0 +1,29 @@
+{
+  "slug": "zoho-books",
+  "name": "Zoho Books",
+  "url": "https://www.zoho.com/books/",
+  "tagline": "Smart automation for invoicing and financial analytics",
+  "about": "Zoho Books offers smart automation for invoice handling, predictive analytics, and global team support. Seamless integration with other Zoho products is an advantage for teams using a broader Zoho ecosystem.",
+  "pros": [
+    "Affordable pricing",
+    "Good Zoho ecosystem integration",
+    "Multi-currency support",
+    "Automation features"
+  ],
+  "cons": [
+    "Interface can feel dated",
+    "Customer support could be better",
+    "Some features require higher tiers"
+  ],
+  "capabilities": [
+    "finance",
+    "data-analysis",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "figma-ai",
+  "name": "Figma AI (Diagram)",
+  "url": "https://www.figma.com/blog/introducing-figma-ai/",
+  "tagline": "AI plugins and widgets within Figma to automate design tasks.",
+  "about": "While Figma itself is a design tool, its ecosystem is rich with AI plugins. Diagram, for instance, can automatically generate flowcharts and diagrams from text. Other plugins assist with generating UI copy, color palettes, and design assets.",
+  "pros": [
+    "Integrates directly into the industry-standard design tool.",
+    "Massive time-saver for repetitive design tasks.",
+    "Many plugins are free to use."
+  ],
+  "cons": [
+    "Functionality is dependent on third-party plugin developers.",
+    "Can be a collection of single-task tools rather than one cohesive AI.",
+    "Quality and reliability of plugins can vary."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "diagrams",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

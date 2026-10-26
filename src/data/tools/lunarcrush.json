@@ -1,0 +1,28 @@
+{
+  "slug": "lunarcrush",
+  "name": "LunarCrush",
+  "url": "https://lunarcrush.com/",
+  "tagline": "AI-powered social analytics for crypto and NFT markets.",
+  "about": "LunarCrush uses AI to analyze social media sentiment and activity around cryptocurrencies and NFTs.",
+  "pros": [
+    "Social sentiment",
+    "Real-time data",
+    "Good visualizations"
+  ],
+  "cons": [
+    "Subscription for full features",
+    "Social bias possible",
+    "Prediction limitations"
+  ],
+  "capabilities": [
+    "finance",
+    "social-media",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

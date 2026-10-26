@@ -1,0 +1,28 @@
+{
+  "slug": "stampli",
+  "name": "Stampli",
+  "url": "https://www.stampli.com/",
+  "tagline": "AI-powered accounts payable automation with invoice processing.",
+  "about": "Stampli uses AI to automate accounts payable, learning from your approvals to speed up invoice processing.",
+  "pros": [
+    "Learns from behavior",
+    "Easy to use",
+    "Good integrations"
+  ],
+  "cons": [
+    "AP-focused only",
+    "Volume-based pricing",
+    "Some manual review still needed"
+  ],
+  "capabilities": [
+    "finance",
+    "automation",
+    "voice-tts"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

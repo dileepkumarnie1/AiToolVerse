@@ -1,0 +1,26 @@
+{
+  "slug": "summarizebot",
+  "name": "SummarizeBot",
+  "url": "https://www.summarizebot.com/",
+  "tagline": "AI tool that summarizes text, URLs, images, and audio files.",
+  "about": "SummarizeBot can summarize various content types including text, articles, PDFs, and even images with text.",
+  "pros": [
+    "Multiple formats",
+    "API available",
+    "Quick processing"
+  ],
+  "cons": [
+    "Limited free tier",
+    "Accuracy varies",
+    "Basic interface"
+  ],
+  "capabilities": [
+    "summarization"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

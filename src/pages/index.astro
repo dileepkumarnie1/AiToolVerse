@@ -1,0 +1,134 @@
+---
+import Base from '../layouts/Base.astro';
+import ToolTile from '../components/ToolTile';
+import PipelineTile from '../components/PipelineTile';
+import { categories, capabilityById, goals, newestTools, pipelines, tools, toolsInCategory, toPipelineIndexEntry } from '../lib/catalog';
+
+const featuredPipelines = ['start-a-youtube-channel', 'build-an-app-without-code', 'study-smarter-for-exams', 'never-take-meeting-notes-again', 'make-music-with-ai', 'launch-a-landing-page']
+  .map((slug) => pipelines.find((p) => p.slug === slug))
+  .filter((p) => p !== undefined)
+  .map(toPipelineIndexEntry);
+const fresh = newestTools(8);
+const toolCount = Math.floor(tools.length / 50) * 50;
+---
+
+<Base
+  title="AIToolVerse — Find the right AI tools and the fastest path to your goal"
+  description={`Answer a few questions and get a personal AI toolkit. ${toolCount}+ tools, step-by-step pipelines for work, study, content and hobbies, updated every two days.`}
+  jsonLd={{ '@context': 'https://schema.org', '@type': 'WebSite', name: 'AIToolVerse', url: 'https://aitoolverse.ai/', potentialAction: { '@type': 'SearchAction', target: 'https://aitoolverse.ai/tools/?q={query}', 'query-input': 'required name=query' } }}
+>
+  <section class="relative overflow-hidden">
+    <div class="pointer-events-none absolute inset-x-0 -top-40 -z-10 mx-auto h-[520px] max-w-4xl rounded-full bg-linear-to-r from-brand-300/40 via-fuchsia-300/30 to-orange-200/30 blur-3xl dark:from-brand-600/25 dark:via-fuchsia-600/15 dark:to-orange-500/10"></div>
+    <div class="container-page pb-16 pt-16 text-center sm:pt-24">
+      <p class="chip mx-auto gap-2 py-1">
+        <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
+        {toolCount}+ tools · {pipelines.length} pipelines · updated every 2 days
+      </p>
+      <h1 class="heading-xl mx-auto mt-6 max-w-4xl">
+        Find the right AI tools, <span class="gradient-text">and the fastest path</span> to your goal.
+      </h1>
+      <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed muted">
+        Tell us what you want to achieve. We match you with the tools that fit your skills and budget, and show the step-by-step pipeline to get it done.
+      </p>
+      <div class="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
+        <a href="/start/" class="btn-primary px-7 py-3 text-base">Get my personal plan</a>
+        <a href="/pipelines/" class="btn-secondary px-7 py-3 text-base">Browse pipelines</a>
+      </div>
+      <form action="/tools/" method="get" role="search" class="mx-auto mt-10 flex max-w-xl items-center gap-2 rounded-full border border-ink-200 bg-white p-1.5 pl-5 shadow-sm dark:border-white/10 dark:bg-ink-900">
+        <label for="hero-search" class="sr-only">Search AI tools</label>
+        <svg aria-hidden="true" class="h-5 w-5 text-ink-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+        <input id="hero-search" name="q" type="search" placeholder="Try “voiceover”, “logo”, “meeting notes”…" class="w-full bg-transparent py-2 text-sm outline-none placeholder:text-ink-400" />
+        <button class="btn-primary py-2" type="submit">Search</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="container-page" aria-labelledby="goals-heading">
+    <div class="flex items-end justify-between gap-4">
+      <div>
+        <p class="eyebrow">Start with your goal</p>
+        <h2 id="goals-heading" class="heading-lg mt-2">What do you want to get done?</h2>
+      </div>
+    </div>
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        goals.map((g) => (
+          <a href={`/start/?goal=${g.id}`} class="card card-hover group p-6">
+            <h3 class="font-semibold text-ink-900 group-hover:text-brand-700 dark:text-white dark:group-hover:text-brand-300">{g.label}</h3>
+            <p class="mt-1.5 text-sm muted">{g.description}</p>
+            <p class="mt-4 flex flex-wrap gap-1.5">
+              {g.capabilities.slice(0, 3).map((c) => <span class="chip">{capabilityById.get(c)?.label}</span>)}
+            </p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="container-page mt-24" aria-labelledby="pipelines-heading">
+    <div class="flex items-end justify-between gap-4">
+      <div>
+        <p class="eyebrow">Pipelines</p>
+        <h2 id="pipelines-heading" class="heading-lg mt-2">Proven paths from idea to result</h2>
+        <p class="mt-2 max-w-2xl muted">Each pipeline chains the right tools in the right order, with tips for every step.</p>
+      </div>
+      <a href="/pipelines/" class="hidden text-sm font-semibold text-brand-700 hover:underline sm:block dark:text-brand-300">All pipelines →</a>
+    </div>
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {featuredPipelines.map((p) => <PipelineTile pipeline={p} />)}
+    </div>
+  </section>
+
+  <section class="container-page mt-24" aria-labelledby="new-heading">
+    <div class="flex items-end justify-between gap-4">
+      <div>
+        <p class="eyebrow">Fresh</p>
+        <h2 id="new-heading" class="heading-lg mt-2">New and trending tools</h2>
+      </div>
+      <a href="/trending/" class="text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">See trending →</a>
+    </div>
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {fresh.map((t) => <ToolTile tool={t} capabilityLabel={capabilityById.get(t.capabilities[0])?.label} />)}
+    </div>
+  </section>
+
+  <section class="container-page mt-24" aria-labelledby="cat-heading">
+    <p class="eyebrow">Browse</p>
+    <h2 id="cat-heading" class="heading-lg mt-2">Explore by category</h2>
+    <div class="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      {
+        categories.map((c) => (
+          <a href={`/categories/${c.id}/`} class="card card-hover flex items-center justify-between p-4">
+            <span class="font-medium text-ink-900 dark:text-white">{c.label}</span>
+            <span class="text-xs muted">{toolsInCategory(c.id).length}</span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="container-page mt-24" aria-labelledby="how-heading">
+    <div class="card overflow-hidden p-8 sm:p-12">
+      <p class="eyebrow">How it works</p>
+      <h2 id="how-heading" class="heading-lg mt-2">Less browsing. More doing.</h2>
+      <ol class="mt-8 grid gap-8 sm:grid-cols-3">
+        <li>
+          <span class="text-sm font-semibold text-brand-600 dark:text-brand-300">01</span>
+          <h3 class="mt-2 font-semibold text-ink-900 dark:text-white">Tell us your goal</h3>
+          <p class="mt-1.5 text-sm muted">A 60-second assessment covers what you want to do, your experience and budget.</p>
+        </li>
+        <li>
+          <span class="text-sm font-semibold text-brand-600 dark:text-brand-300">02</span>
+          <h3 class="mt-2 font-semibold text-ink-900 dark:text-white">Get your toolkit</h3>
+          <p class="mt-1.5 text-sm muted">See the few tools that fit you, not a list of thousands, and why each one is there.</p>
+        </li>
+        <li>
+          <span class="text-sm font-semibold text-brand-600 dark:text-brand-300">03</span>
+          <h3 class="mt-2 font-semibold text-ink-900 dark:text-white">Follow a pipeline</h3>
+          <p class="mt-1.5 text-sm muted">Step-by-step paths with prompts and tips take you from idea to finished result.</p>
+        </li>
+      </ol>
+      <a href="/start/" class="btn-primary mt-10">Start the assessment</a>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,28 @@
+{
+  "slug": "polarr",
+  "name": "Polarr",
+  "url": "https://www.polarr.com/",
+  "tagline": "AI-powered photo and video editor with intelligent filters and advanced editing tools.",
+  "about": "Polarr offers AI-powered photo and video editing with intelligent auto-enhancement, custom filters, and professional tools.",
+  "pros": [
+    "Cross-platform",
+    "Advanced tools",
+    "Custom filter creation"
+  ],
+  "cons": [
+    "Subscription for full features",
+    "Learning curve",
+    "Resource intensive"
+  ],
+  "capabilities": [
+    "photo-editing",
+    "video-generation",
+    "video-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

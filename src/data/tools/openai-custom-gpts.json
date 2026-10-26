@@ -1,0 +1,27 @@
+{
+  "slug": "openai-custom-gpts",
+  "name": "OpenAI Custom GPTs (Agents)",
+  "url": "https://chat.openai.com/",
+  "tagline": "User-built GPTs with tools, APIs, and browsing for specialized autonomous tasks.",
+  "about": "OpenAI’s framework lets users create domain-specific GPTs with API calls, memory, and tool use. Effectively a platform for building personalized agentic AI.",
+  "pros": [
+    "Easy to build custom agents.",
+    "Built into ChatGPT ecosystem.",
+    "Supports APIs and actions."
+  ],
+  "cons": [
+    "Vendor lock-in.",
+    "Costs scale with use.",
+    "Less flexible than open-source frameworks."
+  ],
+  "capabilities": [
+    "agents",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

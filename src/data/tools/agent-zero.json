@@ -1,0 +1,24 @@
+{
+  "slug": "agent-zero",
+  "name": "agent-zero",
+  "url": "https://agent-zero.ai/",
+  "tagline": "Agent Zero is a next-generation AI assistant - limitless, transparent, and entirely yours. Run your own autonomous AI agents free from restrictions, centralized control, or corporate oversight.",
+  "about": "Agent Zero is a next-generation AI assistant - limitless, transparent, and entirely yours. Run your own autonomous AI agents free from restrictions, centralized control, or corporate oversight.",
+  "pros": [
+    "Good for drafting and Q&A."
+  ],
+  "cons": [
+    "May require fact‑checking."
+  ],
+  "capabilities": [
+    "agents",
+    "chat-assistant",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

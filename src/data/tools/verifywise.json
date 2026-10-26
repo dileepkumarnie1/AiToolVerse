@@ -1,0 +1,27 @@
+{
+  "slug": "verifywise",
+  "name": "verifywise",
+  "url": "https://verifywise.ai/",
+  "tagline": "Leading AI governance platform for enterprise compliance and responsible AI deployment. Automate EU AI Act compliance.",
+  "about": "Leading AI governance platform for enterprise compliance and responsible AI deployment. Automate EU AI Act compliance.",
+  "pros": [
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "legal",
+    "graphic-design",
+    "developer-api",
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

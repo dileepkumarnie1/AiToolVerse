@@ -1,0 +1,26 @@
+{
+  "slug": "comp",
+  "name": "comp",
+  "url": "https://trycomp.ai/",
+  "tagline": "AI that handles compliance for you at startup speed. The effortless way to get SOC 2, HIPAA, GDPR, and ISO 27001 compliant in hours, not months.",
+  "about": "AI that handles compliance for you at startup speed. The effortless way to get SOC 2, HIPAA, GDPR, and ISO 27001 compliant in hours, not months.",
+  "pros": [
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "legal",
+    "developer-api",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "poe-by-quora",
+  "name": "Poe by Quora",
+  "url": "https://poe.com/",
+  "tagline": "An app that provides access to a variety of different AI chatbots in one place.",
+  "about": "Poe is a platform that allows users to interact with a range of different AI models, including those from OpenAI, Anthropic, and Google. It also allows users to create their own custom bots with specific instructions.",
+  "pros": [
+    "Access to multiple leading AI models in one interface.",
+    "Ability to create and share custom bots.",
+    "Fast and responsive mobile and web apps."
+  ],
+  "cons": [
+    "Free access to the best models is limited.",
+    "Requires a subscription for heavy usage.",
+    "The quality of user-created bots can vary wildly."
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

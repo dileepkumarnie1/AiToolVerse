@@ -1,0 +1,29 @@
+{
+  "slug": "akkio",
+  "name": "Akkio",
+  "url": "https://www.akkio.com/",
+  "tagline": "No-code AI platform for predictive analytics and data analysis for business teams.",
+  "about": "Akkio makes machine learning accessible to business teams with drag-and-drop predictive models and automated insights.",
+  "pros": [
+    "No-code ML",
+    "Fast model creation",
+    "Business-focused"
+  ],
+  "cons": [
+    "Limited customization",
+    "Subscription pricing",
+    "Data prep still needed"
+  ],
+  "capabilities": [
+    "data-analysis",
+    "code-assistant",
+    "app-builder",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

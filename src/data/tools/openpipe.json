@@ -1,0 +1,19 @@
+{
+  "slug": "openpipe",
+  "name": "OpenPipe",
+  "url": "https://openpipe.ai/",
+  "tagline": "Fine-tune and distill LLMs from production data to reduce cost and improve quality.",
+  "about": "OpenPipe helps teams create custom models based on real usage, enabling cheaper inference with task-specific performance.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api",
+    "code-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

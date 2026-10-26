@@ -1,0 +1,26 @@
+{
+  "slug": "kittl",
+  "name": "Kittl",
+  "url": "https://www.kittl.com/",
+  "tagline": "AI-powered design tool for creating logos, t-shirt designs, and graphics.",
+  "about": "Kittl provides AI design tools focused on creating print-ready graphics, logos, and merchandise designs.",
+  "pros": [
+    "Print-ready output",
+    "AI features",
+    "Good templates"
+  ],
+  "cons": [
+    "Subscription required",
+    "Print focus",
+    "Limited web design"
+  ],
+  "capabilities": [
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "mymemo-ai",
+  "name": "MyMemo AI",
+  "url": "https://mymemo.ai/",
+  "tagline": "Transforms personal data into actionable wisdom with AI-powered insights from notes, links, images, and audio.",
+  "about": "MyMemo transforms various inputs (notes, links, images, audio) into a unified platform, extracting key insights and allowing users to query their knowledge base for advice or information with targeted search and creative prompts.",
+  "pros": [
+    "Multi-format input support",
+    "AI-powered insight extraction",
+    "Query your knowledge base",
+    "Good for creative work"
+  ],
+  "cons": [
+    "Learning curve for optimal use",
+    "Requires consistent input",
+    "AI insights quality varies with data"
+  ],
+  "capabilities": [
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

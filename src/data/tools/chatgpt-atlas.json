@@ -1,0 +1,30 @@
+{
+  "slug": "chatgpt-atlas",
+  "name": "ChatGPT Atlas",
+  "url": "https://openai.com/chatgpt/atlas",
+  "tagline": "OpenAI's AI-native browser with deep ChatGPT integration, agent-mode automation, and persistent memory for research workflows.",
+  "about": "ChatGPT Atlas is OpenAI's groundbreaking AI-native browser that integrates ChatGPT directly into the browsing experience. It offers persistent memory across sessions, contextual understanding of web pages, and agentic automation that can complete multi-step tasks autonomously.",
+  "pros": [
+    "Deep integration with ChatGPT for contextual assistance",
+    "Persistent memory remembers your research across sessions",
+    "Agent-mode can automate complex multi-step tasks",
+    "Understanding of page context without manual copy-paste"
+  ],
+  "cons": [
+    "Still in early access with limited availability",
+    "Requires ChatGPT Plus subscription for full features",
+    "May have privacy concerns with cloud-based AI processing"
+  ],
+  "capabilities": [
+    "browser",
+    "chat-assistant",
+    "research-search",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "langflow",
+  "name": "Langflow",
+  "url": "https://www.langflow.org/",
+  "tagline": "Visual framework for building multi-agent and RAG applications.",
+  "about": "Langflow provides a visual interface for building AI applications with agents, chains, and retrieval-augmented generation.",
+  "pros": [
+    "Visual builder",
+    "Open source",
+    "LangChain compatible"
+  ],
+  "cons": [
+    "Learning curve",
+    "Debug complexity",
+    "Resource intensive"
+  ],
+  "capabilities": [
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

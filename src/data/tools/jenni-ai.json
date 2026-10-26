@@ -1,0 +1,29 @@
+{
+  "slug": "jenni-ai",
+  "name": "Jenni AI",
+  "url": "https://jenni.ai/",
+  "tagline": "AI writing assistant designed specifically for academic and research writing.",
+  "about": "Jenni AI helps researchers and students write academic content with AI-powered suggestions and citation assistance.",
+  "pros": [
+    "Academic-focused",
+    "Citation generation",
+    "Writing assistance"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "Output needs review",
+    "Limited free tier"
+  ],
+  "capabilities": [
+    "research-search",
+    "writing",
+    "science",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

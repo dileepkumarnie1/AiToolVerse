@@ -1,0 +1,28 @@
+{
+  "slug": "cohere-command",
+  "name": "Cohere Command",
+  "url": "https://cohere.com/",
+  "tagline": "Enterprise-grade AI models for text generation, summarization, and semantic search.",
+  "about": "Cohere provides enterprise-ready language models with focus on retrieval-augmented generation and enterprise search.",
+  "pros": [
+    "Enterprise-focused",
+    "Strong RAG capabilities",
+    "Multi-language support"
+  ],
+  "cons": [
+    "API pricing",
+    "Less consumer-friendly",
+    "Smaller community"
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "summarization",
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "cleanvoice",
+  "name": "Cleanvoice",
+  "url": "https://cleanvoice.ai/",
+  "tagline": "AI-powered podcast editing to remove filler words and silence.",
+  "about": "Cleanvoice uses AI to automatically remove filler words, mouth sounds, and dead air from podcast recordings.",
+  "pros": [
+    "Saves editing time",
+    "Removes filler words",
+    "Background noise removal"
+  ],
+  "cons": [
+    "Subscription required",
+    "Can be overly aggressive",
+    "Needs review"
+  ],
+  "capabilities": [
+    "podcast"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

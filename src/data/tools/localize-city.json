@@ -1,0 +1,27 @@
+{
+  "slug": "localize-city",
+  "name": "Localize.city",
+  "url": "https://www.localize.city/",
+  "tagline": "AI-powered location intelligence for real estate decisions.",
+  "about": "Localize.city provides AI-powered neighborhood insights to help home buyers and renters make better decisions.",
+  "pros": [
+    "Neighborhood focus",
+    "Consumer-friendly",
+    "Good insights"
+  ],
+  "cons": [
+    "Limited coverage",
+    "US cities only",
+    "Data currency varies"
+  ],
+  "capabilities": [
+    "real-estate",
+    "translation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

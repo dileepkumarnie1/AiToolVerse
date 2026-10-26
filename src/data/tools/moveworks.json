@@ -1,0 +1,28 @@
+{
+  "slug": "moveworks",
+  "name": "Moveworks",
+  "url": "https://www.moveworks.com/",
+  "tagline": "Enterprise AI platform for IT support automation and employee self-service.",
+  "about": "Moveworks automates IT support for enterprises, resolving employee issues instantly through natural language.",
+  "pros": [
+    "IT-focused",
+    "Enterprise-grade",
+    "High resolution rate"
+  ],
+  "cons": [
+    "Enterprise only",
+    "Expensive",
+    "IT focus limits use"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

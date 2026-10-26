@@ -1,0 +1,28 @@
+{
+  "slug": "vic-ai",
+  "name": "Vic.ai",
+  "url": "https://www.vic.ai/",
+  "tagline": "AP automation with autonomous invoice processing and approvals.",
+  "about": "Vic.ai applies AI to accounts payable, extracting and coding invoices, predicting approvals, and cutting cycle times.",
+  "pros": [
+    "High automation rates.",
+    "Good for multi‑entity finance.",
+    "Analytics on spend."
+  ],
+  "cons": [
+    "Implementation and change management.",
+    "Works best with volume.",
+    "Enterprise‑class pricing."
+  ],
+  "capabilities": [
+    "finance",
+    "automation",
+    "voice-tts"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

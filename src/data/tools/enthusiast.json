@@ -1,0 +1,29 @@
+{
+  "slug": "enthusiast",
+  "name": "enthusiast",
+  "url": "https://upsidelab.io/tools/enthusiast",
+  "tagline": "Open-source, enterprise-ready agentic AI toolkit for e-commerce. Build and deploy custom AI agents with data, workflows, and native integrations.",
+  "about": "Open-source, enterprise-ready agentic AI toolkit for e-commerce. Build and deploy custom AI agents with data, workflows, and native integrations.",
+  "pros": [
+    "Generates visuals quickly.",
+    "Great for research and discovery.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Coverage and speed can vary.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "ecommerce",
+    "graphic-design",
+    "developer-api",
+    "notes-knowledge"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

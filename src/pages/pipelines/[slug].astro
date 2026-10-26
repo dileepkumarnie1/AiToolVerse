@@ -1,0 +1,96 @@
+---
+import Base from '../../layouts/Base.astro';
+import ToolAvatar from '../../components/ToolAvatar';
+import { capabilityById, pipelines, stepAlternatives, toolBySlug } from '../../lib/catalog';
+import { PRICING_LABEL, SKILL_LABEL } from '../../lib/labels';
+import type { Pipeline } from '../../lib/types';
+
+export function getStaticPaths() {
+  return pipelines.map((pipeline) => ({ params: { slug: pipeline.slug }, props: { pipeline } }));
+}
+
+const { pipeline } = Astro.props as { pipeline: Pipeline };
+const steps = pipeline.steps.map((s) => ({
+  ...s,
+  picks: s.tools.map((slug) => toolBySlug.get(slug)!),
+  alternatives: stepAlternatives(s.capability, s.tools, 4),
+}));
+---
+
+<Base
+  title={`${pipeline.title}: AI tools step by step`}
+  description={`${pipeline.outcome} ${pipeline.summary}`.slice(0, 300)}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: pipeline.title,
+    description: pipeline.summary,
+    step: pipeline.steps.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, name: s.title, text: s.description })),
+  }}
+>
+  <article class="container-page max-w-4xl pt-14">
+    <nav aria-label="Breadcrumb" class="text-sm muted"><a href="/pipelines/" class="hover:text-ink-900 dark:hover:text-white">Pipelines</a></nav>
+    <h1 class="heading-lg mt-4">{pipeline.title}</h1>
+    <p class="mt-3 text-lg text-ink-700 dark:text-ink-200">{pipeline.outcome}</p>
+    <p class="mt-2 muted">{pipeline.summary}</p>
+    <div class="mt-5 flex flex-wrap gap-2">
+      <span class="chip">{pipeline.steps.length} steps</span>
+      <span class="chip">{pipeline.timeToResult}</span>
+      <span class="chip">{SKILL_LABEL[pipeline.difficulty]}</span>
+    </div>
+
+    <ol class="relative mt-12 space-y-6 border-l-2 border-dashed border-brand-200 pl-8 dark:border-brand-500/30">
+      {
+        steps.map((s, i) => (
+          <li class="relative">
+            <span class="absolute -left-[2.85rem] top-5 flex h-9 w-9 items-center justify-center rounded-full bg-linear-to-br from-brand-500 to-fuchsia-500 text-sm font-semibold text-white shadow ring-4 ring-ink-50 dark:ring-ink-950">
+              {i + 1}
+            </span>
+            <section class="card p-6">
+              <p class="text-xs font-semibold uppercase tracking-wide text-brand-700 dark:text-brand-300">{capabilityById.get(s.capability)?.label}</p>
+              <h2 class="mt-1 text-lg font-semibold text-ink-900 dark:text-white">{s.title}</h2>
+              <p class="mt-2 text-ink-700 dark:text-ink-200">{s.description}</p>
+
+              <div class="mt-5 grid gap-3 sm:grid-cols-2">
+                {s.picks.map((t, idx) => (
+                  <a href={`/tools/${t.slug}/`} class="flex items-center gap-3 rounded-xl border border-ink-200 p-3 transition hover:border-brand-300 dark:border-white/10">
+                    <ToolAvatar slug={t.slug} name={t.name} size="sm" />
+                    <span class="min-w-0">
+                      <span class="block truncate text-sm font-semibold text-ink-900 dark:text-white">
+                        {t.name}
+                        {idx === 0 && <span class="ml-1.5 text-[10px] font-semibold uppercase text-brand-600 dark:text-brand-300">Top pick</span>}
+                      </span>
+                      <span class="block text-xs muted">{PRICING_LABEL[t.pricing]}</span>
+                    </span>
+                  </a>
+                ))}
+              </div>
+
+              {s.tip && <p class="mt-4 rounded-lg bg-amber-50 p-3 text-sm text-amber-900 dark:bg-amber-500/10 dark:text-amber-200"><strong>Tip:</strong> {s.tip}</p>}
+
+              {s.alternatives.length > 0 && (
+                <p class="mt-4 text-sm muted">
+                  Alternatives:{' '}
+                  {s.alternatives.map((t, idx) => (
+                    <>
+                      <a href={`/tools/${t.slug}/`} class="text-ink-700 underline decoration-ink-300 underline-offset-2 hover:text-brand-700 dark:text-ink-200">{t.name}</a>
+                      {idx < s.alternatives.length - 1 ? ', ' : ''}
+                    </>
+                  ))}
+                </p>
+              )}
+            </section>
+          </li>
+        ))
+      }
+    </ol>
+
+    <div class="card mt-14 flex flex-col items-start justify-between gap-4 p-7 sm:flex-row sm:items-center">
+      <div>
+        <p class="font-semibold text-ink-900 dark:text-white">Want pipelines matched to you?</p>
+        <p class="text-sm muted">Take the 60-second assessment and get a personal toolkit.</p>
+      </div>
+      <a href="/start/" class="btn-primary">Get my plan</a>
+    </div>
+  </article>
+</Base>

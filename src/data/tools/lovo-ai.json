@@ -1,0 +1,29 @@
+{
+  "slug": "lovo-ai",
+  "name": "Lovo AI",
+  "url": "https://www.lovo.ai/",
+  "tagline": "Cinematic AI voices for video content, storytelling, and professional narration",
+  "about": "Lovo AI (Genny) specializes in creating cinematic-quality AI voices perfect for video production, storytelling, and professional content creation with emotional range and expression.",
+  "pros": [
+    "High-quality, emotionally expressive voices",
+    "Great for cinematic and storytelling applications",
+    "Voice cloning capabilities",
+    "Video-focused features"
+  ],
+  "cons": [
+    "Higher pricing for advanced features",
+    "Learning curve for optimal use",
+    "Credits system can be limiting"
+  ],
+  "capabilities": [
+    "voice-tts",
+    "writing",
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

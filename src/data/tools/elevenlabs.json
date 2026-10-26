@@ -1,0 +1,28 @@
+{
+  "slug": "elevenlabs",
+  "name": "ElevenLabs",
+  "url": "https://elevenlabs.io/",
+  "tagline": "Hyper-realistic AI voice generation and voice cloning platform",
+  "about": "ElevenLabs is a cutting-edge AI voice synthesis platform that creates incredibly realistic, expressive voices. It offers advanced voice cloning capabilities with minimal sample requirements and supports multiple languages, making it ideal for content creators, dubbing, gaming, and localization.",
+  "pros": [
+    "Exceptionally realistic and expressive voice output",
+    "Minimal voice samples needed for cloning",
+    "Multilingual support with emotional range",
+    "Real-time voice generation capabilities"
+  ],
+  "cons": [
+    "Premium features require subscription",
+    "Voice cloning quality depends on sample audio quality",
+    "Usage limits on free tier"
+  ],
+  "capabilities": [
+    "music-generation",
+    "voice-tts"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 96,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

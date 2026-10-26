@@ -1,0 +1,27 @@
+{
+  "slug": "vercel-ai-sdk",
+  "name": "Vercel AI SDK",
+  "url": "https://sdk.vercel.ai/",
+  "tagline": "TypeScript SDK for building AI-powered web applications with streaming support.",
+  "about": "Vercel AI SDK provides tools for building AI applications in React and Next.js with streaming, tool calling, and multi-model support.",
+  "pros": [
+    "Great DX",
+    "Streaming built-in",
+    "Multiple providers"
+  ],
+  "cons": [
+    "JavaScript/TypeScript only",
+    "Vercel-focused",
+    "Limited to web"
+  ],
+  "capabilities": [
+    "developer-api",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

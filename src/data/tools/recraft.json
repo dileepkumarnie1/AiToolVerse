@@ -1,0 +1,29 @@
+{
+  "slug": "recraft",
+  "name": "Recraft",
+  "url": "https://recraft.ai/",
+  "tagline": "AI design tool for generating consistent brand assets, logos, and vector graphics",
+  "about": "Recraft AI specializes in generating consistent brand assets, vector graphics, and logos with precise control over style and format for designers and marketers.",
+  "pros": [
+    "Excellent for brand consistency",
+    "Vector output support",
+    "Style control and brand kits",
+    "Professional quality results"
+  ],
+  "cons": [
+    "More focused on commercial use",
+    "Learning curve for full feature set",
+    "Premium features require subscription"
+  ],
+  "capabilities": [
+    "image-generation",
+    "graphic-design",
+    "logo-branding"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

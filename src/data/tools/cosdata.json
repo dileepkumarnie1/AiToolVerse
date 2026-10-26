@@ -1,0 +1,23 @@
+{
+  "slug": "cosdata",
+  "name": "cosdata",
+  "url": "https://www.cosdata.io/",
+  "tagline": "Cosdata delivers high-performance vector search solutions, including OSS and Serverless options, designed for enterprise-scale AI applications.",
+  "about": "Cosdata delivers high-performance vector search solutions, including OSS and Serverless options, designed for enterprise-scale AI applications.",
+  "pros": [
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "research-search",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

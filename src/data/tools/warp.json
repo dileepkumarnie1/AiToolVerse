@@ -1,0 +1,20 @@
+{
+  "slug": "warp",
+  "name": "Warp",
+  "url": "https://warp.dev/",
+  "tagline": "Warp is the agentic development environment, built for coding with multiple AI agents.",
+  "about": "Warp is the agentic development environment, built for coding with multiple AI agents.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

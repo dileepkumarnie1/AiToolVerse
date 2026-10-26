@@ -1,0 +1,26 @@
+{
+  "slug": "rws-language-weaver",
+  "name": "RWS Language Weaver",
+  "url": "https://www.rws.com/language-weaver/",
+  "tagline": "Enterprise neural machine translation platform.",
+  "about": "Language Weaver offers secure, on-premise neural machine translation for enterprises with customizable industry-specific models.",
+  "pros": [
+    "On-premise option",
+    "Customizable models",
+    "High security"
+  ],
+  "cons": [
+    "Enterprise only",
+    "Complex deployment",
+    "Expensive"
+  ],
+  "capabilities": [
+    "translation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

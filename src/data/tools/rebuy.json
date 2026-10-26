@@ -1,0 +1,26 @@
+{
+  "slug": "rebuy",
+  "name": "Rebuy",
+  "url": "https://www.rebuyengine.com/",
+  "tagline": "AI-powered personalization engine for Shopify with recommendations and smart cart.",
+  "about": "Rebuy provides AI personalization for Shopify stores including product recommendations, smart cart, and reorder flows.",
+  "pros": [
+    "Shopify-native",
+    "Multiple features",
+    "Easy setup"
+  ],
+  "cons": [
+    "Shopify only",
+    "Revenue-based pricing",
+    "Can get expensive"
+  ],
+  "capabilities": [
+    "ecommerce"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

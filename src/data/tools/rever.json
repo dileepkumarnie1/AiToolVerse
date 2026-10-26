@@ -1,0 +1,27 @@
+{
+  "slug": "rever",
+  "name": "rever",
+  "url": "https://reverfin.ai/",
+  "tagline": "Open-source finance automation tool with AI-driven accounting, real-time analytics, AP automation, reconciliation &amp; three-way matching.",
+  "about": "Open-source finance automation tool with AI-driven accounting, real-time analytics, AP automation, reconciliation &amp; three-way matching.",
+  "pros": [
+    "Open source and extensible.",
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "finance",
+    "graphic-design",
+    "notes-knowledge",
+    "automation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

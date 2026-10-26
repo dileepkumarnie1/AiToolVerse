@@ -1,0 +1,34 @@
+---
+import { categories } from '../lib/catalog';
+const year = new Date().getFullYear();
+---
+
+<footer class="mt-24 border-t border-ink-200/70 py-14 dark:border-white/5">
+  <div class="container-page grid gap-10 md:grid-cols-4">
+    <div class="md:col-span-2">
+      <p class="font-semibold text-ink-950 dark:text-white">AIToolVerse</p>
+      <p class="mt-2 max-w-sm text-sm muted">
+        An independent guide to AI tools and the step-by-step pipelines that get real work done. No paid rankings.
+      </p>
+    </div>
+    <div>
+      <p class="text-sm font-semibold text-ink-900 dark:text-white">Explore</p>
+      <ul class="mt-3 space-y-2 text-sm muted">
+        <li><a class="hover:text-ink-900 dark:hover:text-white" href="/tools/">All tools</a></li>
+        <li><a class="hover:text-ink-900 dark:hover:text-white" href="/pipelines/">Pipelines</a></li>
+        <li><a class="hover:text-ink-900 dark:hover:text-white" href="/trending/">Trending</a></li>
+        {categories.slice(0, 4).map((c) => <li><a class="hover:text-ink-900 dark:hover:text-white" href={`/categories/${c.id}/`}>{c.label}</a></li>)}
+      </ul>
+    </div>
+    <div>
+      <p class="text-sm font-semibold text-ink-900 dark:text-white">AIToolVerse</p>
+      <ul class="mt-3 space-y-2 text-sm muted">
+        <li><a class="hover:text-ink-900 dark:hover:text-white" href="/about/">About & methodology</a></li>
+        <li><a class="hover:text-ink-900 dark:hover:text-white" href="/suggest/">Suggest a tool</a></li>
+        <li><a class="hover:text-ink-900 dark:hover:text-white" href="/privacy/">Privacy</a></li>
+        <li><a class="hover:text-ink-900 dark:hover:text-white" href="/terms/">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container-page mt-10 text-xs muted">© {year} AIToolVerse. Tool names and trademarks belong to their owners.</div>
+</footer>

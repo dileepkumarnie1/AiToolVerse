@@ -1,0 +1,28 @@
+{
+  "slug": "hyperwrite",
+  "name": "Hyperwrite",
+  "url": "https://www.hyperwriteai.com/",
+  "tagline": "AI writing assistant with browser extension for real-time writing help anywhere online.",
+  "about": "Hyperwrite provides AI writing assistance directly in your browser, helping with emails, documents, and any text field online.",
+  "pros": [
+    "Works everywhere online",
+    "Browser extension",
+    "Real-time suggestions"
+  ],
+  "cons": [
+    "Requires internet",
+    "Privacy considerations",
+    "Variable quality"
+  ],
+  "capabilities": [
+    "writing",
+    "chat-assistant",
+    "browser"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

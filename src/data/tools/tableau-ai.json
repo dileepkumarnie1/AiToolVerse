@@ -1,0 +1,27 @@
+{
+  "slug": "tableau-ai",
+  "name": "Tableau AI",
+  "url": "https://www.tableau.com/products/tableau-ai",
+  "tagline": "A suite of AI features integrated into the Tableau data visualization platform.",
+  "about": "Tableau AI (formerly Einstein Discovery) integrates AI and machine learning into the Tableau ecosystem. It can automatically find patterns in data, provide explanations for outcomes, and generate predictive models without requiring users to write code.",
+  "pros": [
+    "Deeply integrated into a leading business intelligence platform.",
+    "Powerful for uncovering hidden insights in large datasets.",
+    "Can build and deploy predictive models."
+  ],
+  "cons": [
+    "Part of an expensive enterprise software suite.",
+    "Requires well-structured data to be effective.",
+    "Can have a steep learning curve for advanced features."
+  ],
+  "capabilities": [
+    "data-analysis",
+    "science"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

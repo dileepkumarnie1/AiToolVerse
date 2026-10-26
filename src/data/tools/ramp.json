@@ -1,0 +1,26 @@
+{
+  "slug": "ramp",
+  "name": "Ramp",
+  "url": "https://ramp.com/",
+  "tagline": "AI-powered expense management and corporate cards.",
+  "about": "Ramp uses AI to automate expense management, detect savings opportunities, and streamline corporate spending.",
+  "pros": [
+    "Saves money automatically",
+    "Good integrations",
+    "Modern interface"
+  ],
+  "cons": [
+    "US-only currently",
+    "Requires business account",
+    "Small businesses may not qualify"
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "mistral-le-chat",
+  "name": "Mistral Le Chat",
+  "url": "https://chat.mistral.ai/",
+  "tagline": "Fast, lightweight chat using Mistral models.",
+  "about": "Concise, code‑friendly responses with efficient open models.",
+  "pros": [
+    "Quick replies.",
+    "Great for code.",
+    "Open ecosystem."
+  ],
+  "cons": [
+    "Fewer integrations.",
+    "Limited multimodal.",
+    "Evolving feature set."
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "chatgpt",
+  "name": "ChatGPT (OpenAI)",
+  "url": "https://chat.openai.com/",
+  "tagline": "The quintessential AI chatbot for drafting, ideation, and summarization.",
+  "about": "ChatGPT is a large language model-based chatbot developed by OpenAI. It is capable of understanding and generating human-like text, making it a versatile tool for a wide range of tasks, from writing emails to debugging code.",
+  "pros": [
+    "Highly versatile and conversational.",
+    "Free tier is very capable.",
+    "Massive user base and community support."
+  ],
+  "cons": [
+    "Knowledge cutoff (doesn't know about very recent events).",
+    "Can sometimes provide plausible but incorrect information.",
+    "Heavy usage may require a paid subscription."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "summarization"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

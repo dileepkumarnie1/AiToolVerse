@@ -1,0 +1,28 @@
+{
+  "slug": "lucidchart",
+  "name": "Lucidchart",
+  "url": "https://www.lucidchart.com/",
+  "tagline": "Professional diagramming tool with AI features for technical and business diagrams",
+  "about": "Lucidchart is a professional diagramming application with AI-powered features for creating technical diagrams, flowcharts, org charts, and network diagrams.",
+  "pros": [
+    "Professional-grade features",
+    "Great for technical diagrams",
+    "Data linking capabilities",
+    "Enterprise-ready"
+  ],
+  "cons": [
+    "Free tier very limited",
+    "Can be expensive for teams",
+    "Steeper learning curve"
+  ],
+  "capabilities": [
+    "diagrams",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

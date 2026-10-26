@@ -1,0 +1,19 @@
+{
+  "slug": "google-ai-studio",
+  "name": "Google AI Studio",
+  "url": "https://aistudio.google.com/",
+  "tagline": "Google's web-based studio for prototyping and testing Gemini prompts and apps.",
+  "about": "AI Studio helps you iterate on prompts, evaluate outputs, and move toward app integration.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

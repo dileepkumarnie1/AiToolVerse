@@ -1,0 +1,27 @@
+{
+  "slug": "miro-ai",
+  "name": "Miro AI",
+  "url": "https://miro.com/",
+  "tagline": "AI-powered collaborative whiteboard with smart diagram creation.",
+  "about": "Miro provides collaborative whiteboard with AI features for diagram creation.",
+  "pros": [
+    "Great collaboration",
+    "AI features",
+    "Templates"
+  ],
+  "cons": [
+    "Complex interface",
+    "Subscription",
+    "Can be overwhelming"
+  ],
+  "capabilities": [
+    "diagrams",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

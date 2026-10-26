@@ -1,0 +1,27 @@
+{
+  "slug": "scribe",
+  "name": "Scribe",
+  "url": "https://scribehow.com/",
+  "tagline": "AI tool that automatically creates step-by-step guides from screen recordings.",
+  "about": "Scribe automatically creates step-by-step documentation by recording your screen as you work.",
+  "pros": [
+    "Auto documentation",
+    "Time-saving",
+    "Easy sharing"
+  ],
+  "cons": [
+    "Subscription for teams",
+    "Screenshot-based",
+    "Limited editing"
+  ],
+  "capabilities": [
+    "automation",
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

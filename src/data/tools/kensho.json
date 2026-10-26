@@ -1,0 +1,27 @@
+{
+  "slug": "kensho",
+  "name": "Kensho",
+  "url": "https://www.kensho.com/",
+  "tagline": "AI-powered financial analytics and automation platform.",
+  "about": "Kensho (S&P Global) provides AI-driven financial modeling, analytics, and automated report generation for finance professionals.",
+  "pros": [
+    "Advanced analytics",
+    "Automated workflows",
+    "Trusted by major institutions"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complex platform",
+    "Requires financial expertise"
+  ],
+  "capabilities": [
+    "finance",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

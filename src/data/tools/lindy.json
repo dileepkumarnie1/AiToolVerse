@@ -1,0 +1,28 @@
+{
+  "slug": "lindy",
+  "name": "Lindy",
+  "url": "https://www.lindy.ai/",
+  "tagline": "An AI assistant that automates workflows like email management and scheduling.",
+  "about": "Lindy is a practical AI agent focused on automating common business and personal tasks. It can triage emails, schedule meetings, manage your calendar, and trigger actions in other apps. It learns from your habits to proactively handle your workflow.",
+  "pros": [
+    "Focuses on solving real-world, everyday productivity problems.",
+    "User-friendly interface that is easy for non-developers to set up.",
+    "Learns and adapts to your personal preferences over time."
+  ],
+  "cons": [
+    "It is a paid, subscription-based service.",
+    "Requires granting extensive permissions to your email, calendar, and other apps.",
+    "May not be able to handle highly novel or creative tasks outside its scope."
+  ],
+  "capabilities": [
+    "agents",
+    "email",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

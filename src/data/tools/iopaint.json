@@ -1,0 +1,18 @@
+{
+  "slug": "iopaint",
+  "name": "IOPaint",
+  "url": "https://www.iopaint.com/",
+  "tagline": "Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.",
+  "about": "Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

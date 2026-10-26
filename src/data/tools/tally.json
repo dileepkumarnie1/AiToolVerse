@@ -1,0 +1,29 @@
+{
+  "slug": "tally",
+  "name": "Tally",
+  "url": "https://tally.so/",
+  "tagline": "Free, unlimited forms with AI assistance and no coding required",
+  "about": "Tally offers completely free, unlimited forms with AI assistance, no branding, and powerful features without requiring coding skills.",
+  "pros": [
+    "Completely free with unlimited forms",
+    "No Tally branding",
+    "Simple, intuitive interface",
+    "Good for non-technical users"
+  ],
+  "cons": [
+    "Fewer advanced features than paid alternatives",
+    "Smaller ecosystem of integrations",
+    "No phone support"
+  ],
+  "capabilities": [
+    "forms-surveys",
+    "code-assistant",
+    "app-builder"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

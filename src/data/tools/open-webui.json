@@ -1,0 +1,18 @@
+{
+  "slug": "open-webui",
+  "name": "open-webui",
+  "url": "https://openwebui.com/",
+  "tagline": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+  "about": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

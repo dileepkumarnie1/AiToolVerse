@@ -1,0 +1,485 @@
+[
+  {
+    "slug": "start-a-youtube-channel",
+    "title": "Start a YouTube channel",
+    "outcome": "Publish your first polished video and shorts in a weekend.",
+    "summary": "Go from idea to a published long-form video plus short clips, using AI for scripting, voice, editing and thumbnails while you stay the creative director.",
+    "goals": ["create", "hobby"],
+    "interests": ["youtube"],
+    "difficulty": "beginner",
+    "timeToResult": "1–2 days",
+    "steps": [
+      { "title": "Find an angle and write the script", "description": "Brainstorm 10 video ideas for your niche, pick one, and turn it into a script with a strong hook in the first 10 seconds.", "capability": "chat-assistant", "tools": ["chatgpt", "claude"], "tip": "Ask for three alternative hooks and read them out loud before choosing." },
+      { "title": "Record or generate the voiceover", "description": "Record yourself, or generate a natural voiceover if you prefer to stay off-camera.", "capability": "voice-tts", "tools": ["elevenlabs", "murf-ai"] },
+      { "title": "Edit by editing text", "description": "Edit the video like a document: delete filler words, add b-roll and captions automatically.", "capability": "video-editing", "tools": ["descript", "veed-io"] },
+      { "title": "Design a click-worthy thumbnail", "description": "Create a bold thumbnail with a face or object, 3–4 words max and high contrast.", "capability": "graphic-design", "tools": ["canva-ai", "ideogram"] },
+      { "title": "Repurpose into Shorts", "description": "Let AI find the best moments and turn them into vertical clips with captions.", "capability": "video-editing", "tools": ["opus-clip"] }
+    ]
+  },
+  {
+    "slug": "faceless-short-videos",
+    "title": "Make faceless short-form videos",
+    "outcome": "A week of Reels, Shorts or TikToks without showing your face.",
+    "summary": "Script, generate visuals, add a voice and captions, then schedule a week of short videos from a single idea.",
+    "goals": ["create", "business"],
+    "interests": ["youtube"],
+    "difficulty": "beginner",
+    "timeToResult": "3–4 hours",
+    "steps": [
+      { "title": "Batch-write scripts", "description": "Turn one topic into seven 30-second scripts, each with a hook, one insight and a call to action.", "capability": "writing", "tools": ["chatgpt", "claude"] },
+      { "title": "Generate the visuals", "description": "Create short cinematic clips for each scene, or use stock-style footage generated from text.", "capability": "video-generation", "tools": ["runway", "kling", "luma-dream-machine"] },
+      { "title": "Add a voice", "description": "Generate a consistent voice for your channel so every video sounds on-brand.", "capability": "voice-tts", "tools": ["elevenlabs"] },
+      { "title": "Edit and caption", "description": "Assemble clips, add music and word-by-word captions sized for mobile.", "capability": "video-editing", "tools": ["veed-io", "clipchamp"] },
+      { "title": "Schedule the week", "description": "Queue posts at your audience's peak times across platforms.", "capability": "social-media", "tools": ["buffer-ai-assistant", "later-ai"] }
+    ]
+  },
+  {
+    "slug": "launch-a-podcast",
+    "title": "Launch a podcast",
+    "outcome": "Record, clean up and publish an episode with show notes and clips.",
+    "summary": "Plan the episode, record remotely in high quality, fix the audio with AI and turn one recording into notes, transcripts and social clips.",
+    "goals": ["create", "hobby"],
+    "interests": ["podcasting"],
+    "difficulty": "beginner",
+    "timeToResult": "1 day",
+    "steps": [
+      { "title": "Plan the episode", "description": "Outline segments and questions, and research your guest.", "capability": "chat-assistant", "tools": ["claude", "chatgpt"] },
+      { "title": "Record in studio quality", "description": "Record locally on each side so the audio stays crisp even if the internet drops.", "capability": "podcast", "tools": ["riverside", "podcastle"] },
+      { "title": "Clean up the audio", "description": "Remove background noise, echo and filler words in one pass.", "capability": "podcast", "tools": ["adobe-podcast", "descript"] },
+      { "title": "Transcript and show notes", "description": "Generate a transcript, summary, chapters and key takeaways for your podcast page.", "capability": "transcription", "tools": ["descript", "happy-scribe"] },
+      { "title": "Promote with clips", "description": "Cut the best moments into vertical clips with captions.", "capability": "video-editing", "tools": ["opus-clip"] }
+    ]
+  },
+  {
+    "slug": "write-and-publish-a-blog-post",
+    "title": "Write and publish a blog post that ranks",
+    "outcome": "A well-researched, SEO-optimized article with original images.",
+    "summary": "Research with sources, draft in your voice, polish the writing, optimize for search and create custom images.",
+    "goals": ["create", "business"],
+    "interests": ["writing-stories"],
+    "difficulty": "beginner",
+    "timeToResult": "2–3 hours",
+    "steps": [
+      { "title": "Research the topic", "description": "Gather facts, stats and what competing articles cover, with sources you can cite.", "capability": "research-search", "tools": ["perplexity"] },
+      { "title": "Outline and draft", "description": "Build an outline around reader questions, then draft section by section in your own voice.", "capability": "writing", "tools": ["claude", "chatgpt"] },
+      { "title": "Polish the writing", "description": "Fix grammar, tighten sentences and adjust tone.", "capability": "writing", "tools": ["grammarly", "quillbot"] },
+      { "title": "Optimize for search", "description": "Check keywords, headings and content gaps against top-ranking pages.", "capability": "marketing-seo", "tools": ["surfer-seo"] },
+      { "title": "Create custom images", "description": "Generate a header image and simple diagrams instead of generic stock photos.", "capability": "image-generation", "tools": ["ideogram", "canva-ai"] }
+    ]
+  },
+  {
+    "slug": "build-a-brand-identity",
+    "title": "Build a brand identity from scratch",
+    "outcome": "A name, logo, color palette and starter website for your idea.",
+    "summary": "Define positioning, generate logo concepts, create consistent brand visuals and launch a simple website.",
+    "goals": ["business"],
+    "interests": [],
+    "difficulty": "beginner",
+    "timeToResult": "1 day",
+    "steps": [
+      { "title": "Clarify positioning and name", "description": "Describe your audience and promise, then brainstorm names and taglines and check domain availability.", "capability": "chat-assistant", "tools": ["chatgpt", "claude"] },
+      { "title": "Design the logo", "description": "Generate logo concepts, shortlist three and test them at small sizes.", "capability": "logo-branding", "tools": ["looka", "brandmark"] },
+      { "title": "Create brand visuals", "description": "Build templates for social posts, cards and slides in your colors and fonts.", "capability": "graphic-design", "tools": ["canva-magic-design", "adobe-firefly"] },
+      { "title": "Launch a website", "description": "Generate a site from a prompt, then edit copy and sections visually.", "capability": "app-builder", "tools": ["framer-ai", "relume"] }
+    ]
+  },
+  {
+    "slug": "launch-a-landing-page",
+    "title": "Launch a landing page that converts",
+    "outcome": "A live landing page with persuasive copy and a sign-up form.",
+    "summary": "Write conversion-focused copy, wireframe the page, build it without code and capture leads.",
+    "goals": ["business", "build"],
+    "interests": [],
+    "difficulty": "beginner",
+    "timeToResult": "3–5 hours",
+    "steps": [
+      { "title": "Write the copy", "description": "Generate headline, benefits, objections and call-to-action variations.", "capability": "writing", "tools": ["copy-ai", "jasper"] },
+      { "title": "Wireframe the layout", "description": "Turn the copy into a section-by-section wireframe.", "capability": "graphic-design", "tools": ["relume", "uizard"] },
+      { "title": "Build and publish", "description": "Generate the page from a prompt or your wireframe and publish on your domain.", "capability": "app-builder", "tools": ["framer-ai", "v0-by-vercel"] },
+      { "title": "Capture sign-ups", "description": "Add a short form and connect responses to your email list or sheet.", "capability": "forms-surveys", "tools": ["tally", "typeform"] }
+    ]
+  },
+  {
+    "slug": "social-media-content-calendar",
+    "title": "Fill a month of social media content",
+    "outcome": "A month of on-brand posts written, designed and scheduled.",
+    "summary": "Turn a few core ideas into a full content calendar with captions, visuals and automated scheduling.",
+    "goals": ["business", "create"],
+    "interests": [],
+    "difficulty": "beginner",
+    "timeToResult": "Half a day",
+    "steps": [
+      { "title": "Plan content pillars", "description": "Pick 3–4 themes your audience cares about and generate 30 post ideas across them.", "capability": "chat-assistant", "tools": ["chatgpt", "claude"] },
+      { "title": "Write captions", "description": "Generate platform-specific captions and hashtags in your brand voice.", "capability": "social-media", "tools": ["hootsuite-owlywriter-ai", "ocoya"] },
+      { "title": "Design the visuals", "description": "Create carousels and post images from templates.", "capability": "graphic-design", "tools": ["canva-ai", "predis-ai"] },
+      { "title": "Schedule and measure", "description": "Schedule everything, then review what performs best each week.", "capability": "social-media", "tools": ["buffer-ai-assistant", "later-ai"] }
+    ]
+  },
+  {
+    "slug": "build-an-app-without-code",
+    "title": "Build a working app without coding",
+    "outcome": "A clickable, deployed web app built from a description.",
+    "summary": "Write a clear spec, generate the UI, let an AI app builder create the full app, then connect automations.",
+    "goals": ["build", "business"],
+    "interests": [],
+    "difficulty": "intermediate",
+    "timeToResult": "1–2 days",
+    "steps": [
+      { "title": "Write a product spec", "description": "Describe users, main screens, data and the one thing the app must do well.", "capability": "chat-assistant", "tools": ["claude", "chatgpt"], "tip": "Ask the assistant to list edge cases and empty states." },
+      { "title": "Generate the interface", "description": "Create UI components and screens from your spec.", "capability": "app-builder", "tools": ["v0-by-vercel", "uizard"] },
+      { "title": "Build the full app", "description": "Generate a working app with a database and login, then iterate by chatting.", "capability": "app-builder", "tools": ["lovable", "bolt-new", "replit-agent"] },
+      { "title": "Connect automations", "description": "Send emails, update sheets or post to Slack when things happen in your app.", "capability": "automation", "tools": ["zapier", "make"] }
+    ]
+  },
+  {
+    "slug": "ship-code-faster",
+    "title": "Ship code faster as a developer",
+    "outcome": "Plan, write, review and document features with AI pair programmers.",
+    "summary": "Use AI at each stage of development: planning, coding in your editor, reviewing pull requests and documenting architecture.",
+    "goals": ["build"],
+    "interests": [],
+    "difficulty": "advanced",
+    "timeToResult": "Ongoing",
+    "steps": [
+      { "title": "Plan the change", "description": "Paste the requirement and relevant files; ask for a step-by-step implementation plan and risks.", "capability": "chat-assistant", "tools": ["claude", "chatgpt"] },
+      { "title": "Code with an AI editor", "description": "Implement in small steps with an assistant that understands your whole codebase.", "capability": "code-assistant", "tools": ["cursor", "github-copilot", "windsurf"] },
+      { "title": "Review pull requests", "description": "Get automated review comments on bugs, security and style before a human review.", "capability": "code-assistant", "tools": ["coderabbit", "qodo-cover"] },
+      { "title": "Diagram the architecture", "description": "Keep a living diagram of services and data flow for the team.", "capability": "diagrams", "tools": ["excalidraw", "whimsical"] }
+    ]
+  },
+  {
+    "slug": "automate-repetitive-work",
+    "title": "Automate your repetitive work",
+    "outcome": "Hours saved each week by automating copy-paste tasks.",
+    "summary": "Map a manual process, automate it step by step, and add AI where judgment or writing is needed.",
+    "goals": ["work", "build", "business"],
+    "interests": [],
+    "difficulty": "intermediate",
+    "timeToResult": "2–4 hours",
+    "steps": [
+      { "title": "Map the process", "description": "Draw the steps you repeat, where data comes from and where it goes.", "capability": "diagrams", "tools": ["whimsical", "miro"] },
+      { "title": "Automate the steps", "description": "Connect your apps with triggers and actions; start with one simple flow.", "capability": "automation", "tools": ["zapier", "make", "n8n"] },
+      { "title": "Add AI where it helps", "description": "Insert AI steps to classify, summarize or draft responses inside the flow.", "capability": "chat-assistant", "tools": ["chatgpt", "claude"] },
+      { "title": "Delegate to an agent", "description": "For multi-step tasks, try an AI agent with limited permissions and human approval.", "capability": "agents", "tools": ["lindy", "relevance-ai"] }
+    ]
+  },
+  {
+    "slug": "never-take-meeting-notes-again",
+    "title": "Never take meeting notes again",
+    "outcome": "Automatic notes, action items and follow-ups for every meeting.",
+    "summary": "Schedule smarter, record and summarize meetings, push action items to your task list and send follow-ups in minutes.",
+    "goals": ["work"],
+    "interests": [],
+    "difficulty": "beginner",
+    "timeToResult": "30 minutes setup",
+    "steps": [
+      { "title": "Schedule without back-and-forth", "description": "Share availability links and let AI protect focus time.", "capability": "scheduling", "tools": ["calendly", "reclaim-ai"] },
+      { "title": "Record and summarize", "description": "Let a notetaker join calls and produce summaries, decisions and action items. Always tell participants.", "capability": "meeting-notes", "tools": ["otter-ai", "fireflies-ai"] },
+      { "title": "Turn actions into tasks", "description": "Move action items into your workspace with owners and due dates.", "capability": "notes-knowledge", "tools": ["notion-ai", "taskade"] },
+      { "title": "Send the follow-up", "description": "Draft a short recap email from the summary and send it the same day.", "capability": "email", "tools": ["superhuman", "shortwave"] }
+    ]
+  },
+  {
+    "slug": "presentation-in-an-hour",
+    "title": "Create a great presentation in an hour",
+    "outcome": "A clear, good-looking deck with a strong storyline.",
+    "summary": "Research, structure the story, generate slides and replace generic visuals with custom ones.",
+    "goals": ["work", "study"],
+    "interests": [],
+    "difficulty": "beginner",
+    "timeToResult": "1 hour",
+    "steps": [
+      { "title": "Gather facts", "description": "Collect the key facts and numbers with sources.", "capability": "research-search", "tools": ["perplexity"] },
+      { "title": "Shape the story", "description": "Write one key message per slide and order them as a story: problem, insight, solution, next step.", "capability": "chat-assistant", "tools": ["claude", "chatgpt"] },
+      { "title": "Generate the slides", "description": "Turn the outline into designed slides and adjust layouts.", "capability": "presentations", "tools": ["gamma", "beautiful-ai", "canva-presentations"] },
+      { "title": "Add custom visuals", "description": "Create specific images or diagrams for key slides.", "capability": "image-generation", "tools": ["ideogram", "midjourney"] }
+    ]
+  },
+  {
+    "slug": "analyze-data-without-code",
+    "title": "Analyze data without writing code",
+    "outcome": "Clear charts and insights from your spreadsheet in minutes.",
+    "summary": "Upload your data, ask questions in plain language, build a dashboard and present the findings.",
+    "goals": ["work", "business"],
+    "interests": [],
+    "difficulty": "intermediate",
+    "timeToResult": "1–2 hours",
+    "steps": [
+      { "title": "Clean and explore", "description": "Upload a CSV or connect a sheet; ask the tool to spot missing values and outliers.", "capability": "data-analysis", "tools": ["julius-ai", "rows-ai"] },
+      { "title": "Ask questions", "description": "Ask for trends, comparisons and charts in plain English, and check the formulas it used.", "capability": "data-analysis", "tools": ["julius-ai", "chatgpt"] },
+      { "title": "Build a dashboard", "description": "Create a dashboard your team can refresh.", "capability": "data-analysis", "tools": ["power-bi-copilot"] },
+      { "title": "Present the findings", "description": "Turn the three most important insights into a short deck.", "capability": "presentations", "tools": ["gamma"] }
+    ]
+  },
+  {
+    "slug": "study-smarter-for-exams",
+    "title": "Study smarter for exams",
+    "outcome": "Understand topics deeply and retain them with active recall.",
+    "summary": "Use AI as a patient tutor, turn your own notes into study guides, practice with flashcards and get step-by-step help with math.",
+    "goals": ["study"],
+    "interests": ["languages"],
+    "difficulty": "beginner",
+    "timeToResult": "Ongoing",
+    "steps": [
+      { "title": "Learn with a tutor", "description": "Ask for explanations at your level, then have the tutor quiz you instead of giving answers.", "capability": "education-tutor", "tools": ["khanmigo", "chatgpt"] },
+      { "title": "Study your own material", "description": "Upload lecture notes and readings; ask for summaries, study guides and practice questions.", "capability": "notes-knowledge", "tools": ["notebook-llm"] },
+      { "title": "Practice with flashcards", "description": "Turn weak areas into spaced-repetition flashcards.", "capability": "education-tutor", "tools": ["quizlet-q-chat"] },
+      { "title": "Solve math step by step", "description": "Check your working and understand each step, not just the answer.", "capability": "education-tutor", "tools": ["photomath", "wolfram-alpha"] }
+    ]
+  },
+  {
+    "slug": "write-a-literature-review",
+    "title": "Write a literature review",
+    "outcome": "A structured review of the research on your question, with real citations.",
+    "summary": "Find relevant papers, check what the evidence says, extract key findings and draft a well-cited review.",
+    "goals": ["study"],
+    "interests": [],
+    "difficulty": "intermediate",
+    "timeToResult": "1–2 weeks",
+    "steps": [
+      { "title": "Find papers", "description": "Search by research question and explore citation networks to find key papers.", "capability": "science", "tools": ["elicit", "semantic-scholar", "researchrabbit"] },
+      { "title": "Check the evidence", "description": "See whether studies support or contradict a claim and how often they are cited.", "capability": "science", "tools": ["consensus", "scite"] },
+      { "title": "Summarize papers", "description": "Extract methods, results and limitations into a comparison table.", "capability": "summarization", "tools": ["scholarcy"] },
+      { "title": "Draft and polish", "description": "Draft themes and gaps from your table, then edit for clarity. Verify every citation yourself.", "capability": "writing", "tools": ["claude", "grammarly"] }
+    ]
+  },
+  {
+    "slug": "learn-a-new-language",
+    "title": "Learn a new language",
+    "outcome": "Daily practice that builds speaking confidence, not just vocabulary.",
+    "summary": "Combine a structured course with open conversation practice, accurate translation and listening practice.",
+    "goals": ["study", "hobby"],
+    "interests": ["languages", "travel"],
+    "difficulty": "beginner",
+    "timeToResult": "15 minutes a day",
+    "steps": [
+      { "title": "Daily lessons", "description": "Build a streak with short structured lessons and AI explanations of mistakes.", "capability": "education-tutor", "tools": ["duolingo-max"] },
+      { "title": "Conversation practice", "description": "Role-play real situations (ordering food, small talk) and ask for corrections.", "capability": "chat-assistant", "tools": ["chatgpt", "pi"] },
+      { "title": "Translate and check", "description": "Check natural phrasing for things you want to say.", "capability": "translation", "tools": ["deepl"] },
+      { "title": "Train your ear", "description": "Listen to articles read aloud in your target language.", "capability": "voice-tts", "tools": ["speechify"] }
+    ]
+  },
+  {
+    "slug": "research-any-topic-fast",
+    "title": "Research any topic fast",
+    "outcome": "A sourced briefing on any topic, saved to your knowledge base.",
+    "summary": "Search with citations, go deep on your own sources, synthesize a brief and save it where you can find it again.",
+    "goals": ["study", "work"],
+    "interests": [],
+    "difficulty": "beginner",
+    "timeToResult": "30–60 minutes",
+    "steps": [
+      { "title": "Search with sources", "description": "Ask specific questions and open the cited sources for important claims.", "capability": "research-search", "tools": ["perplexity", "you-com"] },
+      { "title": "Go deep on documents", "description": "Upload PDFs and articles and ask questions across all of them.", "capability": "notes-knowledge", "tools": ["notebook-llm"] },
+      { "title": "Synthesize a brief", "description": "Write a one-page brief: what we know, what is uncertain, what to do next.", "capability": "writing", "tools": ["claude", "chatgpt"] },
+      { "title": "Save to your second brain", "description": "Store the brief with links so it compounds over time.", "capability": "notes-knowledge", "tools": ["obsidian", "mem"] }
+    ]
+  },
+  {
+    "slug": "make-music-with-ai",
+    "title": "Make your own song",
+    "outcome": "An original song with lyrics, vocals and cover art.",
+    "summary": "Write lyrics, generate a full song, create instrumentals or stems for remixing and design cover art.",
+    "goals": ["hobby", "create"],
+    "interests": ["music"],
+    "difficulty": "beginner",
+    "timeToResult": "1–2 hours",
+    "steps": [
+      { "title": "Write lyrics", "description": "Describe the story and mood; iterate on verses and chorus until they feel like yours.", "capability": "writing", "tools": ["chatgpt", "claude"] },
+      { "title": "Generate the song", "description": "Choose genre, tempo and vocal style; generate takes and extend the best one.", "capability": "music-generation", "tools": ["suno", "udio"] },
+      { "title": "Create instrumentals", "description": "Make royalty-free background tracks for videos or practice.", "capability": "music-generation", "tools": ["soundraw", "aiva", "stable-audio"] },
+      { "title": "Split stems to remix", "description": "Separate vocals, drums and bass to remix or practice along.", "capability": "music-generation", "tools": ["lalal-ai"] },
+      { "title": "Design cover art", "description": "Create square artwork that reads well as a small thumbnail.", "capability": "image-generation", "tools": ["midjourney", "ideogram"] }
+    ]
+  },
+  {
+    "slug": "ai-art-and-illustration",
+    "title": "Create AI art and illustrations",
+    "outcome": "A consistent set of illustrations in your own style.",
+    "summary": "Develop ideas, generate images, refine details and prepare print- or web-ready files.",
+    "goals": ["hobby", "create"],
+    "interests": ["photography", "writing-stories"],
+    "difficulty": "beginner",
+    "timeToResult": "1–3 hours",
+    "steps": [
+      { "title": "Develop the concept", "description": "Describe the scene, style references and mood; ask for detailed prompts.", "capability": "prompt-tools", "tools": ["chatgpt"] },
+      { "title": "Generate images", "description": "Generate variations, then reuse seeds or style references to stay consistent.", "capability": "image-generation", "tools": ["midjourney", "leonardo-ai", "ideogram"] },
+      { "title": "Refine details", "description": "Fix hands, extend backgrounds or change parts of the image with generative fill.", "capability": "photo-editing", "tools": ["adobe-firefly", "krea"] },
+      { "title": "Upscale for print", "description": "Upscale to high resolution without losing detail.", "capability": "photo-editing", "tools": ["magnific-ai", "upscayl"] }
+    ]
+  },
+  {
+    "slug": "product-photos-that-sell",
+    "title": "Create product photos and listings that sell",
+    "outcome": "Studio-quality product photos and descriptions for your store.",
+    "summary": "Shoot with your phone, remove backgrounds, place products in lifestyle scenes and write listings that convert.",
+    "goals": ["business"],
+    "interests": ["photography"],
+    "difficulty": "beginner",
+    "timeToResult": "2 hours",
+    "steps": [
+      { "title": "Clean product shots", "description": "Remove backgrounds and fix lighting from simple phone photos.", "capability": "photo-editing", "tools": ["photoroom", "remove-bg"] },
+      { "title": "Lifestyle scenes", "description": "Place products in realistic scenes that match your brand.", "capability": "image-generation", "tools": ["adobe-firefly", "clipdrop"] },
+      { "title": "Write the listing", "description": "Generate benefit-led product descriptions with your keywords.", "capability": "ecommerce", "tools": ["shopify-magic", "copy-ai"] },
+      { "title": "Create ads", "description": "Turn photos into ad creatives and social posts.", "capability": "social-media", "tools": ["predis-ai"] }
+    ]
+  },
+  {
+    "slug": "plan-a-trip",
+    "title": "Plan a trip in minutes",
+    "outcome": "A day-by-day itinerary within your budget.",
+    "summary": "Generate an itinerary around your interests, find flights and stays, and be ready to communicate abroad.",
+    "goals": ["hobby"],
+    "interests": ["travel"],
+    "difficulty": "beginner",
+    "timeToResult": "30 minutes",
+    "steps": [
+      { "title": "Build the itinerary", "description": "Share dates, budget and interests; get a day-by-day plan and adjust it.", "capability": "travel", "tools": ["wonderplan", "layla-ai", "tripnotes"] },
+      { "title": "Find flights and stays", "description": "Search with natural language and compare options.", "capability": "travel", "tools": ["kayak-ai"] },
+      { "title": "Handle the language", "description": "Translate menus, signs and messages accurately.", "capability": "translation", "tools": ["deepl"] },
+      { "title": "Budget check", "description": "Ask for a daily cost estimate and money-saving swaps.", "capability": "chat-assistant", "tools": ["chatgpt"] }
+    ]
+  },
+  {
+    "slug": "get-fit-with-ai",
+    "title": "Get fit with an AI coach",
+    "outcome": "A workout and nutrition plan that adapts to your progress.",
+    "summary": "Get an adaptive training plan, track nutrition and recovery, and ask questions any time. Consult a professional for medical concerns.",
+    "goals": ["hobby"],
+    "interests": ["fitness"],
+    "difficulty": "beginner",
+    "timeToResult": "Ongoing",
+    "steps": [
+      { "title": "Get a training plan", "description": "Share your goal, schedule and equipment; let the plan adapt as you log workouts.", "capability": "health-fitness", "tools": ["fitbod", "future-fitness"] },
+      { "title": "Fix your nutrition", "description": "Build sustainable habits rather than strict diets.", "capability": "health-fitness", "tools": ["noom"] },
+      { "title": "Track recovery", "description": "Use sleep and strain data to decide when to push and when to rest.", "capability": "health-fitness", "tools": ["whoop"] },
+      { "title": "Ask anything", "description": "Get explanations of exercises and adjustments for travel or busy weeks.", "capability": "chat-assistant", "tools": ["chatgpt"] }
+    ]
+  },
+  {
+    "slug": "redesign-your-room",
+    "title": "Redesign a room",
+    "outcome": "See your room in new styles and get a plan to make it real.",
+    "summary": "Visualize styles from a photo, plan the layout in 3D and turn it into a shopping list within budget.",
+    "goals": ["hobby"],
+    "interests": ["home"],
+    "difficulty": "beginner",
+    "timeToResult": "1 hour",
+    "steps": [
+      { "title": "Visualize styles", "description": "Upload a photo of the room and try different styles.", "capability": "interior-design", "tools": ["roomgpt", "interior-ai"] },
+      { "title": "Plan the layout", "description": "Measure the room and test furniture placement in 3D.", "capability": "interior-design", "tools": ["planner-5d"] },
+      { "title": "Make a shopping list", "description": "Turn your favorite design into a prioritized list within budget.", "capability": "chat-assistant", "tools": ["chatgpt"] }
+    ]
+  },
+  {
+    "slug": "customer-support-chatbot",
+    "title": "Add an AI support chatbot to your website",
+    "outcome": "Answer common customer questions 24/7 with human handoff.",
+    "summary": "Organize your knowledge, train a chatbot on it, and connect it to your CRM with a clear path to a human.",
+    "goals": ["business"],
+    "interests": [],
+    "difficulty": "intermediate",
+    "timeToResult": "1 day",
+    "steps": [
+      { "title": "Organize your knowledge", "description": "Collect FAQs, policies and help articles in one place and fill gaps.", "capability": "notes-knowledge", "tools": ["notion-ai"] },
+      { "title": "Build the chatbot", "description": "Train a bot on your content and test it with real questions.", "capability": "customer-support", "tools": ["chatbase", "tidio", "voiceflow"] },
+      { "title": "Connect to your CRM", "description": "Log conversations and route complex cases to your team.", "capability": "sales-crm", "tools": ["hubspot-ai"] }
+    ]
+  },
+  {
+    "slug": "explainer-video-with-avatar",
+    "title": "Make a training or explainer video",
+    "outcome": "A professional explainer or onboarding video without a film crew.",
+    "summary": "Script the message, present it with an AI avatar, add screen demos and polish the edit.",
+    "goals": ["work", "business"],
+    "interests": [],
+    "difficulty": "beginner",
+    "timeToResult": "2–3 hours",
+    "steps": [
+      { "title": "Write the script", "description": "Keep it to 90 seconds with one idea per scene.", "capability": "writing", "tools": ["claude", "chatgpt"] },
+      { "title": "Present with an avatar", "description": "Choose a presenter and voice; generate the talking segments.", "capability": "avatar-video", "tools": ["synthesia", "heygen"] },
+      { "title": "Record screen demos", "description": "Record the product steps and let AI tidy them up.", "capability": "screen-recording", "tools": ["loom-ai", "tango"] },
+      { "title": "Final edit", "description": "Combine segments, add captions and music.", "capability": "video-editing", "tools": ["descript"] }
+    ]
+  },
+  {
+    "slug": "create-an-online-course",
+    "title": "Create an online course",
+    "outcome": "A structured course with video lessons and quizzes.",
+    "summary": "Design the curriculum, build slides, record or generate lessons, add quizzes and captions.",
+    "goals": ["business", "create"],
+    "interests": [],
+    "difficulty": "intermediate",
+    "timeToResult": "1–2 weeks",
+    "steps": [
+      { "title": "Design the curriculum", "description": "Define learner outcomes and break them into modules and lessons.", "capability": "education-tutor", "tools": ["chatgpt", "claude"] },
+      { "title": "Build lesson slides", "description": "Turn each lesson outline into clean slides.", "capability": "presentations", "tools": ["gamma"] },
+      { "title": "Record lessons", "description": "Record yourself, or generate presenter videos for scripted lessons.", "capability": "avatar-video", "tools": ["synthesia", "loom-ai"] },
+      { "title": "Add quizzes", "description": "Create quizzes to check understanding after each module.", "capability": "forms-surveys", "tools": ["typeform", "tally"] },
+      { "title": "Caption everything", "description": "Add accurate captions and transcripts for accessibility.", "capability": "transcription", "tools": ["happy-scribe"] }
+    ]
+  },
+  {
+    "slug": "land-your-next-job",
+    "title": "Land your next job",
+    "outcome": "A tailored resume, sharp cover letters and interview confidence.",
+    "summary": "Tailor your resume to each role, research companies, write cover letters and practice interviews with AI feedback.",
+    "goals": ["work"],
+    "interests": [],
+    "difficulty": "beginner",
+    "timeToResult": "1 week",
+    "steps": [
+      { "title": "Tailor your resume", "description": "Paste the job description and your resume; ask which achievements to emphasize and what is missing.", "capability": "writing", "tools": ["chatgpt", "claude"] },
+      { "title": "Research the company", "description": "Learn about recent news, products and culture with sources.", "capability": "research-search", "tools": ["perplexity"] },
+      { "title": "Polish your cover letter", "description": "Make it specific and concise, and fix tone and grammar.", "capability": "writing", "tools": ["grammarly"] },
+      { "title": "Practice interviews", "description": "Run mock interviews by voice or text and ask for honest feedback on structure.", "capability": "chat-assistant", "tools": ["chatgpt", "pi"] }
+    ]
+  },
+  {
+    "slug": "personal-finance-on-autopilot",
+    "title": "Put your personal finances on autopilot",
+    "outcome": "A clear budget, tracked spending and smarter money habits.",
+    "summary": "Track spending automatically, build a realistic budget and understand your money with plain-language explanations. Not financial advice.",
+    "goals": ["hobby"],
+    "interests": ["investing"],
+    "difficulty": "beginner",
+    "timeToResult": "1 hour setup",
+    "steps": [
+      { "title": "Track spending automatically", "description": "Connect accounts read-only and let AI categorize transactions.", "capability": "finance", "tools": ["monarch-money", "copilot-money"] },
+      { "title": "Get nudges and insights", "description": "Get friendly nudges on spending and savings goals.", "capability": "finance", "tools": ["cleo"] },
+      { "title": "Understand the concepts", "description": "Ask for plain-language explanations of budgeting, debt and investing basics.", "capability": "chat-assistant", "tools": ["chatgpt", "claude"] }
+    ]
+  },
+  {
+    "slug": "write-a-book-or-story",
+    "title": "Write a story or book",
+    "outcome": "A finished draft with a solid plot and a consistent voice.",
+    "summary": "Plan your plot and characters, draft with an AI writing partner, revise and create cover art.",
+    "goals": ["hobby", "create"],
+    "interests": ["writing-stories"],
+    "difficulty": "intermediate",
+    "timeToResult": "Weeks",
+    "steps": [
+      { "title": "Plan plot and characters", "description": "Develop premise, characters and a chapter outline through conversation.", "capability": "chat-assistant", "tools": ["claude", "chatgpt"] },
+      { "title": "Draft with a writing partner", "description": "Write scenes yourself and use AI to unblock, describe or brainstorm what happens next.", "capability": "writing", "tools": ["sudowrite"] },
+      { "title": "Revise and edit", "description": "Tighten prose and fix grammar while keeping your voice.", "capability": "writing", "tools": ["grammarly", "wordtune"] },
+      { "title": "Design a cover", "description": "Generate cover concepts, then finalize typography by hand.", "capability": "image-generation", "tools": ["midjourney", "ideogram"] }
+    ]
+  },
+  {
+    "slug": "sales-outreach-that-gets-replies",
+    "title": "Run sales outreach that gets replies",
+    "outcome": "Personalized outreach at scale and a pipeline you can track.",
+    "summary": "Build a target list, research prospects, write personalized sequences and log everything in your CRM.",
+    "goals": ["business"],
+    "interests": [],
+    "difficulty": "intermediate",
+    "timeToResult": "1 day setup",
+    "steps": [
+      { "title": "Build a target list", "description": "Find companies and contacts that match your ideal customer profile.", "capability": "sales-crm", "tools": ["apollo-io", "clay"] },
+      { "title": "Personalize the outreach", "description": "Generate personalized first lines and short sequences; review before sending.", "capability": "sales-crm", "tools": ["lemlist", "smartwriter-ai"] },
+      { "title": "Track the pipeline", "description": "Log replies and meetings automatically and get AI deal summaries.", "capability": "sales-crm", "tools": ["hubspot-ai"] },
+      { "title": "Learn from calls", "description": "Record and summarize sales calls to improve your pitch.", "capability": "meeting-notes", "tools": ["fireflies-ai", "gong"] }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "slug": "ragflow",
+  "name": "ragflow",
+  "url": "https://ragflow.io/",
+  "tagline": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+  "about": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "research-search"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

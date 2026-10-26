@@ -1,0 +1,26 @@
+{
+  "slug": "scenario",
+  "name": "Scenario",
+  "url": "https://www.scenario.com/",
+  "tagline": "AI game asset generator for creating consistent art assets and characters.",
+  "about": "Scenario helps game developers generate consistent art assets by training custom AI models on their art style.",
+  "pros": [
+    "Style consistency",
+    "Custom models",
+    "Game-focused"
+  ],
+  "cons": [
+    "Training required",
+    "Subscription pricing",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

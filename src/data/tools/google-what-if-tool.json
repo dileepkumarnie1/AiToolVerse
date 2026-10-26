@@ -1,0 +1,27 @@
+{
+  "slug": "google-what-if-tool",
+  "name": "Google What-If Tool",
+  "url": "https://pair-code.github.io/what-if-tool/",
+  "tagline": "Visual interface for inspecting machine learning models for fairness and performance.",
+  "about": "The What-If Tool lets users visually analyze model performance, fairness, and feature importance without writing code.",
+  "pros": [
+    "No-code interface.",
+    "Great for demos.",
+    "Integrates with TensorBoard."
+  ],
+  "cons": [
+    "Limited to TensorFlow/TFX.",
+    "Not for production use.",
+    "Visualization-focused."
+  ],
+  "capabilities": [
+    "responsible-ai",
+    "data-analysis"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

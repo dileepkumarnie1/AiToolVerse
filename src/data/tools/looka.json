@@ -1,0 +1,28 @@
+{
+  "slug": "looka",
+  "name": "Looka",
+  "url": "https://looka.com/",
+  "tagline": "Comprehensive branding platform with AI logo generation, brand kits, color palettes, and asset previews.",
+  "about": "Looka provides comprehensive branding kits with AI logo generation based on industry and vision. You can preview logos on various assets before purchase, and it helps create color palettes and font pairings for complete brand identity.",
+  "pros": [
+    "Complete branding kit",
+    "Preview on various assets",
+    "Color palette generation",
+    "High-quality outputs"
+  ],
+  "cons": [
+    "One-time cost can be high",
+    "Limited revisions after purchase",
+    "Best for standard logos"
+  ],
+  "capabilities": [
+    "graphic-design",
+    "logo-branding"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

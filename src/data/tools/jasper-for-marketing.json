@@ -1,0 +1,28 @@
+{
+  "slug": "jasper-for-marketing",
+  "name": "Jasper for Marketing",
+  "url": "https://www.jasper.ai/",
+  "tagline": "AI marketing platform for creating on-brand content across all channels.",
+  "about": "Jasper helps marketing teams create consistent, on-brand content across channels with AI trained on your brand voice.",
+  "pros": [
+    "Brand consistency",
+    "Team features",
+    "Multi-channel"
+  ],
+  "cons": [
+    "Expensive",
+    "Needs training",
+    "Output varies"
+  ],
+  "capabilities": [
+    "marketing-seo",
+    "writing",
+    "voice-tts"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

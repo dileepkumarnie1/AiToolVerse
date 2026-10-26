@@ -1,0 +1,27 @@
+{
+  "slug": "cal-com",
+  "name": "Cal.com",
+  "url": "https://cal.com/",
+  "tagline": "Open-source scheduling with AI features for booking optimization.",
+  "about": "Cal.com is an open-source scheduling platform with AI features for booking.",
+  "pros": [
+    "Open source",
+    "Self-hosting",
+    "Feature-rich"
+  ],
+  "cons": [
+    "Self-host complexity",
+    "Enterprise for full AI",
+    "Setup time"
+  ],
+  "capabilities": [
+    "scheduling",
+    "travel"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

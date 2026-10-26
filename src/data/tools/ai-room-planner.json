@@ -1,0 +1,28 @@
+{
+  "slug": "ai-room-planner",
+  "name": "AI Room Planner",
+  "url": "https://airoomplanner.com/",
+  "tagline": "AI-powered room planning tool for furniture arrangement and space optimization.",
+  "about": "AI Room Planner helps optimize furniture placement and room layouts using AI to maximize space and functionality.",
+  "pros": [
+    "Space optimization",
+    "Easy to use",
+    "Multiple layouts"
+  ],
+  "cons": [
+    "Limited features",
+    "Basic visualization",
+    "Newer tool"
+  ],
+  "capabilities": [
+    "interior-design",
+    "graphic-design",
+    "scheduling"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

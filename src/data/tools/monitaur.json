@@ -1,0 +1,27 @@
+{
+  "slug": "monitaur",
+  "name": "Monitaur",
+  "url": "https://monitaur.ai/",
+  "tagline": "AI governance and auditing platform for model risk management.",
+  "about": "Monitaur provides AI auditing and governance tools for model risk management and regulatory compliance.",
+  "pros": [
+    "Audit focus",
+    "Compliance-oriented",
+    "Risk management"
+  ],
+  "cons": [
+    "Enterprise focus",
+    "Regulatory use case",
+    "Setup complexity"
+  ],
+  "capabilities": [
+    "responsible-ai",
+    "legal"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

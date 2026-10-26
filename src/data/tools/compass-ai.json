@@ -1,0 +1,28 @@
+{
+  "slug": "compass-ai",
+  "name": "Compass AI",
+  "url": "https://www.compass.com/",
+  "tagline": "AI tools for real estate agents including market analysis and client matching.",
+  "about": "Compass provides AI-powered tools for real estate agents including market analysis, pricing, and client matching.",
+  "pros": [
+    "Agent-focused",
+    "Integrated platform",
+    "Modern tech"
+  ],
+  "cons": [
+    "Compass agents only",
+    "US markets",
+    "Brokerage-specific"
+  ],
+  "capabilities": [
+    "real-estate",
+    "sales-crm",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

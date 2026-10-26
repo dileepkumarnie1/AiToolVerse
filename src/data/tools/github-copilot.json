@@ -1,0 +1,27 @@
+{
+  "slug": "github-copilot",
+  "name": "GitHub Copilot",
+  "url": "https://github.com/features/copilot",
+  "tagline": "An AI pair programmer that offers autocomplete-style suggestions as you code.",
+  "about": "GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of various code editors by autocompleting code. It understands context from comments and code to suggest individual lines and whole functions instantly.",
+  "pros": [
+    "Dramatically speeds up coding and reduces boilerplate.",
+    "Integrates seamlessly into popular code editors.",
+    "Learns from your coding style."
+  ],
+  "cons": [
+    "Requires a subscription after the trial period.",
+    "Suggestions can sometimes be non-optimal or contain subtle bugs.",
+    "Raises questions about code originality and licensing."
+  ],
+  "capabilities": [
+    "developer-api",
+    "code-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

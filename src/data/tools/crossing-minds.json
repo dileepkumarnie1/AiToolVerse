@@ -1,0 +1,26 @@
+{
+  "slug": "crossing-minds",
+  "name": "Crossing Minds",
+  "url": "https://www.crossingminds.com/",
+  "tagline": "Privacy-first AI recommendation engine for e-commerce and media.",
+  "about": "Crossing Minds provides AI recommendations without collecting personal data, using only behavioral signals.",
+  "pros": [
+    "Privacy-first",
+    "No PII needed",
+    "Good accuracy"
+  ],
+  "cons": [
+    "Technical integration",
+    "Pricing",
+    "Less known"
+  ],
+  "capabilities": [
+    "ecommerce"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

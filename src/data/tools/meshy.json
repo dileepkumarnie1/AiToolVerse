@@ -1,0 +1,27 @@
+{
+  "slug": "meshy",
+  "name": "Meshy",
+  "url": "https://www.meshy.ai/",
+  "tagline": "Text/image‑to‑3D assets and textures for games and design.",
+  "about": "Generate meshes and materials from prompts, with web preview and export.",
+  "pros": [
+    "Fast 3D generations.",
+    "Good textures.",
+    "Web workflows."
+  ],
+  "cons": [
+    "Post‑cleanup needed.",
+    "Export limits on free.",
+    "IP diligence required."
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

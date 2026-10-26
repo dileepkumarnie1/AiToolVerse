@@ -1,0 +1,26 @@
+{
+  "slug": "snapfeet",
+  "name": "Snapfeet",
+  "url": "https://snapfeet.com/",
+  "tagline": "AI-powered shoe size finder that uses your phone camera for accurate measurements.",
+  "about": "Snapfeet uses AI and AR to scan your feet and provide accurate shoe size recommendations across different brands.",
+  "pros": [
+    "Accurate sizing",
+    "Works with phone camera",
+    "Multiple brand recommendations"
+  ],
+  "cons": [
+    "Limited to shoes",
+    "App required",
+    "Brand coverage varies"
+  ],
+  "capabilities": [
+    "fashion"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

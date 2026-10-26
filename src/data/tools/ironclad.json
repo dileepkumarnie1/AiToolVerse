@@ -1,0 +1,26 @@
+{
+  "slug": "ironclad",
+  "name": "Ironclad",
+  "url": "https://ironcladapp.com/",
+  "tagline": "AI contract lifecycle management platform for legal teams.",
+  "about": "Ironclad provides AI-powered contract management for creating, negotiating, and analyzing business contracts.",
+  "pros": [
+    "Full CLM",
+    "AI review",
+    "Workflow automation"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Implementation time",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "legal"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "arthur-ai",
+  "name": "Arthur AI",
+  "url": "https://arthur.ai/",
+  "tagline": "AI performance monitoring and model governance platform.",
+  "about": "Arthur AI provides model monitoring, explainability, and governance for production AI systems.",
+  "pros": [
+    "Production monitoring",
+    "Bias detection",
+    "Explainability"
+  ],
+  "cons": [
+    "Enterprise focus",
+    "Technical setup",
+    "ML expertise needed"
+  ],
+  "capabilities": [
+    "responsible-ai"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

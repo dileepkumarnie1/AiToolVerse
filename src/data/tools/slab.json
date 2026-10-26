@@ -1,0 +1,26 @@
+{
+  "slug": "slab",
+  "name": "Slab",
+  "url": "https://slab.com/",
+  "tagline": "Knowledge management tool with AI-powered search and discovery.",
+  "about": "Slab provides team knowledge management with AI-powered search and discovery features.",
+  "pros": [
+    "Good search",
+    "Clean design",
+    "Integrations"
+  ],
+  "cons": [
+    "Per-user pricing",
+    "Limited AI features",
+    "Team focus only"
+  ],
+  "capabilities": [
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

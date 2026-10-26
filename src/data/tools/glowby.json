@@ -1,0 +1,29 @@
+{
+  "slug": "glowby",
+  "name": "Glowby",
+  "url": "https://www.glowby.com/",
+  "tagline": "An autonomous AI agent designed to automate sales and marketing tasks.",
+  "about": "Glowby is a specialized AI agent for sales and marketing teams. It can perform tasks like lead research, personalized email outreach, social media engagement, and data entry in a CRM. It's designed to automate the repetitive, top-of-funnel activities for sales representatives.",
+  "pros": [
+    "Highly specialized for valuable business use cases (sales/marketing).",
+    "Automates time-consuming and repetitive tasks for sales teams.",
+    "Integrates with common sales tools like CRMs and email platforms."
+  ],
+  "cons": [
+    "It is a subscription-based product aimed at businesses.",
+    "The quality of AI-driven outreach can be less personal than human interaction.",
+    "Effectiveness depends on the quality of the data and instructions provided."
+  ],
+  "capabilities": [
+    "agents",
+    "graphic-design",
+    "marketing-seo",
+    "sales-crm"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

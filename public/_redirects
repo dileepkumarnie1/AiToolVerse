@@ -1,0 +1,13 @@
+# Old aitoolverse.ai URLs -> new structure
+/all-tools        /tools/       301
+/all-tools/       /tools/       301
+/category/*       /categories/  301
+/use-case/*       /pipelines/   301
+/find-tool        /start/       301
+/find-tool/       /start/       301
+/stacks           /pipelines/   301
+/stacks/          /pipelines/   301
+/prompt-studio    /             301
+/prompt-studio/   /             301
+/submit-tool      /suggest/     301
+/submit-tool/     /suggest/     301

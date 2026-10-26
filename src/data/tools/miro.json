@@ -1,0 +1,28 @@
+{
+  "slug": "miro",
+  "name": "Miro",
+  "url": "https://miro.com/",
+  "tagline": "Collaborative online whiteboard with AI-powered diagramming and templates",
+  "about": "Miro is a collaborative online whiteboard platform with AI features, extensive templates, and powerful diagramming tools for teams and remote collaboration.",
+  "pros": [
+    "Infinite canvas for creativity",
+    "Huge template library",
+    "Excellent for remote teams",
+    "Many integrations (Zoom, Slack, etc.)"
+  ],
+  "cons": [
+    "Can be overwhelming for simple tasks",
+    "Free plan limits boards",
+    "Performance can slow with very large boards"
+  ],
+  "capabilities": [
+    "diagrams",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

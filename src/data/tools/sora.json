@@ -1,0 +1,26 @@
+{
+  "slug": "sora",
+  "name": "Sora (OpenAI)",
+  "url": "https://openai.com/sora",
+  "tagline": "A state-of-the-art text-to-video model for creating realistic and imaginative scenes.",
+  "about": "Sora is a text-to-video model developed by OpenAI, capable of generating high-fidelity, minute-long videos from textual prompts. It demonstrates a sophisticated understanding of language, physics, and cinematic composition, allowing it to create complex scenes with multiple characters, specific types of motion, and accurate details of the subject and background.",
+  "pros": [
+    "Creates exceptionally realistic and imaginative video scenes.",
+    "Capable of generating longer, more coherent video clips than many competitors.",
+    "Understands complex prompts and object permanence."
+  ],
+  "cons": [
+    "Access is currently limited to a select group of testers and creatives.",
+    "May still struggle with the physics of complex scenes and cause-and-effect.",
+    "Carries significant potential for misuse in creating misinformation."
+  ],
+  "capabilities": [
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

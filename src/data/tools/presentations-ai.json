@@ -1,0 +1,27 @@
+{
+  "slug": "presentations-ai",
+  "name": "Presentations.ai",
+  "url": "https://www.presentations.ai/",
+  "tagline": "Enterprise-focused AI presentation tool with advanced customization and business collaboration features.",
+  "about": "Presentations.ai offers advanced customization and business collaboration features designed for enterprise use. It includes AI-powered layout optimization, premium exporting options, and strong support for team workflows.",
+  "pros": [
+    "Advanced customization options",
+    "Strong team collaboration features",
+    "AI-powered layout assistants",
+    "Premium export quality"
+  ],
+  "cons": [
+    "Higher price point",
+    "More complex than simpler alternatives",
+    "May be overkill for individual users"
+  ],
+  "capabilities": [
+    "presentations"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "riffusion",
+  "name": "Riffusion",
+  "url": "https://www.riffusion.com/",
+  "tagline": "Real‑time music generation via stable diffusion on spectrograms.",
+  "about": "Riffusion generates musical audio by producing spectrogram images with diffusion and converting them back to sound, enabling prompt‑based loops and styles.",
+  "pros": [
+    "Fun, prompt‑based music loops.",
+    "Runs locally with OSS code.",
+    "Great for experimentation."
+  ],
+  "cons": [
+    "Audio quality below pro DAWs/models.",
+    "Limited composition control.",
+    "Best for short loops, not full songs."
+  ],
+  "capabilities": [
+    "music-generation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

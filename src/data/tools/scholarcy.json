@@ -1,0 +1,28 @@
+{
+  "slug": "scholarcy",
+  "name": "Scholarcy",
+  "url": "https://www.scholarcy.com/",
+  "tagline": "Summarize research papers with highlights and flashcards.",
+  "about": "Extracts key points, figures, and references to accelerate reviews.",
+  "pros": [
+    "Saves time.",
+    "Structured outputs.",
+    "Browser extensions."
+  ],
+  "cons": [
+    "Subscription needed.",
+    "May miss nuance.",
+    "PDF quality matters."
+  ],
+  "capabilities": [
+    "research-search",
+    "summarization",
+    "science"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

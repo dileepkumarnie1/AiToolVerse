@@ -1,0 +1,28 @@
+{
+  "slug": "hugginggpt",
+  "name": "HuggingGPT",
+  "url": "https://huggingface.co/",
+  "tagline": "Experimental project where ChatGPT coordinates HuggingFace models as sub-agents.",
+  "about": "ChatGPT acts as an orchestrator that selects and calls HuggingFace models for specific subtasks (e.g., image generation, speech processing).",
+  "pros": [
+    "Multimodal capabilities.",
+    "Leverages HuggingFace ecosystem.",
+    "Interesting research direction."
+  ],
+  "cons": [
+    "Experimental.",
+    "Complex orchestration.",
+    "Not production-ready."
+  ],
+  "capabilities": [
+    "agents",
+    "chat-assistant",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

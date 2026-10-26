@@ -1,0 +1,27 @@
+{
+  "slug": "grammarly",
+  "name": "Grammarly",
+  "url": "https://www.grammarly.com/",
+  "tagline": "An AI-powered writing assistant that checks grammar, spelling, style, and tone.",
+  "about": "Grammarly is a cloud-based typing assistant that reviews spelling, grammar, punctuation, clarity, engagement, and delivery mistakes. It uses AI to go beyond basic checks, offering suggestions on tone, word choice, and sentence structure.",
+  "pros": [
+    "Excellent for catching grammatical errors and typos.",
+    "Provides suggestions for improving writing style and clarity.",
+    "Integrates with browsers, email clients, and word processors."
+  ],
+  "cons": [
+    "The best features are locked behind a premium subscription.",
+    "Can sometimes make suggestions that alter the intended meaning.",
+    "Generative AI features are newer and less developed than dedicated chatbots."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

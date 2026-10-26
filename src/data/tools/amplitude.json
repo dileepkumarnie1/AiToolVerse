@@ -1,0 +1,26 @@
+{
+  "slug": "amplitude",
+  "name": "Amplitude",
+  "url": "https://amplitude.com/",
+  "tagline": "AI-powered product analytics platform for understanding user behavior.",
+  "about": "Amplitude provides AI-powered product analytics to understand user behavior, predict outcomes, and drive growth.",
+  "pros": [
+    "Deep analytics",
+    "AI predictions",
+    "User journey tracking"
+  ],
+  "cons": [
+    "Learning curve",
+    "Enterprise pricing",
+    "Data volume needed"
+  ],
+  "capabilities": [
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

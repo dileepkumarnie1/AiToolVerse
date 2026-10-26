@@ -1,0 +1,29 @@
+{
+  "slug": "cursor",
+  "name": "Cursor",
+  "url": "https://cursor.sh/",
+  "tagline": "An AI-first code editor designed for pair-programming with a powerful AI.",
+  "about": "Cursor is a standalone code editor built from the ground up for AI-assisted development. It's a fork of VS Code that deeply integrates features like code generation, debugging with AI, and project-wide understanding of your codebase.",
+  "pros": [
+    "Deeply integrated AI features feel native.",
+    "Can understand and work with your entire codebase.",
+    "Offers a generous free tier."
+  ],
+  "cons": [
+    "Is a separate application, not a plugin for your existing editor.",
+    "Can be resource-intensive.",
+    "Still a newer product, so some features may be less polished than established editors."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "graphic-design",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

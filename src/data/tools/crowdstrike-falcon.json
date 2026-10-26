@@ -1,0 +1,26 @@
+{
+  "slug": "crowdstrike-falcon",
+  "name": "CrowdStrike Falcon",
+  "url": "https://www.crowdstrike.com/",
+  "tagline": "AI-powered cloud-native endpoint protection platform.",
+  "about": "CrowdStrike Falcon uses AI and machine learning for endpoint protection, threat detection, and incident response.",
+  "pros": [
+    "Industry-leading protection",
+    "Cloud-native architecture",
+    "Fast threat response"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Can be resource-intensive",
+    "Requires security expertise"
+  ],
+  "capabilities": [
+    "cybersecurity"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

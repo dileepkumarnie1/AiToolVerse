@@ -1,0 +1,27 @@
+{
+  "slug": "llamaindex-agents",
+  "name": "LlamaIndex Agents",
+  "url": "https://www.llamaindex.ai/",
+  "tagline": "Data-focused framework for retrieval-augmented autonomous agents.",
+  "about": "Built for connecting LLMs with structured and unstructured data. LlamaIndex agents excel at information retrieval, summarization, and knowledge workflows.",
+  "pros": [
+    "Strong for enterprise knowledge.",
+    "Optimized for RAG.",
+    "Flexible integrations."
+  ],
+  "cons": [
+    "Niche focus.",
+    "Requires setup.",
+    "Less general-purpose."
+  ],
+  "capabilities": [
+    "agents",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "anythingllm",
+  "name": "AnythingLLM",
+  "url": "https://useanythingllm.com/",
+  "tagline": "All-in-one app for chatting with your documents using local or hosted LLMs.",
+  "about": "AnythingLLM helps teams and individuals build document-aware chat experiences with flexible model and vector store choices.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "notes-knowledge"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "hex-magic",
+  "name": "Hex Magic",
+  "url": "https://hex.tech/",
+  "tagline": "Notebook and app platform with AI assistance for data teams.",
+  "about": "Blend SQL, Python, and charts; ship data apps with AI‑assisted analysis and docs.",
+  "pros": [
+    "Great UX.",
+    "Team collaboration.",
+    "Shareable apps."
+  ],
+  "cons": [
+    "Cloud‑centric.",
+    "Limits on free.",
+    "Learning curve for app building."
+  ],
+  "capabilities": [
+    "data-analysis",
+    "notes-knowledge",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

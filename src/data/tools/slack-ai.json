@@ -1,0 +1,19 @@
+{
+  "slug": "slack-ai",
+  "name": "Slack AI",
+  "url": "https://slack.com/features/ai",
+  "tagline": "AI features in Slack for summarization, search, and productivity inside your workspace.",
+  "about": "Slack AI adds capabilities like message summaries and improved search to help teams move faster.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "summarization",
+    "research-search"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

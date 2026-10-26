@@ -1,0 +1,27 @@
+{
+  "slug": "runway",
+  "name": "Runway",
+  "url": "https://runwayml.com/",
+  "tagline": "An all-in-one suite for AI-powered video creation and editing.",
+  "about": "Runway is a comprehensive platform offering a wide array of AI magic tools for video, including text-to-video generation, video-to-video style transfer, automatic background removal (rotoscoping), and much more.",
+  "pros": [
+    "Massive suite of powerful AI video tools.",
+    "Web-based and relatively easy to use.",
+    "Offers a free tier to experiment with features."
+  ],
+  "cons": [
+    "Video generation can be slow and is credit-intensive.",
+    "Free tier has significant limitations (e.g., watermarks, lower resolution).",
+    "Can be expensive for heavy users."
+  ],
+  "capabilities": [
+    "video-generation",
+    "video-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

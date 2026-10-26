@@ -1,0 +1,26 @@
+{
+  "slug": "tldr-this",
+  "name": "TLDR This",
+  "url": "https://tldrthis.com/",
+  "tagline": "Free AI summarizer that condenses articles and documents into key points.",
+  "about": "TLDR This automatically summarizes any piece of text into concise, easy-to-digest content using advanced AI.",
+  "pros": [
+    "Free to use",
+    "Browser extension",
+    "Quick results"
+  ],
+  "cons": [
+    "Limited advanced features",
+    "Quality varies",
+    "Basic output"
+  ],
+  "capabilities": [
+    "summarization"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

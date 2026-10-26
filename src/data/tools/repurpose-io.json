@@ -1,0 +1,29 @@
+{
+  "slug": "repurpose-io",
+  "name": "Repurpose.io",
+  "url": "https://repurpose.io/",
+  "tagline": "AI tool for repurposing content across multiple social platforms.",
+  "about": "Repurpose.io automatically converts and distributes content across social platforms.",
+  "pros": [
+    "Saves time",
+    "Multi-platform",
+    "Automation"
+  ],
+  "cons": [
+    "Subscription",
+    "Platform limits",
+    "Quality adjustment needed"
+  ],
+  "capabilities": [
+    "social-media",
+    "video-editing",
+    "writing",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

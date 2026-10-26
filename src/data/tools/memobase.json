@@ -1,0 +1,27 @@
+{
+  "slug": "memobase",
+  "name": "memobase",
+  "url": "https://memobase.io/",
+  "tagline": "Memobase enables AI apps with long term memory through structured user profiles, powering personalized interactions across sessions. Open source and cloud-ready.",
+  "about": "Memobase enables AI apps with long term memory through structured user profiles, powering personalized interactions across sessions. Open source and cloud-ready.",
+  "pros": [
+    "Free tier available.",
+    "Open source and extensible."
+  ],
+  "cons": [
+    "Advanced features require payment.",
+    "Subscription required for full access.",
+    "Requires setup and maintenance."
+  ],
+  "capabilities": [
+    "education-tutor",
+    "graphic-design",
+    "agents"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

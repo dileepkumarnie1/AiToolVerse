@@ -1,0 +1,19 @@
+{
+  "slug": "clay",
+  "name": "Clay",
+  "url": "https://www.clay.com/",
+  "tagline": "AI-powered prospecting and enrichment for outbound and growth workflows.",
+  "about": "Clay helps teams enrich leads and automate outbound research with AI-driven workflows.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "sales-crm",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

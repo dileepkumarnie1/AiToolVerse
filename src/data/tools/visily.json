@@ -1,0 +1,18 @@
+{
+  "slug": "visily",
+  "name": "Visily",
+  "url": "https://www.visily.ai/",
+  "tagline": "AI-assisted UI design and wireframing for quick product mockups.",
+  "about": "Visily helps teams create and iterate on UI mockups quickly with AI assistance.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

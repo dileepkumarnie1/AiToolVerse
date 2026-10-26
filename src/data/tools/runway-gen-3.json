@@ -1,0 +1,27 @@
+{
+  "slug": "runway-gen-3",
+  "name": "Runway Gen-3",
+  "url": "https://runwayml.com/",
+  "tagline": "Advanced AI video generation and editing platform with Gen-3 Alpha model.",
+  "about": "Runway ML offers cutting-edge AI video tools including Gen-3 for text-to-video, video editing, motion tracking, and special effects. Used by professional creators and filmmakers.",
+  "pros": [
+    "State-of-the-art video generation quality",
+    "Professional editing features",
+    "Used in actual film production"
+  ],
+  "cons": [
+    "Expensive for regular use",
+    "Steep learning curve",
+    "Processing can be slow"
+  ],
+  "capabilities": [
+    "video-generation",
+    "video-editing"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

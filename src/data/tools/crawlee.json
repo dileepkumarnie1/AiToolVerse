@@ -1,0 +1,23 @@
+{
+  "slug": "crawlee",
+  "name": "crawlee",
+  "url": "https://crawlee.dev/",
+  "tagline": "Crawlee · Build reliable crawlers. Fast.",
+  "about": "Crawlee · Build reliable crawlers. Fast.",
+  "pros": [
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "research-search",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

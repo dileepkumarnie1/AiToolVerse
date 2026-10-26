@@ -1,0 +1,27 @@
+{
+  "slug": "consensus",
+  "name": "Consensus",
+  "url": "https://consensus.app/",
+  "tagline": "An AI-powered search engine for finding evidence-based answers in research.",
+  "about": "Consensus is a search engine that uses AI to find and synthesize findings directly from scientific research. It's designed to provide evidence-based answers to questions by showing you what the published literature says.",
+  "pros": [
+    "Provides direct access to findings from scientific papers.",
+    "Synthesizes results from multiple studies.",
+    "Uses a 'Consensus Meter' to show the weight of evidence."
+  ],
+  "cons": [
+    "Limited to topics covered in published research.",
+    "Requires careful interpretation of scientific language.",
+    "Advanced features require a subscription."
+  ],
+  "capabilities": [
+    "research-search",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

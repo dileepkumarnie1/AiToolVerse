@@ -1,0 +1,27 @@
+{
+  "slug": "dall-e-3",
+  "name": "DALL-E 3 (OpenAI)",
+  "url": "https://openai.com/dall-e-3",
+  "tagline": "OpenAI's advanced image generation model, integrated into ChatGPT Plus.",
+  "about": "DALL-E 3 is the latest version of OpenAI's text-to-image model. It is known for its ability to follow complex prompts with a high degree of accuracy and nuance, and it's directly integrated into the ChatGPT interface for paid users.",
+  "pros": [
+    "Excellent at interpreting complex, detailed prompts.",
+    "Natively integrated with ChatGPT for easy use.",
+    "Generally better at rendering text and hands than previous models."
+  ],
+  "cons": [
+    "Requires a ChatGPT Plus subscription.",
+    "Less artistic control compared to Midjourney's parameters.",
+    "Subject to OpenAI's content restrictions."
+  ],
+  "capabilities": [
+    "image-generation",
+    "chat-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "poolside",
+  "name": "Poolside",
+  "url": "https://www.poolside.ai/",
+  "tagline": "AI coding assistant built specifically for enterprise software development.",
+  "about": "Poolside is building AI specifically for software development at enterprise scale with proprietary models.",
+  "pros": [
+    "Enterprise focus",
+    "Custom models",
+    "Deep integration"
+  ],
+  "cons": [
+    "Enterprise only",
+    "New company",
+    "Limited availability"
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

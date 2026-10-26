@@ -1,0 +1,19 @@
+{
+  "slug": "mybrain",
+  "name": "MyBrain",
+  "url": "https://f-droid.org/packages/com.mhss.app.mybrain/",
+  "tagline": "All-in-one productivity app and AI assistant with Tasks, Notes, Calendar, Diary and Bookmarks.",
+  "about": "All-in-one productivity app and AI assistant with Tasks, Notes, Calendar, Diary and Bookmarks.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "automation",
+    "notes-knowledge"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

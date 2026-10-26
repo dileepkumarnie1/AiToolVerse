@@ -1,0 +1,27 @@
+{
+  "slug": "modl-ai",
+  "name": "modl.ai",
+  "url": "https://modl.ai/",
+  "tagline": "Game AI services including testing bots, behavior models, and tools.",
+  "about": "modl.ai offers AI testing bots and design tools to accelerate QA and tune gameplay using machine learning.",
+  "pros": [
+    "Automated playtesting.",
+    "Improves QA coverage.",
+    "Works with major engines."
+  ],
+  "cons": [
+    "Service engagement required.",
+    "Best for studios.",
+    "Project‑specific setup."
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

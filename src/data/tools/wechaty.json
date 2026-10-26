@@ -1,0 +1,22 @@
+{
+  "slug": "wechaty",
+  "name": "wechaty",
+  "url": "https://wechaty.js.org/",
+  "tagline": "RPA SDK for Chatbot Makers.",
+  "about": "RPA SDK for Chatbot Makers.",
+  "pros": [
+    "Good for drafting and Q&A."
+  ],
+  "cons": [
+    "May require fact‑checking."
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "blockade-labs-skybox",
+  "name": "Blockade Labs Skybox",
+  "url": "https://skybox.blockadelabs.com/",
+  "tagline": "Generate 360° skyboxes and environments from prompts.",
+  "about": "Create panoramic HDRIs/backgrounds for 3D scenes quickly.",
+  "pros": [
+    "Great for environment mood.",
+    "Fast results.",
+    "Downloadable assets."
+  ],
+  "cons": [
+    "Not full scenes.",
+    "Style constraints.",
+    "Credits needed for HD."
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

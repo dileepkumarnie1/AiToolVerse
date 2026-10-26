@@ -1,0 +1,27 @@
+{
+  "slug": "supernormal",
+  "name": "Supernormal",
+  "url": "https://supernormal.com/",
+  "tagline": "AI-Powered meetings · Supernormal",
+  "about": "AI-Powered meetings · Supernormal",
+  "pros": [
+    "Free tier available.",
+    "Open source and extensible.",
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Advanced features require payment.",
+    "Subscription required for full access.",
+    "Requires setup and maintenance."
+  ],
+  "capabilities": [
+    "automation",
+    "meeting-notes"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

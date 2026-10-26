@@ -1,0 +1,30 @@
+{
+  "slug": "opera-one-with-aria",
+  "name": "Opera One with Aria",
+  "url": "https://www.opera.com/one",
+  "tagline": "Fast, customizable browser with Aria AI assistant for page summarization and content generation.",
+  "about": "Opera One features Aria, an AI assistant that helps with page summarization, task assistance, and content generation. Combined with Opera's built-in VPN, ad-blocking, and modular features, it offers a compelling package for users who value customization.",
+  "pros": [
+    "Built-in VPN and ad-blocking",
+    "Highly customizable with extensions",
+    "Aria AI for quick summaries and help",
+    "Good balance of features and performance"
+  ],
+  "cons": [
+    "Aria is less advanced than ChatGPT or Perplexity integration",
+    "Chinese ownership raises privacy questions for some",
+    "Not as AI-native as dedicated solutions"
+  ],
+  "capabilities": [
+    "browser",
+    "chat-assistant",
+    "writing",
+    "summarization"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "stable-diffusion-xl",
+  "name": "Stable Diffusion XL",
+  "url": "https://stability.ai/",
+  "tagline": "Open-source image generation model with high customization capabilities.",
+  "about": "Stable Diffusion XL by Stability AI is an open-source text-to-image model that can be run locally or via various platforms. Highly customizable with LoRA and fine-tuning.",
+  "pros": [
+    "Open source and self-hostable",
+    "Highly customizable with extensions",
+    "No usage limits when self-hosted"
+  ],
+  "cons": [
+    "Requires technical knowledge to set up",
+    "Needs powerful GPU for local use",
+    "Quality control needed for outputs"
+  ],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

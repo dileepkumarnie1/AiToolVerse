@@ -1,0 +1,26 @@
+{
+  "slug": "climate-corporation",
+  "name": "Climate Corporation",
+  "url": "https://climate.com/",
+  "tagline": "Digital agriculture platform with AI-driven insights for optimizing farm operations.",
+  "about": "Climate Corporation uses AI and satellite data to provide farmers with insights on planting, fertilizing, and protecting crops.",
+  "pros": [
+    "Data-driven recommendations",
+    "Climate analysis",
+    "Integrates with equipment"
+  ],
+  "cons": [
+    "Bayer/Monsanto ownership concerns",
+    "Learning curve",
+    "Primarily for large farms"
+  ],
+  "capabilities": [
+    "industry-ops"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

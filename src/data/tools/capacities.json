@@ -1,0 +1,27 @@
+{
+  "slug": "capacities",
+  "name": "Capacities",
+  "url": "https://capacities.io/",
+  "tagline": "Object-based note-taking system with AI for structured knowledge management and networked thinking.",
+  "about": "Capacities uses an object-based approach to note-taking, where everything is a structured object (person, book, idea) that can be interconnected. AI helps organize and surface connections between your knowledge objects.",
+  "pros": [
+    "Unique object-based approach",
+    "Strong for structured knowledge",
+    "Networked thinking support",
+    "Beautiful interface"
+  ],
+  "cons": [
+    "Learning curve for object model",
+    "Different from traditional notes",
+    "Still evolving platform"
+  ],
+  "capabilities": [
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

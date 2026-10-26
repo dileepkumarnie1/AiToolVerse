@@ -1,0 +1,30 @@
+{
+  "slug": "writesonic",
+  "name": "Writesonic",
+  "url": "https://writesonic.com/",
+  "tagline": "SEO-friendly, conversion-focused email templates especially suited for marketing campaigns.",
+  "about": "Writesonic offers SEO-friendly, conversion-focused email templates designed specifically for marketers. It excels at campaign-driven emails with persuasive copy and call-to-action optimization.",
+  "pros": [
+    "Excellent for marketing emails",
+    "SEO and conversion optimized",
+    "Good template variety",
+    "Multiple language support"
+  ],
+  "cons": [
+    "Better for campaigns than ongoing communications",
+    "Can be marketing-heavy in tone",
+    "Learning curve for advanced features"
+  ],
+  "capabilities": [
+    "email",
+    "chat-assistant",
+    "marketing-seo",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

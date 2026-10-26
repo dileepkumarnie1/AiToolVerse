@@ -1,0 +1,27 @@
+{
+  "slug": "explain-paper",
+  "name": "Explain Paper",
+  "url": "https://www.explainpaper.com/",
+  "tagline": "AI tool that explains complex sections of research papers in simple language.",
+  "about": "Explain Paper lets you highlight confusing text in research papers and get AI-generated explanations in simpler terms.",
+  "pros": [
+    "Simple explanations",
+    "Easy to use",
+    "Free tier"
+  ],
+  "cons": [
+    "Limited to explanations",
+    "Quality varies",
+    "No deep analysis"
+  ],
+  "capabilities": [
+    "research-search",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

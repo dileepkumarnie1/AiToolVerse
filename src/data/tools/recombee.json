@@ -1,0 +1,27 @@
+{
+  "slug": "recombee",
+  "name": "Recombee",
+  "url": "https://www.recombee.com/",
+  "tagline": "AI recommendation engine for e-commerce with real-time personalization.",
+  "about": "Recombee provides a flexible AI recommendation API that learns from user behavior in real-time.",
+  "pros": [
+    "Real-time learning",
+    "Flexible API",
+    "Affordable"
+  ],
+  "cons": [
+    "Technical setup",
+    "Documentation complexity",
+    "Self-serve only"
+  ],
+  "capabilities": [
+    "ecommerce",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

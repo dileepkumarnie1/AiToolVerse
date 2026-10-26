@@ -1,0 +1,27 @@
+{
+  "slug": "anthropic-constitutional-ai",
+  "name": "Anthropic Constitutional AI",
+  "url": "https://www.anthropic.com/constitution",
+  "tagline": "Anthropic’s approach to aligning AI with human values.",
+  "about": "Constitutional AI is Anthropic’s method for training models to be helpful, harmless, and honest.",
+  "pros": [
+    "Innovative alignment method.",
+    "Transparency focus.",
+    "Research-backed."
+  ],
+  "cons": [
+    "Not a user-facing tool.",
+    "Research-heavy.",
+    "Requires technical understanding."
+  ],
+  "capabilities": [
+    "responsible-ai",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

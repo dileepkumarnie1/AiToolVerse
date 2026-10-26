@@ -1,0 +1,28 @@
+{
+  "slug": "reclaim-ai",
+  "name": "Reclaim.ai",
+  "url": "https://reclaim.ai/",
+  "tagline": "An AI scheduling assistant that finds the best time for your tasks, habits, and meetings.",
+  "about": "Reclaim.ai connects to your Google Calendar and intelligently blocks time for your tasks, routines, and habits. It's designed to be flexible, automatically rescheduling items as your day changes, ensuring your priorities are protected.",
+  "pros": [
+    "Excellent for time-blocking and protecting focus time.",
+    "Flexible scheduling automatically adapts to changes.",
+    "Free plan is very capable for individuals."
+  ],
+  "cons": [
+    "Primarily works with Google Calendar.",
+    "Can take some time to set up and configure properly.",
+    "The user interface can feel a bit dated."
+  ],
+  "capabilities": [
+    "scheduling",
+    "automation",
+    "meeting-notes"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

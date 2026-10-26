@@ -1,0 +1,29 @@
+{
+  "slug": "dante-ai",
+  "name": "Dante AI",
+  "url": "https://dante-ai.com/",
+  "tagline": "Create AI chatbots trained on your data with no coding required.",
+  "about": "Dante AI enables anyone to create custom AI chatbots trained on their documents and data without coding.",
+  "pros": [
+    "No coding",
+    "Easy data upload",
+    "Multi-language"
+  ],
+  "cons": [
+    "Limited customization",
+    "Subscription required",
+    "Quality varies"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "code-assistant",
+    "app-builder"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

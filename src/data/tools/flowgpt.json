@@ -1,0 +1,26 @@
+{
+  "slug": "flowgpt",
+  "name": "FlowGPT",
+  "url": "https://flowgpt.com/",
+  "tagline": "Community-driven prompt marketplace and discovery platform.",
+  "about": "Browse, share, and rate prompts for a wide range of models and tasks, from productivity to creative writing.",
+  "pros": [
+    "Crowdsourced variety.",
+    "Ratings help surface quality.",
+    "Easy to copy/use."
+  ],
+  "cons": [
+    "Quality can be inconsistent.",
+    "Trends shift quickly.",
+    "Requires curation for best results."
+  ],
+  "capabilities": [
+    "prompt-tools"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

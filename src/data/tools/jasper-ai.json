@@ -1,0 +1,27 @@
+{
+  "slug": "jasper-ai",
+  "name": "Jasper AI",
+  "url": "https://www.jasper.ai/",
+  "tagline": "AI content generation for marketing, blogs, and more.",
+  "about": "Jasper is a leading AI writing assistant for marketers, bloggers, and businesses, offering templates and tone control.",
+  "pros": [
+    "Great for marketing copy.",
+    "Many templates.",
+    "Brand voice support."
+  ],
+  "cons": [
+    "Subscription required.",
+    "Not for technical writing.",
+    "Fact-checking needed."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "writing"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

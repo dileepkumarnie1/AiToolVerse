@@ -1,0 +1,27 @@
+{
+  "slug": "craft",
+  "name": "Craft",
+  "url": "https://www.craft.do/",
+  "tagline": "Beautiful document and note-taking app with AI features for Apple devices.",
+  "about": "Craft offers a beautiful writing experience on Apple devices with AI assistance for writing and document creation.",
+  "pros": [
+    "Beautiful design",
+    "Apple integration",
+    "AI assistance"
+  ],
+  "cons": [
+    "Apple-focused",
+    "Subscription pricing",
+    "Limited on Windows"
+  ],
+  "capabilities": [
+    "automation",
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

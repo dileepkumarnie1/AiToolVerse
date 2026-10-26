@@ -1,0 +1,26 @@
+{
+  "slug": "nanobrowser",
+  "name": "nanobrowser",
+  "url": "https://nanobrowser.ai/",
+  "tagline": "Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key.",
+  "about": "Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key.",
+  "pros": [
+    "Open source and extensible.",
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "automation",
+    "developer-api",
+    "agents"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

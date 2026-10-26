@@ -1,0 +1,26 @@
+{
+  "slug": "magicschool-ai",
+  "name": "MagicSchool AI",
+  "url": "https://www.magicschool.ai/",
+  "tagline": "Teacher tools for lesson plans, rubrics, and feedback.",
+  "about": "Save prep time with structured outputs aligned to classroom needs.",
+  "pros": [
+    "Educator‑focused.",
+    "Good templates.",
+    "Time saver."
+  ],
+  "cons": [
+    "Quality varies by subject.",
+    "Subscription for full use.",
+    "Requires curricular alignment."
+  ],
+  "capabilities": [
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

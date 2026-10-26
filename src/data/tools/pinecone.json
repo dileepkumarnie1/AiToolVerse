@@ -1,0 +1,18 @@
+{
+  "slug": "pinecone",
+  "name": "Pinecone",
+  "url": "https://www.pinecone.io/",
+  "tagline": "Managed vector database for semantic search, recommendations, and RAG.",
+  "about": "Pinecone provides a hosted vector database to build and scale retrieval and AI search use cases.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "recorded-future",
+  "name": "Recorded Future",
+  "url": "https://www.recordedfuture.com/",
+  "tagline": "AI-powered threat intelligence platform for proactive security operations.",
+  "about": "Recorded Future uses AI to analyze threat data from across the internet, providing actionable intelligence for security teams.",
+  "pros": [
+    "Comprehensive intelligence",
+    "Real-time data",
+    "Integrations"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complex setup",
+    "Data volume overwhelming"
+  ],
+  "capabilities": [
+    "cybersecurity"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

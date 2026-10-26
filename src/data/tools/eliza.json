@@ -1,0 +1,18 @@
+{
+  "slug": "eliza",
+  "name": "eliza",
+  "url": "https://eliza.how/",
+  "tagline": "Autonomous agents for everyone",
+  "about": "Autonomous agents for everyone",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "agents"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

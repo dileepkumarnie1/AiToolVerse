@@ -1,0 +1,28 @@
+{
+  "slug": "plusai",
+  "name": "PlusAI",
+  "url": "https://www.plusdocs.com/plus-ai",
+  "tagline": "Direct integration with Google Slides and PowerPoint for instant AI slide creation and refinement.",
+  "about": "PlusAI integrates directly with Google Slides and PowerPoint, offering instant slide creation and design refinements using the latest generative AI. It's praised for ease of use and minimal editing required after generation.",
+  "pros": [
+    "Works directly in Google Slides and PowerPoint",
+    "Minimal post-generation editing needed",
+    "Easy to use with familiar interfaces",
+    "Quick slide refinement and improvements"
+  ],
+  "cons": [
+    "Requires existing Google/Microsoft accounts",
+    "Limited standalone features",
+    "Dependent on base platform capabilities"
+  ],
+  "capabilities": [
+    "presentations",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

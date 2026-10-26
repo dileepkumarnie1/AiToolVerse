@@ -1,0 +1,26 @@
+{
+  "slug": "plantix",
+  "name": "Plantix",
+  "url": "https://plantix.net/",
+  "tagline": "Free AI-powered plant disease detection app using smartphone photos.",
+  "about": "Plantix uses image recognition AI to identify plant diseases, pests, and nutrient deficiencies from photos with treatment recommendations.",
+  "pros": [
+    "Free to use",
+    "Instant diagnosis",
+    "Treatment suggestions"
+  ],
+  "cons": [
+    "Accuracy varies",
+    "Internet required",
+    "Limited crop coverage"
+  ],
+  "capabilities": [
+    "industry-ops"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

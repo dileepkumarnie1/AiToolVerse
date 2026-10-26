@@ -1,0 +1,25 @@
+{
+  "slug": "browser",
+  "name": "browser",
+  "url": "https://lightpanda.io/",
+  "tagline": "The AI-native web browser built from scratch for machines. Not a fork. Not a patch. Fast, scalable web automation with a minimal memory footprint. 10x faster, 10x less RAM, and 100x better than Chrome headless.",
+  "about": "The AI-native web browser built from scratch for machines. Not a fork. Not a patch. Fast, scalable web automation with a minimal memory footprint. 10x faster, 10x less RAM, and 100x better than Chrome headless.",
+  "pros": [
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "developer-api",
+    "browser",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

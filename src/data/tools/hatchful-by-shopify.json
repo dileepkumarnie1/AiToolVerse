@@ -1,0 +1,29 @@
+{
+  "slug": "hatchful-by-shopify",
+  "name": "Hatchful by Shopify",
+  "url": "https://hatchful.shopify.com/",
+  "tagline": "Free AI logo maker tailored for e-commerce and entrepreneurs with flexible options and downloadable assets.",
+  "about": "Hatchful is Shopify's free logo maker designed for entrepreneurs and e-commerce brands. It walks you through style and business-type questions to create flexible logo options with downloadable branding assets.",
+  "pros": [
+    "Completely free",
+    "E-commerce focused",
+    "Easy to use",
+    "Shopify integration"
+  ],
+  "cons": [
+    "Limited compared to paid tools",
+    "Basic customization",
+    "Best for simple logos"
+  ],
+  "capabilities": [
+    "logo-branding",
+    "ecommerce",
+    "graphic-design"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

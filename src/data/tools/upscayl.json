@@ -1,0 +1,18 @@
+{
+  "slug": "upscayl",
+  "name": "upscayl",
+  "url": "https://upscayl.org/",
+  "tagline": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
+  "about": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "graphic-design"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

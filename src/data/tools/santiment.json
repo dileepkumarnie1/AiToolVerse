@@ -1,0 +1,26 @@
+{
+  "slug": "santiment",
+  "name": "Santiment",
+  "url": "https://santiment.net/",
+  "tagline": "A market intelligence platform providing on-chain, social, and development data.",
+  "about": "Santiment uses AI and machine learning to analyze vast amounts of data, including social media chatter, developer activity on GitHub, and on-chain transactions. Its goal is to identify market trends and crowd sentiment before they become mainstream, providing an edge to traders and investors.",
+  "pros": [
+    "Provides unique metrics like social volume and developer activity.",
+    "Excellent for gauging the sentiment and hype around different assets.",
+    "Offers powerful, customizable alerts for key metrics."
+  ],
+  "cons": [
+    "Raw data can be difficult to interpret without context.",
+    "The most valuable insights and real-time data require a paid subscription.",
+    "Less focused on direct trading signals and more on broad market behavior."
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

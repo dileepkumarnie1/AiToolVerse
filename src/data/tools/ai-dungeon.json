@@ -1,0 +1,26 @@
+{
+  "slug": "ai-dungeon",
+  "name": "AI Dungeon",
+  "url": "https://play.aidungeon.io/",
+  "tagline": "AI-powered text adventure game that generates infinite story possibilities.",
+  "about": "AI Dungeon uses AI to create infinite text adventure experiences where players can do anything they can imagine.",
+  "pros": [
+    "Infinite possibilities",
+    "Creative freedom",
+    "Free tier"
+  ],
+  "cons": [
+    "Quality inconsistency",
+    "Content moderation",
+    "Subscription for best experience"
+  ],
+  "capabilities": [
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

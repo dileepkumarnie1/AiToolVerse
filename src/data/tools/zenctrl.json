@@ -1,0 +1,28 @@
+{
+  "slug": "zenctrl",
+  "name": "ZenCtrl",
+  "url": "https://fotographer.ai/zenctrl",
+  "tagline": "ZenCtrl redefines consistency in AI image generation. It produces high-quality, multi-view, and diverse-scene outputs from a single image without any training—ideal for reimagining existing subjects.",
+  "about": "ZenCtrl redefines consistency in AI image generation. It produces high-quality, multi-view, and diverse-scene outputs from a single image without any training—ideal for reimagining existing subjects.",
+  "pros": [
+    "Open source and extensible.",
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "image-generation",
+    "developer-api",
+    "graphic-design"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

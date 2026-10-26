@@ -1,0 +1,27 @@
+{
+  "slug": "segment",
+  "name": "Segment",
+  "url": "https://segment.com/",
+  "tagline": "Customer data platform with AI for collecting, cleaning, and activating data.",
+  "about": "Segment provides a customer data platform that collects, cleans, and routes data to various tools with AI enhancement.",
+  "pros": [
+    "Many integrations",
+    "Data unification",
+    "Industry standard"
+  ],
+  "cons": [
+    "Expensive at scale",
+    "Complex setup",
+    "Technical knowledge needed"
+  ],
+  "capabilities": [
+    "data-analysis",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

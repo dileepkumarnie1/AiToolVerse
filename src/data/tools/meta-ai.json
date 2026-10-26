@@ -1,0 +1,26 @@
+{
+  "slug": "meta-ai",
+  "name": "Meta AI",
+  "url": "https://www.meta.ai/",
+  "tagline": "Consumer assistant integrated into Meta apps with image and search features.",
+  "about": "Meta AI offers chat, image generation, and search‑enhanced answers across Meta properties, focusing on mainstream, mobile‑first usage.",
+  "pros": [
+    "Broad reach across Meta apps.",
+    "Simple UX.",
+    "Realtime web context."
+  ],
+  "cons": [
+    "App‑tied experience.",
+    "Limited pro controls.",
+    "Availability varies by region."
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

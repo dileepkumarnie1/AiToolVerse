@@ -1,0 +1,30 @@
+{
+  "slug": "trupeer",
+  "name": "Trupeer",
+  "url": "https://trupeer.ai/",
+  "tagline": "AI script generation, voiceovers, product video automation with multi-language support",
+  "about": "Trupeer automates product video creation with AI-generated scripts, voiceovers, and multi-language support, perfect for creating software demos and product tutorials at scale.",
+  "pros": [
+    "AI script generation saves time",
+    "Automatic voiceover in multiple languages",
+    "Great for creating product demos at scale",
+    "Professional-looking results"
+  ],
+  "cons": [
+    "Limited customization in free tier",
+    "AI-generated content may need editing",
+    "Pricing increases with usage"
+  ],
+  "capabilities": [
+    "screen-recording",
+    "video-generation",
+    "automation",
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

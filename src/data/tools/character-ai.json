@@ -1,0 +1,26 @@
+{
+  "slug": "character-ai",
+  "name": "Character.AI",
+  "url": "https://beta.character.ai/",
+  "tagline": "Persona‑driven conversational agents for creative and social chats.",
+  "about": "Create and chat with custom personalities for entertainment, brainstorming, and roleplay.",
+  "pros": [
+    "Huge community of personas.",
+    "Fun and creative.",
+    "Easy to customize."
+  ],
+  "cons": [
+    "Less suited for professional tasks.",
+    "Quality varies by persona.",
+    "Moderation limits some use cases."
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

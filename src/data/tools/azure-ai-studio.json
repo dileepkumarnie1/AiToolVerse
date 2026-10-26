@@ -1,0 +1,19 @@
+{
+  "slug": "azure-ai-studio",
+  "name": "Azure AI Studio",
+  "url": "https://ai.azure.com/",
+  "tagline": "Enterprise-focused studio for building, evaluating, and deploying AI solutions.",
+  "about": "Azure AI Studio supports model selection, safety features, and deployment workflows for teams.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

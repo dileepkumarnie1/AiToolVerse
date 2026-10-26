@@ -1,0 +1,27 @@
+{
+  "slug": "nuance-dragon-medical-one",
+  "name": "Nuance Dragon Medical One",
+  "url": "https://www.nuance.com/healthcare/dragon-medical-one.html",
+  "tagline": "Cloud speech recognition for clinical documentation into EHRs.",
+  "about": "Dragon Medical One provides high‑accuracy clinical dictation with EHR integrations, speeding up documentation and reducing burnout.",
+  "pros": [
+    "High accuracy for medical vocab.",
+    "EHR integrations.",
+    "Cloud managed."
+  ],
+  "cons": [
+    "Paid enterprise licensing.",
+    "Network dependency.",
+    "Requires clinician adoption."
+  ],
+  "capabilities": [
+    "health-fitness",
+    "voice-tts"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

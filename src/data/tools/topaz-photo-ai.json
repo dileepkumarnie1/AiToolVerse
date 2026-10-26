@@ -1,0 +1,26 @@
+{
+  "slug": "topaz-photo-ai",
+  "name": "Topaz Photo AI",
+  "url": "https://www.topazlabs.com/topaz-photo-ai",
+  "tagline": "AI-powered photo enhancement suite for noise reduction, sharpening, and upscaling.",
+  "about": "Topaz Photo AI combines noise reduction, sharpening, and upscaling in one tool using deep learning for professional results.",
+  "pros": [
+    "Professional quality",
+    "Batch processing",
+    "Standalone and plugin"
+  ],
+  "cons": [
+    "Expensive",
+    "Hardware demanding",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "photo-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

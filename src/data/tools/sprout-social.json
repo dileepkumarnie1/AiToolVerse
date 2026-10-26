@@ -1,0 +1,28 @@
+{
+  "slug": "sprout-social",
+  "name": "Sprout Social",
+  "url": "https://sproutsocial.com/",
+  "tagline": "Comprehensive social media management with AI analytics",
+  "about": "Sprout Social is renowned for comprehensive analytics, tracking audience engagement, competitor performance, hashtag trends, and delivering actionable recommendations using AI. It's designed for brands that want to optimize their strategy and report results.",
+  "pros": [
+    "Powerful analytics and reporting",
+    "Competitor analysis features",
+    "Team collaboration tools",
+    "Excellent customer support"
+  ],
+  "cons": [
+    "Premium pricing for small businesses",
+    "Steep learning curve",
+    "Some features require higher tier plans"
+  ],
+  "capabilities": [
+    "social-media",
+    "data-analysis"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "conversica",
+  "name": "Conversica",
+  "url": "https://www.conversica.com/",
+  "tagline": "AI sales assistant for automated lead follow-up",
+  "about": "Conversica provides AI-powered digital assistants that conduct two-way email and SMS conversations to qualify leads, follow up persistently, and route qualified prospects to sales reps. It enables 24/7 lead engagement without human intervention.",
+  "pros": [
+    "24/7 automated lead engagement",
+    "Natural conversation flow",
+    "Reduces lead response time",
+    "Frees up sales reps for high-value tasks"
+  ],
+  "cons": [
+    "Can feel automated to prospects",
+    "Requires careful setup and training",
+    "Premium pricing structure"
+  ],
+  "capabilities": [
+    "sales-crm",
+    "chat-assistant",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import ToolTile from '../../components/ToolTile';
+import { capabilities, categories, toolsWithCapability } from '../../lib/catalog';
+import type { Category } from '../../lib/types';
+
+export function getStaticPaths() {
+  return categories.map((category) => ({ params: { id: category.id }, props: { category } }));
+}
+
+const { category } = Astro.props as { category: Category };
+const sections = capabilities
+  .filter((c) => c.category === category.id)
+  .map((c) => ({ capability: c, tools: toolsWithCapability(c.id) }))
+  .filter((s) => s.tools.length > 0);
+---
+
+<Base title={`${category.label} AI tools`} description={`${category.description} Compare the best AI tools by task.`}>
+  <section class="container-page pt-14">
+    <nav aria-label="Breadcrumb" class="text-sm muted"><a href="/categories/" class="hover:text-ink-900 dark:hover:text-white">Categories</a></nav>
+    <h1 class="heading-lg mt-4">{category.label}</h1>
+    <p class="mt-2 max-w-2xl muted">{category.description}</p>
+
+    {
+      sections.map(({ capability, tools }) => (
+        <section class="mt-14">
+          <div class="flex items-end justify-between gap-4">
+            <h2 class="text-xl font-semibold tracking-tight text-ink-900 dark:text-white">{capability.label}</h2>
+            <a href={`/best/${capability.id}/`} class="text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">All {tools.length} →</a>
+          </div>
+          <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{tools.slice(0, 3).map((t) => <ToolTile tool={t} />)}</div>
+        </section>
+      ))
+    }
+  </section>
+</Base>

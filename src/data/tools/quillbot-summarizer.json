@@ -1,0 +1,26 @@
+{
+  "slug": "quillbot-summarizer",
+  "name": "Quillbot Summarizer",
+  "url": "https://quillbot.com/summarize",
+  "tagline": "AI summarizer that condenses text while preserving key information.",
+  "about": "QuillBot's summarizer uses AI to condense articles, papers, and documents with different summary modes.",
+  "pros": [
+    "Free tier available",
+    "Multiple modes",
+    "Integration with writing tools"
+  ],
+  "cons": [
+    "Word limits on free",
+    "Premium for full features",
+    "Can be verbose"
+  ],
+  "capabilities": [
+    "summarization"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

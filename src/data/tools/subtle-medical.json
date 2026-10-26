@@ -1,0 +1,26 @@
+{
+  "slug": "subtle-medical",
+  "name": "Subtle Medical",
+  "url": "https://subtlemedical.com/",
+  "tagline": "AI for enhancing medical imaging quality while reducing scan times and radiation.",
+  "about": "Subtle Medical uses AI to enhance MRI and PET scan quality, enabling faster scans with less radiation exposure.",
+  "pros": [
+    "FDA-cleared",
+    "Faster scans",
+    "Better images"
+  ],
+  "cons": [
+    "Hospital integration",
+    "Equipment specific",
+    "Enterprise pricing"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

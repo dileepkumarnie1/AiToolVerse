@@ -1,0 +1,27 @@
+{
+  "slug": "clipdrop",
+  "name": "Clipdrop",
+  "url": "https://clipdrop.co/",
+  "tagline": "AI-powered image enhancement and background removal.",
+  "about": "Clipdrop provides tools for background removal, relighting, upscaling, and more using AI.",
+  "pros": [
+    "Fast and accurate.",
+    "Multiple enhancement tools.",
+    "Free tier available."
+  ],
+  "cons": [
+    "Credits for heavy use.",
+    "Some features paid.",
+    "Web-based only."
+  ],
+  "capabilities": [
+    "image-generation",
+    "video-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

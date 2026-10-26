@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import Assessment from '../../components/Assessment';
+---
+
+<Base title="Find your AI tools in 60 seconds" description="Answer five quick questions and get a personal AI toolkit and step-by-step pipelines for your goals.">
+  <section class="container-page pt-14">
+    <Assessment client:load />
+  </section>
+</Base>

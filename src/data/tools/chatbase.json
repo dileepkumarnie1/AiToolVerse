@@ -1,0 +1,27 @@
+{
+  "slug": "chatbase",
+  "name": "Chatbase",
+  "url": "https://www.chatbase.co/",
+  "tagline": "Build custom ChatGPT-like chatbots trained on your own data.",
+  "about": "Chatbase lets you create custom AI chatbots trained on your documents, websites, or knowledge base.",
+  "pros": [
+    "Easy data training",
+    "Quick setup",
+    "Embeddable"
+  ],
+  "cons": [
+    "Limited customization",
+    "Pricing for volume",
+    "GPT-dependent"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,65 @@
+name: Discover new tools
+
+on:
+  schedule:
+    - cron: '17 4 */2 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: discovery
+  cancel-in-progress: false
+
+env:
+  BRANCH: discovery/new-tools
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Skip while the previous batch awaits review
+        id: pending
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          count=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$BRANCH" --state open --json number --jq 'length')
+          echo "open=$count" >> "$GITHUB_OUTPUT"
+          if [ "$count" != "0" ]; then echo "::notice::A discovery PR is still open. Review it first."; fi
+
+      - uses: actions/checkout@v7
+        if: steps.pending.outputs.open == '0'
+
+      - uses: actions/setup-node@v7
+        if: steps.pending.outputs.open == '0'
+        with:
+          node-version: 24
+          cache: npm
+
+      - if: steps.pending.outputs.open == '0'
+        run: npm ci
+
+      - name: Find candidates
+        if: steps.pending.outputs.open == '0'
+        env:
+          PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
+          DISCOVERY_SUMMARY_FILE: ${{ runner.temp }}/summary.md
+        run: |
+          npm run discover
+          npm run validate
+
+      - name: Open pull request for review
+        if: steps.pending.outputs.open == '0'
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: ${{ env.BRANCH }}
+          delete-branch: true
+          commit-message: 'Discovery: new AI tool candidates'
+          title: 'New AI tools for review'
+          body-path: ${{ runner.temp }}/summary.md
+          labels: discovery
+          add-paths: |
+            src/data/tools/*.json
+            src/data/discovery-state.json

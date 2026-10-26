@@ -1,0 +1,26 @@
+{
+  "slug": "freeletics",
+  "name": "Freeletics",
+  "url": "https://www.freeletics.com/",
+  "tagline": "AI-powered fitness app with personalized workout plans that adapt to your progress.",
+  "about": "Freeletics uses AI to create individualized training plans that adjust based on your performance, feedback, and goals.",
+  "pros": [
+    "Highly personalized",
+    "No equipment needed options",
+    "Adapts to feedback"
+  ],
+  "cons": [
+    "Subscription required",
+    "Intense workouts",
+    "Limited free content"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

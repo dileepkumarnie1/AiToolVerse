@@ -1,0 +1,27 @@
+{
+  "slug": "benchsci",
+  "name": "BenchSci",
+  "url": "https://www.benchsci.com/",
+  "tagline": "AI platform for finding and selecting antibodies for scientific research.",
+  "about": "BenchSci uses AI to help scientists find the best antibodies for their experiments, reducing research failures.",
+  "pros": [
+    "Reduces failed experiments",
+    "Comprehensive database",
+    "Validated data"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "Antibody focus only",
+    "Enterprise-oriented"
+  ],
+  "capabilities": [
+    "science",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

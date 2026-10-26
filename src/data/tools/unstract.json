@@ -1,0 +1,19 @@
+{
+  "slug": "unstract",
+  "name": "unstract",
+  "url": "https://unstract.com/",
+  "tagline": "unstract AI tool",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

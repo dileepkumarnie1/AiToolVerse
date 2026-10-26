@@ -1,0 +1,28 @@
+{
+  "slug": "sitegpt",
+  "name": "SiteGPT",
+  "url": "https://sitegpt.ai/",
+  "tagline": "Train a chatbot on your website content to answer visitor questions.",
+  "about": "SiteGPT creates a custom chatbot trained on your website content to provide instant answers to visitors.",
+  "pros": [
+    "Website-focused",
+    "Quick setup",
+    "Auto-training"
+  ],
+  "cons": [
+    "Website content only",
+    "Accuracy depends on content",
+    "Subscription pricing"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

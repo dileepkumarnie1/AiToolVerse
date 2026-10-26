@@ -1,0 +1,28 @@
+{
+  "slug": "typeset",
+  "name": "Typeset",
+  "url": "https://typeset.io/",
+  "tagline": "AI-powered platform for writing, formatting, and submitting research papers to journals.",
+  "about": "Typeset streamlines academic publishing with AI tools for writing, auto-formatting to journal requirements, and submission.",
+  "pros": [
+    "Auto-formatting",
+    "Journal templates",
+    "Submission help"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "Learning curve",
+    "Limited customization"
+  ],
+  "capabilities": [
+    "research-search",
+    "writing",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

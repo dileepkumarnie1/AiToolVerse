@@ -1,0 +1,26 @@
+{
+  "slug": "starryai",
+  "name": "StarryAI",
+  "url": "https://starryai.com/",
+  "tagline": "AI art generator mobile app for creating artwork from text prompts.",
+  "about": "StarryAI is a mobile-first AI art generator that creates unique artwork from text descriptions with various artistic styles.",
+  "pros": [
+    "Mobile focused",
+    "Easy to use",
+    "Free credits daily"
+  ],
+  "cons": [
+    "Limited on free tier",
+    "Mobile app quality",
+    "Watermarks on free"
+  ],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

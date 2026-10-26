@@ -1,0 +1,28 @@
+{
+  "slug": "microsoft-security-copilot",
+  "name": "Microsoft Security Copilot",
+  "url": "https://www.microsoft.com/security/business/ai/security-copilot",
+  "tagline": "An AI assistant for security analysts across Microsoft’s security stack.",
+  "about": "Security Copilot summarizes incidents, hunts threats, and explains findings using your Microsoft security data.",
+  "pros": [
+    "Deep integration with Defender/Sentinel.",
+    "Great for triage and summaries.",
+    "Enterprise compliance posture."
+  ],
+  "cons": [
+    "Microsoft‑centric.",
+    "Access and licensing requirements.",
+    "Data residency considerations."
+  ],
+  "capabilities": [
+    "cybersecurity",
+    "chat-assistant",
+    "code-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

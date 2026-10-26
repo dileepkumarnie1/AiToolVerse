@@ -1,0 +1,26 @@
+{
+  "slug": "n8n",
+  "name": "n8n",
+  "url": "https://n8n.io/",
+  "tagline": "A source-available and self-hostable workflow automation tool for technical users.",
+  "about": "n8n (pronounced 'n-eight-n') is a workflow automation tool that can be self-hosted, offering maximum privacy and control. It's built with developers in mind, allowing for custom JavaScript functions and complex data transformations within its node-based interface.",
+  "pros": [
+    "Can be self-hosted for free, providing privacy and cost savings.",
+    "Highly extensible with the ability to write custom code.",
+    "Source-available license is very permissive."
+  ],
+  "cons": [
+    "Requires technical expertise to set up and maintain if self-hosting.",
+    "Fewer pre-built integrations than commercial competitors.",
+    "The user interface is more technical and less polished."
+  ],
+  "capabilities": [
+    "automation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "airbyte",
+  "name": "airbyte",
+  "url": "https://airbyte.com/",
+  "tagline": "Airbyte | Open-Source Data Integration Platform | ELT Tool",
+  "about": "Airbyte | Open-Source Data Integration Platform | ELT Tool",
+  "pros": [
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "developer-api",
+    "education-tutor"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

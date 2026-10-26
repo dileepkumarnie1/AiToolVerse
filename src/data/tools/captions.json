@@ -1,0 +1,19 @@
+{
+  "slug": "captions",
+  "name": "Captions",
+  "url": "https://www.captions.ai/",
+  "tagline": "AI video editor for captioning, cuts, and social-ready video formatting.",
+  "about": "Captions helps creators generate captions and polish videos quickly for social platforms.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "transcription",
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

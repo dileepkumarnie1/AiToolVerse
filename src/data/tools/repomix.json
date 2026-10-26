@@ -1,0 +1,29 @@
+{
+  "slug": "repomix",
+  "name": "repomix",
+  "url": "https://repomix.com/",
+  "tagline": "Pack your codebase into AI-friendly formats",
+  "about": "Pack your codebase into AI-friendly formats",
+  "pros": [
+    "Open source and extensible.",
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "graphic-design",
+    "code-assistant",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

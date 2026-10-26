@@ -1,0 +1,27 @@
+{
+  "slug": "wellsaid-labs",
+  "name": "WellSaid Labs",
+  "url": "https://wellsaidlabs.com/",
+  "tagline": "Enterprise-level AI voice generation for e-learning, narration, and corporate communications",
+  "about": "WellSaid Labs provides enterprise-grade AI voice generation with clear consent protocols and high-fidelity output, ideal for corporate communications, e-learning, and professional narration.",
+  "pros": [
+    "Enterprise-grade quality and reliability",
+    "Clear legal and consent frameworks",
+    "Excellent for corporate and educational use",
+    "High-fidelity voice output"
+  ],
+  "cons": [
+    "Premium pricing for enterprise customers",
+    "No free tier available",
+    "Focused on business use cases"
+  ],
+  "capabilities": [
+    "voice-tts"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

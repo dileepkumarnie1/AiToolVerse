@@ -1,0 +1,26 @@
+{
+  "slug": "reka",
+  "name": "Reka",
+  "url": "https://reka.ai/",
+  "tagline": "Multimodal AI assistant that can process images, audio, and text for comprehensive understanding.",
+  "about": "Reka provides multimodal AI that can understand and generate content across text, images, and audio modalities.",
+  "pros": [
+    "True multimodal capabilities",
+    "Competitive performance",
+    "Innovative features"
+  ],
+  "cons": [
+    "Newer platform",
+    "Limited availability",
+    "Less established"
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

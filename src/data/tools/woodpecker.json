@@ -1,0 +1,24 @@
+{
+  "slug": "woodpecker",
+  "name": "woodpecker",
+  "url": "https://operant.ai/",
+  "tagline": "Operant AI - 3D Runtime Protection",
+  "about": "Operant AI - 3D Runtime Protection",
+  "pros": [
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "responsible-ai",
+    "developer-api",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

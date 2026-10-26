@@ -1,0 +1,26 @@
+{
+  "slug": "ai-fairness-360",
+  "name": "AI Fairness 360",
+  "url": "https://aif360.mybluemix.net/",
+  "tagline": "IBM's open-source toolkit for detecting and mitigating bias.",
+  "about": "AI Fairness 360 by IBM provides metrics and algorithms to check for and mitigate bias in ML models across the development lifecycle.",
+  "pros": [
+    "Comprehensive toolkit",
+    "IBM-backed",
+    "Well-documented"
+  ],
+  "cons": [
+    "Requires technical expertise",
+    "Python-focused",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "responsible-ai"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

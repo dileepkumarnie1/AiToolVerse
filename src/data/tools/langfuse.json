@@ -1,0 +1,26 @@
+{
+  "slug": "langfuse",
+  "name": "Langfuse",
+  "url": "https://langfuse.com/",
+  "tagline": "LLM observability with traces, evals, and analytics.",
+  "about": "Monitor LLM app performance and quality with structured tracing and evaluations.",
+  "pros": [
+    "Rich tracing.",
+    "OSS + Cloud.",
+    "Good dashboards."
+  ],
+  "cons": [
+    "Setup effort.",
+    "Data modeling choices.",
+    "Adds infra."
+  ],
+  "capabilities": [
+    "prompt-tools"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

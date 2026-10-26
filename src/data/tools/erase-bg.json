@@ -1,0 +1,26 @@
+{
+  "slug": "erase-bg",
+  "name": "Erase.bg",
+  "url": "https://www.erase.bg/",
+  "tagline": "Free AI background remover for images and photos.",
+  "about": "Erase.bg provides free AI-powered background removal for images online.",
+  "pros": [
+    "Free to use",
+    "Quick results",
+    "No signup"
+  ],
+  "cons": [
+    "Quality varies",
+    "Size limits",
+    "Watermark possible"
+  ],
+  "capabilities": [
+    "photo-editing"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

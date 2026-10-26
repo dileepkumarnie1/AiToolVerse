@@ -1,0 +1,27 @@
+{
+  "slug": "sentinelone",
+  "name": "SentinelOne",
+  "url": "https://www.sentinelone.com/",
+  "tagline": "AI-driven autonomous endpoint security platform.",
+  "about": "SentinelOne provides AI-powered autonomous threat detection and response across endpoints, cloud, and identity.",
+  "pros": [
+    "Autonomous response",
+    "Cross-platform support",
+    "Good threat intelligence"
+  ],
+  "cons": [
+    "Expensive",
+    "Complex configuration",
+    "False positives possible"
+  ],
+  "capabilities": [
+    "cybersecurity",
+    "agents"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

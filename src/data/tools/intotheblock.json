@@ -1,0 +1,27 @@
+{
+  "slug": "intotheblock",
+  "name": "IntoTheBlock",
+  "url": "https://app.intotheblock.com/",
+  "tagline": "ML‑driven on‑chain and market indicators for crypto assets.",
+  "about": "Explore holders, on‑chain flows, derivatives metrics, and signals.",
+  "pros": [
+    "Rich indicators.",
+    "Good dashboards.",
+    "Actionable signals."
+  ],
+  "cons": [
+    "Paid tiers for depth.",
+    "Learning metrics.",
+    "Data latency on some endpoints."
+  ],
+  "capabilities": [
+    "finance",
+    "data-analysis"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

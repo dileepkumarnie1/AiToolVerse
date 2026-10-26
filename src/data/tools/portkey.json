@@ -1,0 +1,18 @@
+{
+  "slug": "portkey",
+  "name": "Portkey",
+  "url": "https://portkey.ai/",
+  "tagline": "AI gateway for routing, governance, and reliability across LLM providers.",
+  "about": "Portkey centralizes provider routing, fallbacks, caching, and policy controls for production LLM apps.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

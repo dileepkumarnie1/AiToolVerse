@@ -1,0 +1,26 @@
+{
+  "slug": "seamless-ai",
+  "name": "Seamless.AI",
+  "url": "https://seamless.ai/",
+  "tagline": "AI-powered sales leads platform with real-time contact verification.",
+  "about": "Seamless.AI uses AI to find and verify B2B contact information in real-time for sales prospecting.",
+  "pros": [
+    "Real-time verification",
+    "Large database",
+    "Browser extension"
+  ],
+  "cons": [
+    "Aggressive sales",
+    "Data accuracy varies",
+    "Pricing"
+  ],
+  "capabilities": [
+    "sales-crm"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "liveblocks",
+  "name": "liveblocks",
+  "url": "https://liveblocks.io/",
+  "tagline": "Liveblocks gives you ready-made features like AI Copilots, Comments, and Multiplayer Editing to make your product more engaging and grow your business.",
+  "about": "Liveblocks gives you ready-made features like AI Copilots, Comments, and Multiplayer Editing to make your product more engaging and grow your business.",
+  "pros": [
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

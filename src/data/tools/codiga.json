@@ -1,0 +1,29 @@
+{
+  "slug": "codiga",
+  "name": "Codiga",
+  "url": "https://www.codiga.io/",
+  "tagline": "AI-powered static code analysis tool for finding and fixing code issues in real-time.",
+  "about": "Codiga analyzes code in real-time using AI to find bugs, security vulnerabilities, and code quality issues.",
+  "pros": [
+    "Real-time analysis",
+    "Security focus",
+    "IDE integration"
+  ],
+  "cons": [
+    "Advanced features paid",
+    "Can be noisy",
+    "Language coverage varies"
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api",
+    "cybersecurity"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

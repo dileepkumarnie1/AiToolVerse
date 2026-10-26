@@ -1,0 +1,28 @@
+{
+  "slug": "nanonets",
+  "name": "Nanonets",
+  "url": "https://nanonets.com/",
+  "tagline": "AI-powered OCR and document processing platform for automating data extraction from invoices and forms.",
+  "about": "Nanonets provides intelligent document processing using deep learning to extract data from unstructured documents with high accuracy.",
+  "pros": [
+    "High accuracy OCR",
+    "Pre-trained models for common documents",
+    "Easy API integration"
+  ],
+  "cons": [
+    "Custom model training requires data",
+    "Pricing based on volume",
+    "Complex documents may need fine-tuning"
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "voice-tts",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

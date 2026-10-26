@@ -1,0 +1,26 @@
+{
+  "slug": "iplan-ai",
+  "name": "iplan.ai",
+  "url": "https://iplan.ai/",
+  "tagline": "AI-powered travel itinerary generator with day-by-day planning and local recommendations.",
+  "about": "iplan.ai creates detailed day-by-day travel plans with timing, directions, and tips, adjusting to your pace and interests.",
+  "pros": [
+    "Detailed scheduling",
+    "Time estimates included",
+    "Multiple destination support"
+  ],
+  "cons": [
+    "Limited free uses",
+    "Some recommendations outdated",
+    "Booking not integrated"
+  ],
+  "capabilities": [
+    "travel"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

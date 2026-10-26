@@ -1,0 +1,27 @@
+{
+  "slug": "alphafold",
+  "name": "AlphaFold",
+  "url": "https://alphafold.ebi.ac.uk/",
+  "tagline": "DeepMind's AI system for predicting protein structures with high accuracy.",
+  "about": "AlphaFold predicts 3D protein structures from amino acid sequences, revolutionizing structural biology research.",
+  "pros": [
+    "High accuracy",
+    "Free database",
+    "Revolutionary impact"
+  ],
+  "cons": [
+    "Prediction not experimental",
+    "Limited to proteins",
+    "Requires interpretation"
+  ],
+  "capabilities": [
+    "science",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

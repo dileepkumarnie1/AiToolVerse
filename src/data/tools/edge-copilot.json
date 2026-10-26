@@ -1,0 +1,27 @@
+{
+  "slug": "edge-copilot",
+  "name": "Edge Copilot",
+  "url": "https://www.microsoft.com/edge",
+  "tagline": "Microsoft Edge with Copilot AI integration for browsing and creation.",
+  "about": "Microsoft Edge includes Copilot AI for browsing assistance and content creation.",
+  "pros": [
+    "Copilot integration",
+    "Free to use",
+    "Microsoft ecosystem"
+  ],
+  "cons": [
+    "Microsoft dependency",
+    "Privacy concerns",
+    "Variable AI quality"
+  ],
+  "capabilities": [
+    "browser",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

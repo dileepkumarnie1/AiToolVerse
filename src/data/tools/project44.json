@@ -1,0 +1,26 @@
+{
+  "slug": "project44",
+  "name": "Project44",
+  "url": "https://www.project44.com/",
+  "tagline": "Movement intelligence platform with AI for supply chain visibility and optimization.",
+  "about": "Project44 provides AI-powered movement intelligence connecting shippers and carriers for better supply chain visibility.",
+  "pros": [
+    "Broad carrier network",
+    "Predictive analytics",
+    "API-first"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complexity",
+    "Integration effort"
+  ],
+  "capabilities": [
+    "industry-ops"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

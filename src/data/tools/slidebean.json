@@ -1,0 +1,28 @@
+{
+  "slug": "slidebean",
+  "name": "Slidebean",
+  "url": "https://slidebean.com/",
+  "tagline": "AI-powered presentation maker with automatic design and layout.",
+  "about": "Slidebean uses AI to automatically design presentations, popular with startups for pitch decks.",
+  "pros": [
+    "Automatic design",
+    "Startup focus",
+    "Time-saving"
+  ],
+  "cons": [
+    "Template-based",
+    "Limited customization",
+    "Subscription required"
+  ],
+  "capabilities": [
+    "presentations",
+    "graphic-design",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

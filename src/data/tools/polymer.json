@@ -1,0 +1,29 @@
+{
+  "slug": "polymer",
+  "name": "Polymer",
+  "url": "https://www.polymersearch.com/",
+  "tagline": "AI-powered data visualization and dashboard creation.",
+  "about": "Polymer turns data into beautiful, interactive dashboards using AI, without requiring coding or data science skills.",
+  "pros": [
+    "No coding required",
+    "Beautiful visualizations",
+    "Fast dashboard creation"
+  ],
+  "cons": [
+    "Limited customization",
+    "Free tier restrictive",
+    "Less powerful than dedicated BI tools"
+  ],
+  "capabilities": [
+    "data-analysis",
+    "code-assistant",
+    "app-builder",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

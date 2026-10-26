@@ -1,0 +1,28 @@
+{
+  "slug": "zapier",
+  "name": "Zapier",
+  "url": "https://zapier.com/",
+  "tagline": "Connects your web apps to automate workflows, now with added AI capabilities.",
+  "about": "Zapier is a leader in the automation space, allowing users to create 'Zaps' that trigger actions between thousands of different web applications without writing any code. It has integrated AI features to help build Zaps, format text, and make decisions within workflows.",
+  "pros": [
+    "Massive library of over 5,000 app integrations.",
+    "Very user-friendly interface for beginners.",
+    "AI features are well-integrated for building and running workflows."
+  ],
+  "cons": [
+    "Can become expensive as task usage increases.",
+    "Multi-step Zaps require a paid plan.",
+    "The AI features are powerful but consume tasks quickly."
+  ],
+  "capabilities": [
+    "automation",
+    "code-assistant",
+    "app-builder"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

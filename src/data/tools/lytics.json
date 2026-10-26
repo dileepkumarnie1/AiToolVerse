@@ -1,0 +1,27 @@
+{
+  "slug": "lytics",
+  "name": "Lytics",
+  "url": "https://www.lytics.com/",
+  "tagline": "AI-powered CDP focused on marketing personalization and customer journeys.",
+  "about": "Lytics provides an AI-powered CDP for marketers focused on personalization and customer journey optimization.",
+  "pros": [
+    "Marketing-focused",
+    "AI personalization",
+    "Journey mapping"
+  ],
+  "cons": [
+    "Marketing use case",
+    "Enterprise pricing",
+    "Less technical features"
+  ],
+  "capabilities": [
+    "data-analysis",
+    "marketing-seo"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

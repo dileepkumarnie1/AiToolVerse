@@ -1,0 +1,28 @@
+{
+  "slug": "hive-moderation",
+  "name": "Hive Moderation",
+  "url": "https://hivemoderation.com/",
+  "tagline": "AI-powered content moderation for images, video, text, and audio.",
+  "about": "Hive provides AI moderation across all content types with high accuracy for platforms and enterprises.",
+  "pros": [
+    "Multi-modal",
+    "High accuracy",
+    "Scalable"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Integration work",
+    "Latency for some content"
+  ],
+  "capabilities": [
+    "industry-ops",
+    "writing",
+    "video-generation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

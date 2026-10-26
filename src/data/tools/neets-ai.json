@@ -1,0 +1,28 @@
+{
+  "slug": "neets-ai",
+  "name": "Neets AI",
+  "url": "https://neets.ai/",
+  "tagline": "Text-to-speech API with natural-sounding voices for developers.",
+  "about": "Neets provides high-quality text-to-speech API with natural-sounding voices.",
+  "pros": [
+    "Good quality",
+    "Developer-friendly",
+    "Affordable"
+  ],
+  "cons": [
+    "API-only",
+    "Newer service",
+    "Limited voices"
+  ],
+  "capabilities": [
+    "voice-tts",
+    "code-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

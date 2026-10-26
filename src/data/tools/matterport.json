@@ -1,0 +1,28 @@
+{
+  "slug": "matterport",
+  "name": "Matterport",
+  "url": "https://matterport.com/",
+  "tagline": "3D digital twins for property listings, design, and operations.",
+  "about": "Matterport captures spaces into interactive 3D tours with AI features for measurement, floor plans, and virtual staging.",
+  "pros": [
+    "High‑quality 3D tours.",
+    "Measurement/floor plan tools.",
+    "Broad camera/app support."
+  ],
+  "cons": [
+    "Scanning workflow learning curve.",
+    "Hosting costs for many tours.",
+    "Best with good capture hardware."
+  ],
+  "capabilities": [
+    "real-estate",
+    "graphic-design",
+    "gaming-3d"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

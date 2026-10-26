@@ -1,0 +1,26 @@
+{
+  "slug": "loudly",
+  "name": "Loudly",
+  "url": "https://loudly.com/",
+  "tagline": "AI music creation and royalty-free music library.",
+  "about": "Loudly provides AI-powered music creation tools and a library of royalty-free tracks for content creators.",
+  "pros": [
+    "Royalty-free for content creation",
+    "Quick music generation",
+    "Customizable tracks"
+  ],
+  "cons": [
+    "Limited in free tier",
+    "Generic sound quality",
+    "Not for professional production"
+  ],
+  "capabilities": [
+    "music-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

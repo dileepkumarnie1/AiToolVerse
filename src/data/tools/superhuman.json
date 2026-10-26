@@ -1,0 +1,29 @@
+{
+  "slug": "superhuman",
+  "name": "Superhuman",
+  "url": "https://superhuman.com/",
+  "tagline": "Premium AI email client with blazing speed, smart templates, and inbox zero features for high-volume users.",
+  "about": "Superhuman combines AI-powered email composition with a blazing-fast interface designed for professionals who handle high email volumes. It learns your writing style, offers smart templates, and includes features to help achieve inbox zero.",
+  "pros": [
+    "Incredibly fast and efficient interface",
+    "AI learns your writing style",
+    "Smart email prioritization",
+    "Keyboard-driven productivity"
+  ],
+  "cons": [
+    "Expensive premium pricing ($30/month)",
+    "Gmail/Outlook only",
+    "Requires investment in learning shortcuts"
+  ],
+  "capabilities": [
+    "email",
+    "automation",
+    "chat-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

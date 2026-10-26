@@ -1,0 +1,28 @@
+{
+  "slug": "ultimate-ai",
+  "name": "Ultimate.ai",
+  "url": "https://www.ultimate.ai/",
+  "tagline": "AI-powered customer service automation platform for enterprise support teams.",
+  "about": "Ultimate.ai automates customer service across channels and languages for enterprise support operations.",
+  "pros": [
+    "Enterprise-grade",
+    "Multi-language",
+    "Deep automation"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Complex setup",
+    "Long implementation"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

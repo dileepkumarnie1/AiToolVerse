@@ -1,0 +1,27 @@
+{
+  "slug": "cassette-ai",
+  "name": "Cassette AI",
+  "url": "https://cassetteai.com/",
+  "tagline": "AI music creation tool designed for bedroom producers and beat makers.",
+  "about": "Cassette AI helps producers create beats and samples using AI, with a focus on hip-hop and electronic music production.",
+  "pros": [
+    "Producer-focused",
+    "Beat generation",
+    "Style variety"
+  ],
+  "cons": [
+    "Niche focus",
+    "Subscription model",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "music-generation",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

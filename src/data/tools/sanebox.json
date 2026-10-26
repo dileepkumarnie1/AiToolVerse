@@ -1,0 +1,28 @@
+{
+  "slug": "sanebox",
+  "name": "SaneBox",
+  "url": "https://www.sanebox.com/",
+  "tagline": "An AI-powered tool for cleaning up and organizing your email inbox.",
+  "about": "SaneBox uses AI to analyze your email history and automatically filter unimportant messages out of your inbox into a separate folder. It helps you focus on what's important without changing your email client or habits.",
+  "pros": [
+    "Dramatically reduces inbox clutter.",
+    "Learns from your behavior to improve its filtering.",
+    "Includes other useful features like email reminders and do-not-disturb."
+  ],
+  "cons": [
+    "Requires a paid subscription after a trial period.",
+    "Requires giving a third-party service access to your email.",
+    "Can occasionally mis-categorize an important email."
+  ],
+  "capabilities": [
+    "email",
+    "automation",
+    "chat-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

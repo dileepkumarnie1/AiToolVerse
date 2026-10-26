@@ -1,0 +1,19 @@
+{
+  "slug": "gorgias",
+  "name": "Gorgias",
+  "url": "https://www.gorgias.com/",
+  "tagline": "Ecommerce helpdesk with AI-assisted support workflows and automation.",
+  "about": "Gorgias helps ecommerce teams handle support faster with automations and AI assistance.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "ecommerce",
+    "customer-support"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

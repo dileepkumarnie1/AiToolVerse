@@ -1,0 +1,28 @@
+{
+  "slug": "pieces-for-developers",
+  "name": "Pieces for Developers",
+  "url": "https://pieces.app/",
+  "tagline": "AI-powered code snippet manager with intelligent context saving and retrieval.",
+  "about": "Pieces helps developers save, enrich, and reuse code snippets with AI that captures context and provides intelligent search.",
+  "pros": [
+    "Smart snippet saving",
+    "Context awareness",
+    "Multiple IDE support"
+  ],
+  "cons": [
+    "Learning curve",
+    "Subscription for full features",
+    "Storage limits"
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

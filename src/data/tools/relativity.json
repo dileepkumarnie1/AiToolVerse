@@ -1,0 +1,26 @@
+{
+  "slug": "relativity",
+  "name": "Relativity",
+  "url": "https://www.relativity.com/",
+  "tagline": "AI-powered e-discovery and legal document review.",
+  "about": "Relativity provides AI-powered e-discovery, document review, and legal hold management for law firms and corporations.",
+  "pros": [
+    "Industry standard",
+    "Comprehensive features",
+    "Good for large cases"
+  ],
+  "cons": [
+    "Very expensive",
+    "Complex to use",
+    "Requires training"
+  ],
+  "capabilities": [
+    "legal"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

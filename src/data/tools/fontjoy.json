@@ -1,0 +1,26 @@
+{
+  "slug": "fontjoy",
+  "name": "Fontjoy",
+  "url": "https://fontjoy.com/",
+  "tagline": "AI tool that generates font pairings using deep learning.",
+  "about": "Fontjoy uses deep learning to generate harmonious font pairings for design projects.",
+  "pros": [
+    "Free to use",
+    "Good pairings",
+    "Adjustable similarity"
+  ],
+  "cons": [
+    "Limited fonts",
+    "No export",
+    "Basic interface"
+  ],
+  "capabilities": [
+    "graphic-design"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

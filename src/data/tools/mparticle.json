@@ -1,0 +1,26 @@
+{
+  "slug": "mparticle",
+  "name": "mParticle",
+  "url": "https://www.mparticle.com/",
+  "tagline": "Customer data platform with AI for real-time customer intelligence.",
+  "about": "mParticle provides real-time customer data infrastructure with AI predictions and identity resolution.",
+  "pros": [
+    "Real-time",
+    "Mobile-focused",
+    "Good for apps"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Mobile focus",
+    "Complex implementation"
+  ],
+  "capabilities": [
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "super-agent-party",
+  "name": "super-agent-party",
+  "url": "https://super-agent-party.github.io/",
+  "tagline": "Super Agent Party - AI Agent Platform",
+  "about": "Super Agent Party - AI Agent Platform",
+  "pros": [
+    "Generates visuals quickly."
+  ],
+  "cons": [
+    "Quality varies by prompt."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "agents",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

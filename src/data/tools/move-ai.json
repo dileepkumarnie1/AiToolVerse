@@ -1,0 +1,28 @@
+{
+  "slug": "move-ai",
+  "name": "Move AI",
+  "url": "https://www.move.ai/",
+  "tagline": "AI motion capture from standard video without markers or special equipment.",
+  "about": "Move AI extracts professional-quality motion capture data from regular smartphone or camera video using AI.",
+  "pros": [
+    "No markers needed",
+    "Phone video works",
+    "Professional quality"
+  ],
+  "cons": [
+    "Processing time",
+    "Subscription pricing",
+    "Technical setup"
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "graphic-design",
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

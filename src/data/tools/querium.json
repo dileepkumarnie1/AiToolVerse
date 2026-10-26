@@ -1,0 +1,26 @@
+{
+  "slug": "querium",
+  "name": "Querium",
+  "url": "https://www.querium.com/",
+  "tagline": "AI tutoring platform for STEM subjects with step-by-step problem solving.",
+  "about": "Querium provides AI tutoring for STEM subjects that breaks down problems into steps and provides personalized feedback.",
+  "pros": [
+    "STEM focus",
+    "Step-by-step help",
+    "Adaptive difficulty"
+  ],
+  "cons": [
+    "Institution focus",
+    "Limited subjects",
+    "Subscription required"
+  ],
+  "capabilities": [
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

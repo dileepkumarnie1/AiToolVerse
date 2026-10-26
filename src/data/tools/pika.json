@@ -1,0 +1,26 @@
+{
+  "slug": "pika",
+  "name": "Pika",
+  "url": "https://pika.art/",
+  "tagline": "A user-friendly platform for generating short, high-quality video clips from text.",
+  "about": "Pika specializes in text-to-video and image-to-video generation, aiming to make video creation accessible to everyone. It's known for its ease of use and the cinematic quality of its output.",
+  "pros": [
+    "Very simple and intuitive interface.",
+    "Generates visually impressive video clips.",
+    "Free to try with a daily credit allowance."
+  ],
+  "cons": [
+    "Limited to very short video clips (a few seconds).",
+    "Less control over video details compared to professional software.",
+    "High demand can lead to long generation queues."
+  ],
+  "capabilities": [
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

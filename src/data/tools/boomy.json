@@ -1,0 +1,26 @@
+{
+  "slug": "boomy",
+  "name": "Boomy",
+  "url": "https://boomy.com/",
+  "tagline": "Create and monetize AI-generated music instantly.",
+  "about": "Boomy allows anyone to create original songs in seconds and submit them to streaming platforms for monetization.",
+  "pros": [
+    "Very easy to use",
+    "Monetization built-in",
+    "No musical knowledge required"
+  ],
+  "cons": [
+    "Limited creative control",
+    "Revenue share model",
+    "Quality varies"
+  ],
+  "capabilities": [
+    "music-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

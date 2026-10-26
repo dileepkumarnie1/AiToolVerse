@@ -1,0 +1,18 @@
+{
+  "slug": "unstructured",
+  "name": "Unstructured",
+  "url": "https://unstructured.io/",
+  "tagline": "Tools for parsing and preparing documents for RAG and LLM applications.",
+  "about": "Unstructured converts PDFs, HTML, docs, and more into structured content for retrieval.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

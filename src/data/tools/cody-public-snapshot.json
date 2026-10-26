@@ -1,0 +1,20 @@
+{
+  "slug": "cody-public-snapshot",
+  "name": "cody-public-snapshot",
+  "url": "https://cody.dev/",
+  "tagline": "Type less, code more: Cody is an AI code assistant that uses advanced search and codebase context to help you write and fix code.",
+  "about": "Type less, code more: Cody is an AI code assistant that uses advanced search and codebase context to help you write and fix code.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

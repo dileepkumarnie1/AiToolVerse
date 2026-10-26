@@ -1,0 +1,28 @@
+{
+  "slug": "notta-ai-summary",
+  "name": "Notta AI Summary",
+  "url": "https://www.notta.ai/",
+  "tagline": "AI meeting and audio summarizer that creates notes from recordings.",
+  "about": "Notta transcribes and summarizes meetings and audio recordings, creating organized notes and action items.",
+  "pros": [
+    "Meeting focus",
+    "Action items",
+    "Multiple languages"
+  ],
+  "cons": [
+    "Subscription for full features",
+    "Transcription quality varies",
+    "Storage limits"
+  ],
+  "capabilities": [
+    "summarization",
+    "meeting-notes",
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

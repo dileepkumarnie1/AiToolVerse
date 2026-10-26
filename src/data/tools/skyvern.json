@@ -1,0 +1,17 @@
+{
+  "slug": "skyvern",
+  "name": "skyvern",
+  "url": "https://www.skyvern.com/",
+  "tagline": "skyvern AI tool",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

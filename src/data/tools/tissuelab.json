@@ -1,0 +1,27 @@
+{
+  "slug": "tissuelab",
+  "name": "TissueLab",
+  "url": "https://www.tissuelab.org/",
+  "tagline": "An agentic AI platform for medical image analysis developed by Zhi Huang Lab. Analyze medical images with cutting-edge artificial intelligence technology.",
+  "about": "An agentic AI platform for medical image analysis developed by Zhi Huang Lab. Analyze medical images with cutting-edge artificial intelligence technology.",
+  "pros": [
+    "Generates visuals quickly.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "health-fitness",
+    "research-search",
+    "agents",
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

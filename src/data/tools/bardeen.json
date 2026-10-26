@@ -1,0 +1,27 @@
+{
+  "slug": "bardeen",
+  "name": "Bardeen",
+  "url": "https://www.bardeen.ai/",
+  "tagline": "An AI-first browser automation tool to automate repetitive tasks and workflows.",
+  "about": "Bardeen is a browser extension that uses AI to automate workflows directly in your browser. It excels at scraping data from websites, integrating with web apps, and creating custom automations without needing to leave your current tab.",
+  "pros": [
+    "Excellent for web scraping and browser-based tasks.",
+    "AI-powered to understand context from the current web page.",
+    "Generous free tier and intuitive to get started with."
+  ],
+  "cons": [
+    "Limited to what can be done within a browser.",
+    "Fewer deep integrations with backend services compared to Zapier/Make.",
+    "Can be resource-intensive as it runs as a browser extension."
+  ],
+  "capabilities": [
+    "automation",
+    "browser"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

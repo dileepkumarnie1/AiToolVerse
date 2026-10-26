@@ -1,0 +1,26 @@
+{
+  "slug": "cladwell",
+  "name": "Cladwell",
+  "url": "https://www.cladwell.com/",
+  "tagline": "AI-powered capsule wardrobe app that suggests daily outfits from your existing clothes.",
+  "about": "Cladwell digitizes your wardrobe and uses AI to suggest daily outfits, helping you maximize your existing clothes.",
+  "pros": [
+    "Maximizes existing wardrobe",
+    "Daily outfit suggestions",
+    "Weather-based recommendations"
+  ],
+  "cons": [
+    "Manual wardrobe input",
+    "Subscription required",
+    "Limited to your clothes"
+  ],
+  "capabilities": [
+    "fashion"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

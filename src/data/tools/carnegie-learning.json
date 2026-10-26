@@ -1,0 +1,26 @@
+{
+  "slug": "carnegie-learning",
+  "name": "Carnegie Learning",
+  "url": "https://www.carnegielearning.com/",
+  "tagline": "AI-powered math and literacy learning platform used by schools worldwide.",
+  "about": "Carnegie Learning uses AI to provide personalized math and literacy instruction for K-12 students in schools.",
+  "pros": [
+    "Research-backed",
+    "Comprehensive curriculum",
+    "Teacher tools"
+  ],
+  "cons": [
+    "School-only",
+    "US-focused",
+    "Implementation required"
+  ],
+  "capabilities": [
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

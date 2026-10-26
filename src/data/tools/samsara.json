@@ -1,0 +1,26 @@
+{
+  "slug": "samsara",
+  "name": "Samsara",
+  "url": "https://www.samsara.com/",
+  "tagline": "AI-powered operations cloud for fleet management and industrial IoT.",
+  "about": "Samsara provides AI-powered fleet management, driver safety, and industrial operations monitoring.",
+  "pros": [
+    "Comprehensive IoT",
+    "Good analytics",
+    "Easy deployment"
+  ],
+  "cons": [
+    "Hardware costs",
+    "Subscription pricing",
+    "Fleet focus"
+  ],
+  "capabilities": [
+    "industry-ops"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

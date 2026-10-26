@@ -1,0 +1,27 @@
+{
+  "slug": "dune-ai",
+  "name": "Dune AI",
+  "url": "https://dune.com/",
+  "tagline": "AI features in Dune for querying and analyzing blockchain data.",
+  "about": "Dune's AI features help users query and analyze blockchain data without writing complex SQL.",
+  "pros": [
+    "No SQL needed",
+    "Comprehensive data",
+    "Community queries"
+  ],
+  "cons": [
+    "Learning curve",
+    "Premium for full access",
+    "Data interpretation needed"
+  ],
+  "capabilities": [
+    "finance",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

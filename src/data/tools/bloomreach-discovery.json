@@ -1,0 +1,27 @@
+{
+  "slug": "bloomreach-discovery",
+  "name": "Bloomreach Discovery",
+  "url": "https://www.bloomreach.com/en/products/discovery",
+  "tagline": "AI‑powered site search, merchandising, and recommendations.",
+  "about": "Discovery boosts conversion with semantic search, relevance tuning, and AI‑driven merchandising tools.",
+  "pros": [
+    "Strong commerce search relevance.",
+    "Merch rules + AI.",
+    "Enterprise integrations."
+  ],
+  "cons": [
+    "Implementation effort.",
+    "Best for mid/enterprise.",
+    "License costs."
+  ],
+  "capabilities": [
+    "ecommerce",
+    "research-search"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

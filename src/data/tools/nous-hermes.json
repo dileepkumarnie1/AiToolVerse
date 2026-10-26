@@ -1,0 +1,26 @@
+{
+  "slug": "nous-hermes",
+  "name": "Nous Hermes",
+  "url": "https://nousresearch.com/",
+  "tagline": "Fine-tuned open-source model known for instruction following and helpfulness.",
+  "about": "Nous Hermes models are fine-tuned versions of open-source LLMs optimized for helpful responses and instruction following.",
+  "pros": [
+    "Good fine-tuning",
+    "Community favorite",
+    "Free to use"
+  ],
+  "cons": [
+    "Self-hosting",
+    "Resource intensive",
+    "No official API"
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

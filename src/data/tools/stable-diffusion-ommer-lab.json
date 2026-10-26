@@ -1,0 +1,18 @@
+{
+  "slug": "stable-diffusion-ommer-lab",
+  "name": "stable-diffusion",
+  "url": "https://ommer-lab.com/research/latent-diffusion-models/",
+  "tagline": "A latent text-to-image diffusion model",
+  "about": "A latent text-to-image diffusion model",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "image-generation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

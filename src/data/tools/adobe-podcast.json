@@ -1,0 +1,28 @@
+{
+  "slug": "adobe-podcast",
+  "name": "Adobe Podcast",
+  "url": "https://podcast.adobe.com/",
+  "tagline": "A web-based tool with AI-powered features for cleaning up and improving voice recordings.",
+  "about": "Adobe Podcast offers a suite of free AI tools for podcasters and content creators. Its most famous feature is 'Enhance Speech,' which can make amateur voice recordings sound as if they were recorded in a professional studio by removing noise and echo.",
+  "pros": [
+    "'Enhance Speech' feature is incredibly effective and free.",
+    "Simple, web-based interface is very easy to use.",
+    "Also includes a tool for checking microphone quality."
+  ],
+  "cons": [
+    "Limited to audio enhancement, not a full editor.",
+    "File size and duration limits apply to the free tools.",
+    "Part of Adobe's ecosystem, which may encourage paid subscriptions."
+  ],
+  "capabilities": [
+    "music-generation",
+    "podcast",
+    "voice-tts"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

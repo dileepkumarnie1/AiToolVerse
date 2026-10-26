@@ -1,0 +1,26 @@
+{
+  "slug": "later-ai",
+  "name": "Later AI",
+  "url": "https://later.com/ai",
+  "tagline": "AI tools for captions, ideas, and scheduling for creators and brands.",
+  "about": "Later offers AI caption writing and planning tools alongside their visual calendar for Instagram, TikTok, and more.",
+  "pros": [
+    "Great visual planner.",
+    "Creator‑friendly.",
+    "Affordable entry tiers."
+  ],
+  "cons": [
+    "Limited analytics vs enterprise suites.",
+    "Network limitations change over time.",
+    "AI outputs need review."
+  ],
+  "capabilities": [
+    "social-media"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

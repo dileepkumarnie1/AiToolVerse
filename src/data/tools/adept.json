@@ -1,0 +1,27 @@
+{
+  "slug": "adept",
+  "name": "Adept",
+  "url": "https://www.adept.ai/",
+  "tagline": "An AI research lab building a foundational model for actions and general intelligence.",
+  "about": "Adept is building a foundational 'action model' called ACT-1, designed to understand natural language commands and execute them on any software interface. Their goal is to create a true AI teammate that can use the same tools you do, from browsing the web to working in complex enterprise software.",
+  "pros": [
+    "Tackling the highly ambitious goal of general computer control.",
+    "Backed by a strong research team with deep industry experience.",
+    "A working model could fundamentally change human-computer interaction."
+  ],
+  "cons": [
+    "Product is not yet widely available to the public.",
+    "Generalizing across all software is an incredibly difficult technical challenge.",
+    "Faces immense competition from all major tech companies building similar agents."
+  ],
+  "capabilities": [
+    "agents",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "prezi-ai",
+  "name": "Prezi AI",
+  "url": "https://prezi.com/",
+  "tagline": "AI features in Prezi for dynamic, zoomable presentations.",
+  "about": "Prezi's AI features help create dynamic, non-linear presentations with its unique zoomable canvas.",
+  "pros": [
+    "Unique format",
+    "Engaging presentations",
+    "AI assistance"
+  ],
+  "cons": [
+    "Different paradigm",
+    "Learning curve",
+    "Can cause motion issues"
+  ],
+  "capabilities": [
+    "presentations"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

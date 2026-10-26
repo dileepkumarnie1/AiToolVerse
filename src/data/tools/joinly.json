@@ -1,0 +1,27 @@
+{
+  "slug": "joinly",
+  "name": "joinly",
+  "url": "https://joinly.ai/",
+  "tagline": "Make your meetings accessible to AI Agents with joinly.ai",
+  "about": "Make your meetings accessible to AI Agents with joinly.ai",
+  "pros": [
+    "Free tier available.",
+    "Open source and extensible."
+  ],
+  "cons": [
+    "Advanced features require payment.",
+    "Subscription required for full access.",
+    "Requires setup and maintenance."
+  ],
+  "capabilities": [
+    "automation",
+    "meeting-notes",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "magnific-ai",
+  "name": "Magnific AI",
+  "url": "https://magnific.ai/",
+  "tagline": "An AI-powered image upscaler and enhancer that adds incredible detail.",
+  "about": "Magnific AI is not a generator but an upscaler. It uses AI to increase the resolution of images while adding new, coherent details, transforming low-resolution pictures into stunning, high-definition artworks.",
+  "pros": [
+    "Creates incredible levels of detail in upscaled images.",
+    "Can 'hallucinate' details in a creative and convincing way.",
+    "Powerful controls for creativity and adherence to the original."
+  ],
+  "cons": [
+    "Requires a paid subscription.",
+    "Can be slow to process images.",
+    "The creative upscaling may not be suitable for all use cases (e.g., photo restoration)."
+  ],
+  "capabilities": [
+    "image-generation",
+    "photo-editing"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

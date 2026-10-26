@@ -1,0 +1,28 @@
+{
+  "slug": "aider",
+  "name": "Aider",
+  "url": "https://aider.chat/",
+  "tagline": "AI pair programming in your terminal that works with GPT-4 to edit your local code.",
+  "about": "Aider is a command-line AI pair programming tool that helps you edit code in your local git repository using GPT-4.",
+  "pros": [
+    "Works with local files",
+    "Git integration",
+    "Open source"
+  ],
+  "cons": [
+    "Terminal-only",
+    "Requires API key",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

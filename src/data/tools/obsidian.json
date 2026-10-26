@@ -1,0 +1,27 @@
+{
+  "slug": "obsidian",
+  "name": "Obsidian",
+  "url": "https://obsidian.md/",
+  "tagline": "Local-first markdown note-taking with AI plugins, graph views, and extensive customization",
+  "about": "Obsidian is a powerful, local-first note-taking app with markdown support, AI plugins, graph visualization, and infinite customization through community plugins.",
+  "pros": [
+    "Files stored locally for maximum privacy",
+    "Extensive plugin ecosystem including AI features",
+    "Graph view for visualizing connections",
+    "Free for personal use"
+  ],
+  "cons": [
+    "Steeper learning curve than simpler apps",
+    "Sync requires paid subscription",
+    "Mobile experience not as polished"
+  ],
+  "capabilities": [
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

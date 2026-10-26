@@ -1,0 +1,18 @@
+{
+  "slug": "weaviate",
+  "name": "Weaviate",
+  "url": "https://weaviate.io/",
+  "tagline": "Open-source vector database with hybrid search for AI and retrieval applications.",
+  "about": "Weaviate supports vector and hybrid search, making it a common choice for semantic search and RAG.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

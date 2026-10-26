@@ -1,0 +1,28 @@
+{
+  "slug": "promethean-ai",
+  "name": "Promethean AI",
+  "url": "https://www.prometheanai.com/",
+  "tagline": "AI world-building tool for 3D environments",
+  "about": "Promethean AI generates 3D worlds and environments by interpreting natural language prompts, allowing rapid iteration during level and asset design. It helps game developers create expansive game worlds more efficiently.",
+  "pros": [
+    "Natural language world generation",
+    "Speeds up level design",
+    "Integrates with game engines",
+    "AI-assisted asset placement"
+  ],
+  "cons": [
+    "Requires powerful hardware",
+    "Learning curve for optimization",
+    "Best for larger projects"
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "graphic-design"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

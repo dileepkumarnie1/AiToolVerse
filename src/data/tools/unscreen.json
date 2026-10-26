@@ -1,0 +1,28 @@
+{
+  "slug": "unscreen",
+  "name": "Unscreen",
+  "url": "https://www.unscreen.com/",
+  "tagline": "AI-powered video background removal without green screen",
+  "about": "Unscreen automatically removes backgrounds from videos without requiring a green screen, making professional video editing accessible to everyone.",
+  "pros": [
+    "Automatic video background removal",
+    "No green screen required",
+    "Easy to use",
+    "Good quality results"
+  ],
+  "cons": [
+    "Free version has limitations",
+    "Processing can be slow for long videos",
+    "Complex scenes may have artifacts"
+  ],
+  "capabilities": [
+    "photo-editing",
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

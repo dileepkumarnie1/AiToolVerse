@@ -1,0 +1,28 @@
+{
+  "slug": "numerai",
+  "name": "Numerai",
+  "url": "https://numer.ai/",
+  "tagline": "Crowdsourced hedge fund powered by ML and crypto.",
+  "about": "Numerai is a hedge fund where data scientists build ML models to predict stock market, earning cryptocurrency for good predictions.",
+  "pros": [
+    "Earn crypto for predictions",
+    "Data science competition",
+    "Unique model"
+  ],
+  "cons": [
+    "Complex concept",
+    "Requires ML skills",
+    "Earnings vary greatly"
+  ],
+  "capabilities": [
+    "finance",
+    "science",
+    "data-analysis"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

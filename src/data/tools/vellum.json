@@ -1,0 +1,20 @@
+{
+  "slug": "vellum",
+  "name": "Vellum",
+  "url": "https://www.vellum.ai/",
+  "tagline": "Platform to design, test, and deploy LLM workflows and agent behaviors.",
+  "about": "Vellum supports prompt/chain experimentation with production-minded deployment and monitoring.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api",
+    "automation",
+    "agents"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

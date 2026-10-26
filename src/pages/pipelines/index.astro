@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import PipelineTile from '../../components/PipelineTile';
+import { goals, pipelines, toPipelineIndexEntry } from '../../lib/catalog';
+---
+
+<Base title="AI pipelines: step-by-step paths to real results" description={`${pipelines.length} step-by-step AI pipelines for work, study, content creation, business and hobbies.`}>
+  <section class="container-page pt-14">
+    <p class="eyebrow">Pipelines</p>
+    <h1 class="heading-lg mt-2">Step-by-step paths to real results</h1>
+    <p class="mt-2 max-w-2xl muted">Each pipeline chains the right AI tools in order, with alternatives and tips at every step.</p>
+
+    {
+      goals.map((g) => {
+        const list = pipelines.filter((p) => p.goals[0] === g.id);
+        return (
+          list.length > 0 && (
+            <section class="mt-14" id={g.id}>
+              <h2 class="text-xl font-semibold tracking-tight text-ink-900 dark:text-white">{g.label}</h2>
+              <p class="mt-1 text-sm muted">{g.description}</p>
+              <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{list.map((p) => <PipelineTile pipeline={toPipelineIndexEntry(p)} />)}</div>
+            </section>
+          )
+        );
+      })
+    }
+  </section>
+</Base>

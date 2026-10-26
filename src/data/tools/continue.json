@@ -1,0 +1,29 @@
+{
+  "slug": "continue",
+  "name": "Continue",
+  "url": "https://continue.dev/",
+  "tagline": "Open-source AI code assistant with customizable models and privacy focus",
+  "about": "Continue is an open-source AI coding assistant that prioritizes privacy and customization, allowing developers to use their own AI models and maintain full control over their code.",
+  "pros": [
+    "Open source and customizable",
+    "Can use your own AI models",
+    "Privacy-focused design",
+    "Free to use"
+  ],
+  "cons": [
+    "Requires more setup than commercial alternatives",
+    "Less polished UI/UX",
+    "Community support vs dedicated support team"
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

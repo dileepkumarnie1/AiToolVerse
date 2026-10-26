@@ -1,0 +1,19 @@
+{
+  "slug": "braintrust",
+  "name": "Braintrust",
+  "url": "https://www.braintrust.dev/",
+  "tagline": "Open-source evaluation framework for LLM apps and prompt iterations.",
+  "about": "Braintrust provides a workflow for defining evals and measuring changes in LLM behavior.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "developer-api",
+    "automation"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 70,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "whoop",
+  "name": "Whoop",
+  "url": "https://www.whoop.com/",
+  "tagline": "AI-powered fitness wearable that tracks strain, recovery, and sleep for optimal performance.",
+  "about": "Whoop uses AI to analyze physiological data and provide personalized insights on training readiness, sleep quality, and recovery.",
+  "pros": [
+    "Detailed recovery metrics",
+    "Sleep coaching",
+    "Strain monitoring"
+  ],
+  "cons": [
+    "Expensive subscription",
+    "No screen on device",
+    "Data interpretation learning curve"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "cli",
+  "name": "CLI",
+  "url": "https://bito.ai/",
+  "tagline": "AI Code Reviews designed for modern dev teams. Cut review time, improve code quality, and ship with confidence — with contextual, senior-level feedback.",
+  "about": "AI Code Reviews designed for modern dev teams. Cut review time, improve code quality, and ship with confidence — with contextual, senior-level feedback.",
+  "pros": [
+    "Generates visuals quickly.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Quality varies by prompt.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "graphic-design",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

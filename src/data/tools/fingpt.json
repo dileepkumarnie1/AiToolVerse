@@ -1,0 +1,27 @@
+{
+  "slug": "fingpt",
+  "name": "FinGPT",
+  "url": "https://ai4finance.org/",
+  "tagline": "A Nonprofit Organization Dedicated to Advancing AI in the Finance Industry by Providing Open Source Code Libraries",
+  "about": "A Nonprofit Organization Dedicated to Advancing AI in the Finance Industry by Providing Open Source Code Libraries",
+  "pros": [
+    "Open source and extensible.",
+    "Boosts developer productivity."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Suggestions may need review."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "code-assistant",
+    "developer-api",
+    "agents"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "ludo-ai",
+  "name": "Ludo.ai",
+  "url": "https://ludo.ai/",
+  "tagline": "AI game design and playtesting automation",
+  "about": "Ludo.ai automates game concept development, level design, and playtesting, identifying bugs and balancing issues quickly. It provides AI-powered assistance throughout the game development process from ideation to testing.",
+  "pros": [
+    "Automated playtesting",
+    "Game concept generation",
+    "Balance and bug detection",
+    "Data-driven insights"
+  ],
+  "cons": [
+    "Cannot replace human playtesting entirely",
+    "Limited to certain game types",
+    "Subscription required for full features"
+  ],
+  "capabilities": [
+    "gaming-3d",
+    "graphic-design",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

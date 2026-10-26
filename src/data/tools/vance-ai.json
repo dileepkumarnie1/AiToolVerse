@@ -1,0 +1,26 @@
+{
+  "slug": "vance-ai",
+  "name": "Vance AI",
+  "url": "https://vanceai.com/",
+  "tagline": "AI photo editing suite with tools for enhancement, restoration, upscaling, and background removal.",
+  "about": "Vance AI offers a comprehensive suite of AI-powered image tools including enhancer, sharpener, denoiser, and image enlarger.",
+  "pros": [
+    "Multiple tools in one",
+    "Good quality output",
+    "Desktop and web options"
+  ],
+  "cons": [
+    "Credits system",
+    "Can be pricey",
+    "Variable tool quality"
+  ],
+  "capabilities": [
+    "photo-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

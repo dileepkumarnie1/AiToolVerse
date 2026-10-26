@@ -1,0 +1,28 @@
+{
+  "slug": "assemblyai",
+  "name": "AssemblyAI",
+  "url": "https://www.assemblyai.com/",
+  "tagline": "AI speech-to-text API with summarization, sentiment, and speaker detection.",
+  "about": "AssemblyAI provides speech recognition APIs with advanced features like summarization, sentiment analysis, and speaker diarization.",
+  "pros": [
+    "Advanced features",
+    "Good documentation",
+    "Competitive pricing"
+  ],
+  "cons": [
+    "API only",
+    "Processing time",
+    "US-focused"
+  ],
+  "capabilities": [
+    "voice-tts",
+    "summarization",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "chaingpt",
+  "name": "ChainGPT",
+  "url": "https://chaingpt.org/",
+  "tagline": "AI infrastructure for crypto and blockchain applications.",
+  "about": "ChainGPT provides AI tools for crypto analysis, smart contract development, NFT generation, and blockchain security audits.",
+  "pros": [
+    "Crypto-native AI",
+    "Multiple tools",
+    "Smart contract assistance"
+  ],
+  "cons": [
+    "Requires crypto knowledge",
+    "Token-based access",
+    "Niche use case"
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

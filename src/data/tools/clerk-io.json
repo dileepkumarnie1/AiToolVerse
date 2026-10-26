@@ -1,0 +1,30 @@
+{
+  "slug": "clerk-io",
+  "name": "Clerk.io",
+  "url": "https://clerk.io/",
+  "tagline": "Personalized product recommendations and email automation",
+  "about": "Clerk.io delivers personalized product recommendations and bundles for each shopper to increase average order value and repeat purchases. Used widely by mid-sized brands and known for robust analytics across emails and store pages.",
+  "pros": [
+    "Increases average order value",
+    "Email and onsite personalization",
+    "Good analytics and insights",
+    "Product bundling features"
+  ],
+  "cons": [
+    "Requires consistent traffic for best results",
+    "Learning period for AI optimization",
+    "Mid-tier pricing"
+  ],
+  "capabilities": [
+    "ecommerce",
+    "email",
+    "marketing-seo",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

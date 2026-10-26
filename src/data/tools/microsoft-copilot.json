@@ -1,0 +1,28 @@
+{
+  "slug": "microsoft-copilot",
+  "name": "Microsoft Copilot",
+  "url": "https://copilot.microsoft.com/",
+  "tagline": "Web chat assistant with Bing context and plugins.",
+  "about": "Brings web‑aware chat, image creation, and graph‑based answers in one place.",
+  "pros": [
+    "Good web grounding.",
+    "Image generation built‑in.",
+    "Free access level."
+  ],
+  "cons": [
+    "Occasional guardrail friction.",
+    "Regional variation.",
+    "Less controllable than APIs."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "code-assistant",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 93,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

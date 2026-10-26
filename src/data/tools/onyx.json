@@ -1,0 +1,27 @@
+{
+  "slug": "onyx",
+  "name": "onyx",
+  "url": "https://onyx.app/",
+  "tagline": "The open-source AI enterprise search platform that helps teams find information across all company data.",
+  "about": "The open-source AI enterprise search platform that helps teams find information across all company data.",
+  "pros": [
+    "Open source and extensible.",
+    "Good for drafting and Q&A.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "May require fact‑checking.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "research-search"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

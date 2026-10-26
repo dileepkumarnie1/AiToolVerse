@@ -1,0 +1,27 @@
+{
+  "slug": "designs-ai-presentation",
+  "name": "Designs AI Presentation",
+  "url": "https://designs.ai/presentation",
+  "tagline": "AI-powered presentation maker as part of the Designs.ai suite.",
+  "about": "Part of the Designs.ai suite, this tool creates presentations from AI-generated content and templates.",
+  "pros": [
+    "Part of suite",
+    "Quick generation",
+    "Templates"
+  ],
+  "cons": [
+    "Template-dependent",
+    "Basic customization",
+    "Subscription needed"
+  ],
+  "capabilities": [
+    "presentations",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

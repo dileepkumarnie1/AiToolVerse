@@ -1,0 +1,27 @@
+{
+  "slug": "crewai",
+  "name": "CrewAI",
+  "url": "https://www.crewai.com/",
+  "tagline": "An open-source framework for orchestrating collaborative, role-playing AI agents.",
+  "about": "CrewAI is a framework designed to enable multiple AI agents to collaborate to accomplish complex tasks. It facilitates breaking down a goal into specialized roles (e.g., 'Researcher', 'Writer', 'Critique'), assigning tasks to each, and managing their interaction to produce a cohesive result.",
+  "pros": [
+    "Excellent for simulating team dynamics and complex workflows.",
+    "The role-based design is intuitive and powerful.",
+    "Open-source and highly customizable with strong community support."
+  ],
+  "cons": [
+    "Can be overly complex for simple, single-agent tasks.",
+    "Effectiveness is highly dependent on the LLM's ability to role-play accurately.",
+    "Managing the flow of information between agents can be challenging."
+  ],
+  "capabilities": [
+    "agents",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

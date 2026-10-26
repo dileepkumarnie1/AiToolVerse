@@ -1,0 +1,26 @@
+{
+  "slug": "k-health",
+  "name": "K Health",
+  "url": "https://khealth.com/",
+  "tagline": "AI-powered primary care app that provides personalized health information and doctor access.",
+  "about": "K Health uses AI to analyze symptoms and health history, providing personalized insights and connecting users with doctors.",
+  "pros": [
+    "Consumer accessible",
+    "AI + real doctors",
+    "Affordable"
+  ],
+  "cons": [
+    "US only",
+    "Limited conditions",
+    "Not for emergencies"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

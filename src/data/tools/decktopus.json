@@ -1,0 +1,28 @@
+{
+  "slug": "decktopus",
+  "name": "Decktopus",
+  "url": "https://www.decktopus.com/",
+  "tagline": "AI presentation tool that personalizes slides for different audiences with unique audio and form features.",
+  "about": "Decktopus personalizes presentations for different audiences using AI recommendations based on presentation goals. Its unique features include audio narration and embedded forms for audience interaction.",
+  "pros": [
+    "Audience-specific personalization",
+    "Unique audio narration features",
+    "Interactive forms for engagement",
+    "Goal-based recommendations"
+  ],
+  "cons": [
+    "Limited customization options",
+    "Smaller template library",
+    "Some features feel experimental"
+  ],
+  "capabilities": [
+    "presentations",
+    "forms-surveys"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

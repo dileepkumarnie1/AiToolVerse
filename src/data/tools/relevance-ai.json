@@ -1,0 +1,18 @@
+{
+  "slug": "relevance-ai",
+  "name": "Relevance AI",
+  "url": "https://relevance.ai/",
+  "tagline": "Workflows and AI automation platform",
+  "about": "Workflows and AI automation platform",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

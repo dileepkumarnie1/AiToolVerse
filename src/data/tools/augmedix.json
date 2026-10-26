@@ -1,0 +1,29 @@
+{
+  "slug": "augmedix",
+  "name": "Augmedix",
+  "url": "https://www.augmedix.com/",
+  "tagline": "AI medical transcription and documentation assistant",
+  "about": "Augmedix provides AI-powered medical transcription and patient documentation via voice recognition and ambient listening. It automates clinical documentation, allowing healthcare providers to spend more time with patients and less time on paperwork.",
+  "pros": [
+    "Reduces documentation time",
+    "Ambient listening technology",
+    "Improves clinician productivity",
+    "HIPAA compliant"
+  ],
+  "cons": [
+    "Requires stable internet connection",
+    "May need editing for accuracy",
+    "Subscription-based pricing"
+  ],
+  "capabilities": [
+    "health-fitness",
+    "transcription",
+    "notes-knowledge"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

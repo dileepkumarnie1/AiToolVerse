@@ -1,0 +1,29 @@
+{
+  "slug": "spellbook",
+  "name": "Spellbook (by Rally)",
+  "url": "https://www.spellbook.legal/",
+  "tagline": "AI contract drafting and review inside Microsoft Word.",
+  "about": "Spellbook accelerates contract drafting by suggesting clauses, flagging risks, and aligning to playbooks directly within Word.",
+  "pros": [
+    "In‑editor experience.",
+    "Playbooks and clause libraries.",
+    "Great for redlines."
+  ],
+  "cons": [
+    "MS Word dependency.",
+    "Training/playbook setup needed.",
+    "May require legal ops alignment."
+  ],
+  "capabilities": [
+    "legal",
+    "graphic-design",
+    "notes-knowledge",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

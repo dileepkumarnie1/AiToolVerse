@@ -1,0 +1,27 @@
+{
+  "slug": "canva-magic-design",
+  "name": "Canva Magic Design",
+  "url": "https://www.canva.com/magic-design/",
+  "tagline": "Auto‑generate layouts, images, and copy in Canva.",
+  "about": "Turn a prompt into themed presentations and marketing assets.",
+  "pros": [
+    "Beginner‑friendly.",
+    "Huge template library.",
+    "Fast results."
+  ],
+  "cons": [
+    "Generic outputs need editing.",
+    "Brand control requires Pro.",
+    "Limited advanced layout control."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "presentations"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

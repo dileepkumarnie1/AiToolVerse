@@ -1,0 +1,26 @@
+{
+  "slug": "viz-ai",
+  "name": "Viz.ai",
+  "url": "https://www.viz.ai/",
+  "tagline": "AI platform for detecting and coordinating care for critical medical conditions.",
+  "about": "Viz.ai uses AI to detect critical conditions like stroke in medical imaging and coordinate rapid care response.",
+  "pros": [
+    "FDA-cleared",
+    "Rapid detection",
+    "Care coordination"
+  ],
+  "cons": [
+    "Enterprise/hospital only",
+    "Specific conditions",
+    "Integration required"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "pathway",
+  "name": "pathway",
+  "url": "https://pathway.com/",
+  "tagline": "Pathway - Fundamentally changing the way models think",
+  "about": "Pathway - Fundamentally changing the way models think",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

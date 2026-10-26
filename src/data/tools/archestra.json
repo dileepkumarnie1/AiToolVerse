@@ -1,0 +1,26 @@
+{
+  "slug": "archestra",
+  "name": "archestra",
+  "url": "https://www.archestra.ai/",
+  "tagline": "Enterprise-grade platform enabling non-technical users to safely leverage AI agents and MCP (Model Context Protocol) servers with security guardrails and compliance.",
+  "about": "Enterprise-grade platform enabling non-technical users to safely leverage AI agents and MCP (Model Context Protocol) servers with security guardrails and compliance.",
+  "pros": [
+    "Open source and extensible.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "responsible-ai",
+    "research-search",
+    "agents"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

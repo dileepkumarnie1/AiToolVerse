@@ -1,0 +1,28 @@
+{
+  "slug": "genei",
+  "name": "Genei",
+  "url": "https://www.genei.io/",
+  "tagline": "AI research assistant that summarizes and organizes academic papers and documents.",
+  "about": "Genei helps researchers and students summarize academic papers, organize research, and extract key information.",
+  "pros": [
+    "Academic focus",
+    "Organization features",
+    "Citation help"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "Learning curve",
+    "Academic content focus"
+  ],
+  "capabilities": [
+    "summarization",
+    "research-search",
+    "science"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

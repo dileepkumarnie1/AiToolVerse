@@ -1,0 +1,29 @@
+{
+  "slug": "simplified-ai",
+  "name": "Simplified AI",
+  "url": "https://simplified.com/",
+  "tagline": "Integrated design, writing, and collaboration platform with AI-generated text, graphics, and direct scheduling.",
+  "about": "Simplified integrates design, writing, and collaboration features with AI-generated text and graphics, extensive templates, team editing capabilities, and direct scheduling to social platforms.",
+  "pros": [
+    "Design and writing in one tool",
+    "Team collaboration",
+    "Good template library",
+    "Direct scheduling"
+  ],
+  "cons": [
+    "Can be overwhelming with features",
+    "Quality varies by template",
+    "Learning curve for full capabilities"
+  ],
+  "capabilities": [
+    "social-media",
+    "writing",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

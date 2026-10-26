@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import Dashboard from '../../components/Dashboard';
+---
+
+<Base title="My AI toolkit" description="Your personal AI tool recommendations and pipelines." noindex>
+  <section class="container-page pt-14">
+    <Dashboard client:only="react" />
+  </section>
+</Base>

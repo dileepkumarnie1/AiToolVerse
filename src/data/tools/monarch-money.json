@@ -1,0 +1,26 @@
+{
+  "slug": "monarch-money",
+  "name": "Monarch Money",
+  "url": "https://www.monarchmoney.com/",
+  "tagline": "AI-powered financial planning platform for households with collaborative features.",
+  "about": "Monarch helps households manage money together with AI-powered insights, goal tracking, and collaborative budgeting tools.",
+  "pros": [
+    "Collaborative features",
+    "Comprehensive tracking",
+    "Clean interface"
+  ],
+  "cons": [
+    "Subscription required",
+    "Relatively new",
+    "Limited free tier"
+  ],
+  "capabilities": [
+    "finance"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

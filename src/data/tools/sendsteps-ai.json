@@ -1,0 +1,26 @@
+{
+  "slug": "sendsteps-ai",
+  "name": "Sendsteps.ai",
+  "url": "https://www.sendsteps.com/",
+  "tagline": "AI-powered interactive presentation platform with audience engagement.",
+  "about": "Sendsteps combines AI presentation creation with interactive audience engagement features.",
+  "pros": [
+    "Interactive features",
+    "Audience engagement",
+    "AI creation"
+  ],
+  "cons": [
+    "Presentation + polls focus",
+    "Subscription pricing",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "presentations"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

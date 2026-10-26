@@ -1,0 +1,19 @@
+{
+  "slug": "lovable",
+  "name": "Lovable",
+  "url": "https://lovable.dev/",
+  "tagline": "AI app builder for generating full web apps with components and integrations.",
+  "about": "Lovable helps you go from idea to working app quickly with AI-driven generation and iteration.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "code-assistant",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

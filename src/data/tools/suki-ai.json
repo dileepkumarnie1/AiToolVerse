@@ -1,0 +1,29 @@
+{
+  "slug": "suki-ai",
+  "name": "Suki AI",
+  "url": "https://www.suki.ai/",
+  "tagline": "AI voice assistant for physicians that automates clinical documentation.",
+  "about": "Suki is an AI assistant for doctors that creates clinical notes through voice commands, learning each physician's preferences.",
+  "pros": [
+    "Voice-first",
+    "Learns preferences",
+    "Multi-specialty"
+  ],
+  "cons": [
+    "Subscription pricing",
+    "EHR integration needed",
+    "Learning period"
+  ],
+  "capabilities": [
+    "health-fitness",
+    "voice-tts",
+    "chat-assistant",
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

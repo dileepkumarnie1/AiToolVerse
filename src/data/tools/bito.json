@@ -1,0 +1,29 @@
+{
+  "slug": "bito",
+  "name": "Bito",
+  "url": "https://bito.ai/",
+  "tagline": "AI assistant for developers with IDE integration for code generation and explanation.",
+  "about": "Bito brings AI assistance to your IDE with features for code generation, explanation, test generation, and documentation.",
+  "pros": [
+    "Multiple IDE support",
+    "Code explanations",
+    "Security focus"
+  ],
+  "cons": [
+    "Team features paid",
+    "Variable quality",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "code-assistant",
+    "chat-assistant",
+    "developer-api",
+    "notes-knowledge"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

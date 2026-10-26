@@ -1,0 +1,29 @@
+{
+  "slug": "lawglance",
+  "name": "lawglance",
+  "url": "https://lawglance.com/",
+  "tagline": "Free, open-source initiative democratizing legal knowledge through Agentic AI workflows, RAG, and LLMs. Access Indian laws, constitutional guidance, and legal insights 24/7 with context-aware reasoning.",
+  "about": "Free, open-source initiative democratizing legal knowledge through Agentic AI workflows, RAG, and LLMs. Access Indian laws, constitutional guidance, and legal insights 24/7 with context-aware reasoning.",
+  "pros": [
+    "Good for drafting and Q&A.",
+    "Generates visuals quickly.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "May require fact‑checking.",
+    "Quality varies by prompt.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "legal",
+    "chat-assistant",
+    "graphic-design",
+    "research-search"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

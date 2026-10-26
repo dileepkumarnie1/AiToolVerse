@@ -1,0 +1,27 @@
+{
+  "slug": "paradox",
+  "name": "Paradox (Olivia)",
+  "url": "https://www.paradox.ai/",
+  "tagline": "Conversational recruiting assistant for screening and scheduling.",
+  "about": "Olivia automates candidate Q&A, pre‑screening, and interview scheduling via chat and SMS, especially for high‑volume roles.",
+  "pros": [
+    "Great for high‑volume hiring.",
+    "Scheduling automation.",
+    "Mobile‑first experience."
+  ],
+  "cons": [
+    "Less depth for niche roles.",
+    "Requires tight ATS integration.",
+    "Brand/voice tuning needed."
+  ],
+  "capabilities": [
+    "hr-recruiting",
+    "chat-assistant"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "rev-ai",
+  "name": "Rev AI",
+  "url": "https://www.rev.com/services/speech-to-text-apis",
+  "tagline": "Speech-to-text API combining AI and human transcription for maximum accuracy.",
+  "about": "Rev AI provides speech recognition with optional human review for industries requiring the highest accuracy.",
+  "pros": [
+    "Human review option",
+    "Multiple languages",
+    "High accuracy"
+  ],
+  "cons": [
+    "Higher cost for human review",
+    "Processing time",
+    "Enterprise focus"
+  ],
+  "capabilities": [
+    "transcription",
+    "voice-tts",
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

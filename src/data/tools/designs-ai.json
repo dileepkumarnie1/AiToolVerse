@@ -1,0 +1,28 @@
+{
+  "slug": "designs-ai",
+  "name": "Designs.ai",
+  "url": "https://designs.ai/",
+  "tagline": "AI-powered creative platform for logos, videos, mockups, and more.",
+  "about": "Designs.ai offers multiple AI design tools for creating logos, videos, mockups, and marketing materials.",
+  "pros": [
+    "Multiple tools",
+    "All-in-one",
+    "Quick creation"
+  ],
+  "cons": [
+    "Subscription required",
+    "Quality varies",
+    "Template-based"
+  ],
+  "capabilities": [
+    "graphic-design",
+    "video-generation",
+    "logo-branding"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

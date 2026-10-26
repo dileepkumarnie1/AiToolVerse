@@ -1,0 +1,29 @@
+{
+  "slug": "beautiful-ai",
+  "name": "Beautiful.ai",
+  "url": "https://www.beautiful.ai/",
+  "tagline": "Smart design automation platform that keeps presentations visually consistent with intelligent layout adjustments.",
+  "about": "Beautiful.ai uses smart design automation to maintain visual consistency throughout presentations. It intelligently adjusts slide elements as you add content, ensuring everything stays aligned and professional-looking without manual effort.",
+  "pros": [
+    "Automatic layout optimization",
+    "Maintains visual consistency automatically",
+    "Professional designs out of the box",
+    "Easy sharing and export options"
+  ],
+  "cons": [
+    "Less flexibility for custom designs",
+    "Automation can be limiting for creative control",
+    "Higher price point for teams"
+  ],
+  "capabilities": [
+    "graphic-design",
+    "presentations",
+    "automation"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 53,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

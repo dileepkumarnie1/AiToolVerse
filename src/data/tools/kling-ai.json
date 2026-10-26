@@ -1,0 +1,26 @@
+{
+  "slug": "kling-ai",
+  "name": "Kling AI",
+  "url": "https://klingai.com/",
+  "tagline": "Chinese AI video generator with impressive motion and physics understanding.",
+  "about": "Kling AI from Kuaishou generates videos with impressive understanding of motion and physics.",
+  "pros": [
+    "Good motion",
+    "Long videos",
+    "Impressive quality"
+  ],
+  "cons": [
+    "Chinese platform",
+    "Access limitations",
+    "Waitlist possible"
+  ],
+  "capabilities": [
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

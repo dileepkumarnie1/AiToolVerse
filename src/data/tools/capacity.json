@@ -1,0 +1,28 @@
+{
+  "slug": "capacity",
+  "name": "Capacity",
+  "url": "https://capacity.com/",
+  "tagline": "AI-powered helpdesk that answers questions and automates support across channels.",
+  "about": "Capacity combines AI knowledge management with helpdesk automation to answer employee and customer questions.",
+  "pros": [
+    "Knowledge management",
+    "Multi-channel",
+    "Employee + customer"
+  ],
+  "cons": [
+    "Enterprise focus",
+    "Setup complexity",
+    "Pricing"
+  ],
+  "capabilities": [
+    "customer-support",
+    "chat-assistant",
+    "automation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

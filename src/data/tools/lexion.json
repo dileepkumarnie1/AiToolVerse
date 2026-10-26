@@ -1,0 +1,28 @@
+{
+  "slug": "lexion",
+  "name": "Lexion",
+  "url": "https://www.lexion.ai/",
+  "tagline": "AI contract management that integrates with existing tools like email and Word.",
+  "about": "Lexion provides AI contract management that works within existing workflows, integrating with email and Office tools.",
+  "pros": [
+    "Email integration",
+    "Easy adoption",
+    "Good UX"
+  ],
+  "cons": [
+    "Limited advanced features",
+    "Pricing for scale",
+    "Newer platform"
+  ],
+  "capabilities": [
+    "legal",
+    "automation",
+    "email"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

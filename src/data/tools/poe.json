@@ -1,0 +1,25 @@
+{
+  "slug": "poe",
+  "name": "Poe",
+  "url": "https://poe.com/",
+  "tagline": "Multi-bot chat platform to compare assistants and build/share custom bots.",
+  "about": "Poe lets you use and compare multiple AI assistants in one place and create/share custom bots with prompt instructions. It’s useful for discovery and quick side-by-side evaluation.",
+  "pros": [
+    "Easy to compare assistants",
+    "Great for discovery",
+    "Custom bots"
+  ],
+  "cons": [
+    "Capabilities depend on available providers",
+    "Not ideal for deep enterprise workflows"
+  ],
+  "capabilities": [
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 85,
+  "addedAt": "2026-01-15",
+  "source": "legacy"
+}

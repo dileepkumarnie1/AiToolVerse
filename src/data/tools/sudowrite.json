@@ -1,0 +1,28 @@
+{
+  "slug": "sudowrite",
+  "name": "Sudowrite",
+  "url": "https://www.sudowrite.com/",
+  "tagline": "AI writing assistant designed specifically for fiction writers and storytellers.",
+  "about": "Sudowrite helps fiction writers overcome writer's block with AI-powered suggestions, story development, and prose enhancement.",
+  "pros": [
+    "Fiction-focused features",
+    "Story development tools",
+    "Maintains author voice"
+  ],
+  "cons": [
+    "Subscription cost",
+    "Not for non-fiction",
+    "Suggestions may vary in quality"
+  ],
+  "capabilities": [
+    "writing",
+    "chat-assistant",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

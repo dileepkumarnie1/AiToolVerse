@@ -1,0 +1,27 @@
+{
+  "slug": "robust-intelligence",
+  "name": "Robust Intelligence",
+  "url": "https://www.robustintelligence.com/",
+  "tagline": "AI security and validation platform for protecting ML systems.",
+  "about": "Robust Intelligence provides AI security testing and validation to protect ML systems from failures and attacks.",
+  "pros": [
+    "Security focus",
+    "Comprehensive testing",
+    "Enterprise-grade"
+  ],
+  "cons": [
+    "Enterprise only",
+    "Technical expertise needed",
+    "Specific use case"
+  ],
+  "capabilities": [
+    "responsible-ai",
+    "cybersecurity"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

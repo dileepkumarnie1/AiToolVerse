@@ -1,0 +1,18 @@
+{
+  "slug": "wolfram-alpha",
+  "name": "Wolfram Alpha",
+  "url": "https://www.wolframalpha.com/",
+  "tagline": "Computational knowledge engine for math, science, data, and factual queries.",
+  "about": "Wolfram Alpha answers queries using curated data and computation, and is often used for STEM and analytics workflows.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 90,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

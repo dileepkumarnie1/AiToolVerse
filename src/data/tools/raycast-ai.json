@@ -1,0 +1,27 @@
+{
+  "slug": "raycast-ai",
+  "name": "Raycast AI",
+  "url": "https://www.raycast.com/ai",
+  "tagline": "AI-powered launcher for macOS with quick access to AI chat and automations.",
+  "about": "Raycast AI brings AI assistance to your macOS launcher for quick chat, writing help, and automated workflows.",
+  "pros": [
+    "Fast access",
+    "macOS native",
+    "Extensible"
+  ],
+  "cons": [
+    "macOS only",
+    "Subscription for AI",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "automation",
+    "chat-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

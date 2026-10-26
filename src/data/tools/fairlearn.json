@@ -1,0 +1,26 @@
+{
+  "slug": "fairlearn",
+  "name": "Fairlearn",
+  "url": "https://fairlearn.org/",
+  "tagline": "Fairness metrics and mitigation for Python ML.",
+  "about": "Assess and improve model fairness with metrics, visualizations, and reducers.",
+  "pros": [
+    "Easy Python integration.",
+    "Supports many classifiers.",
+    "Community backed."
+  ],
+  "cons": [
+    "Focus on tabular.",
+    "Not an end‑to‑end platform.",
+    "Requires practitioner judgment."
+  ],
+  "capabilities": [
+    "responsible-ai"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

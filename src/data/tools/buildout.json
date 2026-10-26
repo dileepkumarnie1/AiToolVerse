@@ -1,0 +1,27 @@
+{
+  "slug": "buildout",
+  "name": "Buildout",
+  "url": "https://buildout.com/",
+  "tagline": "AI-powered commercial real estate marketing and deal management platform.",
+  "about": "Buildout provides AI tools for commercial real estate marketing, proposal generation, and deal management.",
+  "pros": [
+    "Commercial focus",
+    "Marketing tools",
+    "Good for brokers"
+  ],
+  "cons": [
+    "Commercial only",
+    "Subscription pricing",
+    "US-focused"
+  ],
+  "capabilities": [
+    "real-estate",
+    "marketing-seo"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

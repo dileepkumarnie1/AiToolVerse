@@ -1,0 +1,26 @@
+{
+  "slug": "revenue-io",
+  "name": "Revenue.io",
+  "url": "https://www.revenue.io/",
+  "tagline": "AI platform for sales engagement with real-time guidance and conversation intelligence.",
+  "about": "Revenue.io provides AI-powered sales engagement with real-time call guidance and conversation analytics.",
+  "pros": [
+    "Real-time guidance",
+    "Call analytics",
+    "Coaching insights"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Integration complexity",
+    "Learning curve"
+  ],
+  "capabilities": [
+    "sales-crm"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

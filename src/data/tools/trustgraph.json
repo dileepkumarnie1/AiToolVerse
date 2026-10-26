@@ -1,0 +1,26 @@
+{
+  "slug": "trustgraph",
+  "name": "trustgraph",
+  "url": "https://trustgraph.ai/",
+  "tagline": "TrustGraph is a production-ready platform for building post-training agentic systems. Combine your domain data with LLMs through unified infrastructure: real-time data pipelines, knowledge graph construction, vector…",
+  "about": "TrustGraph is a production-ready platform for building post-training agentic systems. Combine your domain data with LLMs through unified infrastructure: real-time data pipelines, knowledge graph construction, vector retrieval, and agent orchestration.",
+  "pros": [
+    "Open source and extensible.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "research-search",
+    "graphic-design",
+    "agents"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

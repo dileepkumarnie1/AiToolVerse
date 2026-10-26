@@ -1,0 +1,26 @@
+{
+  "slug": "future-fitness",
+  "name": "Future Fitness",
+  "url": "https://www.future.co/",
+  "tagline": "AI-matched personal training with human coaches and customized workout plans.",
+  "about": "Future combines AI matching with real human coaches to deliver personalized training plans through your Apple Watch.",
+  "pros": [
+    "Real human coaching",
+    "Personalized plans",
+    "Accountability"
+  ],
+  "cons": [
+    "Premium pricing",
+    "Apple Watch required",
+    "iOS only"
+  ],
+  "capabilities": [
+    "health-fitness"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

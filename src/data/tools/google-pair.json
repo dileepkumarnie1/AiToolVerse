@@ -1,0 +1,27 @@
+{
+  "slug": "google-pair",
+  "name": "Google PAIR",
+  "url": "https://pair.withgoogle.com/",
+  "tagline": "Google’s People + AI Research initiative for responsible AI.",
+  "about": "PAIR provides tools, guidelines, and research for building responsible, human-centered AI.",
+  "pros": [
+    "Open resources.",
+    "Design tools.",
+    "Focus on fairness and explainability."
+  ],
+  "cons": [
+    "Not a single product.",
+    "Requires proactive use.",
+    "Best for developers/researchers."
+  ],
+  "capabilities": [
+    "responsible-ai",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}

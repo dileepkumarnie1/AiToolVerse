@@ -1,0 +1,29 @@
+{
+  "slug": "octocode-mcp",
+  "name": "octocode-mcp",
+  "url": "https://octocode.ai/",
+  "tagline": "Powerful GitHub MCP server for AI code intelligence. Transform repositories with advanced MCP integration, featuring RAG, LLM, and semantic code search for developers and AI assistants.",
+  "about": "Powerful GitHub MCP server for AI code intelligence. Transform repositories with advanced MCP integration, featuring RAG, LLM, and semantic code search for developers and AI assistants.",
+  "pros": [
+    "Open source and extensible.",
+    "Good for drafting and Q&A.",
+    "Great for research and discovery."
+  ],
+  "cons": [
+    "Requires setup and maintenance.",
+    "May require fact‑checking.",
+    "Coverage and speed can vary."
+  ],
+  "capabilities": [
+    "research-search",
+    "chat-assistant",
+    "code-assistant",
+    "developer-api"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 50,
+  "addedAt": "2026-01-01",
+  "source": "legacy"
+}
