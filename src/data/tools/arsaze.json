@@ -1,0 +1,20 @@
+{
+  "slug": "arsaze",
+  "name": "Arsaze",
+  "url": "https://www.arsaze.com/",
+  "tagline": "Arsaze is Cursor for video editing: the AI-native video editor for agents and humans.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "video-generation",
+    "video-editing",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 67,
+  "addedAt": "2026-11-01",
+  "source": "hackernews",
+  "sourceUrl": "https://news.ycombinator.com/item?id=50300618"
+}
