@@ -19,12 +19,12 @@
     "weekly": "node scripts/weekly.mjs"
   },
   "dependencies": {
-    "@astrojs/react": "^7.1.1",
+    "@astrojs/react": "^7.1.7",
     "@astrojs/sitemap": "^3.7.4",
     "@fontsource-variable/inter": "^5.3.0",
-    "@tailwindcss/vite": "^4.3.3",
-    "astro": "^7.4.2",
-    "firebase": "^13.1.0",
+    "@tailwindcss/vite": "^4.3.5",
+    "astro": "^7.4.10",
+    "firebase": "^13.2.0",
     "minisearch": "^7.2.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
