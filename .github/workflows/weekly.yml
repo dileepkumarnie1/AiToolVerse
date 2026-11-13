@@ -1,0 +1,46 @@
+name: Weekly issue and trending refresh
+
+# Every Monday: refresh the trending data and draft "This week in AI" as a pull request.
+# Nothing is published until a maintainer reviews and merges it.
+on:
+  schedule:
+    - cron: '30 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: weekly-issue
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Refresh trending data
+        run: npm run trends
+      - name: Draft this week's issue
+        run: npm run weekly
+      - run: npm run validate
+      - name: Open pull request for review
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: weekly/draft
+          delete-branch: true
+          commit-message: 'Weekly: draft issue and refresh trending'
+          title: 'This week in AI: draft for review'
+          body: |
+            Drafted automatically from Hacker News.
+
+            **Before merging:** read `src/data/weekly/<date>.json`, rewrite the title and intro in your own words, and delete any story you do not want to publish. Merging publishes the issue and the refreshed Trending page.
+          add-paths: |
+            src/data/weekly/*.json
+            src/data/trends.json

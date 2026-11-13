@@ -1,6 +1,7 @@
 // Validates every catalog file and pipeline. Runs before each build and in CI.
-import { readFileSync } from 'node:fs';
-import { PIPELINES_FILE, TAXONOMY, pipelineSchema, readTools, toolSchema, hostOf } from './lib/catalog.mjs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { join } from 'node:path';
+import { PIPELINES_FILE, TAXONOMY, WEEKLY_DIR, pipelineSchema, readTools, toolSchema, weeklySchema, hostOf } from './lib/catalog.mjs';
 
 const errors = [];
 const slugs = new Set();
@@ -35,6 +36,17 @@ for (const p of pipelines) {
   }
 }
 
+const issues = existsSync(WEEKLY_DIR) ? readdirSync(WEEKLY_DIR).filter((f) => f.endsWith('.json')) : [];
+for (const file of issues) {
+  const parsed = weeklySchema.safeParse(JSON.parse(readFileSync(join(WEEKLY_DIR, file), 'utf8')));
+  if (!parsed.success) {
+    errors.push(`weekly ${file}: ${parsed.error.issues.map((i) => `${i.path.join('.')} ${i.message}`).join('; ')}`);
+    continue;
+  }
+  if (`${parsed.data.slug}.json` !== file) errors.push(`weekly ${file}: slug must match file name`);
+  for (const t of parsed.data.tools) if (!slugs.has(t)) errors.push(`weekly ${file}: unknown tool "${t}"`);
+}
+
 const rules = readFileSync(new URL('../firestore.rules', import.meta.url), 'utf8');
 for (const group of ['goals', 'tasks', 'interests']) {
   for (const { id } of TAXONOMY[group]) {
@@ -46,4 +58,4 @@ if (errors.length) {
   console.error(`Catalog validation failed (${errors.length}):\n${errors.join('\n')}`);
   process.exit(1);
 }
-console.log(`Catalog OK: ${slugs.size} tools, ${pipelineSlugs.size} pipelines`);
+console.log(`Catalog OK: ${slugs.size} tools, ${pipelineSlugs.size} pipelines, ${issues.length} weekly issues`);

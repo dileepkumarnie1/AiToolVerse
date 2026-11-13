@@ -1,0 +1,763 @@
+{
+  "source": "Hacker News",
+  "windowDays": 30,
+  "updatedAt": "2026-11-13",
+  "tools": {
+    "claude": {
+      "points": 16566,
+      "stories": 118,
+      "top": {
+        "id": "50385272",
+        "title": "Claude Code sends your email address to websites",
+        "points": 1615
+      }
+    },
+    "gemini": {
+      "points": 5509,
+      "stories": 24,
+      "top": {
+        "id": "50276792",
+        "title": "Gemini 4 Carbon",
+        "points": 1019
+      }
+    },
+    "mistral-ai": {
+      "points": 3492,
+      "stories": 12,
+      "top": {
+        "id": "50289418",
+        "title": "We're releasing the weights of Mistral Large 4",
+        "points": 1732
+      }
+    },
+    "mistral-le-chat": {
+      "points": 3055,
+      "stories": 5,
+      "top": {
+        "id": "50289418",
+        "title": "We're releasing the weights of Mistral Large 4",
+        "points": 1732
+      }
+    },
+    "chatgpt": {
+      "points": 1895,
+      "stories": 16,
+      "top": {
+        "id": "50314699",
+        "title": "Do the math: How we took over ChatGPT accounts",
+        "points": 365
+      }
+    },
+    "cursor": {
+      "points": 1493,
+      "stories": 5,
+      "top": {
+        "id": "50300683",
+        "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+        "points": 1014
+      }
+    },
+    "meta-ai": {
+      "points": 1365,
+      "stories": 9,
+      "top": {
+        "id": "50107379",
+        "title": "Muse Spark Open",
+        "points": 922
+      }
+    },
+    "wiz": {
+      "points": 1076,
+      "stories": 8,
+      "top": {
+        "id": "50180836",
+        "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+        "points": 455
+      }
+    },
+    "kagi": {
+      "points": 886,
+      "stories": 2,
+      "top": {
+        "id": "50383740",
+        "title": "Search for everyone",
+        "points": 757
+      }
+    },
+    "deepseek-coder": {
+      "points": 617,
+      "stories": 3,
+      "top": {
+        "id": "50138531",
+        "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+        "points": 607
+      }
+    },
+    "openrouter": {
+      "points": 590,
+      "stories": 10,
+      "top": {
+        "id": "50129121",
+        "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+        "points": 520
+      }
+    },
+    "krea-ai": {
+      "points": 365,
+      "stories": 3,
+      "top": {
+        "id": "50105648",
+        "title": "Krea 3 – An image model built for editing at scale",
+        "points": 353
+      }
+    },
+    "krea": {
+      "points": 365,
+      "stories": 3,
+      "top": {
+        "id": "50105648",
+        "title": "Krea 3 – An image model built for editing at scale",
+        "points": 353
+      }
+    },
+    "cohere-command": {
+      "points": 338,
+      "stories": 2,
+      "top": {
+        "id": "50246658",
+        "title": "Concerning behavior from a popular open-weight AI model",
+        "points": 337
+      }
+    },
+    "cohere": {
+      "points": 338,
+      "stories": 2,
+      "top": {
+        "id": "50246658",
+        "title": "Concerning behavior from a popular open-weight AI model",
+        "points": 337
+      }
+    },
+    "arc-browser": {
+      "points": 317,
+      "stories": 3,
+      "top": {
+        "id": "50197601",
+        "title": "A farewell to Arc browser",
+        "points": 287
+      }
+    },
+    "arc-search": {
+      "points": 317,
+      "stories": 3,
+      "top": {
+        "id": "50197601",
+        "title": "A farewell to Arc browser",
+        "points": 287
+      }
+    },
+    "perplexity-ai": {
+      "points": 111,
+      "stories": 19,
+      "top": {
+        "id": "50395866",
+        "title": "Perplexity launches AI agents for work",
+        "points": 64
+      }
+    },
+    "grok": {
+      "points": 110,
+      "stories": 10,
+      "top": {
+        "id": "50169169",
+        "title": "Whoops: Grok Bot Spills Tech CEO's Bank Data in Public Slack",
+        "points": 36
+      }
+    },
+    "replit-agent": {
+      "points": 103,
+      "stories": 4,
+      "top": {
+        "id": "50396834",
+        "title": "Replit rebuilt its sandbox engine with microVMs",
+        "points": 99
+      }
+    },
+    "perplexity": {
+      "points": 96,
+      "stories": 17,
+      "top": {
+        "id": "50395866",
+        "title": "Perplexity launches AI agents for work",
+        "points": 64
+      }
+    },
+    "cartesia": {
+      "points": 92,
+      "stories": 1,
+      "top": {
+        "id": "50278253",
+        "title": "Scaling Hierarchical Networks",
+        "points": 92
+      }
+    },
+    "hex-magic": {
+      "points": 85,
+      "stories": 1,
+      "top": {
+        "id": "50265413",
+        "title": "Hex Raises $100M",
+        "points": 85
+      }
+    },
+    "google-ai-studio": {
+      "points": 47,
+      "stories": 6,
+      "top": {
+        "id": "50471455",
+        "title": "Gemini 4 Hydrogen",
+        "points": 21
+      }
+    },
+    "lovable": {
+      "points": 46,
+      "stories": 6,
+      "top": {
+        "id": "50394221",
+        "title": "The Formula for Lovable Cities",
+        "points": 19
+      }
+    },
+    "litellm": {
+      "points": 39,
+      "stories": 6,
+      "top": {
+        "id": "50215317",
+        "title": "The attack chain behind the v1.107.0 LiteLLM release",
+        "points": 19
+      }
+    },
+    "browser": {
+      "points": 23,
+      "stories": 1,
+      "top": {
+        "id": "50112799",
+        "title": "Lightpanda headless browser written in Zig",
+        "points": 23
+      }
+    },
+    "skyvern": {
+      "points": 22,
+      "stories": 1,
+      "top": {
+        "id": "50222826",
+        "title": "Progressive disclosure in agents to make them 2.3x faster",
+        "points": 22
+      }
+    },
+    "modal": {
+      "points": 20,
+      "stories": 7,
+      "top": {
+        "id": "50122039",
+        "title": "Building Fast Filesystems for VMs",
+        "points": 11
+      }
+    },
+    "notion-ai": {
+      "points": 19,
+      "stories": 1,
+      "top": {
+        "id": "50436636",
+        "title": "Tell HN: Notion AI chat sessions have been exposed via Fireworks AI hack",
+        "points": 19
+      }
+    },
+    "ollama": {
+      "points": 19,
+      "stories": 2,
+      "top": {
+        "id": "50176129",
+        "title": "Nexus-CLI – Pure Go Bridge to DeepSeek R1/V3 with Claude Code and Ollama Support",
+        "points": 15
+      }
+    },
+    "llamaindex-agents": {
+      "points": 18,
+      "stories": 3,
+      "top": {
+        "id": "50198352",
+        "title": "OCRia-1: A new SOTA 4B document parser",
+        "points": 14
+      }
+    },
+    "llamaindex": {
+      "points": 18,
+      "stories": 3,
+      "top": {
+        "id": "50198352",
+        "title": "OCRia-1: A new SOTA 4B document parser",
+        "points": 14
+      }
+    },
+    "nous-hermes": {
+      "points": 18,
+      "stories": 2,
+      "top": {
+        "id": "50402369",
+        "title": "Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values",
+        "points": 13
+      }
+    },
+    "baseten": {
+      "points": 14,
+      "stories": 3,
+      "top": {
+        "id": "50184557",
+        "title": "Base Labs releases top-ranked decision models mammoth-1 and and elephant-1",
+        "points": 12
+      }
+    },
+    "kapwing": {
+      "points": 14,
+      "stories": 3,
+      "top": {
+        "id": "50122324",
+        "title": "Show HN: Camera Controls and Motion for AI Video Prompts",
+        "points": 11
+      }
+    },
+    "chroma": {
+      "points": 12,
+      "stories": 2,
+      "top": {
+        "id": "50212256",
+        "title": "Chroma Is Joining Replit",
+        "points": 9
+      }
+    },
+    "coderabbit": {
+      "points": 12,
+      "stories": 4,
+      "top": {
+        "id": "50373157",
+        "title": "CodeRabbit – Automated review, triage, and security for AI-generated PRs",
+        "points": 5
+      }
+    },
+    "fireworks-ai": {
+      "points": 11,
+      "stories": 4,
+      "top": {
+        "id": "50430799",
+        "title": "Fireworks AI October 2026 security incident",
+        "points": 7
+      }
+    },
+    "together-ai": {
+      "points": 9,
+      "stories": 5,
+      "top": {
+        "id": "50423701",
+        "title": "Together Compiler: Continual Compilation for AI Inference",
+        "points": 3
+      }
+    },
+    "character-ai": {
+      "points": 7,
+      "stories": 1,
+      "top": {
+        "id": "50156383",
+        "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+        "points": 7
+      }
+    },
+    "check-point-infinity": {
+      "points": 7,
+      "stories": 2,
+      "top": {
+        "id": "50289433",
+        "title": "Cohere's Qwen Story: Looks more like model jaggedness",
+        "points": 5
+      }
+    },
+    "ifttt": {
+      "points": 7,
+      "stories": 2,
+      "top": {
+        "id": "50308597",
+        "title": "Put AI to Work for You",
+        "points": 4
+      }
+    },
+    "launch-hn-extend-turn-your-messiest-documents-into-data": {
+      "points": 7,
+      "stories": 2,
+      "top": {
+        "id": "50428829",
+        "title": "How we made table parsing 4× faster with DFlash",
+        "points": 4
+      }
+    },
+    "elliptic": {
+      "points": 6,
+      "stories": 2,
+      "top": {
+        "id": "50304607",
+        "title": "The largest theft in history: DPRK behind the $6.4B Binance hack",
+        "points": 4
+      }
+    },
+    "github-copilot": {
+      "points": 6,
+      "stories": 1,
+      "top": {
+        "id": "50299030",
+        "title": "GitHub Copilot Fusion orchestrates between models at half the cost",
+        "points": 6
+      }
+    },
+    "ramp": {
+      "points": 6,
+      "stories": 3,
+      "top": {
+        "id": "50150949",
+        "title": "Elixir at Ramp",
+        "points": 3
+      }
+    },
+    "raycast": {
+      "points": 6,
+      "stories": 2,
+      "top": {
+        "id": "50313818",
+        "title": "Power of Raycast, Now on iOS",
+        "points": 3
+      }
+    },
+    "zapier": {
+      "points": 6,
+      "stories": 2,
+      "top": {
+        "id": "50392829",
+        "title": "What we learned by watching Claude read Zapier.com",
+        "points": 4
+      }
+    },
+    "jetbrains-ai-assistant": {
+      "points": 5,
+      "stories": 3,
+      "top": {
+        "id": "50453129",
+        "title": "JetBrains Air: Run and review coding agents inside the IDE",
+        "points": 2
+      }
+    },
+    "crowdstrike-falcon": {
+      "points": 4,
+      "stories": 2,
+      "top": {
+        "id": "50305744",
+        "title": "CrowdStrike: Vapor Panda ran intrusions with DeepSeek-based agents",
+        "points": 3
+      }
+    },
+    "n8n": {
+      "points": 4,
+      "stories": 2,
+      "top": {
+        "id": "50453875",
+        "title": "Nod – open-source personal agent with its own computer",
+        "points": 2
+      }
+    },
+    "photoroom": {
+      "points": 4,
+      "stories": 1,
+      "top": {
+        "id": "50424525",
+        "title": "How SkyPilot on Slurm and Kubernetes put 1k idle GPU hours a week to work",
+        "points": 4
+      }
+    },
+    "supabase": {
+      "points": 4,
+      "stories": 1,
+      "top": {
+        "id": "50312393",
+        "title": "Supabase Compute",
+        "points": 4
+      }
+    },
+    "cloudflare-workers-ai": {
+      "points": 3,
+      "stories": 2,
+      "top": {
+        "id": "50471737",
+        "title": "Clairic is a System One-style extraction model",
+        "points": 2
+      }
+    },
+    "comfyui": {
+      "points": 3,
+      "stories": 2,
+      "top": {
+        "id": "50360704",
+        "title": "Comfy hackathon: open-source Higgsfield's platform",
+        "points": 2
+      }
+    },
+    "elevenlabs": {
+      "points": 3,
+      "stories": 2,
+      "top": {
+        "id": "50457165",
+        "title": "Scribe v3 and v3 Live",
+        "points": 2
+      }
+    },
+    "taskade": {
+      "points": 3,
+      "stories": 1,
+      "top": {
+        "id": "50130795",
+        "title": "History of Spreadsheets (2026): VisiCalc to Taskade Genesis",
+        "points": 3
+      }
+    },
+    "calendly": {
+      "points": 2,
+      "stories": 1,
+      "top": {
+        "id": "50410816",
+        "title": "AI labs are paying $100K–$2M for internal company workflow data",
+        "points": 2
+      }
+    },
+    "clay": {
+      "points": 2,
+      "stories": 1,
+      "top": {
+        "id": "50143643",
+        "title": "Why Clay Has an AI Writing Policy",
+        "points": 2
+      }
+    },
+    "deepgram": {
+      "points": 2,
+      "stories": 1,
+      "top": {
+        "id": "50290188",
+        "title": "Deepgram is acquiring Daily, makers of Pipecat",
+        "points": 2
+      }
+    },
+    "deepseek-chat": {
+      "points": 2,
+      "stories": 1,
+      "top": {
+        "id": "50345760",
+        "title": "DeepSeek also can easily read and write ML Weights",
+        "points": 2
+      }
+    },
+    "exa": {
+      "points": 2,
+      "stories": 2,
+      "top": {
+        "id": "50160981",
+        "title": "Exa 3.0",
+        "points": 1
+      }
+    },
+    "firecrawl": {
+      "points": 2,
+      "stories": 1,
+      "top": {
+        "id": "50209245",
+        "title": "Firecrawl Government and Legal Index",
+        "points": 2
+      }
+    },
+    "hume-ai": {
+      "points": 2,
+      "stories": 1,
+      "top": {
+        "id": "50339949",
+        "title": "Hume launches the first decision model for voice AI",
+        "points": 2
+      }
+    },
+    "pika-labs": {
+      "points": 2,
+      "stories": 2,
+      "top": {
+        "id": "50315984",
+        "title": "Pika H3 Flex Technical Deep Dive",
+        "points": 1
+      }
+    },
+    "pika": {
+      "points": 2,
+      "stories": 2,
+      "top": {
+        "id": "50315984",
+        "title": "Pika H3 Flex Technical Deep Dive",
+        "points": 1
+      }
+    },
+    "prezi-ai": {
+      "points": 2,
+      "stories": 1,
+      "top": {
+        "id": "50269898",
+        "title": "Soda Honey Boost ReviEwS (2026): We Tried It My Honest Review",
+        "points": 2
+      }
+    },
+    "assembly-ai": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50277116",
+        "title": "TTS-1 from AssemblyAI – Frontier voice at $15/M chars",
+        "points": 1
+      }
+    },
+    "assemblyai": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50277116",
+        "title": "TTS-1 from AssemblyAI – Frontier voice at $15/M chars",
+        "points": 1
+      }
+    },
+    "bolt-new": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50438262",
+        "title": "Mood Clip Social Website",
+        "points": 1
+      }
+    },
+    "cube": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50338125",
+        "title": "Building the Data Model Factory",
+        "points": 1
+      }
+    },
+    "duolingo-max": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50212595",
+        "title": "How we created Chess Game Review: What's a key moment?",
+        "points": 1
+      }
+    },
+    "luma-ai": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50162371",
+        "title": "Marble: Exact sequence parallelism for packed multimodal masks",
+        "points": 1
+      }
+    },
+    "obsidian-ai": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50247820",
+        "title": "A cinematic 3D graph view for Obsidian",
+        "points": 1
+      }
+    },
+    "obsidian-with-ai-plugins": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50247820",
+        "title": "A cinematic 3D graph view for Obsidian",
+        "points": 1
+      }
+    },
+    "obsidian": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50247820",
+        "title": "A cinematic 3D graph view for Obsidian",
+        "points": 1
+      }
+    },
+    "openspec": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50325125",
+        "title": "An Early Beta of OpenSpec Desktop",
+        "points": 1
+      }
+    },
+    "semantic-scholar": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50354547",
+        "title": "List of most viewed papers on ArXiv",
+        "points": 1
+      }
+    },
+    "synthesia-ai-avatars": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50379794",
+        "title": "Agentic Security Engineering",
+        "points": 1
+      }
+    },
+    "synthesia": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50379794",
+        "title": "Agentic Security Engineering",
+        "points": 1
+      }
+    },
+    "tally": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50247806",
+        "title": "Survey: What do you use to manage your cap table?",
+        "points": 1
+      }
+    },
+    "tella": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50312892",
+        "title": "Squarespace Forma- The Loveable and Vercel killer is here",
+        "points": 1
+      }
+    },
+    "unstructured": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50211236",
+        "title": "Unstructured's New Models Outparse GPT-6, Claude and Gemini",
+        "points": 1
+      }
+    }
+  }
+}

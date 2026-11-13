@@ -14,7 +14,9 @@
     "validate": "node scripts/validate-catalog.mjs",
     "migrate": "node scripts/migrate-catalog.mjs",
     "discover": "node scripts/discover.mjs",
-    "logos": "node scripts/fetch-logos.mjs"
+    "logos": "node scripts/fetch-logos.mjs",
+    "trends": "node scripts/trends.mjs",
+    "weekly": "node scripts/weekly.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^7.1.1",

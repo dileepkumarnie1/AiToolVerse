@@ -65,6 +65,33 @@ export const pipelineSchema = z
   })
   .strict();
 
+export const weeklySchema = z
+  .object({
+    slug: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    number: z.number().int().min(1),
+    date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    title: plainText(5, 120),
+    intro: plainText(10, 400),
+    news: z
+      .array(
+        z
+          .object({
+            title: plainText(5, 200),
+            url: httpsUrl,
+            source: plainText(3, 80),
+            points: z.number().int().min(0).optional(),
+            discussion: httpsUrl.optional(),
+          })
+          .strict(),
+      )
+      .min(1)
+      .max(12),
+    tools: z.array(z.string()).max(12).default([]),
+  })
+  .strict();
+
+export const WEEKLY_DIR = join(ROOT, 'src/data/weekly');
+
 export const readTools = () =>
   readdirSync(TOOLS_DIR)
     .filter((f) => f.endsWith('.json'))

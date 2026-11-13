@@ -1,0 +1,73 @@
+{
+  "slug": "2026-11-13",
+  "number": 1,
+  "date": "2026-11-13",
+  "title": "This week in AI: 13 November 2026",
+  "intro": "The AI stories people discussed most this week, and the tools at the centre of the conversation.",
+  "news": [
+    {
+      "title": "My AI agents found an unmapped Maya site?",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "source": "pietromiotti.com",
+      "points": 1033,
+      "discussion": "https://news.ycombinator.com/item?id=50452455"
+    },
+    {
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "source": "anthropic.com",
+      "points": 998,
+      "discussion": "https://news.ycombinator.com/item?id=50429906"
+    },
+    {
+      "title": "Anthropic IPO",
+      "url": "https://ipo.anthropic.com/us/",
+      "source": "ipo.anthropic.com",
+      "points": 988,
+      "discussion": "https://news.ycombinator.com/item?id=50465829"
+    },
+    {
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "source": "thestateofai.com",
+      "points": 903,
+      "discussion": "https://news.ycombinator.com/item?id=50415628"
+    },
+    {
+      "title": "Goodbye Claude, hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "source": "caleb.software",
+      "points": 825,
+      "discussion": "https://news.ycombinator.com/item?id=50410107"
+    },
+    {
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "url": "https://github.com/thisisme6598/gemini_files/",
+      "source": "github.com",
+      "points": 737,
+      "discussion": "https://news.ycombinator.com/item?id=50429426"
+    },
+    {
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "source": "cbsnews.com",
+      "points": 676,
+      "discussion": "https://news.ycombinator.com/item?id=50458900"
+    },
+    {
+      "title": "AI usage generates a fragile codebase",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "source": "evanxmerz.com",
+      "points": 641,
+      "discussion": "https://news.ycombinator.com/item?id=50438318"
+    }
+  ],
+  "tools": [
+    "claude",
+    "gemini",
+    "mistral-ai",
+    "chatgpt",
+    "cursor",
+    "meta-ai"
+  ]
+}
