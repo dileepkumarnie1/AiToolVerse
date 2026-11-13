@@ -16,8 +16,8 @@
     "Usage limits on free tier"
   ],
   "capabilities": [
-    "music-generation",
-    "voice-tts"
+    "voice-tts",
+    "music-generation"
   ],
   "pricing": "freemium",
   "openSource": false,
