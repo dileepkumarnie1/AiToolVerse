@@ -1,13 +1,78 @@
-# Old aitoolverse.ai URLs -> new structure
-/all-tools        /tools/       301
-/all-tools/       /tools/       301
-/category/*       /categories/  301
-/use-case/*       /pipelines/   301
-/find-tool        /start/       301
-/find-tool/       /start/       301
-/stacks           /pipelines/   301
-/stacks/          /pipelines/   301
-/prompt-studio    /             301
-/prompt-studio/   /             301
-/submit-tool      /suggest/     301
-/submit-tool/     /suggest/     301
+# Old aitoolverse.ai URLs -> closest page in the new structure.
+# Specific rules come first; the first matching rule wins.
+
+# Top-level pages
+/all-tools                              /tools/                                       301
+/all-tools/                             /tools/                                       301
+/find-tool                              /start/                                       301
+/find-tool/                             /start/                                       301
+/submit-tool                            /suggest/                                     301
+/submit-tool/                           /suggest/                                     301
+/stacks                                 /pipelines/                                   301
+/stacks/                                /pipelines/                                   301
+/prompt-studio                          /                                             301
+/prompt-studio/                         /                                             301
+/sitemap.xml                            /sitemap-index.xml                            301
+/docs/privacy.md                        /privacy/                                     301
+/docs/terms.md                          /terms/                                       301
+
+# Old categories
+/category/text-and-chat                 /categories/writing/                          301
+/category/text-and-chat/                /categories/writing/                          301
+/category/image-and-design              /categories/image/                            301
+/category/image-and-design/             /categories/image/                            301
+/category/video-and-animation           /categories/video/                            301
+/category/video-and-animation/          /categories/video/                            301
+/category/audio-and-voice               /categories/audio/                            301
+/category/audio-and-voice/              /categories/audio/                            301
+/category/coding-and-dev                /categories/coding/                           301
+/category/coding-and-dev/               /categories/coding/                           301
+/category/productivity                  /categories/productivity/                     301
+/category/productivity/                 /categories/productivity/                     301
+/category/business-and-marketing        /categories/business/                         301
+/category/business-and-marketing/       /categories/business/                         301
+/category/education                     /categories/education/                        301
+/category/education/                    /categories/education/                        301
+/category/research-and-data             /categories/research/                         301
+/category/research-and-data/            /categories/research/                         301
+/category/workflow-and-automation       /categories/automation/                       301
+/category/workflow-and-automation/      /categories/automation/                       301
+/category/ai-agents                     /best/agents/                                 301
+/category/ai-agents/                    /best/agents/                                 301
+/category/finance-and-crypto            /best/finance/                                301
+/category/finance-and-crypto/           /best/finance/                                301
+/category/legal-and-compliance          /best/legal/                                  301
+/category/legal-and-compliance/         /best/legal/                                  301
+/category/healthcare-and-wellness       /best/health-fitness/                         301
+/category/healthcare-and-wellness/      /best/health-fitness/                         301
+/category/cybersecurity                 /best/cybersecurity/                          301
+/category/cybersecurity/                /best/cybersecurity/                          301
+/category/hr-and-recruitment            /best/hr-recruiting/                          301
+/category/hr-and-recruitment/           /best/hr-recruiting/                          301
+/category/social-media                  /best/social-media/                           301
+/category/social-media/                 /best/social-media/                           301
+/category/gaming-and-3d                 /best/gaming-3d/                              301
+/category/gaming-and-3d/                /best/gaming-3d/                              301
+
+# Old use-case pages
+/use-case/meeting-notes                 /pipelines/never-take-meeting-notes-again/    301
+/use-case/meeting-notes/                /pipelines/never-take-meeting-notes-again/    301
+/use-case/youtube-shorts                /pipelines/faceless-short-videos/             301
+/use-case/youtube-shorts/               /pipelines/faceless-short-videos/             301
+/use-case/customer-support-chatbot      /pipelines/customer-support-chatbot/          301
+/use-case/customer-support-chatbot/     /pipelines/customer-support-chatbot/          301
+/use-case/code-review                   /pipelines/ship-code-faster/                  301
+/use-case/code-review/                  /pipelines/ship-code-faster/                  301
+/use-case/content-writing               /pipelines/write-and-publish-a-blog-post/     301
+/use-case/content-writing/              /pipelines/write-and-publish-a-blog-post/     301
+/use-case/research-and-summaries        /pipelines/research-any-topic-fast/           301
+/use-case/research-and-summaries/       /pipelines/research-any-topic-fast/           301
+/use-case/resume-screening              /best/hr-recruiting/                          301
+/use-case/resume-screening/             /best/hr-recruiting/                          301
+/use-case/image-background-removal      /best/photo-editing/                          301
+/use-case/image-background-removal/     /best/photo-editing/                          301
+
+# Anything else under the old sections
+/category/*                             /categories/                                  301
+/use-case/*                             /pipelines/                                   301
+/stacks/*                               /pipelines/                                   301
