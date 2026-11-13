@@ -17,6 +17,8 @@ export interface Tool {
   addedAt: string;
   source: 'legacy' | 'hackernews' | 'producthunt' | 'suggestion' | 'manual';
   sourceUrl?: string;
+  /** Set at build time when public/logos/<slug>.webp exists. */
+  logo?: boolean;
 }
 
 export interface Capability {
@@ -72,6 +74,7 @@ export interface ToolIndexEntry {
   skillLevel: SkillLevel;
   popularity: number;
   addedAt: string;
+  logo?: boolean;
 }
 
 export interface PipelineIndexEntry {

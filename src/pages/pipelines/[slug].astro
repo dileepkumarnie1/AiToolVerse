@@ -54,7 +54,7 @@ const steps = pipeline.steps.map((s) => ({
               <div class="mt-5 grid gap-3 sm:grid-cols-2">
                 {s.picks.map((t, idx) => (
                   <a href={`/tools/${t.slug}/`} class="flex items-center gap-3 rounded-xl border border-ink-200 p-3 transition hover:border-brand-300 dark:border-white/10">
-                    <ToolAvatar slug={t.slug} name={t.name} size="sm" />
+                    <ToolAvatar slug={t.slug} name={t.name} size="sm" logo={t.logo} />
                     <span class="min-w-0">
                       <span class="block truncate text-sm font-semibold text-ink-900 dark:text-white">
                         {t.name}

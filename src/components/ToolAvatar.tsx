@@ -11,9 +11,24 @@ const GRADIENTS = [
 
 const hash = (s: string) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
 
-/** Monogram avatar: no third-party logo requests, consistent look, never broken. */
-export default function ToolAvatar({ slug, name, size = 'md' }: { slug: string; name: string; size?: 'sm' | 'md' | 'lg' }) {
+interface Props {
+  slug: string;
+  name: string;
+  size?: 'sm' | 'md' | 'lg';
+  /** True when a locally stored logo exists for this tool. */
+  logo?: boolean;
+}
+
+/** The tool's logo from our own /logos folder, or a monogram when there is none. No third-party requests. */
+export default function ToolAvatar({ slug, name, size = 'md', logo = false }: Props) {
   const sizes = { sm: 'h-8 w-8 text-sm rounded-lg', md: 'h-11 w-11 text-base rounded-xl', lg: 'h-16 w-16 text-2xl rounded-2xl' };
+  if (logo) {
+    return (
+      <span aria-hidden="true" className={`inline-flex shrink-0 overflow-hidden bg-white shadow-sm ring-1 ring-ink-200/80 dark:ring-white/15 ${sizes[size]}`}>
+        <img src={`/logos/${slug}.webp`} alt="" width={96} height={96} loading="lazy" decoding="async" draggable={false} className="h-full w-full object-contain" />
+      </span>
+    );
+  }
   const initial = (name.match(/[A-Za-z0-9]/)?.[0] ?? '?').toUpperCase();
   return (
     <span

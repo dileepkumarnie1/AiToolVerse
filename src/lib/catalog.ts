@@ -1,12 +1,15 @@
 import taxonomy from '../data/taxonomy.json';
 import pipelinesData from '../data/pipelines.json';
+import logoSlugs from '../data/logos.json';
 import type { Capability, Category, Choice, Pipeline, PipelineIndexEntry, Tool, ToolIndexEntry } from './types';
 
 const toolModules = import.meta.glob<Tool>('../data/tools/*.json', { eager: true, import: 'default' });
 
-export const tools: Tool[] = Object.values(toolModules).sort(
-  (a, b) => b.popularity - a.popularity || a.name.localeCompare(b.name),
-);
+const withLogo = new Set(logoSlugs as string[]);
+
+export const tools: Tool[] = Object.values(toolModules)
+  .map((t) => ({ ...t, logo: withLogo.has(t.slug) }))
+  .sort((a, b) => b.popularity - a.popularity || a.name.localeCompare(b.name));
 export const toolBySlug = new Map(tools.map((t) => [t.slug, t]));
 
 export const categories = taxonomy.categories as Category[];
@@ -61,6 +64,7 @@ export const toIndexEntry = (t: Tool): ToolIndexEntry => ({
   skillLevel: t.skillLevel,
   popularity: t.popularity,
   addedAt: t.addedAt,
+  ...(t.logo ? { logo: true } : {}),
 });
 
 export const toPipelineIndexEntry = (p: Pipeline): PipelineIndexEntry => ({
