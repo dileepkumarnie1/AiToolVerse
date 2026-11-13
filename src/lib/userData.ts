@@ -69,12 +69,38 @@ interface UserData {
   savedTools: string[];
 }
 
+const CURRENT_FIELDS = ['profile', 'savedTools', 'updatedAt'];
+
+/** How the previous site derived a tool id from its name. */
+const legacyToolId = (name: string) =>
+  name.toLowerCase().trim().replace(/\s+/g, '-').replace(/[().]/g, '').replace(/[^a-z0-9-]/g, '');
+
+/** Maps favourites saved on the previous site to current tool slugs. Tools that no longer exist are dropped. */
+const fromLegacyFavorites = async (ids: unknown): Promise<string[]> => {
+  if (!Array.isArray(ids) || ids.length === 0) return [];
+  const tools: { slug: string; name: string }[] = await fetch('/data/tools.json').then((r) => r.json());
+  const slugById = new Map(tools.map((t) => [legacyToolId(t.name), t.slug]));
+  tools.forEach((t) => slugById.set(t.slug, t.slug));
+  return [...new Set(ids.map((id) => slugById.get(String(id))).filter((slug) => slug !== undefined))].slice(0, MAX_SAVED);
+};
+
+/**
+ * Reads the account document. Documents written by the previous site hold fields the
+ * current security rules reject, so they are replaced once with the current shape.
+ */
+const readAccount = async (d: NonNullable<Awaited<ReturnType<typeof userDoc>>>) => {
+  const data = (await d.firestore.getDoc(d.ref)).data();
+  if (!data || Object.keys(data).every((k) => CURRENT_FIELDS.includes(k))) return data;
+  const savedTools = await fromLegacyFavorites(data.favoriteToolIds);
+  await d.firestore.setDoc(d.ref, { savedTools, updatedAt: d.firestore.serverTimestamp() });
+  return { savedTools };
+};
+
 export const loadUserData = async (): Promise<UserData> => {
   const local: UserData = { profile: readLocal(PROFILE_KEY, isValidProfile), savedTools: readLocal(SAVED_KEY, isSlugList) ?? [] };
   const d = await userDoc();
   if (!d) return local;
-  const snap = await d.firestore.getDoc(d.ref);
-  const data = snap.data();
+  const data = await readAccount(d);
   return {
     profile: isValidProfile(data?.profile) ? data.profile : local.profile,
     savedTools: isSlugList(data?.savedTools) ? data.savedTools : local.savedTools,
@@ -103,8 +129,7 @@ export const toggleSavedTool = async (slug: string) => {
 const syncLocalToAccount = async () => {
   const d = await userDoc();
   if (!d) return;
-  const snap = await d.firestore.getDoc(d.ref);
-  const remote = snap.data();
+  const remote = await readAccount(d);
   const profile = readLocal(PROFILE_KEY, isValidProfile);
   const saved = readLocal(SAVED_KEY, isSlugList) ?? [];
   const patch: Partial<UserData> = {};
