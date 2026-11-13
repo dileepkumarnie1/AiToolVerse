@@ -75,6 +75,8 @@ export interface ToolIndexEntry {
   popularity: number;
   addedAt: string;
   logo?: boolean;
+  /** Hacker News points in the last 30 days, when the tool was discussed. */
+  trend?: number;
 }
 
 export interface PipelineIndexEntry {
@@ -95,4 +97,45 @@ export interface Profile {
   interests: string[];
   skill: SkillLevel;
   budget: Pricing;
+}
+
+/** How much a tool was discussed on Hacker News in the measured window (see scripts/trends.mjs). */
+export interface Trend {
+  points: number;
+  stories: number;
+  top: { id: string; title: string; points: number };
+}
+
+export interface TrendData {
+  source: string;
+  windowDays: number;
+  updatedAt: string;
+  tools: Record<string, Trend>;
+}
+
+export interface Comparison {
+  slug: string;
+  a: Tool;
+  b: Tool;
+  /** What kind of tool both are, e.g. "AI chat assistants". */
+  group: string;
+}
+
+export interface WeeklyNewsItem {
+  title: string;
+  url: string;
+  source: string;
+  points?: number;
+  discussion?: string;
+}
+
+/** One "This week in AI" issue (src/data/weekly/<date>.json). */
+export interface WeeklyIssue {
+  slug: string;
+  number: number;
+  date: string;
+  title: string;
+  intro: string;
+  news: WeeklyNewsItem[];
+  tools: string[];
 }

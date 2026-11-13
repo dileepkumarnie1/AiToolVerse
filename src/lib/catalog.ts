@@ -1,7 +1,8 @@
 import taxonomy from '../data/taxonomy.json';
 import pipelinesData from '../data/pipelines.json';
 import logoSlugs from '../data/logos.json';
-import type { Capability, Category, Choice, Pipeline, PipelineIndexEntry, Tool, ToolIndexEntry } from './types';
+import trendsData from '../data/trends.json';
+import type { Capability, Category, Choice, Comparison, Pipeline, PipelineIndexEntry, Tool, ToolIndexEntry, TrendData, WeeklyIssue } from './types';
 
 const toolModules = import.meta.glob<Tool>('../data/tools/*.json', { eager: true, import: 'default' });
 
@@ -11,6 +12,50 @@ export const tools: Tool[] = Object.values(toolModules)
   .map((t) => ({ ...t, logo: withLogo.has(t.slug) }))
   .sort((a, b) => b.popularity - a.popularity || a.name.localeCompare(b.name));
 export const toolBySlug = new Map(tools.map((t) => [t.slug, t]));
+
+export const trends = trendsData as TrendData;
+export const trendOf = (tool: Pick<Tool, 'slug'>) => trends.tools[tool.slug];
+
+/** The catalog sometimes lists one product twice; this identifies the product by its website address. */
+const siteKey = (tool: Pick<Tool, 'url'>) => {
+  const u = new URL(tool.url);
+  return `${u.hostname.replace(/^www\./, '')}${u.pathname.replace(/\/+$/, '')}`.toLowerCase();
+};
+const onePerSite = (list: Tool[]) => {
+  const seen = new Set<string>();
+  return list.filter((t) => !seen.has(siteKey(t)) && seen.add(siteKey(t)));
+};
+
+const plainName = (tool: Pick<Tool, 'name'>) => tool.name.replace(/\s*\(.*?\)/g, '').trim().toLowerCase();
+const namedWithin = (short: string, long: string) => short.length >= 4 && new RegExp(`(^|[^a-z0-9])${short.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^a-z0-9]|$)`).test(long);
+
+/**
+ * Tools ranked by how much they were discussed on Hacker News in the measured window.
+ * The catalog lists some products more than once ("Claude" and "Anthropic Claude"), so an entry is
+ * skipped when a higher-ranked one has the same website, the same top story, or its name inside this one's.
+ */
+export const trendingTools = (limit = 20) => {
+  const kept: Tool[] = [];
+  const ranked = tools.filter((t) => trends.tools[t.slug]).sort((a, b) => trends.tools[b.slug].points - trends.tools[a.slug].points);
+  for (const tool of ranked) {
+    if (kept.length >= limit) break;
+    const repeat = kept.some(
+      (k) =>
+        siteKey(k) === siteKey(tool) ||
+        trends.tools[k.slug].top.id === trends.tools[tool.slug].top.id ||
+        namedWithin(plainName(k), plainName(tool)) ||
+        namedWithin(plainName(tool), plainName(k)),
+    );
+    if (!repeat) kept.push(tool);
+  }
+  return kept;
+};
+
+/** Tools added in the last `days` days. Empty until tools are added after the first catalog import. */
+export const recentlyAdded = (days = 30, limit = 12) => {
+  const cutoff = new Date(Date.now() - days * 86400_000).toISOString().slice(0, 10);
+  return [...tools].filter((t) => t.addedAt >= cutoff).sort((a, b) => b.addedAt.localeCompare(a.addedAt)).slice(0, limit);
+};
 
 export const categories = taxonomy.categories as Category[];
 export const capabilities = taxonomy.capabilities as Capability[];
@@ -65,6 +110,7 @@ export const toIndexEntry = (t: Tool): ToolIndexEntry => ({
   popularity: t.popularity,
   addedAt: t.addedAt,
   ...(t.logo ? { logo: true } : {}),
+  ...(trends.tools[t.slug] ? { trend: trends.tools[t.slug].points } : {}),
 });
 
 export const toPipelineIndexEntry = (p: Pipeline): PipelineIndexEntry => ({
@@ -78,3 +124,85 @@ export const toPipelineIndexEntry = (p: Pipeline): PipelineIndexEntry => ({
   capabilities: [...new Set(p.steps.map((s) => s.capability))],
   stepCount: p.steps.length,
 });
+
+/* ---------- Comparisons and alternatives ---------- */
+
+// Groups of well-known tools that are real alternatives to each other, best-known first.
+// They are chosen by hand: the catalog's task tags are too coarse to pick fair matchups automatically.
+// A slug that is missing from the catalog is skipped.
+const RIVAL_GROUPS: { label: string; tools: string[] }[] = [
+  { label: 'AI chat assistants', tools: ['chatgpt', 'claude', 'gemini', 'perplexity-ai', 'microsoft-copilot', 'grok', 'mistral-le-chat', 'meta-ai', 'poe'] },
+  { label: 'AI coding assistants', tools: ['cursor', 'github-copilot', 'windsurf', 'codeium', 'tabnine', 'continue', 'aider', 'amazon-q-developer', 'jetbrains-ai-assistant'] },
+  { label: 'AI app builders', tools: ['lovable', 'bolt-new', 'replit-agent', 'builder-io'] },
+  { label: 'AI image generators', tools: ['midjourney', 'dall-e-3', 'ideogram', 'adobe-firefly', 'leonardo-ai', 'stable-diffusion', 'flux', 'dreamstudio', 'nightcafe'] },
+  { label: 'AI video generators', tools: ['runway', 'pika', 'kling-ai', 'sora', 'luma-dream-machine', 'invideo', 'haiper'] },
+  { label: 'AI avatar video tools', tools: ['synthesia', 'heygen', 'd-id', 'colossyan', 'tavus', 'captions'] },
+  { label: 'AI voice generators', tools: ['elevenlabs', 'murf-ai', 'play-ht', 'wellsaid-labs', 'resemble-ai', 'speechify', 'cartesia', 'hume-ai'] },
+  { label: 'AI music generators', tools: ['suno-ai', 'udio', 'aiva', 'soundraw', 'boomy', 'mubert'] },
+  { label: 'AI meeting assistants', tools: ['otter-ai', 'fireflies-ai', 'fathom', 'granola', 'tl-dv', 'read-ai', 'zoom-ai-companion', 'krisp', 'avoma', 'circleback'] },
+  { label: 'AI writing assistants', tools: ['grammarly', 'quillbot', 'ai21-wordtune', 'sudowrite', 'lex'] },
+  { label: 'AI marketing copy tools', tools: ['jasper-ai', 'copy-ai', 'writesonic', 'anyword', 'rytr', 'hyperwrite'] },
+  { label: 'Automation platforms', tools: ['zapier', 'n8n', 'make', 'ifttt', 'pipedream', 'activepieces', 'bardeen'] },
+  { label: 'AI research tools', tools: ['perplexity-ai', 'consensus', 'elicit', 'notebook-llm', 'you-com', 'scite', 'scispace', 'semantic-scholar', 'kagi'] },
+  { label: 'AI note-taking tools', tools: ['notion-ai', 'obsidian', 'mem', 'reflect', 'tana', 'capacities', 'coda-ai'] },
+  { label: 'AI presentation makers', tools: ['gamma', 'beautiful-ai', 'tome', 'canva-presentations', 'pitch', 'decktopus', 'plusai', 'magicslides'] },
+  { label: 'AI video editors', tools: ['descript', 'opus-clip', 'kapwing', 'pictory', 'clipchamp'] },
+  { label: 'AI design tools', tools: ['canva-ai', 'figma-ai', 'uizard', 'looka', 'designs-ai', 'visily'] },
+  { label: 'AI translation tools', tools: ['deepl', 'unbabel', 'lokalise-ai'] },
+];
+// Each group's five best-known tools are compared with one another; the whole group is listed as alternatives.
+const COMPARED_PER_GROUP = 5;
+// Matchups shown first on the Compare page and on the home page.
+const HEADLINE_MATCHUPS = [
+  ['chatgpt', 'claude'],
+  ['cursor', 'github-copilot'],
+  ['midjourney', 'ideogram'],
+  ['synthesia', 'heygen'],
+  ['chatgpt', 'gemini'],
+  ['lovable', 'bolt-new'],
+  ['otter-ai', 'fireflies-ai'],
+  ['elevenlabs', 'murf-ai'],
+  ['zapier', 'n8n'],
+  ['suno-ai', 'udio'],
+  ['runway', 'pika'],
+  ['grammarly', 'quillbot'],
+];
+
+export const compareSlug = (a: Pick<Tool, 'slug'>, b: Pick<Tool, 'slug'>) => [a.slug, b.slug].sort().join('-vs-');
+
+const rivalGroups = RIVAL_GROUPS.map((group) => ({ label: group.label, tools: onePerSite(group.tools.map((slug) => toolBySlug.get(slug)).filter((t) => t !== undefined)) }));
+const comparisonBySlug = new Map<string, Comparison>();
+for (const group of rivalGroups) {
+  const compared = group.tools.slice(0, COMPARED_PER_GROUP);
+  compared.forEach((a, i) =>
+    compared.slice(i + 1).forEach((b) => {
+      const slug = compareSlug(a, b);
+      if (!comparisonBySlug.has(slug)) comparisonBySlug.set(slug, { slug, a, b, group: group.label });
+    }),
+  );
+}
+
+/** Well-known tools from the groups above, taking each group's best-known tool first so the list is varied. */
+export const knownTools = [
+  ...new Set(
+    Array.from({ length: Math.max(...rivalGroups.map((g) => g.tools.length)) }, (_, i) => rivalGroups.map((g) => g.tools[i]))
+      .flat()
+      .filter((t) => t !== undefined),
+  ),
+];
+
+export const comparisons = [...comparisonBySlug.values()];
+export const headlineComparisons = HEADLINE_MATCHUPS.map(([a, b]) => comparisonBySlug.get([a, b].sort().join('-vs-'))).filter((c) => c !== undefined);
+export const comparisonFor = (a: Tool, b: Tool) => comparisonBySlug.get(compareSlug(a, b));
+export const comparisonsWith = (tool: Tool) => comparisons.filter((c) => c.a === tool || c.b === tool);
+
+/** The other tools in this tool's group or groups, best-known first. Empty for tools outside the curated groups. */
+export const rivalsFor = (tool: Tool) => [...new Set(rivalGroups.filter((g) => g.tools.includes(tool)).flatMap((g) => g.tools))].filter((t) => t !== tool);
+export const rivalGroupOf = (tool: Tool) => rivalGroups.find((g) => g.tools.includes(tool))?.label;
+export const hasAlternativesPage = (tool: Tool) => rivalsFor(tool).length >= 3;
+export const toolsWithAlternatives = tools.filter(hasAlternativesPage);
+
+/* ---------- This week in AI ---------- */
+
+const weeklyModules = import.meta.glob<WeeklyIssue>('../data/weekly/*.json', { eager: true, import: 'default' });
+export const weeklyIssues = Object.values(weeklyModules).sort((a, b) => b.date.localeCompare(a.date));

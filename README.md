@@ -18,16 +18,31 @@ npm run build      # validates the catalog, then builds to dist/
 | `src/data/pipelines.json` | Step-by-step pipelines; each step names tools by slug |
 | `src/data/taxonomy.json` | Categories, capabilities (with how-to steps), assessment options |
 | `public/logos/*.webp` | Tool logos, stored locally so pages make no third-party requests. `src/data/logos.json` lists which tools have one |
+| `src/data/trends.json` | How much each tool was discussed on Hacker News in the last 30 days |
+| `src/data/weekly/*.json` | "This week in AI" issues, one file per issue |
 
-Run `npm run logos` after adding tools: it downloads each new tool's own icon from its website. Tools without a usable icon show a letter avatar.
+| Command | What it does |
+|---|---|
+| `npm run logos` | Downloads the icon of each tool that has none yet from the tool's own website. Tools without a usable icon show a letter avatar |
+| `npm run trends` | Rebuilds `trends.json`. The Trending page, the home page and the dashboard read it |
+| `npm run weekly` | Drafts this week's issue from the most-discussed AI stories. Edit the file before committing |
 
-New tools arrive via the **Discover new tools** workflow every 2 days as a pull request. Nothing is published until you merge it. To reject a tool, delete its file in the PR. The next batch is not created while a discovery PR is open.
+New tools arrive via the **Discover new tools** workflow every 2 days as a pull request. The **Weekly issue and trending refresh** workflow opens a pull request every Monday with a drafted issue and fresh trending data. Nothing is published until you merge. To reject a tool or a story, delete it in the pull request.
+
+## Features
+
+- **Search from any page:** Ctrl/⌘ K or `/` opens a search over tools, comparisons and pipelines (`src/scripts/palette.ts`, index at `/data/search.json`).
+- **Compare and alternatives:** `/compare/a-vs-b/` and `/alternatives/tool/`. The matchups come from hand-picked groups of real competitors (`RIVAL_GROUPS` in `src/lib/catalog.ts`); add a tool to a group to give it pages.
+- **Trending:** `/trending/` ranks tools by Hacker News points. It measures attention, not quality; `/about/#trending` explains this to visitors.
+- **This week in AI:** `/weekly/`, with an RSS feed at `/weekly/rss.xml`.
+- **Newsletter:** set `PUBLIC_NEWSLETTER_ACTION` (your email provider's subscribe address), `PUBLIC_NEWSLETTER_FIELD` and `PUBLIC_NEWSLETTER_PROVIDER` to show the sign-up form. The form posts straight to the provider, the build adds the provider to the security policy, and the privacy page names it. Without these, visitors are offered the RSS feed.
 
 ## Design
 
-- Two looks, light and dark. The header button switches between them; the choice is saved in the browser, and a first visit follows the device setting. `?theme=light` or `?theme=dark` in a link sets it.
-- Motion lives in `src/styles/motion.css` and `src/scripts/ui.ts`. Pages work without the script, and all movement is switched off for visitors whose device asks for reduced motion.
-- The security policy blocks inline `style` attributes, so position and delay values are set with classes in the stylesheet.
+- Two looks. Dark is the default; the header button switches to light and the choice is saved in the browser. `?theme=light` or `?theme=dark` in a link sets it.
+- Motion and glass styles live in `src/styles/motion.css`; behaviour in `src/scripts/ui.ts`. Pages work without the script, and all movement is switched off for visitors whose device asks for reduced motion.
+- The security policy blocks inline `style` attributes, so positions, delays and bar widths are set with classes in the stylesheet.
+- The logo is `src/components/Logo.astro` (and `public/favicon.svg`): an "A" drawn as a constellation, each star a tool and each line a path between tools.
 
 ## Security model
 

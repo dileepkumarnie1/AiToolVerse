@@ -1,0 +1,75 @@
+---
+import Base from '../../layouts/Base.astro';
+import ToolAvatar from '../../components/ToolAvatar';
+import { capabilityById, comparisonFor, rivalGroupOf, rivalsFor, toolsWithAlternatives } from '../../lib/catalog';
+import { PRICING_LABEL, SKILL_LABEL, shortName } from '../../lib/labels';
+import type { Tool } from '../../lib/types';
+
+export function getStaticPaths() {
+  return toolsWithAlternatives.map((tool) => ({ params: { slug: tool.slug }, props: { tool } }));
+}
+
+const { tool } = Astro.props as { tool: Tool };
+const name = shortName(tool.name);
+const rivals = rivalsFor(tool).slice(0, 10);
+const group = (rivalGroupOf(tool) ?? 'AI tools').toLowerCase();
+const withFreePlan = rivals.filter((t) => t.pricing !== 'paid').length;
+const sharedTasks = (t: Tool) => t.capabilities.filter((c) => tool.capabilities.includes(c)).map((c) => capabilityById.get(c)?.label);
+---
+
+<Base
+  title={`${name} alternatives: ${rivals.length} tools compared`}
+  description={`${rivals.length} alternatives to ${name}: other ${group} with pricing, skill level and side-by-side comparisons.`.slice(0, 300)}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `${name} alternatives`,
+    itemListElement: rivals.map((t, i) => ({ '@type': 'ListItem', position: i + 1, name: t.name, url: `https://aitoolverse.ai/tools/${t.slug}/` })),
+  }}
+>
+  <article class="container-page pt-10">
+    <nav aria-label="Breadcrumb" class="text-sm muted">
+      <a href="/tools/" class="hover:text-ink-900 dark:hover:text-white">Tools</a> /
+      <a href={`/tools/${tool.slug}/`} class="hover:text-ink-900 dark:hover:text-white">{name}</a>
+    </nav>
+
+    <header class="mt-6 flex items-start gap-5">
+      <ToolAvatar slug={tool.slug} name={tool.name} logo={tool.logo} size="lg" />
+      <div>
+        <h1 class="heading-lg">{name} alternatives</h1>
+        <p class="mt-2 max-w-2xl muted">
+          {rivals.length} other {group}, best-known first. {withFreePlan} of them are free or have a free plan.
+        </p>
+      </div>
+    </header>
+
+    <ol class="mt-10 space-y-3">
+      {
+        rivals.map((t) => {
+          const comparison = comparisonFor(tool, t);
+          return (
+            <li class="glass flex flex-col gap-4 p-5 sm:flex-row sm:items-center" data-reveal>
+              <div class="flex min-w-0 flex-1 items-start gap-4">
+                <ToolAvatar slug={t.slug} name={t.name} logo={t.logo} />
+                <div class="min-w-0">
+                  <a href={`/tools/${t.slug}/`} class="font-semibold text-ink-950 hover:text-brand-700 dark:text-white dark:hover:text-brand-300">{shortName(t.name)}</a>
+                  <p class="mt-0.5 text-sm text-ink-600 dark:text-ink-300">{t.tagline}</p>
+                  <p class="mt-3 flex flex-wrap gap-1.5">
+                    <span class="chip">{PRICING_LABEL[t.pricing]}</span>
+                    <span class="chip">{SKILL_LABEL[t.skillLevel]}</span>
+                    {sharedTasks(t).map((label) => <span class="chip">{label}</span>)}
+                  </p>
+                </div>
+              </div>
+              <div class="flex shrink-0 gap-2">
+                {comparison && <a href={`/compare/${comparison.slug}/`} class="btn-secondary">Compare with {name}</a>}
+                <a href={`/tools/${t.slug}/`} class="btn-secondary">View</a>
+              </div>
+            </li>
+          );
+        })
+      }
+    </ol>
+    <p class="mt-6 text-xs muted">We chose these as direct alternatives to {name} and list the best-known first. No placement is paid for.</p>
+  </article>
+</Base>

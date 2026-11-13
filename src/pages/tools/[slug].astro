@@ -3,8 +3,8 @@ import Base from '../../layouts/Base.astro';
 import ToolAvatar from '../../components/ToolAvatar';
 import ToolTile from '../../components/ToolTile';
 import SaveToolButton from '../../components/SaveToolButton';
-import { alternativesFor, capabilityById, categoryById, categoryOf, pipelinesUsingTool, pipelinesForCapability, tools } from '../../lib/catalog';
-import { PRICING_LABEL, SKILL_LABEL } from '../../lib/labels';
+import { alternativesFor, capabilityById, categoryById, categoryOf, comparisonsWith, hasAlternativesPage, pipelinesUsingTool, pipelinesForCapability, tools } from '../../lib/catalog';
+import { PRICING_LABEL, SKILL_LABEL, shortName } from '../../lib/labels';
 import type { Tool } from '../../lib/types';
 
 export function getStaticPaths() {
@@ -17,6 +17,7 @@ const category = categoryById.get(categoryOf(tool));
 const usedIn = pipelinesUsingTool(tool.slug);
 const related = usedIn.length ? usedIn : pipelinesForCapability(primary.id).slice(0, 3);
 const alternatives = alternativesFor(tool, 6);
+const matchups = comparisonsWith(tool).slice(0, 6);
 const host = new URL(tool.url).hostname.replace(/^www\./, '');
 const description = `${tool.name}: ${tool.tagline} How to get started, pros and cons, pricing and the best alternatives.`.slice(0, 300);
 ---
@@ -139,7 +140,16 @@ const description = `${tool.name}: ${tool.tagline} How to get started, pros and 
     {
       alternatives.length > 0 && (
         <section class="mt-16" aria-labelledby="alts">
-          <h2 id="alts" class="heading-lg">Alternatives to {tool.name}</h2>
+          <div class="flex flex-wrap items-end justify-between gap-3">
+            <h2 id="alts" class="heading-lg">Alternatives to {tool.name}</h2>
+            {hasAlternativesPage(tool) && <a href={`/alternatives/${tool.slug}/`} class="text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">All alternatives →</a>}
+          </div>
+          {matchups.length > 0 && (
+            <p class="mt-4 flex flex-wrap items-center gap-2">
+              <span class="text-sm muted">Compare:</span>
+              {matchups.map((c) => <a href={`/compare/${c.slug}/`} class="chip px-3 py-1 hover:border-brand-300">{shortName(c.a.name)} vs {shortName(c.b.name)}</a>)}
+            </p>
+          )}
           <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {alternatives.map((t) => <ToolTile tool={t} capabilityLabel={capabilityById.get(t.capabilities[0])?.label} />)}
           </div>

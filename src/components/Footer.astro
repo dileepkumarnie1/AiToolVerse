@@ -1,34 +1,45 @@
 ---
+import Logo from './Logo.astro';
 import { categories } from '../lib/catalog';
 const year = new Date().getFullYear();
+const link = 'hover:text-ink-900 dark:hover:text-white';
 ---
 
-<footer class="mt-24 border-t border-ink-200/70 py-14 dark:border-white/5">
-  <div class="container-page grid gap-10 md:grid-cols-4">
-    <div class="md:col-span-2">
-      <p class="font-semibold text-ink-950 dark:text-white">AIToolVerse</p>
-      <p class="mt-2 max-w-sm text-sm muted">
-        An independent guide to AI tools and the step-by-step pipelines that get real work done. No paid rankings.
+<footer class="mt-28 border-t border-ink-200/70 py-14 dark:border-white/5">
+  <div class="container-page grid gap-10 sm:grid-cols-2 md:grid-cols-4">
+    <div>
+      <p class="flex items-center gap-2">
+        <Logo id="logo-footer" class="h-7 w-7" />
+        <span class="wordmark">AI<span>ToolVerse</span></span>
       </p>
+      <p class="mt-3 max-w-xs text-sm muted">An independent guide to AI tools. No paid rankings.</p>
     </div>
     <div>
       <p class="text-sm font-semibold text-ink-900 dark:text-white">Explore</p>
       <ul class="mt-3 space-y-2 text-sm muted">
-        <li><a class="hover:text-ink-900 dark:hover:text-white" href="/tools/">All tools</a></li>
-        <li><a class="hover:text-ink-900 dark:hover:text-white" href="/pipelines/">Pipelines</a></li>
-        <li><a class="hover:text-ink-900 dark:hover:text-white" href="/trending/">Trending</a></li>
-        {categories.slice(0, 4).map((c) => <li><a class="hover:text-ink-900 dark:hover:text-white" href={`/categories/${c.id}/`}>{c.label}</a></li>)}
+        <li><a class={link} href="/tools/">All tools</a></li>
+        <li><a class={link} href="/pipelines/">Pipelines</a></li>
+        <li><a class={link} href="/compare/">Compare</a></li>
+        <li><a class={link} href="/trending/">Trending</a></li>
+        <li><a class={link} href="/weekly/">This week in AI</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="text-sm font-semibold text-ink-900 dark:text-white">Categories</p>
+      <ul class="mt-3 space-y-2 text-sm muted">
+        {categories.slice(0, 4).map((c) => <li><a class={link} href={`/categories/${c.id}/`}>{c.label}</a></li>)}
+        <li><a class={link} href="/categories/">All categories</a></li>
       </ul>
     </div>
     <div>
       <p class="text-sm font-semibold text-ink-900 dark:text-white">AIToolVerse</p>
       <ul class="mt-3 space-y-2 text-sm muted">
-        <li><a class="hover:text-ink-900 dark:hover:text-white" href="/about/">About & methodology</a></li>
-        <li><a class="hover:text-ink-900 dark:hover:text-white" href="/suggest/">Suggest a tool</a></li>
-        <li><a class="hover:text-ink-900 dark:hover:text-white" href="/privacy/">Privacy</a></li>
-        <li><a class="hover:text-ink-900 dark:hover:text-white" href="/terms/">Terms</a></li>
+        <li><a class={link} href="/about/">About & methodology</a></li>
+        <li><a class={link} href="/suggest/">Suggest a tool</a></li>
+        <li><a class={link} href="/privacy/">Privacy</a></li>
+        <li><a class={link} href="/terms/">Terms</a></li>
       </ul>
     </div>
   </div>
-  <div class="container-page mt-10 text-xs muted">© {year} AIToolVerse. Tool names and trademarks belong to their owners.</div>
+  <div class="container-page mt-10 text-xs muted">© {year} AIToolVerse. Tool names and logos belong to their owners.</div>
 </footer>

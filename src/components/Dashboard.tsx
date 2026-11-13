@@ -57,7 +57,7 @@ export default function Dashboard() {
   }, [tools, pipelines, profile]);
 
   const trending = useMemo(
-    () => (tools ? [...tools].sort((a, b) => b.addedAt.localeCompare(a.addedAt) || b.popularity - a.popularity).slice(0, 8) : []),
+    () => (tools ? [...tools].sort((a, b) => (b.trend ?? 0) - (a.trend ?? 0) || b.popularity - a.popularity).slice(0, 8) : []),
     [tools],
   );
   const savedTools = useMemo(() => (tools ? saved.map((s) => tools.find((t) => t.slug === s)).filter((t) => t !== undefined) : []), [tools, saved]);

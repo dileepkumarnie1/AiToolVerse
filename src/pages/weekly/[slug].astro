@@ -1,0 +1,74 @@
+---
+import Base from '../../layouts/Base.astro';
+import ToolTile from '../../components/ToolTile';
+import NewsletterForm from '../../components/NewsletterForm.astro';
+import { capabilityById, toolBySlug, weeklyIssues } from '../../lib/catalog';
+import { longDate } from '../../lib/labels';
+import type { WeeklyIssue } from '../../lib/types';
+
+export function getStaticPaths() {
+  return weeklyIssues.map((issue, i) => ({ params: { slug: issue.slug }, props: { issue, newer: weeklyIssues[i - 1], older: weeklyIssues[i + 1] } }));
+}
+
+const { issue, newer, older } = Astro.props as { issue: WeeklyIssue; newer?: WeeklyIssue; older?: WeeklyIssue };
+const tools = issue.tools.map((slug) => toolBySlug.get(slug)).filter((t) => t !== undefined);
+---
+
+<Base
+  title={issue.title}
+  description={`${issue.intro} Issue ${issue.number}, ${longDate(issue.date)}.`.slice(0, 300)}
+  jsonLd={{ '@context': 'https://schema.org', '@type': 'Article', headline: issue.title, datePublished: issue.date, publisher: { '@type': 'Organization', name: 'AIToolVerse' } }}
+>
+  <article class="container-page max-w-4xl pt-10">
+    <nav aria-label="Breadcrumb" class="text-sm muted">
+      <a href="/weekly/" class="hover:text-ink-900 dark:hover:text-white">This week in AI</a>
+    </nav>
+    <header class="mt-6">
+      <p class="eyebrow">Issue {issue.number} · <time datetime={issue.date}>{longDate(issue.date)}</time></p>
+      <h1 class="heading-lg mt-2">{issue.title}</h1>
+      <p class="mt-3 max-w-2xl text-lg muted">{issue.intro}</p>
+    </header>
+
+    <section class="mt-10" aria-labelledby="news">
+      <h2 id="news" class="text-xl font-semibold tracking-tight text-ink-950 dark:text-white">In the news</h2>
+      <ol class="mt-5 space-y-3">
+        {
+          issue.news.map((item, i) => (
+            <li class="glass flex items-start gap-4 p-5" data-reveal>
+              <span class="w-6 shrink-0 text-xl font-semibold tabular-nums text-ink-400 dark:text-ink-500">{i + 1}</span>
+              <div class="min-w-0">
+                <a href={item.url} rel="noopener" class="font-semibold text-ink-950 hover:text-brand-700 dark:text-white dark:hover:text-brand-300">{item.title} ↗</a>
+                <p class="mt-1 text-sm muted">
+                  {item.source}
+                  {item.discussion && <> · <a href={item.discussion} rel="noopener" class="hover:underline">{item.points ? `${item.points.toLocaleString('en')} points on Hacker News` : 'Discussion'}</a></>}
+                </p>
+              </div>
+            </li>
+          ))
+        }
+      </ol>
+      <p class="mt-3 text-xs muted">Headlines link to their original sources. Selected by Hacker News points; inclusion is not an endorsement.</p>
+    </section>
+
+    {
+      tools.length > 0 && (
+        <section class="mt-14" aria-labelledby="tools">
+          <h2 id="tools" class="text-xl font-semibold tracking-tight text-ink-950 dark:text-white">Tools in the conversation</h2>
+          <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {tools.map((t) => <ToolTile tool={t} capabilityLabel={capabilityById.get(t.capabilities[0])?.label} />)}
+          </div>
+        </section>
+      )
+    }
+
+    <section class="glass mt-14 p-6 sm:p-8" aria-labelledby="subscribe">
+      <h2 id="subscribe" class="text-lg font-semibold text-ink-950 dark:text-white">Get it every week</h2>
+      <div class="mt-4 max-w-xl"><NewsletterForm id="weekly-email" /></div>
+    </section>
+
+    <nav class="mt-10 flex justify-between gap-4 text-sm font-semibold" aria-label="Other issues">
+      <span>{older && <a href={`/weekly/${older.slug}/`} class="text-brand-700 hover:underline dark:text-brand-300">← Issue {older.number}</a>}</span>
+      <span>{newer && <a href={`/weekly/${newer.slug}/`} class="text-brand-700 hover:underline dark:text-brand-300">Issue {newer.number} →</a>}</span>
+    </nav>
+  </article>
+</Base>

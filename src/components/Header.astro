@@ -1,56 +1,62 @@
 ---
 import AuthButton from './AuthButton';
+import Logo from './Logo.astro';
 
 const path = Astro.url.pathname;
 const links = [
   { href: '/tools/', label: 'Tools' },
   { href: '/pipelines/', label: 'Pipelines' },
+  { href: '/compare/', label: 'Compare' },
   { href: '/trending/', label: 'Trending' },
-  { href: '/categories/', label: 'Categories' },
+  { href: '/weekly/', label: 'Weekly' },
 ];
 ---
 
-<header class="site-header sticky top-0 z-40 border-b border-ink-200/60 bg-[#fbfbfd]/80 backdrop-blur-xl dark:border-white/5 dark:bg-[#05050d]/70">
-  <div class="container-page flex h-16 items-center justify-between gap-4">
-    <a href="/" class="flex items-center gap-2 font-semibold tracking-tight text-ink-950 dark:text-white" aria-label="AIToolVerse home">
-      <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-linear-to-br from-brand-500 via-fuchsia-500 to-orange-400 text-sm text-white shadow-sm">A</span>
-      <span>AIToolVerse</span>
-    </a>
-    <nav aria-label="Main" class="hidden items-center gap-1 md:flex">
-      {
-        links.map((l) => (
-          <a
-            href={l.href}
-            class:list={[
-              'rounded-full px-3.5 py-2 text-sm font-medium transition',
-              path.startsWith(l.href)
-                ? 'bg-white text-ink-950 shadow-sm dark:bg-white/10 dark:text-white'
-                : 'text-ink-600 hover:text-ink-950 dark:text-ink-300 dark:hover:text-white',
-            ]}
-            aria-current={path.startsWith(l.href) ? 'page' : undefined}
-          >
-            {l.label}
-          </a>
-        ))
-      }
-    </nav>
-    <div class="flex items-center gap-2">
-      <button type="button" class="icon-btn" data-theme-toggle aria-pressed="false" aria-label="Dark look" title="Switch between the light and dark look">
-        <svg aria-hidden="true" class="h-4 w-4 dark:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"></path></svg>
-        <svg aria-hidden="true" class="hidden h-4 w-4 dark:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
-      </button>
-      <a href="/start/" class="btn-primary hidden sm:inline-flex">Get my plan</a>
-      <AuthButton client:idle />
+<header class="site-header sticky top-0 z-40 pt-3">
+  <div class="container-page">
+    <div class="nav-pill flex h-14 items-center justify-between gap-2 rounded-full pl-4 pr-2.5">
+      <a href="/" class="flex shrink-0 items-center gap-2" aria-label="AIToolVerse home">
+        <Logo id="logo-header" class="h-7 w-7" />
+        <span class="wordmark">AI<span>ToolVerse</span></span>
+      </a>
+      <nav aria-label="Main" class="hidden items-center gap-0.5 lg:flex">
+        {
+          links.map((l) => (
+            <a
+              href={l.href}
+              class:list={[
+                'rounded-full px-3 py-1.5 text-sm font-medium transition',
+                path.startsWith(l.href) ? 'bg-ink-950/5 text-ink-950 dark:bg-white/10 dark:text-white' : 'text-ink-600 hover:text-ink-950 dark:text-ink-300 dark:hover:text-white',
+              ]}
+              aria-current={path.startsWith(l.href) ? 'page' : undefined}
+            >
+              {l.label}
+            </a>
+          ))
+        }
+      </nav>
+      <div class="flex items-center gap-1.5">
+        <a href="/tools/" data-search-open class="search-trigger" aria-label="Search" title="Search">
+          <svg aria-hidden="true" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+          <kbd class="hidden sm:inline" data-shortcut>Ctrl K</kbd>
+        </a>
+        <button type="button" class="icon-btn" data-theme-toggle aria-pressed="true" aria-label="Dark look" title="Switch between the dark and light look">
+          <svg aria-hidden="true" class="h-4 w-4 dark:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"></path></svg>
+          <svg aria-hidden="true" class="hidden h-4 w-4 dark:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+        </button>
+        <a href="/start/" class="btn-primary hidden py-2 md:inline-flex">Get my plan</a>
+        <AuthButton client:idle />
+      </div>
     </div>
   </div>
-  <nav aria-label="Main mobile" class="container-page flex gap-1 overflow-x-auto pb-2 [scrollbar-width:none] md:hidden [&::-webkit-scrollbar]:hidden">
+  <nav aria-label="Main mobile" class="container-page mt-2 flex gap-1.5 overflow-x-auto pb-1 [scrollbar-width:none] lg:hidden [&::-webkit-scrollbar]:hidden">
     {
       links.map((l) => (
-        <a href={l.href} class="shrink-0 rounded-full px-3 py-1.5 text-sm font-medium text-ink-600 dark:text-ink-300">
+        <a href={l.href} class:list={['nav-chip', path.startsWith(l.href) && 'is-current']} aria-current={path.startsWith(l.href) ? 'page' : undefined}>
           {l.label}
         </a>
       ))
     }
-    <a href="/start/" class="shrink-0 rounded-full px-3 py-1.5 text-sm font-semibold text-brand-700 dark:text-brand-300">Get my plan</a>
+    <a href="/start/" class="nav-chip font-semibold text-brand-700 md:hidden dark:text-brand-300">Get my plan</a>
   </nav>
 </header>

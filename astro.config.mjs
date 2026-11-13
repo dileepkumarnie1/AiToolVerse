@@ -8,6 +8,9 @@ import { THEME_SCRIPT } from './src/lib/theme.mjs';
 
 const env = loadEnv(process.env.NODE_ENV ?? 'production', process.cwd(), 'PUBLIC_');
 const authDomain = env.PUBLIC_FIREBASE_AUTH_DOMAIN || '';
+// The newsletter sign-up form posts straight to the provider, so its address must be allowed.
+const newsletterOrigin = env.PUBLIC_NEWSLETTER_ACTION ? new URL(env.PUBLIC_NEWSLETTER_ACTION).origin : '';
+if (newsletterOrigin && !newsletterOrigin.startsWith('https://')) throw new Error('PUBLIC_NEWSLETTER_ACTION must be an https address');
 
 // Only public, domain-restricted values may use the PUBLIC_ prefix; they ship to every browser.
 const leaked = Object.keys(env).filter((k) => /SECRET|PRIVATE|SERVICE_ACCOUNT|GEMINI|OPENAI|ANTHROPIC|TOKEN/i.test(k));
@@ -25,7 +28,7 @@ export default defineConfig({
         "default-src 'self'",
         "base-uri 'self'",
         "object-src 'none'",
-        "form-action 'self'",
+        `form-action 'self'${newsletterOrigin ? ` ${newsletterOrigin}` : ''}`,
         "font-src 'self'",
         "img-src 'self' data: https://lh3.googleusercontent.com",
         [

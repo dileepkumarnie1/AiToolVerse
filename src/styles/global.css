@@ -67,7 +67,7 @@
 }
 
 @utility btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition disabled:cursor-not-allowed disabled:opacity-50;
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold whitespace-nowrap transition disabled:cursor-not-allowed disabled:opacity-50;
 }
 
 @utility btn-primary {

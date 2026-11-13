@@ -1,0 +1,185 @@
+---
+import Base from '../../layouts/Base.astro';
+import ToolAvatar from '../../components/ToolAvatar';
+import { capabilityById, comparisons, comparisonsWith, hasAlternativesPage, pipelinesUsingTool, trendOf, trends } from '../../lib/catalog';
+import { PRICING_LABEL, SKILL_LABEL, shortName } from '../../lib/labels';
+import type { Comparison, Tool } from '../../lib/types';
+
+export function getStaticPaths() {
+  return comparisons.map((comparison) => ({ params: { slug: comparison.slug }, props: { comparison } }));
+}
+
+const { comparison } = Astro.props as { comparison: Comparison };
+const { a, b, group } = comparison;
+const nameA = shortName(a.name);
+const nameB = shortName(b.name);
+const label = (id: string) => capabilityById.get(id)?.label ?? id;
+
+const shared = a.capabilities.filter((c) => b.capabilities.includes(c));
+const only = (x: Tool, y: Tool) => x.capabilities.filter((c) => !y.capabilities.includes(c));
+const pipelineCount = (t: Tool) => pipelinesUsingTool(t.slug).length;
+
+// Reasons to pick one tool over the other. Every line is derived from the catalog data shown on this page.
+const PRICE_RANK = { free: 0, freemium: 1, paid: 2 };
+const SKILL_RANK = { beginner: 0, intermediate: 1, advanced: 2 };
+const reasons = (x: Tool, y: Tool) => {
+  const list: string[] = [];
+  if (PRICE_RANK[x.pricing] < PRICE_RANK[y.pricing]) list.push(x.pricing === 'free' ? 'You want a tool that is free to use.' : 'You want to start on a free plan.');
+  if (SKILL_RANK[x.skillLevel] < SKILL_RANK[y.skillLevel]) list.push('You want the easier of the two to start with.');
+  if (x.openSource && !y.openSource) list.push('You prefer open-source software.');
+  for (const c of only(x, y).slice(0, 2)) list.push(`You also need ${label(c).toLowerCase()}.`);
+  if (pipelineCount(x) > pipelineCount(y)) list.push(`You want a ready-made path: it is used in ${pipelineCount(x)} of our pipelines.`);
+  return list;
+};
+const reasonsA = reasons(a, b);
+const reasonsB = reasons(b, a);
+
+const trendText = (t: Tool) => (trendOf(t) ? `${trendOf(t).points.toLocaleString('en')} points` : 'Not discussed');
+const rows = [
+  { label: 'Pricing', a: PRICING_LABEL[a.pricing], b: PRICING_LABEL[b.pricing] },
+  { label: 'Level', a: SKILL_LABEL[a.skillLevel], b: SKILL_LABEL[b.skillLevel] },
+  { label: 'Open source', a: a.openSource ? 'Yes' : 'No', b: b.openSource ? 'Yes' : 'No' },
+  { label: 'Used in our pipelines', a: String(pipelineCount(a)), b: String(pipelineCount(b)) },
+  { label: `${trends.source}, last ${trends.windowDays} days`, a: trendText(a), b: trendText(b) },
+];
+const more = [...comparisonsWith(a), ...comparisonsWith(b)].filter((c) => c.slug !== comparison.slug).slice(0, 8);
+---
+
+<Base
+  title={`${nameA} vs ${nameB}: price, level and what each does best`}
+  description={`${nameA} or ${nameB}? Two ${group.toLowerCase()} compared on pricing, skill level, tasks, pros and cons.`.slice(0, 300)}
+>
+  <article class="container-page pt-10">
+    <nav aria-label="Breadcrumb" class="text-sm muted">
+      <a href="/compare/" class="hover:text-ink-900 dark:hover:text-white">Compare</a> / {group}
+    </nav>
+
+    <header class="glass mt-6 grid grid-cols-[1fr_auto_1fr] items-center gap-4 p-6 sm:p-10">
+      <a href={`/tools/${a.slug}/`} class="flex flex-col items-center gap-3 text-center">
+        <ToolAvatar slug={a.slug} name={a.name} logo={a.logo} size="lg" />
+        <span class="text-lg font-semibold text-ink-950 sm:text-2xl dark:text-white">{nameA}</span>
+      </a>
+      <span class="vs" aria-hidden="true">VS</span>
+      <a href={`/tools/${b.slug}/`} class="flex flex-col items-center gap-3 text-center">
+        <ToolAvatar slug={b.slug} name={b.name} logo={b.logo} size="lg" />
+        <span class="text-lg font-semibold text-ink-950 sm:text-2xl dark:text-white">{nameB}</span>
+      </a>
+      <h1 class="sr-only">{nameA} vs {nameB}</h1>
+    </header>
+
+    <div class="mt-6 grid gap-6 md:grid-cols-2">
+      {
+        [a, b].map((t) => (
+          <p class="card p-5 text-ink-700 dark:text-ink-200">
+            <strong class="text-ink-950 dark:text-white">{shortName(t.name)}.</strong> {t.tagline}
+          </p>
+        ))
+      }
+    </div>
+
+    <section class="mt-12" aria-labelledby="glance">
+      <h2 id="glance" class="heading-lg">At a glance</h2>
+      <div class="card mt-5 overflow-x-auto">
+        <table class="w-full min-w-[30rem] text-left text-sm">
+          <thead>
+            <tr class="border-b border-ink-200/70 dark:border-white/10">
+              <td class="p-4"></td>
+              <th scope="col" class="p-4 font-semibold text-ink-950 dark:text-white">{nameA}</th>
+              <th scope="col" class="p-4 font-semibold text-ink-950 dark:text-white">{nameB}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              rows.map((row) => (
+                <tr class="border-b border-ink-200/70 last:border-0 dark:border-white/10">
+                  <th scope="row" class="p-4 font-medium muted">{row.label}</th>
+                  <td class="p-4 text-ink-800 dark:text-ink-100">{row.a}</td>
+                  <td class="p-4 text-ink-800 dark:text-ink-100">{row.b}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mt-12" aria-labelledby="tasks">
+      <h2 id="tasks" class="heading-lg">What each one does</h2>
+      <div class="mt-5 grid gap-4 md:grid-cols-3">
+        {
+          [
+            { title: 'Both', caps: shared },
+            { title: `Only ${nameA}`, caps: only(a, b) },
+            { title: `Only ${nameB}`, caps: only(b, a) },
+          ].map((group) => (
+            <div class="card p-5">
+              <h3 class="text-sm font-semibold text-ink-950 dark:text-white">{group.title}</h3>
+              <p class="mt-3 flex flex-wrap gap-2">
+                {group.caps.length > 0 ? group.caps.map((c) => <a href={`/best/${c}/`} class="chip hover:border-brand-300">{label(c)}</a>) : <span class="text-sm muted">Nothing listed</span>}
+              </p>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="mt-12" aria-labelledby="choose">
+      <h2 id="choose" class="heading-lg">Which should you choose?</h2>
+      {
+        reasonsA.length === 0 && reasonsB.length === 0 ? (
+          <p class="mt-3 max-w-2xl muted">On price, level and tasks the two are listed alike. The pros and cons below are the best guide.</p>
+        ) : (
+          <div class="mt-5 grid gap-4 md:grid-cols-2">
+            {[
+              { t: a, name: nameA, list: reasonsA },
+              { t: b, name: nameB, list: reasonsB },
+            ].map(({ t, name, list }) => (
+              <div class="glass p-6">
+                <h3 class="font-semibold text-ink-950 dark:text-white">Choose {name} if</h3>
+                {list.length > 0 ? (
+                  <ul class="mt-3 list-disc space-y-1.5 pl-5 text-sm text-ink-700 dark:text-ink-200">
+                    {list.map((r) => <li>{r}</li>)}
+                  </ul>
+                ) : (
+                  <p class="mt-3 text-sm muted">Its strengths below match what you need.</p>
+                )}
+                <a href={`/tools/${t.slug}/`} class="btn-secondary mt-5">See {name}</a>
+              </div>
+            ))}
+          </div>
+        )
+      }
+    </section>
+
+    <section class="mt-12" aria-labelledby="proscons">
+      <h2 id="proscons" class="heading-lg">Pros and cons</h2>
+      <div class="mt-5 grid gap-4 md:grid-cols-2">
+        {
+          [a, b].map((t) => (
+            <div class="card p-6">
+              <h3 class="font-semibold text-ink-950 dark:text-white">{shortName(t.name)}</h3>
+              <ul class="mt-3 space-y-1.5 text-sm text-ink-700 dark:text-ink-200">
+                {t.pros.map((p) => <li class="flex gap-2"><span class="text-emerald-500" aria-hidden="true">+</span><span><span class="sr-only">Pro: </span>{p}</span></li>)}
+                {t.cons.map((c) => <li class="flex gap-2"><span class="text-rose-500" aria-hidden="true">−</span><span><span class="sr-only">Con: </span>{c}</span></li>)}
+                {t.pros.length + t.cons.length === 0 && <li class="muted">We have not listed pros and cons for this tool yet.</li>}
+              </ul>
+              {hasAlternativesPage(t) && <a href={`/alternatives/${t.slug}/`} class="mt-4 inline-block text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">{shortName(t.name)} alternatives →</a>}
+            </div>
+          ))
+        }
+      </div>
+      <p class="mt-4 text-xs muted">Based on our catalog listing. Tools change; check each site for current pricing and features. We are not affiliated with either.</p>
+    </section>
+
+    {
+      more.length > 0 && (
+        <section class="mt-12" aria-labelledby="more">
+          <h2 id="more" class="heading-lg">More comparisons</h2>
+          <p class="mt-5 flex flex-wrap gap-2">
+            {more.map((c) => <a href={`/compare/${c.slug}/`} class="chip px-3 py-1.5 text-sm hover:border-brand-300">{shortName(c.a.name)} vs {shortName(c.b.name)}</a>)}
+          </p>
+        </section>
+      )
+    }
+  </article>
+</Base>

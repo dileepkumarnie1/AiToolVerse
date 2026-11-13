@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
-import { pipelines, tools } from '../lib/catalog';
+import { pipelines, tools, trends } from '../lib/catalog';
+import { longDate } from '../lib/labels';
 ---
 
 <Base title="About & methodology" description="How AIToolVerse finds, reviews and recommends AI tools.">
@@ -9,7 +10,10 @@ import { pipelines, tools } from '../lib/catalog';
     <p>There are thousands of AI tools. Most people need a handful, used in the right order. AIToolVerse lists {tools.length} tools and {pipelines.length} step-by-step pipelines, and recommends the few that fit your goals.</p>
 
     <h2>How tools are added</h2>
-    <p>Every two days an automated job checks Product Hunt and Hacker News for new AI products. Candidates are checked automatically (secure website, not a duplicate, actually an AI product) and then reviewed by a person before they are published. Anyone can also <a class="text-brand-700 underline dark:text-brand-300" href="/suggest/">suggest a tool</a>.</p>
+    <p>Every two days an automated job checks public launch sites for new AI products. Candidates are checked automatically (secure website, not a duplicate, actually an AI product) and then reviewed by a person before they are published. Anyone can also <a class="text-brand-700 underline dark:text-brand-300" href="/suggest/">suggest a tool</a>.</p>
+
+    <h2 id="trending">How trending works</h2>
+    <p>The <a class="text-brand-700 underline dark:text-brand-300" href="/trending/">Trending</a> page ranks tools by how much they were discussed on Hacker News in the last {trends.windowDays} days. A story counts for a tool when it links to the tool's own website or, for well-known tools, names it in the headline; the score is the total points of those stories. It measures attention, not quality, and a tool can trend because of bad news. Rankings were last updated on {longDate(trends.updatedAt)}.</p>
 
     <h2>How recommendations work</h2>
     <p>Each tool is tagged with what it does (for example "voiceover" or "meeting notes"), its pricing and how technical it is. Your answers are matched against these tags in your browser. Tools that fit your tasks, budget and experience rank higher. Popularity is a tie-breaker, never the main factor.</p>

@@ -1,25 +1,40 @@
 ---
 import Base from '../layouts/Base.astro';
-import ToolTile from '../components/ToolTile';
+import Logo from '../components/Logo.astro';
 import ToolAvatar from '../components/ToolAvatar';
-import { PRICING_LABEL, SKILL_LABEL } from '../lib/labels';
-import { categories, capabilityById, goals, pipelines, toolBySlug, tools, toolsInCategory } from '../lib/catalog';
+import NewsletterForm from '../components/NewsletterForm.astro';
+import { SKILL_LABEL, heatLevel, longDate, shortName } from '../lib/labels';
+import { categories, goals, headlineComparisons, knownTools, pipelines, toolBySlug, tools, toolsInCategory, trendOf, trendingTools, trends, weeklyIssues } from '../lib/catalog';
 import type { Tool } from '../lib/types';
 
 const present = <T,>(value: T | undefined): value is T => value !== undefined;
-const shortName = (name: string) => name.replace(/\s*\(.*?\)/g, '').trim();
-const capLabel = (tool: Tool) => capabilityById.get(tool.capabilities[0])?.label;
+const toolCount = Math.floor(tools.length / 50) * 50;
 
-// The 3D carousel holds exactly 14 cards; the ring geometry in motion.css assumes that number.
-const RING_SIZE = 14;
-const ringPicks = ['chatgpt', 'claude', 'perplexity-ai', 'cursor', 'lovable', 'elevenlabs', 'suno-ai', 'runway', 'ideogram', 'notion-ai', 'n8n', 'descript', 'synthesia', 'github-copilot'];
-const ringTools = [
-  ...ringPicks.map((slug) => toolBySlug.get(slug)).filter(present).filter((t) => t.logo),
-  ...tools.filter((t) => t.logo && !ringPicks.includes(t.slug)),
-].slice(0, RING_SIZE);
+// Words that rotate in the headline. The first one is shown alone when motion is reduced.
+const ROTATING = ['anything', 'writing', 'video', 'coding', 'design', 'music', 'research'];
 
-// Four hand-picked starting points per goal. A slug that is missing from the catalog is skipped and
-// the gap is filled with the highest-ranked tool for one of the goal's tasks.
+// Tools that orbit in the hero: inner, middle and outer ring. The ring sizes (4, 6, 8) are fixed in motion.css.
+// A pick without a stored logo is skipped and the ring is topped up with the next best-known tool that has one.
+const ORBIT_PICKS = [
+  ['chatgpt', 'claude', 'perplexity-ai', 'gemini'],
+  ['cursor', 'lovable', 'elevenlabs', 'suno-ai', 'runway', 'notion-ai'],
+  ['midjourney', 'ideogram', 'github-copilot', 'synthesia', 'n8n', 'descript', 'otter-ai', 'adobe-firefly'],
+];
+const inOrbit = new Set<Tool>();
+const orbits = ORBIT_PICKS.map((picks) => {
+  const ring = picks.map((slug) => toolBySlug.get(slug)).filter(present).filter((t) => t.logo && !inOrbit.has(t));
+  for (const t of knownTools) {
+    if (ring.length >= picks.length) break;
+    if (t.logo && !ring.includes(t) && !inOrbit.has(t) && !ORBIT_PICKS.flat().includes(t.slug)) ring.push(t);
+  }
+  ring.forEach((t) => inOrbit.add(t));
+  return ring;
+});
+
+const marquee = knownTools.filter((t) => t.logo && !inOrbit.has(t)).slice(0, 32);
+const marqueeRows = [marquee.slice(0, 16), marquee.slice(16)];
+
+// Hand-picked starting points per goal; the first three that exist in the catalog are shown.
 const GOAL_PICKS: Record<string, string[]> = {
   work: ['chatgpt', 'notion-ai', 'otter-ai', 'superhuman'],
   study: ['perplexity-ai', 'claude', 'consensus', 'duolingo-max'],
@@ -28,152 +43,149 @@ const GOAL_PICKS: Record<string, string[]> = {
   business: ['copy-ai', 'clay', 'tidio', 'buffer-ai-assistant'],
   hobby: ['suno-ai', 'adobe-firefly', 'photoroom', 'wonderplan'],
 };
-const goalPanels = goals.map((goal) => {
-  const picks = (GOAL_PICKS[goal.id] ?? []).map((slug) => toolBySlug.get(slug)).filter(present);
-  for (const capability of goal.capabilities) {
-    if (picks.length >= 4) break;
-    const candidates = tools.filter((t) => t.capabilities[0] === capability && !picks.includes(t));
-    const pick = candidates.find((t) => t.logo) ?? candidates[0];
-    if (pick) picks.push(pick);
-  }
-  // Label each pick with the task it serves for this goal, not just its first tag.
-  const labelled = picks.slice(0, 4).map((tool) => ({
-    tool,
-    label: capabilityById.get(tool.capabilities.find((c) => goal.capabilities.includes(c)) ?? tool.capabilities[0])?.label,
-  }));
-  return { ...goal, picks: labelled, pipelines: pipelines.filter((p) => p.goals.includes(goal.id)).slice(0, 2) };
-});
+const GOAL_NAME: Record<string, string> = { work: 'Work smarter', study: 'Learn faster', create: 'Create content', build: 'Build products', business: 'Grow a business', hobby: 'Play and explore' };
+const GOAL_ICON: Record<string, string> = {
+  work: 'M4 8h16v11H4zM9 8V5h6v3M4 13h16',
+  study: 'M3 9l9-4 9 4-9 4-9-4zM7 11v5c2 1.6 8 1.6 10 0v-5M21 9v5',
+  create: 'M5 19 15.5 8.5M14 6l4 4M18 2.5v3M16.5 4h3M6.5 4.5v2M5.5 5.5h2M19.5 13.5v2M18.5 14.5h2',
+  build: 'm8 8-4 4 4 4M16 8l4 4-4 4M13.5 5.5l-3 13',
+  business: 'M4 19h16M5 15l4-4 3 3 6-7M14.5 7H18v3.5',
+  hobby: 'M9 18V6l10-2v12M9 18a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zM19 16a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z',
+};
+const goalTiles = goals.map((goal) => ({
+  ...goal,
+  name: GOAL_NAME[goal.id] ?? goal.label,
+  icon: GOAL_ICON[goal.id] ?? GOAL_ICON.work,
+  picks: (GOAL_PICKS[goal.id] ?? []).map((slug) => toolBySlug.get(slug)).filter(present).slice(0, 3),
+}));
 
 const featuredPipelines = ['start-a-youtube-channel', 'build-an-app-without-code', 'study-smarter-for-exams', 'never-take-meeting-notes-again', 'make-music-with-ai', 'launch-a-landing-page'];
-const pipelineRow = [
-  ...featuredPipelines.map((slug) => pipelines.find((p) => p.slug === slug)).filter(present),
-  ...pipelines.filter((p) => !featuredPipelines.includes(p.slug)),
-]
+const pipelineRow = [...featuredPipelines.map((slug) => pipelines.find((p) => p.slug === slug)).filter(present), ...pipelines.filter((p) => !featuredPipelines.includes(p.slug))]
   .slice(0, 10)
   .map((p) => ({ ...p, flow: p.steps.map((s) => toolBySlug.get(s.tools[0])).filter(present) }));
 
-const popular = tools.filter((t) => t.logo && !ringTools.includes(t)).slice(0, 12);
-const toolCount = Math.floor(tools.length / 50) * 50;
+const trending = trendingTools(7);
+const topPoints = trending[0] ? trendOf(trending[0]).points : 1;
+// Matchups where both tools have a logo come first.
+const bothLogos = (c: (typeof headlineComparisons)[number]) => Boolean(c.a.logo && c.b.logo);
+const matchups = [...headlineComparisons.filter(bothLogos), ...headlineComparisons.filter((c) => !bothLogos(c))].slice(0, 6);
+const issue = weeklyIssues[0];
 const stats = [
-  { value: `${toolCount}+`, label: 'AI tools listed' },
-  { value: String(pipelines.length), label: 'step-by-step pipelines' },
-  { value: String(categories.length), label: 'categories' },
-  { value: '0', label: 'paid rankings' },
+  { value: toolCount, suffix: '+', label: 'tools' },
+  { value: pipelines.length, suffix: '', label: 'pipelines' },
+  { value: categories.length, suffix: '', label: 'categories' },
+  { value: 0, suffix: '', label: 'paid rankings' },
 ];
+const arrowLeft = 'm15 18-6-6 6-6';
+const arrowRight = 'm9 18 6-6-6-6';
 ---
 
 <Base
-  title="AIToolVerse — Find the right AI tools and the fastest path to your goal"
-  description={`An independent guide to ${toolCount}+ AI tools. Answer a few questions and get a personal toolkit, with step-by-step pipelines for work, study, content and hobbies.`}
+  title="AIToolVerse — Find the right AI tool for anything"
+  description={`An independent guide to ${toolCount}+ AI tools. Search, compare side by side, see what is trending, and get a personal plan with step-by-step pipelines.`}
   jsonLd={{ '@context': 'https://schema.org', '@type': 'WebSite', name: 'AIToolVerse', url: 'https://aitoolverse.ai/', potentialAction: { '@type': 'SearchAction', target: 'https://aitoolverse.ai/tools/?q={query}', 'query-input': 'required name=query' } }}
 >
-  <section class="relative overflow-hidden pb-6">
+  <section class="hero relative overflow-hidden">
     <div class="grid-floor" aria-hidden="true"></div>
-    <div class="container-page pt-10 text-center sm:pt-12">
-      <p class="rise chip mx-auto gap-2 py-1 d-0">
-        <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
-        {toolCount}+ tools · {pipelines.length} pipelines · no paid rankings
-      </p>
-      <h1 class="rise heading-display mx-auto mt-5 max-w-4xl d-1">
-        The right AI tool <span class="gradient-text">for anything</span> you want to do.
+    <div class="container-page pt-12 text-center sm:pt-16">
+      <h1 class="hero-title rise d-0">
+        <span class="sr-only">Find the right AI tool for anything you want to do</span>
+        <span aria-hidden="true">
+          <span class="hero-kicker">Find the AI for</span>
+          <span class="rotator">{ROTATING.map((word) => <span class="gradient-text">{word}</span>)}</span>
+        </span>
       </h1>
-      <p class="rise mx-auto mt-5 max-w-2xl text-lg leading-relaxed muted d-2">
-        An independent guide to {toolCount}+ AI tools. Tell us your goal and get the few that fit your skills and budget, with a step-by-step path to the result.
-      </p>
-      <div class="rise mx-auto mt-7 flex max-w-3xl flex-col items-stretch gap-3 sm:flex-row sm:items-center d-3">
-        <form action="/tools/" method="get" role="search" class="flex min-w-0 flex-1 items-center gap-2 rounded-full border border-ink-200 bg-white p-1.5 pl-5 shadow-sm dark:border-white/10 dark:bg-white/5">
-          <label for="hero-search" class="sr-only">Search AI tools</label>
-          <svg aria-hidden="true" class="h-5 w-5 shrink-0 text-ink-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
-          <input id="hero-search" name="q" type="search" placeholder="Try “voiceover”, “logo”, “meeting notes”…" class="w-full min-w-0 bg-transparent py-2 text-sm outline-none placeholder:text-ink-400" />
-          <button class="btn-secondary py-2" type="submit">Search</button>
-        </form>
-        <a href="/start/" class="btn-primary shrink-0 px-6 py-3.5 text-base">Get my personal plan</a>
+      <p class="rise mx-auto mt-4 max-w-md text-lg muted d-1">{toolCount}+ tools, matched to your goal.</p>
+      <div class="rise mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row d-2">
+        <a href="/tools/" data-search-open class="hero-search">
+          <svg aria-hidden="true" class="h-5 w-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+          <span class="flex-1 text-left">Search tools</span>
+          <kbd data-shortcut>Ctrl K</kbd>
+        </a>
+        <a href="/start/" class="btn-primary px-6 py-3.5 text-base">Get my plan</a>
       </div>
     </div>
 
-    <div class="rise mt-6 d-4" data-orbit role="region" aria-roledescription="carousel" aria-label="Featured AI tools">
-      <div class="orbit-stage">
-        <div class="orbit">
-          {
-            ringTools.map((t) => (
-              <a href={`/tools/${t.slug}/`} class="orbit-card" draggable="false">
-                <span class="orbit-face">
-                  <ToolAvatar slug={t.slug} name={t.name} logo={t.logo} size="lg" />
-                  <span class="mt-4 block truncate font-semibold text-ink-950 dark:text-white">{shortName(t.name)}</span>
-                  <span class="mt-0.5 block truncate text-xs muted">{capLabel(t)}</span>
-                  <span class="mt-2 line-clamp-3 text-xs leading-relaxed text-ink-600 dark:text-ink-300">{t.tagline}</span>
-                  <span class="mt-auto block pt-3"><span class="chip">{PRICING_LABEL[t.pricing]}</span></span>
-                </span>
-              </a>
-            ))
-          }
+    <div class="uni rise d-3" data-uni role="group" aria-label="Featured AI tools">
+      <div class="uni-scene">
+        <div class="uni-tilt">
+          <div class="uni-core" aria-hidden="true"><Logo id="logo-core" class="h-1/2 w-1/2" /></div>
+          <div class="uni-plane">
+            {
+              orbits.map((ring, r) => (
+                <div class={`uni-ring uni-ring-${r + 1} sats-${ring.length}`}>
+                  {ring.map((t) => (
+                    <a href={`/tools/${t.slug}/`} class="sat" aria-label={shortName(t.name)} draggable="false">
+                      <span class="sat-face">
+                        <span class="sat-body">
+                          <img src={`/logos/${t.slug}.webp`} alt="" width="96" height="96" decoding="async" draggable="false" />
+                          <span class="sat-label">{shortName(t.name)}</span>
+                        </span>
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              ))
+            }
+          </div>
         </div>
-        <div class="orbit-floor" aria-hidden="true"></div>
-      </div>
-      <div class="mt-3 flex items-center justify-center gap-4">
-        <button type="button" class="icon-btn" data-orbit-prev aria-label="Previous tool">
-          <svg aria-hidden="true" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"></path></svg>
-        </button>
-        <p class="text-xs muted">Drag to explore</p>
-        <button type="button" class="icon-btn" data-orbit-next aria-label="Next tool">
-          <svg aria-hidden="true" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
-        </button>
       </div>
     </div>
   </section>
 
-  <section class="container-page mt-14" aria-label="AIToolVerse in numbers" data-reveal>
-    <dl class="card grid grid-cols-2 divide-ink-200/70 sm:grid-cols-4 sm:divide-x dark:divide-white/10">
+  {/* A moving sample of the directory for the eye. Hidden from screen readers and the Tab key,
+      which would otherwise have to step through 64 moving links; every tool is reachable through search. */}
+  <section class="marquee-band" aria-hidden="true">
+    {
+      marqueeRows.map((row, r) => (
+        <div class={`marquee ${r === 1 ? 'marquee-reverse' : ''}`}>
+          <div class="marquee-track">
+            {[0, 1].map((copy) => (
+              <ul class="marquee-list" data-copy={copy}>
+                {row.map((t) => (
+                  <li>
+                    <a href={`/tools/${t.slug}/`} class="marquee-chip" tabindex="-1">
+                      <img src={`/logos/${t.slug}.webp`} alt="" width="96" height="96" loading="lazy" decoding="async" />
+                      {shortName(t.name)}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            ))}
+          </div>
+        </div>
+      ))
+    }
+  </section>
+
+  <section class="container-page mt-16" aria-label="AIToolVerse in numbers" data-reveal>
+    <dl class="glass grid grid-cols-2 sm:grid-cols-4">
       {
         stats.map((s) => (
-          <div class="flex flex-col-reverse px-6 py-6 text-center">
+          <div class="flex flex-col-reverse px-4 py-6 text-center">
             <dt class="mt-1 text-sm muted">{s.label}</dt>
-            <dd class="text-3xl font-semibold tracking-tight text-ink-950 sm:text-4xl dark:text-white">{s.value}</dd>
+            <dd class="text-4xl font-semibold tracking-tight text-ink-950 tabular-nums sm:text-5xl dark:text-white" data-count={s.value} data-suffix={s.suffix}>{s.value}{s.suffix}</dd>
           </div>
         ))
       }
     </dl>
   </section>
 
-  <section class="container-page mt-24" aria-labelledby="goals-heading">
-    <div data-reveal>
-      <p class="eyebrow">Start with your goal</p>
-      <h2 id="goals-heading" class="heading-lg mt-2">What do you want to get done?</h2>
-      <p class="mt-2 max-w-2xl muted">Pick a goal to see a few tools to start with, and a step-by-step path to follow.</p>
-    </div>
-    <div class="mt-8 d-1" data-tabs data-reveal>
-      <div role="tablist" aria-label="Goals" class="flex gap-2 overflow-x-auto pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-        {
-          goalPanels.map((g, i) => (
-            <button type="button" role="tab" id={`goal-tab-${g.id}`} aria-controls={`goal-panel-${g.id}`} aria-selected={i === 0 ? 'true' : 'false'} tabindex={i === 0 ? 0 : -1} class="goal-tab">
-              {g.label}
-            </button>
-          ))
-        }
-      </div>
+  <section class="container-page relative mt-24" aria-labelledby="goals-heading">
+    <div class="aurora aurora-a" aria-hidden="true"></div>
+    <h2 id="goals-heading" class="section-title" data-reveal>Start with a goal</h2>
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {
-        goalPanels.map((g, i) => (
-          <div role="tabpanel" id={`goal-panel-${g.id}`} aria-labelledby={`goal-tab-${g.id}`} hidden={i !== 0} class="goal-panel card mt-4 grid gap-8 p-6 sm:p-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
-            <div class="flex flex-col">
-              <h3 class="text-xl font-semibold tracking-tight text-ink-950 dark:text-white">{g.label}</h3>
-              <p class="mt-2 muted">{g.description}</p>
-              {g.pipelines.length > 0 && (
-                <ul class="mt-5 space-y-2.5 text-sm">
-                  {g.pipelines.map((p) => (
-                    <li>
-                      <a href={`/pipelines/${p.slug}/`} class="inline-flex items-center gap-2 font-medium text-ink-800 hover:text-brand-700 dark:text-ink-100 dark:hover:text-brand-300">
-                        <span class="chip shrink-0">{p.steps.length} steps</span>
-                        {p.title}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              )}
-              <a href={`/start/?goal=${g.id}`} class="btn-primary mt-6 self-start lg:mt-auto">Get my plan for this</a>
-            </div>
-            <div class="grid gap-4 sm:grid-cols-2">
-              {g.picks.map((pick) => <ToolTile tool={pick.tool} capabilityLabel={pick.label} />)}
-            </div>
+        goalTiles.map((g, i) => (
+          <div data-reveal class={`d-${i % 3}`}>
+            <a href={`/start/?goal=${g.id}`} data-tilt class="glass goal-tile">
+              <span class="goal-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d={g.icon}></path></svg>
+              </span>
+              <span class="goal-name">{g.name}</span>
+              <span class="logo-stack" aria-hidden="true">{g.picks.map((t) => <ToolAvatar slug={t.slug} name={t.name} logo={t.logo} />)}</span>
+              <span class="sr-only">with tools such as {g.picks.map((t) => shortName(t.name)).join(', ')}</span>
+            </a>
           </div>
         ))
       }
@@ -182,115 +194,135 @@ const stats = [
 
   <section class="container-page mt-24" aria-labelledby="pipelines-heading" data-row>
     <div class="flex items-end justify-between gap-4" data-reveal>
-      <div>
-        <p class="eyebrow">Pipelines</p>
-        <h2 id="pipelines-heading" class="heading-lg mt-2">Proven paths from idea to result</h2>
-        <p class="mt-2 max-w-2xl muted">Each pipeline chains the right tools in the right order, with tips for every step.</p>
-      </div>
-      <div class="hidden shrink-0 items-center gap-2 sm:flex">
-        <a href="/pipelines/" class="mr-2 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">All {pipelines.length} →</a>
-        <button type="button" class="icon-btn" data-row-prev aria-label="Previous pipelines">
-          <svg aria-hidden="true" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"></path></svg>
+      <h2 id="pipelines-heading" class="section-title">Follow a proven path</h2>
+      <div class="flex shrink-0 items-center gap-2">
+        <a href="/pipelines/" class="mr-1 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">All {pipelines.length}</a>
+        <button type="button" class="icon-btn hidden sm:inline-flex" data-row-prev aria-label="Previous pipelines">
+          <svg aria-hidden="true" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d={arrowLeft}></path></svg>
         </button>
-        <button type="button" class="icon-btn" data-row-next aria-label="More pipelines">
-          <svg aria-hidden="true" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
+        <button type="button" class="icon-btn hidden sm:inline-flex" data-row-next aria-label="More pipelines">
+          <svg aria-hidden="true" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d={arrowRight}></path></svg>
         </button>
       </div>
     </div>
     <div class="snap-row mt-4 d-1" data-reveal>
       {
         pipelineRow.map((p) => (
-          <div class="snap-item snap-item-wide">
-            <a href={`/pipelines/${p.slug}/`} data-tilt class="card card-hover group flex h-full flex-col p-6">
-              <div class="flex items-center" aria-hidden="true">
+          <div class="snap-item">
+            <a href={`/pipelines/${p.slug}/`} data-tilt class="glass card-hover flex h-full flex-col p-6">
+              <span class="flow" aria-hidden="true">
                 {p.flow.map((t, i) => (
                   <>
-                    {i > 0 && <span class="h-px w-3 bg-ink-300 dark:bg-white/20" />}
+                    {i > 0 && <span class="flow-link" />}
                     <ToolAvatar slug={t.slug} name={t.name} logo={t.logo} size="sm" />
                   </>
                 ))}
-              </div>
-              <h3 class="mt-5 text-lg font-semibold tracking-tight text-ink-900 group-hover:text-brand-700 dark:text-white dark:group-hover:text-brand-300">{p.title}</h3>
-              <p class="mt-2 text-sm leading-relaxed text-ink-600 dark:text-ink-300">{p.outcome}</p>
-              <div class="mt-auto flex flex-wrap gap-2 pt-5">
+              </span>
+              <h3 class="mt-5 text-lg font-semibold tracking-tight text-ink-950 dark:text-white">{p.title}</h3>
+              <span class="mt-auto flex flex-wrap gap-2 pt-5">
                 <span class="chip">{p.steps.length} steps</span>
                 <span class="chip">{p.timeToResult}</span>
                 <span class="chip">{SKILL_LABEL[p.difficulty]}</span>
-              </div>
+              </span>
             </a>
           </div>
         ))
       }
     </div>
-    <a href="/pipelines/" class="text-sm font-semibold text-brand-700 hover:underline sm:hidden dark:text-brand-300">All {pipelines.length} pipelines →</a>
   </section>
 
-  <section class="container-page mt-24" aria-labelledby="popular-heading" data-row>
-    <div class="flex items-end justify-between gap-4" data-reveal>
-      <div>
-        <p class="eyebrow">Popular</p>
-        <h2 id="popular-heading" class="heading-lg mt-2">Popular tools to start with</h2>
-      </div>
-      <div class="hidden shrink-0 items-center gap-2 sm:flex">
-        <a href="/tools/" class="mr-2 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">All tools →</a>
-        <button type="button" class="icon-btn" data-row-prev aria-label="Previous tools">
-          <svg aria-hidden="true" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"></path></svg>
-        </button>
-        <button type="button" class="icon-btn" data-row-next aria-label="More tools">
-          <svg aria-hidden="true" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
-        </button>
-      </div>
-    </div>
-    <div class="snap-row mt-4 d-1" data-reveal>
-      {popular.map((t) => <div class="snap-item"><ToolTile tool={t} capabilityLabel={capLabel(t)} /></div>)}
-    </div>
-    <a href="/tools/" class="text-sm font-semibold text-brand-700 hover:underline sm:hidden dark:text-brand-300">All tools →</a>
+  <section class="container-page relative mt-24 grid gap-6 lg:grid-cols-2">
+    <div class="aurora aurora-b" aria-hidden="true"></div>
+    {
+      trending.length > 0 && (
+        <div class="glass p-6 sm:p-8" data-reveal>
+          <div class="flex items-baseline justify-between gap-3">
+            <h2 class="section-title">Trending now</h2>
+            <a href="/trending/" class="text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">Top 20</a>
+          </div>
+          <ol class="mt-6 space-y-4">
+            {trending.map((t, i) => (
+              <li>
+                <a href={`/tools/${t.slug}/`} class="group flex items-center gap-3">
+                  <span class="w-5 shrink-0 text-center text-sm font-semibold tabular-nums muted">{i + 1}</span>
+                  <ToolAvatar slug={t.slug} name={t.name} logo={t.logo} size="sm" />
+                  <span class="w-28 shrink-0 truncate text-sm font-semibold text-ink-950 group-hover:text-brand-700 sm:w-36 dark:text-white dark:group-hover:text-brand-300">{shortName(t.name)}</span>
+                  <span class="heat flex-1" aria-hidden="true"><span class={`heat-fill heat-${heatLevel(trendOf(t).points, topPoints)}`}></span></span>
+                  <span class="w-14 shrink-0 text-right text-xs tabular-nums muted">{trendOf(t).points.toLocaleString('en')}</span>
+                </a>
+              </li>
+            ))}
+          </ol>
+          <p class="mt-6 text-xs muted">{trends.source} points, last {trends.windowDays} days.</p>
+        </div>
+      )
+    }
+    {
+      matchups.length > 0 && (
+        <div class="glass p-6 sm:p-8" data-reveal>
+          <div class="flex items-baseline justify-between gap-3">
+            <h2 class="section-title">Head to head</h2>
+            <a href="/compare/" class="text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">All matchups</a>
+          </div>
+          <ul class="mt-6 grid gap-3 sm:grid-cols-2">
+            {matchups.map((c) => (
+              <li>
+                <a href={`/compare/${c.slug}/`} data-tilt class="matchup">
+                  <span class="matchup-side">
+                    <ToolAvatar slug={c.a.slug} name={c.a.name} logo={c.a.logo} />
+                    <span class="matchup-name">{shortName(c.a.name)}</span>
+                  </span>
+                  <span class="vs vs-sm" aria-hidden="true">VS</span>
+                  <span class="sr-only">versus</span>
+                  <span class="matchup-side">
+                    <ToolAvatar slug={c.b.slug} name={c.b.name} logo={c.b.logo} />
+                    <span class="matchup-name">{shortName(c.b.name)}</span>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )
+    }
   </section>
+
+  {
+    issue && (
+      <section class="container-page mt-24" aria-labelledby="weekly-heading" data-reveal>
+        <div class="glass glass-accent grid gap-8 p-6 sm:p-10 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] lg:items-center">
+          <div>
+            <p class="eyebrow">Issue {issue.number} · <time datetime={issue.date}>{longDate(issue.date)}</time></p>
+            <h2 id="weekly-heading" class="section-title mt-2">This week in AI</h2>
+            <ul class="mt-5 space-y-2 text-sm text-ink-700 dark:text-ink-200">
+              {issue.news.slice(0, 3).map((item) => <li class="flex gap-2"><span class="pulse-dot" aria-hidden="true"></span><span class="min-w-0 truncate">{item.title}</span></li>)}
+            </ul>
+            <a href={`/weekly/${issue.slug}/`} class="btn-secondary mt-6">Read the issue</a>
+          </div>
+          <div><NewsletterForm id="home-email" /></div>
+        </div>
+      </section>
+    )
+  }
 
   <section class="container-page mt-24" aria-labelledby="cat-heading">
-    <div data-reveal>
-      <p class="eyebrow">Browse</p>
-      <h2 id="cat-heading" class="heading-lg mt-2">Explore by category</h2>
-    </div>
-    <div class="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+    <h2 id="cat-heading" class="section-title" data-reveal>Browse by category</h2>
+    <p class="mt-6 flex flex-wrap gap-2.5" data-reveal>
       {
-        categories.map((c, i) => (
-          <div data-reveal class={`d-${i % 4}`}>
-            <a href={`/categories/${c.id}/`} data-tilt class="card card-hover flex h-full flex-col p-5">
-              <span class="flex items-center justify-between gap-3">
-                <span class="font-semibold text-ink-900 dark:text-white">{c.label}</span>
-                <span class="chip">{toolsInCategory(c.id).length}</span>
-              </span>
-              <span class="mt-2 line-clamp-2 text-sm muted">{c.description}</span>
-            </a>
-          </div>
+        categories.map((c) => (
+          <a href={`/categories/${c.id}/`} class="category-chip">
+            {c.label}
+            <span>{toolsInCategory(c.id).length}</span>
+          </a>
         ))
       }
-    </div>
+    </p>
   </section>
 
-  <section class="container-page mt-24" aria-labelledby="how-heading" data-reveal>
-    <div class="card overflow-hidden p-8 sm:p-12">
-      <p class="eyebrow">How it works</p>
-      <h2 id="how-heading" class="heading-lg mt-2">Less browsing. More doing.</h2>
-      <ol class="mt-8 grid gap-8 sm:grid-cols-3">
-        <li>
-          <span class="text-sm font-semibold text-brand-600 dark:text-brand-300">01</span>
-          <h3 class="mt-2 font-semibold text-ink-900 dark:text-white">Tell us your goal</h3>
-          <p class="mt-1.5 text-sm muted">A 60-second assessment covers what you want to do, your experience and budget.</p>
-        </li>
-        <li>
-          <span class="text-sm font-semibold text-brand-600 dark:text-brand-300">02</span>
-          <h3 class="mt-2 font-semibold text-ink-900 dark:text-white">Get your toolkit</h3>
-          <p class="mt-1.5 text-sm muted">See the few tools that fit you, not a list of thousands, and why each one is there.</p>
-        </li>
-        <li>
-          <span class="text-sm font-semibold text-brand-600 dark:text-brand-300">03</span>
-          <h3 class="mt-2 font-semibold text-ink-900 dark:text-white">Follow a pipeline</h3>
-          <p class="mt-1.5 text-sm muted">Step-by-step paths with prompts and tips take you from idea to finished result.</p>
-        </li>
-      </ol>
-      <a href="/start/" class="btn-primary mt-10">Start the assessment</a>
+  <section class="container-page mt-24" data-reveal>
+    <div class="glass cta-band">
+      <h2 class="heading-display">Find yours in <span class="gradient-text">60 seconds</span>.</h2>
+      <a href="/start/" class="btn-primary mt-8 px-8 py-4 text-base">Get my plan</a>
     </div>
   </section>
 </Base>

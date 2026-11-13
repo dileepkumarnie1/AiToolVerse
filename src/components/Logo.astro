@@ -1,0 +1,25 @@
+---
+// The AIToolVerse mark: an "A" drawn as a constellation. Each star is a tool; the lines are the
+// paths that connect tools into a pipeline. `id` must be unique on the page (it names the gradient).
+interface Props {
+  id: string;
+  class?: string;
+}
+const { id, class: className = 'h-7 w-7' } = Astro.props;
+---
+
+<svg class={className} viewBox="0 0 32 32" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id={id} x1="5" y1="4" x2="27" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8b6bff"></stop>
+      <stop offset="0.55" stop-color="#e052f0"></stop>
+      <stop offset="1" stop-color="#22c8e6"></stop>
+    </linearGradient>
+  </defs>
+  <path d="M16 5.5 6.2 26M16 5.5 25.8 26M10.4 17.2h11.2" stroke={`url(#${id})`} stroke-width="2.1" stroke-linecap="round"></path>
+  <circle cx="16" cy="5.5" r="3.2" fill={`url(#${id})`}></circle>
+  <circle cx="6.2" cy="26" r="2.6" fill={`url(#${id})`}></circle>
+  <circle cx="25.8" cy="26" r="2.6" fill={`url(#${id})`}></circle>
+  <circle cx="10.4" cy="17.2" r="1.9" fill={`url(#${id})`}></circle>
+  <circle cx="21.6" cy="17.2" r="1.9" fill={`url(#${id})`}></circle>
+</svg>

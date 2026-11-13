@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
+import { weeklyIssues } from '../../lib/catalog';
+import { longDate } from '../../lib/labels';
+---
+
+<Base title="This week in AI" description="A weekly round-up of the AI news people discussed most and the tools at the centre of it.">
+  <section class="container-page max-w-4xl pt-14">
+    <h1 class="heading-lg">This week in AI</h1>
+    <p class="mt-2 max-w-2xl muted">The AI news people discussed most, and the tools at the centre of it. One issue a week.</p>
+    <div class="glass mt-8 p-6">
+      <div class="max-w-xl"><NewsletterForm id="weekly-index-email" /></div>
+    </div>
+
+    <ol class="mt-10 space-y-3">
+      {
+        weeklyIssues.map((issue) => (
+          <li>
+            <a href={`/weekly/${issue.slug}/`} data-tilt class="glass card-hover block p-6">
+              <p class="eyebrow">Issue {issue.number} · <time datetime={issue.date}>{longDate(issue.date)}</time></p>
+              <h2 class="mt-2 text-xl font-semibold tracking-tight text-ink-950 dark:text-white">{issue.title}</h2>
+              <ul class="mt-3 space-y-1 text-sm text-ink-600 dark:text-ink-300">
+                {issue.news.slice(0, 3).map((item) => <li class="truncate">• {item.title}</li>)}
+              </ul>
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+    {weeklyIssues.length === 0 && <p class="mt-10 muted">The first issue is on its way.</p>}
+  </section>
+</Base>

@@ -1,24 +1,63 @@
 ---
 import Base from '../../layouts/Base.astro';
+import ToolAvatar from '../../components/ToolAvatar';
 import ToolTile from '../../components/ToolTile';
-import { capabilityById, newestTools, tools } from '../../lib/catalog';
+import { capabilityById, recentlyAdded, trendOf, trendingTools, trends } from '../../lib/catalog';
+import { heatLevel, longDate, shortName } from '../../lib/labels';
 
-const newest = newestTools(24);
-const popular = tools.slice(0, 12);
+const ranked = trendingTools(20);
+const top = ranked[0] ? trendOf(ranked[0]).points : 1;
+const added = recentlyAdded(30, 12);
+const updated = longDate(trends.updatedAt);
 ---
 
-<Base title="Trending and new AI tools" description="The newest AI tools added to AIToolVerse, reviewed and updated every two days, plus the most popular tools right now.">
+<Base
+  title="Trending AI tools"
+  description={`The AI tools people are discussing most right now, ranked by ${trends.source} activity over the last ${trends.windowDays} days.`}
+>
   <section class="container-page pt-14">
-    <p class="eyebrow">Trending</p>
-    <h1 class="heading-lg mt-2">New and trending AI tools</h1>
-    <p class="mt-2 max-w-2xl muted">We scan Product Hunt and Hacker News every two days. Every new tool is reviewed before it is listed.</p>
-    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-      {newest.map((t) => <ToolTile tool={t} capabilityLabel={capabilityById.get(t.capabilities[0])?.label} />)}
-    </div>
+    <h1 class="heading-lg">Trending now</h1>
+    <p class="mt-2 max-w-2xl muted">
+      Ranked by discussion on {trends.source} over the last {trends.windowDays} days. Updated {updated}.{' '}
+      <a href="/about/#trending" class="underline">How this works</a>
+    </p>
 
-    <h2 class="heading-lg mt-20">Most popular</h2>
-    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-      {popular.map((t) => <ToolTile tool={t} capabilityLabel={capabilityById.get(t.capabilities[0])?.label} />)}
-    </div>
+    <ol class="mt-10 space-y-3">
+      {
+        ranked.map((t, i) => {
+          const trend = trendOf(t);
+          return (
+            <li class="glass flex flex-col gap-4 p-4 sm:flex-row sm:items-center sm:p-5" data-reveal>
+              <div class="flex min-w-0 flex-1 items-center gap-4">
+                <span class="w-8 shrink-0 text-center text-2xl font-semibold tabular-nums text-ink-400 dark:text-ink-500">{i + 1}</span>
+                <ToolAvatar slug={t.slug} name={t.name} logo={t.logo} />
+                <div class="min-w-0">
+                  <a href={`/tools/${t.slug}/`} class="font-semibold text-ink-950 hover:text-brand-700 dark:text-white dark:hover:text-brand-300">{shortName(t.name)}</a>
+                  <p class="truncate text-sm muted">{capabilityById.get(t.capabilities[0])?.label}</p>
+                  <a href={`https://news.ycombinator.com/item?id=${trend.top.id}`} rel="noopener" class="mt-1 block truncate text-xs text-ink-500 hover:underline dark:text-ink-400">
+                    Most discussed: {trend.top.title} ↗
+                  </a>
+                </div>
+              </div>
+              <div class="flex shrink-0 items-center gap-3 sm:w-64">
+                <span class="heat flex-1" aria-hidden="true"><span class={`heat-fill heat-${heatLevel(trend.points, top)}`}></span></span>
+                <span class="w-24 text-right text-sm tabular-nums muted">{trend.points.toLocaleString('en')} points</span>
+              </div>
+            </li>
+          );
+        })
+      }
+    </ol>
+
+    {
+      added.length > 0 && (
+        <>
+          <h2 class="heading-lg mt-20">Just added</h2>
+          <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {added.map((t) => <ToolTile tool={t} capabilityLabel={capabilityById.get(t.capabilities[0])?.label} />)}
+          </div>
+        </>
+      )
+    }
   </section>
 </Base>

@@ -17,7 +17,7 @@ const fullTitle = title.includes('AIToolVerse') ? title : `${title} · AIToolVer
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,9 +26,10 @@ const fullTitle = title.includes('AIToolVerse') ? title : `${title} · AIToolVer
     <link rel="canonical" href={canonical} />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     <meta name="referrer" content="strict-origin-when-cross-origin" />
-    <meta name="theme-color" content={THEME_COLORS.light} />
+    <meta name="theme-color" content={THEME_COLORS.dark} />
     <script is:inline set:html={THEME_SCRIPT} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="This week in AI" href="/weekly/rss.xml" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="AIToolVerse" />
     <meta property="og:title" content={fullTitle} />

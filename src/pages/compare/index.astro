@@ -1,0 +1,54 @@
+---
+import Base from '../../layouts/Base.astro';
+import ToolAvatar from '../../components/ToolAvatar';
+import { comparisons, headlineComparisons } from '../../lib/catalog';
+import { shortName } from '../../lib/labels';
+
+const headline = new Set(headlineComparisons.map((c) => c.slug));
+const rest = comparisons.filter((c) => !headline.has(c.slug));
+---
+
+<Base title="Compare AI tools side by side" description={`${comparisons.length} side-by-side comparisons of popular AI tools: pricing, skill level, tasks, pros and cons.`}>
+  <section class="container-page pt-14">
+    <h1 class="heading-lg">Compare tools</h1>
+    <p class="mt-2 max-w-2xl muted">{comparisons.length} head-to-head comparisons: price, level, tasks, pros and cons.</p>
+
+    <h2 class="mt-10 text-sm font-semibold uppercase tracking-[0.16em] text-brand-600 dark:text-brand-300">Popular matchups</h2>
+    <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        headlineComparisons.map((c) => (
+          <a href={`/compare/${c.slug}/`} data-tilt class="glass card-hover flex items-center justify-between gap-3 p-5">
+            <span class="flex min-w-0 flex-1 flex-col items-center gap-2 text-center">
+              <ToolAvatar slug={c.a.slug} name={c.a.name} logo={c.a.logo} />
+              <span class="w-full truncate text-sm font-semibold text-ink-950 dark:text-white">{shortName(c.a.name)}</span>
+            </span>
+            <span class="vs vs-sm" aria-hidden="true">VS</span>
+            <span class="sr-only">versus</span>
+            <span class="flex min-w-0 flex-1 flex-col items-center gap-2 text-center">
+              <ToolAvatar slug={c.b.slug} name={c.b.name} logo={c.b.logo} />
+              <span class="w-full truncate text-sm font-semibold text-ink-950 dark:text-white">{shortName(c.b.name)}</span>
+            </span>
+          </a>
+        ))
+      }
+    </div>
+
+    <h2 class="mt-14 text-sm font-semibold uppercase tracking-[0.16em] text-brand-600 dark:text-brand-300">All comparisons</h2>
+    <ul class="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        rest.map((c) => (
+          <li>
+            <a href={`/compare/${c.slug}/`} class="card card-hover flex items-center gap-3 p-3">
+              <ToolAvatar slug={c.a.slug} name={c.a.name} logo={c.a.logo} size="sm" />
+              <ToolAvatar slug={c.b.slug} name={c.b.name} logo={c.b.logo} size="sm" />
+              <span class="min-w-0">
+                <span class="block truncate text-sm font-medium text-ink-900 dark:text-white">{shortName(c.a.name)} vs {shortName(c.b.name)}</span>
+                <span class="block truncate text-xs muted">{c.group}</span>
+              </span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Base>

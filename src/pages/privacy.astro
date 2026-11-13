@@ -1,5 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
+
+const newsletter = Boolean(import.meta.env.PUBLIC_NEWSLETTER_ACTION);
+const newsletterProvider = (import.meta.env.PUBLIC_NEWSLETTER_PROVIDER as string | undefined) || 'our email provider';
 ---
 
 <Base title="Privacy policy" description="What AIToolVerse collects, why, and how to delete it.">
@@ -19,6 +22,15 @@ import Base from '../layouts/Base.astro';
     </ul>
     <p>We use this data only to show your recommendations and to review suggestions.</p>
 
+    {
+      newsletter && (
+        <>
+          <h2>Newsletter</h2>
+          <p>If you subscribe to "This week in AI", your email address is sent to {newsletterProvider}, which stores it and sends the emails for us. We use it only for the newsletter. Every email has an unsubscribe link.</p>
+        </>
+      )
+    }
+
     <h2>Security and abuse prevention</h2>
     <p>We use Firebase App Check with Google reCAPTCHA to make sure requests come from our real website. reCAPTCHA is subject to Google's Privacy Policy and Terms of Service.</p>
 
@@ -26,6 +38,7 @@ import Base from '../layouts/Base.astro';
     <ul>
       <li>Cloudflare: website hosting and delivery.</li>
       <li>Google Firebase: sign-in and database.</li>
+      {newsletter && <li>{newsletterProvider}: newsletter delivery.</li>}
     </ul>
     <p>We do not use analytics or advertising trackers. Links to tools take you to third-party sites with their own policies.</p>
 

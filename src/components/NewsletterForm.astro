@@ -1,0 +1,28 @@
+---
+// Email sign-up for "This week in AI". It appears only when a newsletter provider is configured
+// (PUBLIC_NEWSLETTER_ACTION); otherwise visitors are offered the RSS feed.
+// The form posts straight to the provider, which handles confirmation and unsubscribing.
+interface Props {
+  id: string;
+}
+const { id } = Astro.props;
+const action = import.meta.env.PUBLIC_NEWSLETTER_ACTION as string | undefined;
+const field = (import.meta.env.PUBLIC_NEWSLETTER_FIELD as string | undefined) || 'email';
+---
+
+{
+  action ? (
+    <div>
+      <form action={action} method="post" target="_blank" class="flex flex-col gap-2 sm:flex-row">
+        <label for={id} class="sr-only">Email address</label>
+        <input id={id} type="email" name={field} required autocomplete="email" placeholder="you@example.com" class="input min-w-0 flex-1 rounded-full" />
+        <button type="submit" class="btn-primary shrink-0 px-6">Subscribe</button>
+      </form>
+      <p class="mt-2 text-xs muted">
+        One email a week. Unsubscribe any time. <a href="/privacy/" class="underline">Privacy</a>
+      </p>
+    </div>
+  ) : (
+    <a href="/weekly/rss.xml" class="btn-secondary">Follow by RSS</a>
+  )
+}
