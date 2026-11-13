@@ -1,0 +1,25 @@
+{
+  "slug": "decagon",
+  "name": "Decagon",
+  "url": "https://decagon.ai/",
+  "tagline": "AI agents for customer support that resolve conversations across chat, email and voice.",
+  "about": "Decagon builds AI support agents for larger companies. Teams describe how cases should be handled and the agent follows those procedures.",
+  "pros": [
+    "Handles chat, email and voice.",
+    "Procedures are written in plain language."
+  ],
+  "cons": [
+    "Enterprise pricing; no self-serve plan.",
+    "Needs integration with your support systems."
+  ],
+  "capabilities": [
+    "customer-support",
+    "agents"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 72,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

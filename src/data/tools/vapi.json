@@ -1,0 +1,27 @@
+{
+  "slug": "vapi",
+  "name": "Vapi",
+  "url": "https://vapi.ai/",
+  "tagline": "A developer platform for building, testing and deploying voice AI agents for phone calls.",
+  "about": "Vapi handles the pipeline behind a voice agent: speech-to-text, the language model and text-to-speech, plus telephony.",
+  "pros": [
+    "Handles speech-to-text, the model and text-to-speech in one pipeline.",
+    "Works with many voice and model providers.",
+    "Free credits to start."
+  ],
+  "cons": [
+    "Per-minute costs add up across providers.",
+    "Needs development work to set up well."
+  ],
+  "capabilities": [
+    "developer-api",
+    "voice-tts",
+    "customer-support"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 75,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

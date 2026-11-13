@@ -64,6 +64,19 @@ const TITLE_NAMES = {
   ollama: 'Ollama',
   replit: 'Replit',
   'v0': 'v0',
+  'claude-code': 'Claude Code',
+  'openai-codex': 'Codex',
+  'deepseek-chat': 'DeepSeek',
+  kimi: 'Kimi',
+  openclaw: 'OpenClaw',
+  cline: 'Cline',
+  'gemini-cli': 'Gemini CLI',
+  'google-antigravity': 'Antigravity',
+  kiro: 'Kiro',
+  capcut: 'CapCut',
+  cerebras: 'Cerebras',
+  manus: 'Manus',
+  genspark: 'Genspark',
 };
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));

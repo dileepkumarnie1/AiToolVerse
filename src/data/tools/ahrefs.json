@@ -1,0 +1,25 @@
+{
+  "slug": "ahrefs",
+  "name": "Ahrefs",
+  "url": "https://ahrefs.com/",
+  "tagline": "An SEO and marketing toolset with a large web index, covering search, content and AI-search visibility.",
+  "about": "Ahrefs provides backlink and keyword data, site audits and rank tracking, and reports on visibility in AI search.",
+  "pros": [
+    "One of the largest backlink and keyword indexes.",
+    "Clear site audit and rank tracking.",
+    "Free tools for sites you own."
+  ],
+  "cons": [
+    "No general free plan.",
+    "Usage limits on lower tiers."
+  ],
+  "capabilities": [
+    "marketing-seo"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 80,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "languagetool",
+  "name": "LanguageTool",
+  "url": "https://languagetool.org/",
+  "tagline": "A grammar, spelling and style checker that works in more than 30 languages.",
+  "about": "LanguageTool checks writing in many languages, with browser extensions and add-ons for common writing apps. Its core is open source.",
+  "pros": [
+    "Checks more than 30 languages.",
+    "Open-source core that can be self-hosted.",
+    "Browser extensions and add-ons for common writing apps."
+  ],
+  "cons": [
+    "The free plan limits text length per check.",
+    "Style suggestions are weaker in smaller languages."
+  ],
+  "capabilities": [
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": true,
+  "skillLevel": "beginner",
+  "popularity": 78,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

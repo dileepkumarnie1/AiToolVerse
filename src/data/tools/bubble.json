@@ -1,0 +1,25 @@
+{
+  "slug": "bubble",
+  "name": "Bubble",
+  "url": "https://bubble.io/",
+  "tagline": "A visual no-code platform for building web and mobile apps, with AI to generate a first version.",
+  "about": "Bubble lets you design an app, its database and its logic visually. AI can build a starting point from a description, and you edit it by hand from there.",
+  "pros": [
+    "Full visual control over design, data and logic.",
+    "Large plugin marketplace and community.",
+    "AI can generate a starting app from a description."
+  ],
+  "cons": [
+    "Takes time to learn.",
+    "Apps stay on Bubble; you cannot export the code."
+  ],
+  "capabilities": [
+    "app-builder"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 82,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

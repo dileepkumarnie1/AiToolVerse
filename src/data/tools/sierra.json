@@ -1,0 +1,25 @@
+{
+  "slug": "sierra",
+  "name": "Sierra",
+  "url": "https://sierra.ai/",
+  "tagline": "A platform for building branded AI agents that handle customer service conversations.",
+  "about": "Sierra builds customer-facing AI agents for large businesses. Agents can take actions such as changing an order, as well as answer questions.",
+  "pros": [
+    "Agents can take actions, not only answer.",
+    "Supports chat and voice."
+  ],
+  "cons": [
+    "Sold to enterprises only.",
+    "Setting it up is a project, not a quick install."
+  ],
+  "capabilities": [
+    "customer-support",
+    "agents"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 72,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

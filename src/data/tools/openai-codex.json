@@ -1,0 +1,26 @@
+{
+  "slug": "openai-codex",
+  "name": "OpenAI Codex",
+  "url": "https://openai.com/codex/",
+  "tagline": "OpenAI's coding agent for writing, reviewing and fixing code in the terminal, in your editor and in the cloud.",
+  "about": "Codex is a software engineering agent from OpenAI. It can work on tasks in the background in a cloud sandbox and propose changes, or run locally through a command-line tool and editor extension.",
+  "pros": [
+    "Runs tasks in the background and proposes pull requests.",
+    "Also works locally from the command line and in the editor.",
+    "Included with paid ChatGPT plans."
+  ],
+  "cons": [
+    "Usage limits depend on your ChatGPT plan.",
+    "Changes need review before merging."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "agents"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "genspark",
+  "name": "Genspark",
+  "url": "https://www.genspark.ai/",
+  "tagline": "An AI agent that researches a topic, then builds a finished result such as slides, a spreadsheet, a document or a website.",
+  "about": "Genspark is a general-purpose AI agent. You describe the outcome you want and it plans the work, searches the web and produces a deliverable you can edit.",
+  "pros": [
+    "One request can produce a complete slide deck, report or page.",
+    "Shows the sources it used.",
+    "Free plan with daily credits."
+  ],
+  "cons": [
+    "Larger jobs use credits quickly.",
+    "Results need checking before you share them."
+  ],
+  "capabilities": [
+    "agents",
+    "research-search",
+    "presentations"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 80,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

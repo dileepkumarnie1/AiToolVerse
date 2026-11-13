@@ -1,0 +1,27 @@
+{
+  "slug": "claude-code",
+  "name": "Claude Code",
+  "url": "https://claude.com/product/claude-code",
+  "tagline": "Anthropic's coding agent: it understands your codebase, edits files and runs commands from the terminal, your editor or the web.",
+  "about": "Claude Code is an agent for software work. It reads a whole project, makes changes across files, runs commands and tests, and reports what it did.",
+  "pros": [
+    "Works across a whole codebase, not only the open file.",
+    "Runs commands and tests, then fixes what fails.",
+    "Available in the terminal, in popular editors and on the web."
+  ],
+  "cons": [
+    "Needs a paid Claude plan or API credits.",
+    "Heavy use can reach plan limits.",
+    "Changes still need review before merging."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "agents"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 92,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

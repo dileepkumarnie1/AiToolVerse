@@ -1,0 +1,27 @@
+{
+  "slug": "paperpal",
+  "name": "Paperpal",
+  "url": "https://paperpal.com/",
+  "tagline": "An AI academic writing and research assistant for researchers and students.",
+  "about": "Paperpal checks language in academic writing, helps find and cite references, and prepares manuscripts for submission.",
+  "pros": [
+    "Language checks tuned for academic writing.",
+    "Finds and cites references as you write.",
+    "Works in common writing tools."
+  ],
+  "cons": [
+    "The free plan limits daily suggestions.",
+    "Suggestions still need a subject expert to review them."
+  ],
+  "capabilities": [
+    "writing",
+    "research-search",
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 72,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "hugging-face",
+  "name": "Hugging Face",
+  "url": "https://huggingface.co/",
+  "tagline": "The open platform for AI models, datasets and demo apps, used to find, run and share machine-learning work.",
+  "about": "Hugging Face hosts open models and datasets, and Spaces where you can try demo apps in the browser. Developers also use it to deploy models.",
+  "pros": [
+    "A very large collection of open models and datasets.",
+    "Spaces let you try demo apps in the browser.",
+    "Free to browse, download and host public work."
+  ],
+  "cons": [
+    "Aimed at developers and researchers.",
+    "Hosted compute and private features are paid."
+  ],
+  "capabilities": [
+    "developer-api"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 90,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "freepik",
+  "name": "Freepik",
+  "url": "https://www.freepik.com/",
+  "tagline": "A creative suite with AI image, video and audio generation alongside a large stock library.",
+  "about": "Freepik combines a stock library of photos, vectors and templates with AI tools for generating and editing images, video and audio.",
+  "pros": [
+    "Several leading image and video models in one subscription.",
+    "Large library of stock photos, vectors and templates.",
+    "Editing tools such as upscaling and background removal."
+  ],
+  "cons": [
+    "The free plan is limited and stock assets need attribution.",
+    "Credit cost varies by model."
+  ],
+  "capabilities": [
+    "image-generation",
+    "video-generation",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 85,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

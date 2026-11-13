@@ -1,0 +1,27 @@
+{
+  "slug": "google-antigravity",
+  "name": "Google Antigravity",
+  "url": "https://antigravity.google/",
+  "tagline": "Google's agent-first development platform, where AI agents plan, write and check code across the editor, terminal and browser.",
+  "about": "Antigravity is a development environment built around agents. You hand over a task, and agents plan it, make the changes and verify the result, while you review their work.",
+  "pros": [
+    "Free plan for individuals.",
+    "Agents work across the editor, terminal and browser.",
+    "Several agents can work on tasks at the same time."
+  ],
+  "cons": [
+    "Agent work needs review before you rely on it.",
+    "Team plans are paid per seat."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "agents",
+    "app-builder"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 85,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

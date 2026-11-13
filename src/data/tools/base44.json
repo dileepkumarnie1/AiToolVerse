@@ -1,0 +1,25 @@
+{
+  "slug": "base44",
+  "name": "Base44",
+  "url": "https://base44.com/",
+  "tagline": "A no-code AI app builder that turns a description into a working app, with database, logins and hosting included.",
+  "about": "Base44 builds complete apps from a conversation. The database, user accounts and hosting are set up for you, so there is nothing to connect yourself.",
+  "pros": [
+    "Database, user accounts and hosting are built in.",
+    "No coding needed to get a working app.",
+    "Free plan to start."
+  ],
+  "cons": [
+    "Less control than writing the code yourself.",
+    "Message credits limit how much you can build on lower plans."
+  ],
+  "capabilities": [
+    "app-builder"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 82,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

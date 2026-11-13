@@ -1,0 +1,27 @@
+{
+  "slug": "clickup",
+  "name": "ClickUp",
+  "url": "https://clickup.com/",
+  "tagline": "A work-management app with built-in AI for writing, summarising, answering questions and automating tasks.",
+  "about": "ClickUp combines tasks, documents, chat and goals. Its AI answers questions from your workspace content, writes and summarises, and automates routine steps.",
+  "pros": [
+    "Tasks, documents, chat and goals in one app.",
+    "AI answers questions using your workspace content.",
+    "Free plan available."
+  ],
+  "cons": [
+    "The number of features can feel overwhelming.",
+    "AI is a paid add-on on most plans."
+  ],
+  "capabilities": [
+    "notes-knowledge",
+    "automation",
+    "meeting-notes"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 80,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

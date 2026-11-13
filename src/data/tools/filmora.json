@@ -1,0 +1,25 @@
+{
+  "slug": "filmora",
+  "name": "Filmora",
+  "url": "https://filmora.wondershare.com/",
+  "tagline": "AI-powered video editing software for desktop and mobile, aimed at beginners and creators.",
+  "about": "Wondershare Filmora is a timeline video editor with effects, templates and AI tools for captions, cut-outs and audio clean-up.",
+  "pros": [
+    "Easy timeline editor with many effects and templates.",
+    "AI tools for captions, cut-outs and audio clean-up.",
+    "Desktop and mobile apps."
+  ],
+  "cons": [
+    "The free version exports with a watermark.",
+    "Some AI features use paid credits."
+  ],
+  "capabilities": [
+    "video-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 78,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

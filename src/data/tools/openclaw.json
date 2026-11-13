@@ -1,0 +1,27 @@
+{
+  "slug": "openclaw",
+  "name": "OpenClaw",
+  "url": "https://openclaw.ai/",
+  "tagline": "An open-source personal AI assistant that runs on your own machine and takes instructions from WhatsApp, Telegram or other chat apps.",
+  "about": "OpenClaw is an open-source personal agent. It runs on your computer or server, connects to your inbox, calendar and other accounts, and you talk to it through the chat apps you already use.",
+  "pros": [
+    "Open source and free to run.",
+    "Runs on your own machine instead of a hosted service.",
+    "Works from chat apps such as WhatsApp and Telegram."
+  ],
+  "cons": [
+    "You install and maintain it yourself.",
+    "An agent with access to your email and calendar needs careful permission settings."
+  ],
+  "capabilities": [
+    "agents",
+    "automation",
+    "chat-assistant"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 85,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

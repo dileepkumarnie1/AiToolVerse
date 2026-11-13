@@ -1,0 +1,26 @@
+{
+  "slug": "v0",
+  "name": "v0",
+  "url": "https://v0.app/",
+  "tagline": "Vercel's AI builder: describe an app or interface and get working full-stack code you can deploy.",
+  "about": "v0 turns a description into a working web app. It writes the code, shows a live preview and lets you refine it by chatting, then deploys to Vercel.",
+  "pros": [
+    "Generates real code you can export and edit.",
+    "One-click deployment to Vercel.",
+    "Free plan with monthly credits."
+  ],
+  "cons": [
+    "Works best within the Vercel and Next.js stack.",
+    "Credits run out quickly on larger projects."
+  ],
+  "capabilities": [
+    "app-builder",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 90,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

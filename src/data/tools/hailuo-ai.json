@@ -1,0 +1,25 @@
+{
+  "slug": "hailuo-ai",
+  "name": "Hailuo AI",
+  "url": "https://hailuoai.video/",
+  "tagline": "Create short AI videos and images from text or photos.",
+  "about": "Hailuo AI is a video generator from MiniMax. It turns a text prompt or a single photo into a short clip.",
+  "pros": [
+    "Strong motion and prompt-following for short clips.",
+    "Turns a single photo into video."
+  ],
+  "cons": [
+    "Clips are short.",
+    "Free credits are limited."
+  ],
+  "capabilities": [
+    "video-generation",
+    "image-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 78,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

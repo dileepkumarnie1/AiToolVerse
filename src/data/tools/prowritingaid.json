@@ -1,0 +1,25 @@
+{
+  "slug": "prowritingaid",
+  "name": "ProWritingAid",
+  "url": "https://prowritingaid.com/",
+  "tagline": "A writing editor for authors, with grammar and style checks and in-depth manuscript reports.",
+  "about": "ProWritingAid checks grammar and style and produces detailed reports on a manuscript. It is aimed at fiction and long-form writers.",
+  "pros": [
+    "Detailed reports on style, pacing and repetition.",
+    "Tools aimed at fiction authors.",
+    "Works inside common writing apps."
+  ],
+  "cons": [
+    "The free version checks only a short passage at a time.",
+    "The number of reports can be overwhelming."
+  ],
+  "capabilities": [
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 75,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

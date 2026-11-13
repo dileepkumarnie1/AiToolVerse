@@ -1,0 +1,25 @@
+{
+  "slug": "hemingway-editor",
+  "name": "Hemingway Editor",
+  "url": "https://hemingwayapp.com/",
+  "tagline": "Highlights long sentences, passive voice and weak phrases to make your writing bold and clear.",
+  "about": "Hemingway Editor marks hard-to-read sentences in colour and gives a readability grade. A paid version adds AI rewriting.",
+  "pros": [
+    "Colour-coded highlights make problems easy to see.",
+    "Free online editor.",
+    "A readability grade shows how hard the text is."
+  ],
+  "cons": [
+    "Rules are rigid; not every flagged sentence needs changing.",
+    "AI rewriting needs the paid plan."
+  ],
+  "capabilities": [
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 75,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

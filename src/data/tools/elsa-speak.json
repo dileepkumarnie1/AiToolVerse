@@ -1,0 +1,25 @@
+{
+  "slug": "elsa-speak",
+  "name": "ELSA Speak",
+  "url": "https://elsaspeak.com/",
+  "tagline": "An AI English-speaking coach that scores your pronunciation and gives feedback.",
+  "about": "ELSA Speak listens to you speak English and shows which sounds to improve, with short daily lessons.",
+  "pros": [
+    "Scores pronunciation sound by sound.",
+    "Short daily lessons.",
+    "Free lessons available."
+  ],
+  "cons": [
+    "English only.",
+    "Most content needs a paid plan."
+  ],
+  "capabilities": [
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 75,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

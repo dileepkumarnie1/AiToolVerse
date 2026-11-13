@@ -1,0 +1,26 @@
+{
+  "slug": "higgsfield",
+  "name": "Higgsfield",
+  "url": "https://higgsfield.ai/",
+  "tagline": "An AI studio for images, video and voice, known for its cinematic camera-movement and effects presets.",
+  "about": "Higgsfield creates images, video and voice content from prompts or reference images. Ready-made camera moves and effects give clips a filmed look.",
+  "pros": [
+    "Ready-made camera moves and visual effects.",
+    "Several leading video and image models in one place.",
+    "Web and mobile apps."
+  ],
+  "cons": [
+    "Premium models use credits quickly."
+  ],
+  "capabilities": [
+    "video-generation",
+    "image-generation",
+    "social-media"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 78,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

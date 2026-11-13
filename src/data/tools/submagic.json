@@ -1,0 +1,27 @@
+{
+  "slug": "submagic",
+  "name": "Submagic",
+  "url": "https://www.submagic.co/",
+  "tagline": "Adds animated captions, b-roll and smart edits to short-form videos automatically.",
+  "about": "Submagic is an editor for short-form video. It transcribes your clip, adds styled captions and b-roll, and can cut long videos into short ones.",
+  "pros": [
+    "Automatic captions in many languages.",
+    "Adds b-roll, zooms and sound effects for you.",
+    "Cuts long videos into short clips."
+  ],
+  "cons": [
+    "Built for short-form video only.",
+    "Plans cap the number of videos per month."
+  ],
+  "capabilities": [
+    "video-editing",
+    "social-media",
+    "transcription"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 72,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

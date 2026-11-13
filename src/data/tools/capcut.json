@@ -1,0 +1,27 @@
+{
+  "slug": "capcut",
+  "name": "CapCut",
+  "url": "https://www.capcut.com/",
+  "tagline": "A video editor for phone, desktop and web with AI captions, background removal, effects and templates.",
+  "about": "CapCut is a video editor from ByteDance built for social video. AI handles captions, cut-outs and effects, and there is a large library of templates and sounds.",
+  "pros": [
+    "Auto-captions and one-tap effects speed up short-form editing.",
+    "Huge library of templates, sounds and effects.",
+    "The free version is capable."
+  ],
+  "cons": [
+    "Many newer AI features need CapCut Pro.",
+    "Availability varies by country."
+  ],
+  "capabilities": [
+    "video-editing",
+    "social-media",
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 92,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

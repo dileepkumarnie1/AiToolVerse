@@ -1,0 +1,27 @@
+{
+  "slug": "napkin-ai",
+  "name": "Napkin AI",
+  "url": "https://www.napkin.ai/",
+  "tagline": "Turns text into diagrams, charts and visuals that you can edit and export.",
+  "about": "Napkin AI reads a passage of text and suggests visuals that explain it. You pick one, edit it and export it for slides or documents.",
+  "pros": [
+    "Turns pasted text into several visual options in seconds.",
+    "Visuals are editable and export in common formats.",
+    "Free plan available."
+  ],
+  "cons": [
+    "Best for simple concept visuals, not detailed technical diagrams.",
+    "The free plan has a credit limit."
+  ],
+  "capabilities": [
+    "diagrams",
+    "presentations",
+    "graphic-design"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 75,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

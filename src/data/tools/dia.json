@@ -1,0 +1,27 @@
+{
+  "slug": "dia",
+  "name": "Dia",
+  "url": "https://www.diabrowser.com/",
+  "tagline": "An AI browser that answers questions and helps you write using the tabs you have open.",
+  "about": "Dia is a browser from The Browser Company with an assistant built in. You can chat with the pages you have open and get writing help in any text field.",
+  "pros": [
+    "Chat with the pages and tabs you have open.",
+    "Writing help in any text field.",
+    "Free to download."
+  ],
+  "cons": [
+    "Heavier AI use needs a paid plan.",
+    "AI features send page content to cloud models."
+  ],
+  "capabilities": [
+    "browser",
+    "chat-assistant",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 78,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

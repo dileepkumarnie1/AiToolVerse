@@ -1,0 +1,27 @@
+{
+  "slug": "chatpdf",
+  "name": "ChatPDF",
+  "url": "https://www.chatpdf.com/",
+  "tagline": "Upload a PDF and ask questions about it, with answers that point back to the source page.",
+  "about": "ChatPDF lets you question a document instead of reading all of it. It is widely used by students for papers and textbooks.",
+  "pros": [
+    "Quick to try.",
+    "Answers point back to the page they came from.",
+    "Handles long documents."
+  ],
+  "cons": [
+    "The free plan limits PDFs and questions per day.",
+    "Can miss details in tables and scanned pages."
+  ],
+  "capabilities": [
+    "summarization",
+    "research-search",
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 78,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

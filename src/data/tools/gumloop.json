@@ -1,0 +1,26 @@
+{
+  "slug": "gumloop",
+  "name": "Gumloop",
+  "url": "https://www.gumloop.com/",
+  "tagline": "A no-code builder for AI agents and automations that connect your apps and AI models.",
+  "about": "Gumloop lets teams build AI agents and workflows by connecting blocks. It works with the major AI models and many business apps.",
+  "pros": [
+    "Drag-and-drop builder; no code needed.",
+    "Connects to many apps and the major AI models.",
+    "Teams can share and reuse what they build."
+  ],
+  "cons": [
+    "No free plan; paid plans start after a 14-day trial.",
+    "Credit-based usage needs monitoring."
+  ],
+  "capabilities": [
+    "automation",
+    "agents"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 75,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

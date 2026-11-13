@@ -1,0 +1,27 @@
+{
+  "slug": "retell-ai",
+  "name": "Retell AI",
+  "url": "https://www.retellai.com/",
+  "tagline": "AI voice agents for contact centres that answer, qualify and book on real phone calls.",
+  "about": "Retell AI is a platform for building and running phone agents. It connects to telephony and business systems and is priced by usage.",
+  "pros": [
+    "Built for phone calls: answering, qualifying and booking.",
+    "Pay as you go, with free starting credits.",
+    "Connects to telephony and business systems."
+  ],
+  "cons": [
+    "Per-minute pricing; cost grows with call volume.",
+    "Call flows need careful testing before going live."
+  ],
+  "capabilities": [
+    "customer-support",
+    "voice-tts",
+    "developer-api"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 75,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

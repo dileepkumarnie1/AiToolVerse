@@ -1,0 +1,27 @@
+{
+  "slug": "kimi",
+  "name": "Kimi",
+  "url": "https://www.kimi.com/",
+  "tagline": "An AI assistant from Moonshot AI for long documents, research, coding and multi-step agent tasks.",
+  "about": "Kimi is a chat assistant made by Moonshot AI. It is known for reading very long documents in one go, and its agent mode can carry out research and coding tasks over several steps.",
+  "pros": [
+    "Reads very long documents and files in one conversation.",
+    "Agent mode handles multi-step research and coding tasks.",
+    "Free to use for everyday chat."
+  ],
+  "cons": [
+    "Interface and support are strongest in Chinese.",
+    "Fewer app integrations than the largest assistants."
+  ],
+  "capabilities": [
+    "chat-assistant",
+    "research-search",
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 80,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

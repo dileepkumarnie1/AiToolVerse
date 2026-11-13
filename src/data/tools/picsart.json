@@ -1,0 +1,27 @@
+{
+  "slug": "picsart",
+  "name": "Picsart",
+  "url": "https://picsart.com/",
+  "tagline": "An all-in-one photo and design editor with AI tools for generating images, retouching and removing backgrounds.",
+  "about": "Picsart is a creative platform for phone and browser. It has templates for social posts and many one-tap AI tools.",
+  "pros": [
+    "Works on a phone and in the browser.",
+    "One-tap AI tools such as background and object removal.",
+    "Large template library for social posts."
+  ],
+  "cons": [
+    "The free version has ads and watermarks on some exports.",
+    "Many tools need a paid plan."
+  ],
+  "capabilities": [
+    "photo-editing",
+    "graphic-design",
+    "image-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 82,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

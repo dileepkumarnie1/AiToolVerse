@@ -1,0 +1,26 @@
+{
+  "slug": "pixverse",
+  "name": "PixVerse",
+  "url": "https://pixverse.ai/",
+  "tagline": "An AI video generator that turns text and photos into short clips, with one-tap effects for social video.",
+  "about": "PixVerse generates short videos from text or images. It is popular for effect templates that turn a photo into a shareable clip.",
+  "pros": [
+    "One-tap effect templates for social video.",
+    "Fast generation.",
+    "Web and mobile apps."
+  ],
+  "cons": [
+    "Free credits are limited.",
+    "Clips are short."
+  ],
+  "capabilities": [
+    "video-generation",
+    "social-media"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 78,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

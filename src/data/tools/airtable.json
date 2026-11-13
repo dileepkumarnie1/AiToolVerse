@@ -1,0 +1,27 @@
+{
+  "slug": "airtable",
+  "name": "Airtable",
+  "url": "https://www.airtable.com/",
+  "tagline": "A database-and-apps platform where AI helps you build apps and automate work on your data.",
+  "about": "Airtable is a spreadsheet-like database for teams. AI can build an app or automation from a description and work on the records you store.",
+  "pros": [
+    "A database that non-developers can shape.",
+    "AI can build an app or automation from a description.",
+    "Free plan available."
+  ],
+  "cons": [
+    "Record and automation limits on lower plans.",
+    "Per-seat pricing gets expensive for larger teams."
+  ],
+  "capabilities": [
+    "app-builder",
+    "automation",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 80,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

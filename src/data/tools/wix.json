@@ -1,0 +1,27 @@
+{
+  "slug": "wix",
+  "name": "Wix",
+  "url": "https://www.wix.com/",
+  "tagline": "A website builder with an AI that creates a complete site from a short conversation.",
+  "about": "Wix is a website platform for small businesses. Its AI builder asks a few questions and produces a full site with text and images, which you then edit.",
+  "pros": [
+    "AI builds a full site from a few answers.",
+    "Hosting, bookings and online store tools are included.",
+    "Free plan available."
+  ],
+  "cons": [
+    "Free sites show Wix ads and use a Wix address.",
+    "Hard to move a site to another platform later."
+  ],
+  "capabilities": [
+    "app-builder",
+    "ecommerce",
+    "marketing-seo"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 80,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

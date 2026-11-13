@@ -1,0 +1,26 @@
+{
+  "slug": "novelai",
+  "name": "NovelAI",
+  "url": "https://novelai.net/",
+  "tagline": "AI-assisted story writing and anime-style image generation.",
+  "about": "NovelAI is a subscription service for fiction writers and artists. Its story tools keep track of characters and setting, and its image generator specialises in anime art.",
+  "pros": [
+    "Story tools that keep track of characters and setting.",
+    "Anime-style image generation.",
+    "Free to try."
+  ],
+  "cons": [
+    "Ongoing use needs a subscription.",
+    "Focused on fiction and anime art, not general tasks."
+  ],
+  "capabilities": [
+    "writing",
+    "image-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 72,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

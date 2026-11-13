@@ -1,0 +1,26 @@
+{
+  "slug": "wispr-flow",
+  "name": "Wispr Flow",
+  "url": "https://wisprflow.ai/",
+  "tagline": "Voice dictation that works in any app and tidies what you say into clear writing.",
+  "about": "Wispr Flow turns speech into polished text wherever you can type. It removes filler words and fixes punctuation as you speak.",
+  "pros": [
+    "Works in any text box on Mac, Windows, iPhone and Android.",
+    "Removes filler words and fixes punctuation.",
+    "Free plan available."
+  ],
+  "cons": [
+    "Audio is processed in the cloud.",
+    "The free plan limits how much you can dictate."
+  ],
+  "capabilities": [
+    "transcription",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 80,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

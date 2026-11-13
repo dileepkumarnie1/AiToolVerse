@@ -1,0 +1,26 @@
+{
+  "slug": "cline",
+  "name": "Cline",
+  "url": "https://cline.bot/",
+  "tagline": "An open-source coding agent for your editor and terminal that plans a change, then carries it out with your approval.",
+  "about": "Cline is an open-source AI coding agent. In Plan mode it works out an approach; in Act mode it edits files and runs commands, asking before each step.",
+  "pros": [
+    "Open source and free; you pay only your model provider.",
+    "Works with many model providers, including local models.",
+    "Asks for approval before editing files or running commands."
+  ],
+  "cons": [
+    "Cost depends on the model and how much code it reads.",
+    "Needs your own API key or provider account."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "agents"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 85,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

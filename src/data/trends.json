@@ -4,7 +4,7 @@
   "updatedAt": "2026-11-13",
   "tools": {
     "claude": {
-      "points": 16566,
+      "points": 16581,
       "stories": 118,
       "top": {
         "id": "50385272",
@@ -12,8 +12,26 @@
         "points": 1615
       }
     },
+    "claude-code": {
+      "points": 7408,
+      "stories": 41,
+      "top": {
+        "id": "50385272",
+        "title": "Claude Code sends your email address to websites",
+        "points": 1615
+      }
+    },
+    "deepseek-chat": {
+      "points": 6015,
+      "stories": 25,
+      "top": {
+        "id": "50163277",
+        "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+        "points": 2355
+      }
+    },
     "gemini": {
-      "points": 5509,
+      "points": 5511,
       "stories": 24,
       "top": {
         "id": "50276792",
@@ -39,9 +57,18 @@
         "points": 1732
       }
     },
+    "kimi": {
+      "points": 1978,
+      "stories": 9,
+      "top": {
+        "id": "50212065",
+        "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+        "points": 1096
+      }
+    },
     "chatgpt": {
-      "points": 1895,
-      "stories": 16,
+      "points": 1904,
+      "stories": 17,
       "top": {
         "id": "50314699",
         "title": "Do the math: How we took over ChatGPT accounts",
@@ -58,8 +85,8 @@
       }
     },
     "meta-ai": {
-      "points": 1365,
-      "stories": 9,
+      "points": 1362,
+      "stories": 8,
       "top": {
         "id": "50107379",
         "title": "Muse Spark Open",
@@ -67,12 +94,21 @@
       }
     },
     "wiz": {
-      "points": 1076,
+      "points": 1077,
       "stories": 8,
       "top": {
         "id": "50180836",
         "title": "PHP2Shell: AI uncovers critical RCE in PHP",
         "points": 455
+      }
+    },
+    "openai-codex": {
+      "points": 1056,
+      "stories": 13,
+      "top": {
+        "id": "50352757",
+        "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
+        "points": 535
       }
     },
     "kagi": {
@@ -100,6 +136,24 @@
         "id": "50129121",
         "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
         "points": 520
+      }
+    },
+    "google-antigravity": {
+      "points": 503,
+      "stories": 4,
+      "top": {
+        "id": "50472260",
+        "title": "Gemini 4 Hydrogen and Orchestrator",
+        "points": 491
+      }
+    },
+    "cerebras": {
+      "points": 379,
+      "stories": 5,
+      "top": {
+        "id": "50227356",
+        "title": "Cerebras Deploys Trillion-Parameter AI Models",
+        "points": 368
       }
     },
     "krea-ai": {
@@ -157,12 +211,30 @@
       }
     },
     "perplexity-ai": {
-      "points": 111,
+      "points": 149,
       "stories": 19,
       "top": {
         "id": "50395866",
         "title": "Perplexity launches AI agents for work",
         "points": 64
+      }
+    },
+    "perplexity": {
+      "points": 134,
+      "stories": 17,
+      "top": {
+        "id": "50395866",
+        "title": "Perplexity launches AI agents for work",
+        "points": 64
+      }
+    },
+    "hugging-face": {
+      "points": 124,
+      "stories": 5,
+      "top": {
+        "id": "50326727",
+        "title": "Anthropic's Mythos-class model allegedly leaked on Hugging Face",
+        "points": 46
       }
     },
     "grok": {
@@ -181,15 +253,6 @@
         "id": "50396834",
         "title": "Replit rebuilt its sandbox engine with microVMs",
         "points": 99
-      }
-    },
-    "perplexity": {
-      "points": 96,
-      "stories": 17,
-      "top": {
-        "id": "50395866",
-        "title": "Perplexity launches AI agents for work",
-        "points": 64
       }
     },
     "cartesia": {
@@ -309,6 +372,15 @@
         "points": 13
       }
     },
+    "v0": {
+      "points": 15,
+      "stories": 1,
+      "top": {
+        "id": "50174317",
+        "title": "LabRobotBench v0.1: Benchmarking wet lab robotics",
+        "points": 15
+      }
+    },
     "baseten": {
       "points": 14,
       "stories": 3,
@@ -354,12 +426,30 @@
         "points": 7
       }
     },
+    "openclaw": {
+      "points": 10,
+      "stories": 2,
+      "top": {
+        "id": "50201606",
+        "title": "OpenClaw creator says he spent $10M in tokens last month",
+        "points": 9
+      }
+    },
     "together-ai": {
       "points": 9,
       "stories": 5,
       "top": {
         "id": "50423701",
         "title": "Together Compiler: Continual Compilation for AI Inference",
+        "points": 3
+      }
+    },
+    "amp": {
+      "points": 8,
+      "stories": 5,
+      "top": {
+        "id": "50395786",
+        "title": "Culture Stops Slop",
         "points": 3
       }
     },
@@ -462,6 +552,15 @@
         "points": 3
       }
     },
+    "kiro": {
+      "points": 4,
+      "stories": 2,
+      "top": {
+        "id": "50365702",
+        "title": "Amazon Kiro proves properties of its own harness in Lean",
+        "points": 3
+      }
+    },
     "n8n": {
       "points": 4,
       "stories": 2,
@@ -477,6 +576,15 @@
       "top": {
         "id": "50424525",
         "title": "How SkyPilot on Slurm and Kubernetes put 1k idle GPU hours a week to work",
+        "points": 4
+      }
+    },
+    "sierra": {
+      "points": 4,
+      "stories": 1,
+      "top": {
+        "id": "50190034",
+        "title": "Personal Agent Protocol",
         "points": 4
       }
     },
@@ -552,12 +660,12 @@
         "points": 2
       }
     },
-    "deepseek-chat": {
+    "dia": {
       "points": 2,
       "stories": 1,
       "top": {
-        "id": "50345760",
-        "title": "DeepSeek also can easily read and write ML Weights",
+        "id": "50199891",
+        "title": "Dia Browser, by the Creators of Arc",
         "points": 2
       }
     },
@@ -711,6 +819,15 @@
       "top": {
         "id": "50354547",
         "title": "List of most viewed papers on ArXiv",
+        "points": 1
+      }
+    },
+    "superwhisper": {
+      "points": 1,
+      "stories": 1,
+      "top": {
+        "id": "50155998",
+        "title": "A meeting tool where your data isn't the product",
         "points": 1
       }
     },

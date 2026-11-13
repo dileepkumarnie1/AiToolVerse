@@ -1,0 +1,26 @@
+{
+  "slug": "amp",
+  "name": "Amp",
+  "url": "https://ampcode.com/",
+  "tagline": "A coding agent that works from your terminal and editor, or unattended in cloud sandboxes.",
+  "about": "Amp is a coding agent and development environment. Tasks can run on your own machine through its command-line tool or in hosted sandboxes without supervision.",
+  "pros": [
+    "Free Hobby plan.",
+    "Runs tasks unattended in cloud sandboxes or on your own machine.",
+    "Work can be shared with your team."
+  ],
+  "cons": [
+    "Hosted usage is pay-as-you-go.",
+    "Aimed at experienced developers."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 75,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

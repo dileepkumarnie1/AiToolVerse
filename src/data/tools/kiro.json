@@ -1,0 +1,26 @@
+{
+  "slug": "kiro",
+  "name": "Kiro",
+  "url": "https://kiro.dev/",
+  "tagline": "An agentic development environment that turns your intent into a plan, then builds, reviews and verifies the work.",
+  "about": "Kiro is an AI development tool from AWS. It writes requirements and a task plan before coding, then agents carry out and check the work in the IDE, the command line or the cloud.",
+  "pros": [
+    "Writes requirements and a task plan before it writes code.",
+    "Free plan with monthly credits.",
+    "Available as an IDE and a command-line tool."
+  ],
+  "cons": [
+    "Credit-based; larger jobs need a paid plan.",
+    "The planning step adds overhead for small changes."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 78,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

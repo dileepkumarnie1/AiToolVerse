@@ -1,0 +1,25 @@
+{
+  "slug": "zed",
+  "name": "Zed",
+  "url": "https://zed.dev/",
+  "tagline": "A fast, open-source code editor with built-in AI editing and agents, from the creators of Atom.",
+  "about": "Zed is a high-performance code editor with real-time collaboration. AI is built in: inline edits, an agent panel, and support for your own model keys.",
+  "pros": [
+    "Very fast and lightweight.",
+    "Real-time collaboration is built in.",
+    "Open source; works with your own model keys."
+  ],
+  "cons": [
+    "Smaller extension library than VS Code.",
+    "Hosted AI beyond the free allowance is paid."
+  ],
+  "capabilities": [
+    "code-assistant"
+  ],
+  "pricing": "freemium",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 82,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

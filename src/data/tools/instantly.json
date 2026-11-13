@@ -1,0 +1,27 @@
+{
+  "slug": "instantly",
+  "name": "Instantly",
+  "url": "https://instantly.ai/",
+  "tagline": "Cold-email outreach software with a lead database, deliverability tools and AI-written sequences.",
+  "about": "Instantly sends and manages outbound email campaigns. It includes inbox warm-up, a B2B lead database and one inbox for replies.",
+  "pros": [
+    "Automatic inbox warm-up to protect deliverability.",
+    "Built-in B2B lead database.",
+    "One inbox for all replies."
+  ],
+  "cons": [
+    "No free plan after the trial.",
+    "Cold email must be run carefully to stay within anti-spam laws."
+  ],
+  "capabilities": [
+    "sales-crm",
+    "email",
+    "marketing-seo"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 75,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

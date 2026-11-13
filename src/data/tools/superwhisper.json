@@ -1,0 +1,26 @@
+{
+  "slug": "superwhisper",
+  "name": "Superwhisper",
+  "url": "https://superwhisper.com/",
+  "tagline": "AI voice-to-text for dictating in any app, with the option to run fully offline.",
+  "about": "Superwhisper is a dictation app for desktop and mobile. Custom modes reformat what you say for emails, notes or messages, and it can use on-device models.",
+  "pros": [
+    "Can run offline on your device.",
+    "Custom modes reformat speech for different kinds of writing.",
+    "Free plan available."
+  ],
+  "cons": [
+    "On-device models need a reasonably powerful device.",
+    "Advanced features need Pro."
+  ],
+  "capabilities": [
+    "transcription",
+    "writing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 75,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

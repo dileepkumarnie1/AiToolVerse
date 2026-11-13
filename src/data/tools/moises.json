@@ -1,0 +1,25 @@
+{
+  "slug": "moises",
+  "name": "Moises",
+  "url": "https://moises.ai/",
+  "tagline": "A practice app for musicians that separates vocals and instruments from any song.",
+  "about": "Moises uses AI to split a track into vocals, drums, bass and other parts, so you can practise along, change the key or tempo, and make backing tracks.",
+  "pros": [
+    "Separates vocals, drums, bass and other instruments.",
+    "Changes tempo and key.",
+    "Free plan available."
+  ],
+  "cons": [
+    "The free plan limits uploads per month.",
+    "Separation quality depends on the recording."
+  ],
+  "capabilities": [
+    "music-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 75,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

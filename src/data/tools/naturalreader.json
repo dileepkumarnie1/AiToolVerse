@@ -1,0 +1,26 @@
+{
+  "slug": "naturalreader",
+  "name": "NaturalReader",
+  "url": "https://www.naturalreaders.com/",
+  "tagline": "Text-to-speech that reads documents, web pages and ebooks aloud in natural voices.",
+  "about": "NaturalReader converts written text into speech. It is used for listening to documents and for study, with separate plans for commercial voiceover.",
+  "pros": [
+    "Reads PDFs, documents, web pages and scanned text.",
+    "Web app, mobile apps and a browser extension.",
+    "Free plan available."
+  ],
+  "cons": [
+    "The most natural voices are limited on the free plan.",
+    "Commercial voiceover needs a separate licence."
+  ],
+  "capabilities": [
+    "voice-tts",
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 75,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

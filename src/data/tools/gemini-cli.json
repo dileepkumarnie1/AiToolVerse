@@ -1,0 +1,26 @@
+{
+  "slug": "gemini-cli",
+  "name": "Gemini CLI",
+  "url": "https://geminicli.com/",
+  "tagline": "Google's open-source AI agent for the terminal: build, debug and deploy with Gemini from the command line.",
+  "about": "Gemini CLI brings Gemini into the terminal. It can read and edit files, run shell commands and search the web while working on a coding task.",
+  "pros": [
+    "Open source.",
+    "Free usage tier with a personal Google account.",
+    "Can read files, run commands and search the web."
+  ],
+  "cons": [
+    "Terminal only; there is no visual editor.",
+    "The free tier has daily request limits."
+  ],
+  "capabilities": [
+    "code-assistant",
+    "agents"
+  ],
+  "pricing": "free",
+  "openSource": true,
+  "skillLevel": "advanced",
+  "popularity": 82,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

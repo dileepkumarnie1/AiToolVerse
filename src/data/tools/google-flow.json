@@ -1,0 +1,24 @@
+{
+  "slug": "google-flow",
+  "name": "Google Flow",
+  "url": "https://flow.google.com/",
+  "tagline": "Google's AI filmmaking tool: generate cinematic clips and images, then combine them into scenes.",
+  "about": "Flow is built on Google's generative video and image models. You create clips from prompts or images and assemble them into longer scenes with consistent characters and style.",
+  "pros": [
+    "Built on Google's video models, with sound.",
+    "Keeps characters and style consistent across clips."
+  ],
+  "cons": [
+    "Uses credits from a Google AI plan.",
+    "Availability varies by country."
+  ],
+  "capabilities": [
+    "video-generation"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 82,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

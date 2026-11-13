@@ -1,0 +1,26 @@
+{
+  "slug": "google-stitch",
+  "name": "Google Stitch",
+  "url": "https://stitch.google.com/",
+  "tagline": "Generates user interfaces for mobile and web apps from a prompt or a sketch.",
+  "about": "Stitch is a Google tool for interface design. Describe a screen or upload a sketch and it produces a design you can refine and export.",
+  "pros": [
+    "Generates screens from a prompt or an uploaded sketch.",
+    "Exports designs and front-end code.",
+    "Free to use."
+  ],
+  "cons": [
+    "An experimental product, so features can change.",
+    "Output is a starting point, not a finished design system."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "app-builder"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 78,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

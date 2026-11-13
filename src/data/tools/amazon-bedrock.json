@@ -1,0 +1,26 @@
+{
+  "slug": "amazon-bedrock",
+  "name": "Amazon Bedrock",
+  "url": "https://aws.amazon.com/bedrock/",
+  "tagline": "AWS's managed service for building generative AI applications and agents with models from several providers.",
+  "about": "Amazon Bedrock gives access to models from Amazon and other providers through one API inside your AWS account, with tools for agents, knowledge bases and safety controls.",
+  "pros": [
+    "One API for models from several providers.",
+    "Runs inside your AWS account with its security controls.",
+    "Tools for agents, knowledge bases and guardrails."
+  ],
+  "cons": [
+    "Pricing varies by model and is hard to estimate.",
+    "Assumes familiarity with AWS."
+  ],
+  "capabilities": [
+    "developer-api",
+    "agents"
+  ],
+  "pricing": "paid",
+  "openSource": false,
+  "skillLevel": "advanced",
+  "popularity": 85,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

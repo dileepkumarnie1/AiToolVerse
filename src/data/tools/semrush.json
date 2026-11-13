@@ -1,0 +1,26 @@
+{
+  "slug": "semrush",
+  "name": "Semrush",
+  "url": "https://www.semrush.com/",
+  "tagline": "A marketing platform for SEO, content and advertising that also tracks your brand's visibility in AI search.",
+  "about": "Semrush covers keyword research, competitor analysis, site audits and content tools, and reports how a brand appears in AI-generated answers.",
+  "pros": [
+    "Keyword, competitor and backlink research in one place.",
+    "Tracks how your brand appears in AI search answers.",
+    "Free account with limited use."
+  ],
+  "cons": [
+    "Paid plans are expensive for small sites.",
+    "The large toolset takes time to learn."
+  ],
+  "capabilities": [
+    "marketing-seo",
+    "data-analysis"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 82,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

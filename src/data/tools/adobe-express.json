@@ -1,0 +1,28 @@
+{
+  "slug": "adobe-express",
+  "name": "Adobe Express",
+  "url": "https://www.adobe.com/express/",
+  "tagline": "Adobe's all-in-one design, photo and video app for quick content, with Firefly generative AI built in.",
+  "about": "Adobe Express is a simple design tool for social posts, flyers and short videos. It includes templates and Firefly AI for generating images and text effects.",
+  "pros": [
+    "Templates for social posts, flyers and videos.",
+    "Firefly generative AI is built in.",
+    "Free plan available."
+  ],
+  "cons": [
+    "Generative features use monthly credits.",
+    "Less powerful than Photoshop or Illustrator for detailed work."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "social-media",
+    "image-generation",
+    "video-editing"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 82,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

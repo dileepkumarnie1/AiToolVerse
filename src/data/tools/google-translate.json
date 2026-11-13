@@ -1,0 +1,25 @@
+{
+  "slug": "google-translate",
+  "name": "Google Translate",
+  "url": "https://translate.google.com/",
+  "tagline": "Free translation for text, speech, images, documents and websites in a very wide range of languages.",
+  "about": "Google Translate is the most widely used translation tool. It works in the browser and in mobile apps, including with the phone's camera and microphone.",
+  "pros": [
+    "Free.",
+    "Translates text, speech, photos, documents and websites.",
+    "Covers more languages than most alternatives."
+  ],
+  "cons": [
+    "Less natural than specialist tools for some language pairs.",
+    "Long or nuanced texts still need a human check."
+  ],
+  "capabilities": [
+    "translation"
+  ],
+  "pricing": "free",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 92,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}

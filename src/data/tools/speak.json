@@ -1,0 +1,25 @@
+{
+  "slug": "speak",
+  "name": "Speak",
+  "url": "https://www.speak.com/",
+  "tagline": "A language-learning app built around real spoken conversation practice with an AI tutor.",
+  "about": "Speak teaches languages by getting you to talk. An AI tutor holds conversations with you and gives feedback on what you said.",
+  "pros": [
+    "Practises real spoken conversation.",
+    "Instant feedback on what you said.",
+    "Free to start."
+  ],
+  "cons": [
+    "The full course needs a subscription.",
+    "Fewer languages than the largest apps."
+  ],
+  "capabilities": [
+    "education-tutor"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 78,
+  "addedAt": "2026-11-13",
+  "source": "manual"
+}
