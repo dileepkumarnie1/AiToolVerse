@@ -25,7 +25,7 @@ New tools arrive via the **Discover new tools** workflow every 2 days as a pull 
 - No API secrets in the browser. Only `PUBLIC_*` Firebase web config is shipped, and the build fails on secret-looking variable names.
 - The Firebase project must stay on the **Spark (free) plan with no billing account** and must **not** enable the Gemini / Generative Language API.
 - API key restricted to `aitoolverse.ai` referrers and to Identity Toolkit, Token Service, Cloud Firestore and Firebase App Check APIs.
-- App Check (Google Cloud Fraud Defense, formerly reCAPTCHA Enterprise) enforced for Firestore and Authentication.
+- App Check (Google Cloud Fraud Defense, formerly reCAPTCHA Enterprise) enforced for Firestore. Do not enforce it for Authentication: sign-in runs before App Check loads, so that signed-out visitors never download reCAPTCHA.
 - `firestore.rules` allows each user to access only their own document; suggestions are create-only and rate-limited.
 - Strict CSP (hashed by Astro) plus security headers in `public/_headers`.
 - GitHub Actions use keyless Workload Identity Federation; no service-account JSON keys.
