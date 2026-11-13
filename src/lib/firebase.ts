@@ -42,8 +42,8 @@ export const getFirebase = () => {
     const base = await getFirebaseAuth();
     if (!base) return null;
     if (recaptchaSiteKey) {
-      const { initializeAppCheck, ReCaptchaV3Provider } = await import('firebase/app-check');
-      initializeAppCheck(base.app, { provider: new ReCaptchaV3Provider(recaptchaSiteKey), isTokenAutoRefreshEnabled: true });
+      const { initializeAppCheck, ReCaptchaEnterpriseProvider } = await import('firebase/app-check');
+      initializeAppCheck(base.app, { provider: new ReCaptchaEnterpriseProvider(recaptchaSiteKey), isTokenAutoRefreshEnabled: true });
     }
     const { getFirestore } = await import('firebase/firestore');
     return { ...base, db: getFirestore(base.app) };
