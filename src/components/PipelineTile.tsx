@@ -3,7 +3,7 @@ import { SKILL_LABEL } from '../lib/labels';
 
 export default function PipelineTile({ pipeline }: { pipeline: Pick<PipelineIndexEntry, 'slug' | 'title' | 'outcome' | 'difficulty' | 'timeToResult' | 'stepCount'> }) {
   return (
-    <a href={`/pipelines/${pipeline.slug}/`} className="card card-hover group flex h-full flex-col p-6">
+    <a href={`/pipelines/${pipeline.slug}/`} data-tilt className="card card-hover group flex h-full flex-col p-6">
       <div className="flex items-center gap-1.5" aria-hidden="true">
         {Array.from({ length: pipeline.stepCount }).map((_, i) => (
           <span key={i} className="h-1.5 flex-1 rounded-full bg-linear-to-r from-brand-400 to-fuchsia-400 opacity-70 first:opacity-100" />

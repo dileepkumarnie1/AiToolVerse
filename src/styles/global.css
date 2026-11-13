@@ -1,5 +1,14 @@
 @import '@fontsource-variable/inter';
 @import 'tailwindcss';
+@import './motion.css';
+
+/* The look is chosen by data-theme on <html> (set before first paint in Base.astro), not only by the device setting. */
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+/* Smooth fade between pages in browsers that support it. */
+@view-transition {
+  navigation: auto;
+}
 
 @theme {
   --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
@@ -28,11 +37,14 @@
 
 @layer base {
   html {
-    color-scheme: light dark;
+    color-scheme: light;
     -webkit-font-smoothing: antialiased;
   }
+  html[data-theme='dark'] {
+    color-scheme: dark;
+  }
   body {
-    @apply bg-ink-50 text-ink-800 dark:bg-ink-950 dark:text-ink-100;
+    @apply bg-[#fbfbfd] text-ink-800 dark:bg-[#05050d] dark:text-ink-100;
   }
   ::selection {
     @apply bg-brand-200 text-ink-900;
@@ -47,11 +59,11 @@
 }
 
 @utility card {
-    @apply rounded-2xl border border-ink-200/70 bg-white shadow-[0_1px_2px_rgba(19,19,31,0.04)] dark:border-white/8 dark:bg-ink-900;
+    @apply rounded-2xl border border-ink-200/70 bg-white shadow-[0_1px_2px_rgba(19,19,31,0.04)] dark:border-white/10 dark:bg-white/[0.04] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.05)];
 }
 
 @utility card-hover {
-    @apply transition duration-200 hover:-translate-y-0.5 hover:border-brand-300 hover:shadow-[0_12px_32px_-12px_rgba(98,54,245,0.25)] dark:hover:border-brand-500/50;
+    @apply transition duration-200 hover:-translate-y-0.5 hover:border-brand-300 hover:shadow-[0_12px_32px_-12px_rgba(98,54,245,0.25)] dark:hover:border-brand-400/60 dark:hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_0_40px_-12px_rgba(115,82,255,0.6)];
 }
 
 @utility btn {
@@ -91,5 +103,13 @@
 }
 
 @utility gradient-text {
-    @apply bg-linear-to-r from-brand-600 via-fuchsia-500 to-orange-400 bg-clip-text text-transparent;
+    @apply bg-linear-to-r from-brand-600 via-fuchsia-500 to-orange-400 bg-clip-text text-transparent dark:from-violet-400 dark:via-fuchsia-400 dark:to-cyan-300;
+}
+
+@utility heading-display {
+    @apply text-[2.5rem] leading-[1.06] font-semibold tracking-[-0.035em] text-ink-950 sm:text-5xl lg:text-[4rem] dark:text-white;
+}
+
+@utility icon-btn {
+    @apply inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-ink-200 bg-white text-ink-700 transition hover:border-ink-300 hover:text-ink-950 disabled:opacity-40 dark:border-white/10 dark:bg-white/5 dark:text-ink-200 dark:hover:bg-white/10 dark:hover:text-white;
 }

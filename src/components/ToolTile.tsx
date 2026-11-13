@@ -3,16 +3,16 @@ import { PRICING_LABEL, isNew } from '../lib/labels';
 import type { ToolIndexEntry } from '../lib/types';
 
 interface Props {
-  tool: Pick<ToolIndexEntry, 'slug' | 'name' | 'tagline' | 'pricing' | 'addedAt'>;
+  tool: Pick<ToolIndexEntry, 'slug' | 'name' | 'tagline' | 'pricing' | 'addedAt' | 'logo'>;
   capabilityLabel?: string;
   reason?: string;
 }
 
 export default function ToolTile({ tool, capabilityLabel, reason }: Props) {
   return (
-    <a href={`/tools/${tool.slug}/`} className="card card-hover group flex h-full flex-col gap-3 p-5">
+    <a href={`/tools/${tool.slug}/`} data-tilt className="card card-hover group flex h-full flex-col gap-3 p-5">
       <div className="flex items-start gap-3">
-        <ToolAvatar slug={tool.slug} name={tool.name} />
+        <ToolAvatar slug={tool.slug} name={tool.name} logo={tool.logo} />
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2">
             <h3 className="truncate font-semibold text-ink-900 group-hover:text-brand-700 dark:text-white dark:group-hover:text-brand-300">

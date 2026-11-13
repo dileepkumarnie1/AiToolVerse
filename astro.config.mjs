@@ -3,6 +3,8 @@ import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import { loadEnv } from 'vite';
+import { createHash } from 'node:crypto';
+import { THEME_SCRIPT } from './src/lib/theme.mjs';
 
 const env = loadEnv(process.env.NODE_ENV ?? 'production', process.cwd(), 'PUBLIC_');
 const authDomain = env.PUBLIC_FIREBASE_AUTH_DOMAIN || '';
@@ -39,6 +41,8 @@ export default defineConfig({
       ],
       scriptDirective: {
         resources: ["'self'", 'https://apis.google.com', 'https://www.google.com/recaptcha/', 'https://www.gstatic.com/recaptcha/'],
+        // The one hand-written inline script: it sets the light or dark look before first paint (see Base.astro).
+        hashes: [`sha256-${createHash('sha256').update(THEME_SCRIPT).digest('base64')}`],
       },
     },
   },

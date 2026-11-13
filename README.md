@@ -17,8 +17,17 @@ npm run build      # validates the catalog, then builds to dist/
 | `src/data/tools/*.json` | One file per tool (validated by `scripts/lib/catalog.mjs`) |
 | `src/data/pipelines.json` | Step-by-step pipelines; each step names tools by slug |
 | `src/data/taxonomy.json` | Categories, capabilities (with how-to steps), assessment options |
+| `public/logos/*.webp` | Tool logos, stored locally so pages make no third-party requests. `src/data/logos.json` lists which tools have one |
+
+Run `npm run logos` after adding tools: it downloads each new tool's own icon from its website. Tools without a usable icon show a letter avatar.
 
 New tools arrive via the **Discover new tools** workflow every 2 days as a pull request. Nothing is published until you merge it. To reject a tool, delete its file in the PR. The next batch is not created while a discovery PR is open.
+
+## Design
+
+- Two looks, light and dark. The header button switches between them; the choice is saved in the browser, and a first visit follows the device setting. `?theme=light` or `?theme=dark` in a link sets it.
+- Motion lives in `src/styles/motion.css` and `src/scripts/ui.ts`. Pages work without the script, and all movement is switched off for visitors whose device asks for reduced motion.
+- The security policy blocks inline `style` attributes, so position and delay values are set with classes in the stylesheet.
 
 ## Security model
 
