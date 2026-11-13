@@ -67,6 +67,43 @@ export default function Dashboard() {
 
   const name = user?.displayName?.split(' ')[0];
 
+  const savedSection = (
+    <section className="mt-14" aria-labelledby="saved">
+      <h2 id="saved" className="text-xl font-semibold tracking-tight text-ink-900 dark:text-white">Saved tools</h2>
+      {savedTools.length === 0 ? (
+        <p className="mt-3 text-sm muted">Tap “Save” on any tool page to keep it here.</p>
+      ) : (
+        <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {savedTools.map((t) => (
+            <ToolTile key={t.slug} tool={t} capabilityLabel={label(t.capabilities[0])} />
+          ))}
+        </div>
+      )}
+    </section>
+  );
+
+  const dataSection = (
+    <section className="mt-16 border-t border-ink-200 pt-8 dark:border-white/10">
+      <h2 className="text-sm font-semibold text-ink-900 dark:text-white">Your data</h2>
+      <p className="mt-1 text-sm muted">We store only your answers and saved tools{user ? ' in your account' : ' in this browser'}.</p>
+      <button
+        type="button"
+        className="mt-4 text-sm font-semibold text-rose-600 hover:underline"
+        onClick={async () => {
+          if (!window.confirm('Delete your answers, saved tools' + (user ? ' and your account' : '') + '? This cannot be undone.')) return;
+          try {
+            await deleteMyData();
+            window.location.assign('/');
+          } catch {
+            setError('For security, please sign out and sign in again, then retry deleting your account.');
+          }
+        }}
+      >
+        Delete my data{user ? ' and account' : ''}
+      </button>
+    </section>
+  );
+
   if (!profile) {
     return (
       <div>
@@ -76,12 +113,14 @@ export default function Dashboard() {
           <p className="mt-2 max-w-xl muted">Answer five quick questions and we will recommend the tools and pipelines that fit your goals, skills and budget.</p>
           <a href="/start/" className="btn-primary mt-6">Start the assessment</a>
         </div>
+        {savedTools.length > 0 && savedSection}
         <h2 className="heading-lg mt-14">Trending right now</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {trending.map((t) => (
             <ToolTile key={t.slug} tool={t} capabilityLabel={label(t.capabilities[0])} />
           ))}
         </div>
+        {(user || savedTools.length > 0) && dataSection}
       </div>
     );
   }
@@ -161,38 +200,8 @@ export default function Dashboard() {
         </section>
       )}
 
-      <section className="mt-14" aria-labelledby="saved">
-        <h2 id="saved" className="text-xl font-semibold tracking-tight text-ink-900 dark:text-white">Saved tools</h2>
-        {savedTools.length === 0 ? (
-          <p className="mt-3 text-sm muted">Tap “Save” on any tool page to keep it here.</p>
-        ) : (
-          <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {savedTools.map((t) => (
-              <ToolTile key={t.slug} tool={t} capabilityLabel={label(t.capabilities[0])} />
-            ))}
-          </div>
-        )}
-      </section>
-
-      <section className="mt-16 border-t border-ink-200 pt-8 dark:border-white/10">
-        <h2 className="text-sm font-semibold text-ink-900 dark:text-white">Your data</h2>
-        <p className="mt-1 text-sm muted">We store only your answers and saved tools{user ? ' in your account' : ' in this browser'}.</p>
-        <button
-          type="button"
-          className="mt-4 text-sm font-semibold text-rose-600 hover:underline"
-          onClick={async () => {
-            if (!window.confirm('Delete your answers, saved tools' + (user ? ' and your account' : '') + '? This cannot be undone.')) return;
-            try {
-              await deleteMyData();
-              window.location.assign('/');
-            } catch {
-              setError('For security, please sign out and sign in again, then retry deleting your account.');
-            }
-          }}
-        >
-          Delete my data{user ? ' and account' : ''}
-        </button>
-      </section>
+      {savedSection}
+      {dataSection}
     </div>
   );
 }
