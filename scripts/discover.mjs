@@ -201,7 +201,9 @@ const main = async () => {
     added.push({ ...parsed.data, score: c.score });
   }
 
-  writeFileSync(STATE_FILE, `${JSON.stringify(state, null, 2)}\n`);
+  // With nothing to review, leave the repo untouched so no empty pull request is opened;
+  // an open discovery PR pauses every later run.
+  if (added.length > 0) writeFileSync(STATE_FILE, `${JSON.stringify(state, null, 2)}\n`);
 
   const rows = added.map(
     (t) => `| [${t.name}](${t.url}) | ${t.tagline.replace(/\|/g, '/')} | ${t.capabilities.join(', ')} | [${t.source}](${t.sourceUrl}) (${t.score}) | \`src/data/tools/${t.slug}.json\` |`,
