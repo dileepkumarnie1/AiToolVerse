@@ -12,29 +12,41 @@ const recaptchaSiteKey = import.meta.env.PUBLIC_RECAPTCHA_SITE_KEY as string | u
 
 export const isFirebaseConfigured = Boolean(config.apiKey && config.authDomain && config.projectId && config.appId);
 
-export interface FirebaseServices {
+export interface FirebaseAuthServices {
   app: FirebaseApp;
   auth: Auth;
+}
+
+export interface FirebaseServices extends FirebaseAuthServices {
   db: Firestore;
 }
 
+let authServices: Promise<FirebaseAuthServices | null> | null = null;
 let services: Promise<FirebaseServices | null> | null = null;
 
-/** Loads Firebase only when a feature needs it, so pages stay fast and work without it. */
+/** Loads sign-in only. Every page uses this to learn whether the visitor is signed in. */
+export const getFirebaseAuth = () => {
+  if (!isFirebaseConfigured || typeof window === 'undefined') return Promise.resolve(null);
+  authServices ??= (async () => {
+    const [{ initializeApp }, { getAuth }] = await Promise.all([import('firebase/app'), import('firebase/auth')]);
+    const app = initializeApp(config as Required<typeof config>);
+    return { app, auth: getAuth(app) };
+  })();
+  return authServices;
+};
+
+/** Adds App Check and the database. Only signed-in features call this, so other visitors never download them. */
 export const getFirebase = () => {
   if (!isFirebaseConfigured || typeof window === 'undefined') return Promise.resolve(null);
   services ??= (async () => {
-    const [{ initializeApp }, { getAuth }, { getFirestore }] = await Promise.all([
-      import('firebase/app'),
-      import('firebase/auth'),
-      import('firebase/firestore'),
-    ]);
-    const app = initializeApp(config as Required<typeof config>);
+    const base = await getFirebaseAuth();
+    if (!base) return null;
     if (recaptchaSiteKey) {
       const { initializeAppCheck, ReCaptchaV3Provider } = await import('firebase/app-check');
-      initializeAppCheck(app, { provider: new ReCaptchaV3Provider(recaptchaSiteKey), isTokenAutoRefreshEnabled: true });
+      initializeAppCheck(base.app, { provider: new ReCaptchaV3Provider(recaptchaSiteKey), isTokenAutoRefreshEnabled: true });
     }
-    return { app, auth: getAuth(app), db: getFirestore(app) };
+    const { getFirestore } = await import('firebase/firestore');
+    return { ...base, db: getFirestore(base.app) };
   })();
   return services;
 };

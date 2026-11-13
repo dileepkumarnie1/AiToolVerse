@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { User } from 'firebase/auth';
-import { getFirebase, isFirebaseConfigured } from './firebase';
+import { getFirebase, getFirebaseAuth, isFirebaseConfigured } from './firebase';
 import { isValidProfile } from './match';
 import type { Profile } from './types';
 
@@ -31,7 +31,7 @@ export const useAuthUser = (): UserState => {
   const [state, setState] = useState<UserState>({ ready: !isFirebaseConfigured, user: null, signInAvailable: isFirebaseConfigured });
   useEffect(() => {
     let unsubscribe = () => {};
-    getFirebase().then(async (fb) => {
+    getFirebaseAuth().then(async (fb) => {
       if (!fb) return setState({ ready: true, user: null, signInAvailable: false });
       const { onAuthStateChanged } = await import('firebase/auth');
       unsubscribe = onAuthStateChanged(fb.auth, (user) => setState({ ready: true, user, signInAvailable: true }));
@@ -42,7 +42,7 @@ export const useAuthUser = (): UserState => {
 };
 
 export const signInWithGoogle = async () => {
-  const fb = await getFirebase();
+  const fb = await getFirebaseAuth();
   if (!fb) return;
   const { GoogleAuthProvider, signInWithPopup } = await import('firebase/auth');
   await signInWithPopup(fb.auth, new GoogleAuthProvider());
@@ -50,16 +50,17 @@ export const signInWithGoogle = async () => {
 };
 
 export const signOutUser = async () => {
-  const fb = await getFirebase();
+  const fb = await getFirebaseAuth();
   if (!fb) return;
   const { signOut } = await import('firebase/auth');
   await signOut(fb.auth);
 };
 
 const userDoc = async () => {
+  const user = (await getFirebaseAuth())?.auth.currentUser;
+  if (!user) return null;
   const fb = await getFirebase();
-  const user = fb?.auth.currentUser;
-  if (!fb || !user) return null;
+  if (!fb) return null;
   const firestore = await import('firebase/firestore');
   return { firestore, ref: firestore.doc(fb.db, 'users', user.uid), user };
 };
