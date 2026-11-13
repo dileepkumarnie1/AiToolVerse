@@ -15,8 +15,8 @@
     "Pro features like document translation require a subscription."
   ],
   "capabilities": [
-    "chat-assistant",
-    "translation"
+    "translation",
+    "chat-assistant"
   ],
   "pricing": "freemium",
   "openSource": false,

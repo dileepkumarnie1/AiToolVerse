@@ -16,10 +16,9 @@
     "Storage limits on free tier"
   ],
   "capabilities": [
-    "education-tutor",
     "meeting-notes",
-    "notes-knowledge",
-    "chat-assistant"
+    "transcription",
+    "notes-knowledge"
   ],
   "pricing": "freemium",
   "openSource": false,

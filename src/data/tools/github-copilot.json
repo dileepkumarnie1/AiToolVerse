@@ -15,8 +15,8 @@
     "Raises questions about code originality and licensing."
   ],
   "capabilities": [
-    "developer-api",
-    "code-assistant"
+    "code-assistant",
+    "developer-api"
   ],
   "pricing": "paid",
   "openSource": false,

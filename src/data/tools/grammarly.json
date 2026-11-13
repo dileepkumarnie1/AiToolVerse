@@ -15,8 +15,8 @@
     "Generative AI features are newer and less developed than dedicated chatbots."
   ],
   "capabilities": [
-    "chat-assistant",
-    "writing"
+    "writing",
+    "chat-assistant"
   ],
   "pricing": "freemium",
   "openSource": false,

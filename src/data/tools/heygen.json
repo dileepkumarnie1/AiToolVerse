@@ -15,10 +15,9 @@
     "Processing times for videos can be long."
   ],
   "capabilities": [
-    "video-generation",
     "avatar-video",
-    "translation",
-    "writing"
+    "video-generation",
+    "translation"
   ],
   "pricing": "freemium",
   "openSource": false,

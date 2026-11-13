@@ -72,6 +72,10 @@
 /use-case/image-background-removal      /best/photo-editing/                          301
 /use-case/image-background-removal/     /best/photo-editing/                          301
 
+# Removed catalog entries
+/tools/cursor-free-vip                  /tools/cursor/                                301
+/tools/cursor-free-vip/                 /tools/cursor/                                301
+
 # Anything else under the old sections
 /category/*                             /categories/                                  301
 /use-case/*                             /pipelines/                                   301

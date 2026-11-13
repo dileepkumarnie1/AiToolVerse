@@ -15,8 +15,9 @@
     "Effectiveness depends on how well-structured your Notion workspace is."
   ],
   "capabilities": [
-    "automation",
-    "writing"
+    "notes-knowledge",
+    "writing",
+    "automation"
   ],
   "pricing": "freemium",
   "openSource": false,

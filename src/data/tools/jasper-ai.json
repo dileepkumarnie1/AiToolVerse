@@ -15,8 +15,9 @@
     "Fact-checking needed."
   ],
   "capabilities": [
-    "chat-assistant",
-    "writing"
+    "writing",
+    "marketing-seo",
+    "chat-assistant"
   ],
   "pricing": "paid",
   "openSource": false,

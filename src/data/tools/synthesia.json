@@ -16,9 +16,8 @@
     "Video-centric, not static images"
   ],
   "capabilities": [
-    "video-generation",
     "avatar-video",
-    "writing",
+    "video-generation",
     "voice-tts"
   ],
   "pricing": "paid",

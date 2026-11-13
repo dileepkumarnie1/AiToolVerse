@@ -16,10 +16,10 @@
     "Can be resource-intensive"
   ],
   "capabilities": [
-    "video-generation",
+    "video-editing",
     "podcast",
     "transcription",
-    "video-editing"
+    "video-generation"
   ],
   "pricing": "freemium",
   "openSource": false,

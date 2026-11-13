@@ -16,10 +16,9 @@
     "Limited plagiarism checker in free tier"
   ],
   "capabilities": [
-    "chat-assistant",
-    "education-tutor",
     "writing",
-    "summarization"
+    "summarization",
+    "education-tutor"
   ],
   "pricing": "freemium",
   "openSource": false,

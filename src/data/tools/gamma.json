@@ -15,8 +15,8 @@
     "Lacks offline editing capabilities."
   ],
   "capabilities": [
-    "graphic-design",
-    "presentations"
+    "presentations",
+    "graphic-design"
   ],
   "pricing": "freemium",
   "openSource": false,

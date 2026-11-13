@@ -16,10 +16,10 @@
     "Higher learning curve than simpler tools"
   ],
   "capabilities": [
-    "sales-crm",
     "meeting-notes",
+    "transcription",
     "notes-knowledge",
-    "automation"
+    "sales-crm"
   ],
   "pricing": "freemium",
   "openSource": false,
