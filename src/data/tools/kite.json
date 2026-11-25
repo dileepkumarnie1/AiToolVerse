@@ -1,0 +1,27 @@
+{
+  "slug": "kite",
+  "name": "Kite",
+  "url": "https://kite.new/",
+  "tagline": "Design tool your AI agents and your team share: agents draw editable layers over a hosted MCP server.",
+  "about": "Kite (kite.new) is a design tool your AI agents and your team share. Claude, ChatGPT, Cursor or Codex connect through Kite's hosted MCP server and draw real, editable layers (frames, text, components, auto layout) in the same file your team edits live. Copy to Figma, or copy any frame as HTML, React or Tailwind.",
+  "pros": [
+    "Agents edit real layers, not flat images.",
+    "Hosted MCP server works with Claude, ChatGPT, Cursor and Codex.",
+    "Frames copy out as HTML, React or Tailwind."
+  ],
+  "cons": [
+    "Free plan is limited to 3 files and 100 agent actions per day.",
+    "Newer product with a smaller template library than Figma."
+  ],
+  "capabilities": [
+    "graphic-design",
+    "app-builder",
+    "agents"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "intermediate",
+  "popularity": 30,
+  "addedAt": "2026-11-25",
+  "source": "suggestion"
+}
