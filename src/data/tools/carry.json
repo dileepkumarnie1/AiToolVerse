@@ -1,0 +1,19 @@
+{
+  "slug": "carry",
+  "name": "Carry",
+  "url": "https://carry.md/",
+  "tagline": "Automatically back up ChatGPT, Claude, Gemini and Grok conversations as Markdown in a folder you own. Search saved chats and continue in another AI.",
+  "pros": [],
+  "cons": [],
+  "capabilities": [
+    "chat-assistant",
+    "research-search"
+  ],
+  "pricing": "freemium",
+  "openSource": false,
+  "skillLevel": "beginner",
+  "popularity": 65,
+  "addedAt": "2026-11-27",
+  "source": "hackernews",
+  "sourceUrl": "https://news.ycombinator.com/item?id=50637995"
+}
